@@ -8,8 +8,8 @@
 
    glossary
    
-Индекс и таблицы
-================
+Index and glossary
+==================
 
 * :ref:`genindex`
 * :ref:`search`

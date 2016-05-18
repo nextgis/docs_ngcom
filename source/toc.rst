@@ -2,7 +2,7 @@
 
 .. NextGIS Services TOC
 
-Сервисы
+Services
 ===========
 
 Содержание:

@@ -56,7 +56,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'NextGIS Services'
 copyright = u'2016, NextGIS'
-author = u'Команда NextGIS'
+author = u'NextGIS team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -205,7 +205,7 @@ html_static_path = ['_static']
 # Sphinx supports the following languages:
 #   'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'ja'
 #   'nl', 'no', 'pt', 'ro', 'ru', 'sv', 'tr'
-html_search_language = 'ru'
+html_search_language = 'en'
 
 # A dictionary with options for the search language support, empty by default.
 # Now only 'ja' uses this config value
@@ -262,7 +262,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'NextGISServies.tex', u'Документация по сервисам NextGIS',
+  (master_doc, 'NextGISServies.tex', u'NextGIS Srvices',
    author, 'manual', 'true'),
 ]
 
@@ -294,7 +294,7 @@ latex_show_urls = 'footnote'
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'NextGISWEBHOWTO', u'NextGISWEBHOWTO',
+    (master_doc, 'NextGISServies', u'NextGISServies',
      [author], 1)
 ]
 
