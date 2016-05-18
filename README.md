@@ -1,6 +1,6 @@
 NextGIS Services
 ======================
 
-Сервисы НекстГИС.
+NextGIS Services.
 
-Лицензия на материалы: CC BY-ND 4.0
+License: CC BY-ND 4.0
