@@ -24,8 +24,7 @@
    metadata_add
    data_edit
    data_export
-   ngmobile_connect
-   ngqgis_connect
+   resourse_delete
    ngapi
 
 

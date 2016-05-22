@@ -38,3 +38,5 @@
 	Измененные атрибуты объектов :ref:`Слоев PostGIS <ngcom_postgis_layer>` сохраняются во внешней базе :term:`PostGIS`. Атрибуты объектов :ref:`Векторных слоев <ngcom_vector_layer>`, описания и изображения объектов :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` сохраняются в вашей Веб-ГИС.
 
 Больше информации о редактировании данных - :ref:`здесь <ngw_attributes_edit>`.
+
+Как удалять данные из Веб-ГИС - :ref:`здесь <ngcom_resourse_delete>`.
