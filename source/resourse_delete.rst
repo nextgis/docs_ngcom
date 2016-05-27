@@ -1,6 +1,6 @@
 .. _ngcom_resourse_delete:
 
-Как удалять данные из Веб-ГИС
+Как удалять данные
 ======================================
 
 :ref:`Веб-ГИС <ngcom_description>` позволяет удалять загруженные и подключенные в нее данные путем удаления соответствующих ресурсов(:ref:`Векторных слоев <ngcom_vector_layer>`, :ref:`Растровых слоев <ngcom_raster_layer>`, :ref:`Слоев PostGIS <ngcom_postgis_layer>`, :ref:`Слоев WMS <ngcom_postgis_layer>`). 
