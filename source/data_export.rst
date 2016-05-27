@@ -1,6 +1,6 @@
 .. _ngcom_data_export:
 
-Как экспортировать данные из Веб-ГИС
+Как экспортировать данные
 ======================================
 
 :ref:`Веб-ГИС <ngcom_description>` позволяет выгружать данные из :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` в форматах :term:`GeoJSON` и :term:`CSV`. Для этого:
