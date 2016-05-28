@@ -3,10 +3,10 @@
 Как экспортировать данные
 ======================================
 
-:ref:`Веб-ГИС <ngcom_description>` позволяет выгружать данные из :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` в форматах :term:`GeoJSON` и :term:`CSV`. Для этого:
+:ref:`Веб ГИС <ngcom_description>` позволяет выгружать данные из :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` в форматах :term:`GeoJSON` и :term:`CSV`. Для этого:
 
-#. Откройте окно свойств ресурса (:ref:`Векторного слоя <ngcom_vector_layer>` или :ref:`Слоя PostGIS <ngcom_postgis_layer>`), данные которого вы хотите экспортировать;
-#. Выберите пункт :menuselection:`Векторный слой --> Загрузить GeoJSON` или :menuselection:`Векторный слой --> Загрузить CSV` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб-ГИС;
+#. Откройте окно свойств Векторного слоя или Слоя PostGIS, данные которого вы хотите экспортировать;
+#. Выберите пункт :menuselection:`Векторный слой --> Загрузить GeoJSON` или :menuselection:`Векторный слой --> Загрузить CSV` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
 #. Сохраните файл в формате GeoJSON или CSV к себе на устройство.
 
 .. note:: 
