@@ -1,6 +1,7 @@
-NextGIS Services
-======================
+Начало работы с Веб ГИС от NextGIS 
+===================================
+Создать Веб ГИС - https://my.nextgis.com/signup/?next=/webgis/
 
-Сервисы НекстГИС.
-
-Лицензия на материалы: CC BY-ND 4.0
+License
+==============
+This documentation is licensed under CC BY-ND 4.0
