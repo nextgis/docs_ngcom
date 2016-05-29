@@ -5,11 +5,11 @@ Which data formats and protocols are supported in Web GIS
 
 :ref:`Web GIS <ngcom_description>` allows to :ref:`upload <ngcom_data_upload>` and store geodata from local sources in the following spatial data formats:
 
-* Raster - :term:`GeoTIFF` (only RGB and RGBA);
+* Raster - :term:`GeoTIFF` (with 3 or 4 bands, RGB or RGBA);
 * Vector - :term:`ESRI Shape` (zip-archived, UTF-8 or Windows-1251) and :term:`GeoJSON` (UTF-8). 
 
 .. warning:: 
-	Uploaded vector files can't inculde invalid geometries, dates can't have NULL values, fields can't have the following names: id (ID), type (TYPE), source (SOURCE). ESRI Shapefiles can't include multigeometries.
+	Uploaded vector files can't inculde invalid geometries, dates can't have NULL values, attributes' columns can't have the following names: id (ID), type (TYPE), source (SOURCE). ESRI Shapefiles can't include multigeometries.
 
 Web GIS also allows to :ref:`connect <ngcom_data_connect>` geodata from the following external sources: 
 

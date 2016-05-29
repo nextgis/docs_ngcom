@@ -4,14 +4,14 @@ How to use Web GIS for creation of end-user apps
 =====================================================================
 
 
-:ref:`Веб ГИС <ngcom_description>` может использоваться в качестве бэкэнда веб-, мобильных и настольных приложений, в функционал которых входит чтение, запись и визуализация геоданных. Это возможно благодаря использованию NextGIS API, позволяющему осуществлять широкий спектр запросов к Веб ГИС. 
+:ref:`Web GIS <ngcom_description>` can be used as a backend for web, mobile and desktop apps which need to read, write and visualize geodata. This is possible due to the existense of NextGIS API which allows to perform wide range of requests to Web GIS. 
 
-Больше о возможностях NextGIS API - :ref:`здесь <ngw_api_description>`. 
+Read more about NextGIS API :ref:`here <ngw_api_description>`. 
 
-Разработчики могут развернуть Веб ГИС :ref:`у себя на сервере <ngw_sysadmin_tasks>` (в этом случае рекомендуем подписаться на одну из наших `программ поддержки <http://nextgis.ru/services/support/>`_) или воспользоваться нашим `облачным сервисом <http://nextgis.ru/>`_. 
+Developers can deploy Web GIS :ref:`at their own server <ngw_sysadmin_tasks>` (in this case we recommend subsribing to one of our `support programs <http://nextgis.com/services/support/>`_) or use our `online service <http://nextgis.com/>`_. 
 
-Облачный сервис позволяет избавиться от сложностей, связанных с установкой и настройкой серверной части Веб ГИС, а также предоставляет возможность хранения неограниченного [1]_ объема геоданных и свободного [1]_ использования :term:`API`. 
+Online service saves you from all Web GIS installation and tuning problems and provides unlimited space [1]_ for geodata storage and free [1]_ use of :term:`API`. 
 
-.. rubric:: Ссылки
+.. rubric:: References
 
-.. [1] Отсутствие ограничений действительно в течение периода бета-тестирования облачного сервиса.
+.. [1] Lack of limitations offer is valid during beta period of online service. 

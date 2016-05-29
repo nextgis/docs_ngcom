@@ -3,7 +3,7 @@
 How to connect data from external sources 
 =======================================================
 
-:ref:`Веб ГИС <ngcom_description>` поддерживает подключение векторных геоданных из внешних баз данных :term:`PostGIS` и подключение растровых геоданных из внешних :term:`WMS`-сервисов. 
+:ref:`Web GIS <ngcom_description>` supports connection of vector geodata from external :term:`PostGIS` databases and connection of raster geodata from external :term:`WMS` services. 
 
 .. _ngcom_postgis_connect:
 
@@ -12,27 +12,27 @@ External PostGIS databases
 
 .. _ngcom_postgis_connection:
 
-Создайте ресурс “Соединение PostGIS”:
+Create PostGIS connection:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Откройте :ref:`Группу ресурсов <ngcom_resources_group>`, в которой вы хотите создать соединение (на главной странице Веб ГИС по умолчанию открыта Основная группа ресурсов);
-#. Выберите :menuselection:`Создать ресурс --> Соединение PostGIS` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`, затем на вкладке :guilabel:`Соединение PostGIS` заполните поля :guilabel:`Сервер`, :guilabel:`База данных`, :guilabel:`Пользователь` (если применимо) и :guilabel:`Пароль` (если применимо);
-#. Нажмите кнопку :guilabel:`Создать`. Если Соединение PostGIS создалось успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующей Группы ресурсов.
+#. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a connection (by default from the main page of Web GIS you can access Main resource group);
+#. Select :menuselection:`Create resource --> PostGIS connection` on the right side of Web GIS :ref:`admin panel <ngw_admin_interface>`;
+#. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab, then in :guilabel:`PostGIS connection` tab fill in the fields :guilabel:`Host`, :guilabel:`Database`, :guilabel:`User` (if applicable) and :guilabel:`Password` (if applicable);
+#. Press :guilabel:`Create` button. If PostGIS connection is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. _ngcom_postgis_layer:
 
-Создайте ресурс “Слой PostGIS”:
+Create PostGIS layer:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Откройте :ref:`Группу ресурсов <ngcom_resources_group>`, в которой вы хотите создать слой (на главной странице Веб ГИС по умолчанию открыта Основная группа ресурсов);
-#. Выберите :menuselection:`Создать ресурс --> Слой PostGIS` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`, затем на вкладке :guilabel:`Слой PostGIS` выберите :ref:`Соединение PostGIS <ngcom_postgis_connection>` и заполните поля :guilabel:`Схема`, :guilabel:`Таблица`, :guilabel:`Поле ID` и :guilabel:`Поле геометрии`;
-#. Нажмите кнопку :guilabel:`Создать`. Если Слой PostGIS создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующей Группы ресурсов.
+#. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default from the main page of Web GIS you can access Main resource group);
+#. Select :menuselection:`Create resource --> PostGIS layer` on the right side of Web GIS :ref:`admin panel <ngw_admin_interface>`;
+#. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab, then in :guilabel:`PostGIS layer` tab select выберите :ref:`PostGIS connection <ngcom_postgis_connection>` and fill in the fields :guilabel:`Schema`, :guilabel:`Table`, :guilabel:`ID column` и :guilabel:`Geometry column`;
+#. Press :guilabel:`Create` button. If PostGIS layer is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
-Больше информации о подключении векторных геоданных из внешних баз данных PostGIS - :ref:`здесь <ngw_create_postgis_layer>`.
+Read more about connection of vector geodata from external PostGIS databases to Web GIS :ref:`here <ngw_create_postgis_layer>`.
 
-Если вы планируете просматривать Слой PostGIS с помощью :ref:`Веб-карты <ngcom_webmap_create>` или публиковать его через :ref:`Сервис WMS <ngcom_wms_service>`, необходимо создать для него :ref:`Стиль <ngcom_styles>`.
+If you plan to display PostGIS layer on :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to create :ref:`Style <ngcom_styles>` for it.
 
 .. _ngcom_wms_connect:
 
@@ -41,25 +41,25 @@ External WMS services
 
 .. _ngcom_wms_connection:
 
-Создайте ресурс “Соединение WMS”:
+Create WMS connection:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Откройте :ref:`Группу ресурсов <ngcom_resources_group>`, в которой вы хотите создать cоединение (на главной странице Веб ГИС по умолчанию открыта Основная группа ресурсов);
-#. Выберите :menuselection:`Создать ресурс --> Соединение WMS` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`, затем на вкладке :guilabel:`Соединение WMS` заполните поля :guilabel:`URL`, :guilabel:`Имя пользователя` (если применимо) и :guilabel:`Пароль` (если применимо) для подключения к серверу :term:`WMS`;
-#. Нажмите кнопку :guilabel:`Создать`. Если Соединение WMS создалось успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующей Группы ресурсов.
+#. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a connection (by default from the main page of Web GIS you can access Main resource group);
+#. Select :menuselection:`Create resource --> WMS connection` on the right side of Web GIS :ref:`admin panel <ngw_admin_interface>`;
+#. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab, then in :guilabel:`WMS connection` tab fill in the fields :guilabel:`URL`, :guilabel:`Username` (if applicable) и :guilabel:`Paasword` (if applicable) to connect to :term:`WMS` server;
+#. Press :guilabel:`Create` button. If WMS connection is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. warning:: 
-	Сервер WMS, к которому осуществляется подключение, должен поддерживать :term:`систему коодинат <система координат>` EPSG:3857.
+	WMS server to which you connect should support :term:`coordinate system` EPSG:3857.
 
 .. _ngcom_wms_layer:
 
-Создайте ресурс “Слой WMS”:
+Create WMS layer:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Откройте :ref:`Группу ресурсов <ngcom_resources_group>`, в которой вы хотите создать слой (на главной странице Веб ГИС по умолчанию открыта Основная группа ресурсов);
-#. Выберите :menuselection:`Создать ресурс --> Слой WMS` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`, затем на вкладке :guilabel:`Слой WMS` выберите :ref:`Соединение WMS <ngcom_wms_connection>`, формат изображения и необходимые слои;
-#. Нажмите кнопку :guilabel:`Создать`. Если Слой WMS создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующей Группы ресурсов.
+#. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default from the main page of Web GIS you can access Main resource group);
+#. Select :menuselection:`Create resource --> WMS layer` on the right side of Web GIS :ref:`admin panel <ngw_admin_interface>`;
+#. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab, then in :guilabel:`WMS layer` tab select :ref:`WMS connection <ngcom_wms_connection>`, image format and WMS layers you want to add to Web GIS;
+#. Press :guilabel:`Create` button. If WMS layer is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
-Больше информации о подключении векторных геоданных из внешних WMS-сервисов - :ref:`здесь <ngw_create_wms_layer>`.
+Read more about connection of raster geodata from external WMS services to Web GIS :ref:`here <ngw_create_wms_layer>`.

@@ -3,8 +3,8 @@
 How to get help or send a bug report
 ================================================
 
-Если вы не нашли ответ на свой вопрос в этом руководстве, попробуйте обратиться к `полной документации <http://docs.nextgis.ru/docs_ngweb/source/toc.html>`_  по Веб ГИС.
+If you haven't found an answer to your question in this manual, try `full documentation <http://docs.nextgis.com/docs_ngweb/source/toc.html>`_.
 
-Вы также можете задавать вопросы, касающиеся использования Веб ГИС, по почте info@nextgis.ru. 
+You can also send any questions related to your Web GIS to info@nextgis.com. 
 
-Любые сообщения (включая сообщения об ошибках), предложения и пожелания, относящиеся к работе облачного сервиса, можно отправлять напрямую разработчикам через `GitHub <https://github.com/nextgis/nextgis.com-webgis/issues>`_.
+Any feedback (including bug reports) and suggestions about use of online Web GIS service from nextgis.com can be sent directly to its developers through `GitHub <https://github.com/nextgis/nextgis.com-webgis/issues>`_.
