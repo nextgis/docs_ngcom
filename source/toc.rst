@@ -13,19 +13,20 @@
    intro
    description
    data_types
-   resourses
+   resources
    data_upload
    data_connect
    styles
    webmap_create
    data_services
-   resourses_group
+   resources_group
    parent_change
    metadata_add
    data_edit
    data_export
-   resourse_delete
+   resource_delete
    ngapi
+   help
 
 
 
