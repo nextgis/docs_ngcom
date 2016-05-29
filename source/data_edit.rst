@@ -39,4 +39,4 @@
 
 Больше информации о редактировании данных - :ref:`здесь <ngw_attributes_edit>`.
 
-Как удалять данные из Веб ГИС - :ref:`здесь <ngcom_resourse_delete>`.
+Как удалять данные из Веб ГИС - :ref:`здесь <ngcom_resource_delete>`.
