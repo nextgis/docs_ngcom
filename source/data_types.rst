@@ -5,7 +5,7 @@
 
 :ref:`Веб ГИС <ngcom_description>` позволяет :ref:`загружать <ngcom_data_upload>` и хранить геоданные из локальных источников в следующих форматах:
 
-* Растровые - :term:`GeoTIFF` (RGB и RGBA);
+* Растровые - :term:`GeoTIFF` (с 3 или 4 каналами, RGB или RGBA);
 * Векторные - :term:`ESRI Shape` (упакованные в zip-архив, с кодировкой UTF-8 или Windows-1251) и :term:`GeoJSON` (с кодировкой UTF-8). 
 
 .. warning:: 
