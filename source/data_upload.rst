@@ -33,7 +33,7 @@ Vector data
 #. Press :guilabel:`Create` button. If Vector layer is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. warning:: 
-	Only upload of :term:`ESRI Shape` files (zip-archived, UTF-8 or Windows-1251) and :term:`GeoJSON` files(UTF-8) is supported. Uploaded files can't inculde invalid geometries, dates can't have NULL values, attributes' columns can't have the following names: id (ID), type (TYPE), source (SOURCE). ESRI Shapefiles can't include multigeometries.
+	Only upload of :term:`ESRI Shape` files (zip-archived, UTF-8 or Windows-1251) and :term:`GeoJSON` files (UTF-8) is supported. Uploaded files can't inculde invalid geometries, dates can't have NULL values, attributes' columns can't have the following names: id (ID), type (TYPE), source (SOURCE). ESRI Shapefiles can't include multigeometries.
 
 Read more about upload of vector geodata to Web GIS :ref:`here <ngw_create_vector_layer>`.
 

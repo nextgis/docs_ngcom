@@ -3,15 +3,15 @@
 How to add descriptions and metadata for resources
 =====================================================================
 
-Для любого ресурса :ref:`Веб ГИС <ngcom_description>` можно добавить Описание и Метаданные. Это может быть нужно, например, для публикации лицензии на отдельные наборы данных. 
+For any resource in :ref:`Web GIS <ngcom_description>` you can add Description and Metadata. It can be necessary, for instance, in order to publish a dataset under a certain license. 
 
-Для добавления Описания и/или Метаданных после создания ресурса:
+To add Description and/or Metadata after resource is created:
 
-#. Откройте окно свойств ресурса;
-#. Выберите :menuselection:`Действие --> Изменить` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. **Если вы хотите добавить Описание**: В открывшемся окне перейдите на вкладку :guilabel:`Описание` и заполните её;
-#. **Если вы хотите добавить Метаданные**: Перейдите на вкладку :guilabel:`Метаданные`, добавьте необходимое количество полей метаданных с помощью кнопки :guilabel:`Добавить`, затем заполните ключи и описания в добавленных полях;
-#. Нажмите кнопку :guilabel:`Сохранить`. Если Описание и Метаданные добавлены успешно, то они появятся в окне свойств ресурса.
+#. Open the Properties page of a resource;
+#. Select :menuselection:`Action --> Update` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. **If you want to add Description**: In the opened dialog window go to :guilabel:`Description` tab and fill it;
+#. **If you want to add Metadata**: In the opened dialog window go to :guilabel:`Metadata` tab, add required metadata fields with :guilabel:`Add` button and fill in their Keys and Values;
+#. Press :guilabel:`Save` button. If Description and Metadata are added successfully you'll see them on the Properties page of a resource.
 
 .. note:: 
-	Поддерживаются следующие типы полей метаданных: Текст (Text), Целое число (Integer), Вещественное число (Float).
+	The following metadata field types are supported: Text, Integer, Float.

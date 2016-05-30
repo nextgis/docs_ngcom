@@ -3,41 +3,41 @@
 How to create map styles for data visualization
 =================================================
 
-Стиль является особым видом ресурса, необходимым для визуализации геоданных на :ref:`Веб-карте <ngcom_webmap_create>` или с помощью :ref:`Сервиса WMS <ngcom_wms_service>`. При добавлении слоя на Веб-карту или публикации его по протоколу :term:`WMS` используется именно его стиль, описывающий способ визуального представления геоданных. 
+Style is a special type of resource necessary for geodata visualization on :ref:`Web map <ngcom_webmap_create>` or with :ref:`WMS service <ngcom_wms_service>`. When displaying a data layer on Web map of publishing it using :term:`WMS` protocol you actually use its style which describes how geodata is visually presented on a map. 
 
-Исключением являются :ref:`Слои WMS <ngcom_wms_layer>`, для которых создание Стилей не требуется, так как необходимая для их отображения на карте информация передается в :ref:`Веб ГИС <ngcom_description>` с внешнего сервера WMS.
+The only exception are :ref:`WMS layers <ngcom_wms_layer>` which don't need you to create Styles, because the information about their visualization is passed to :ref:`Web GIS <ngcom_description>` from the external WMS server.
 
-Для :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` Веб ГИС поддерживает возможность создания 2 видов стилей - :ref:`Стиля MapServer <ngcom_mapserver_style>` и :ref:`Стиля QGIS <ngcom_qgis_style>`. Для :ref:`Растровых слоев <ngcom_raster_layer>` в Веб ГИС создается :ref:`Растровый стиль <ngcom_raster_style>`.
+For :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layers <ngcom_postgis_layer>` Web GIS supports creation of 2 types of Styles - :ref:`MapServer style <ngcom_mapserver_style>` and :ref:`QGIS style <ngcom_qgis_style>`. For :ref:`Raster layers <ngcom_raster_layer>` Web GIS allows you to create :ref:`Raster style <ngcom_raster_style>`.
 
 .. _ngcom_mapserver_style:
 
 MapServer style
 ----------------------------
 
-#. Откройте окно свойств :ref:`Векторного слоя <ngcom_vector_layer>` или :ref:`Слоя PostGIS <ngcom_postgis_layer>`, для которого вы хотите создать Стиль;
-#. Выберите :menuselection:`Создать ресурс --> Стиль MapServer` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`. Отредактировать параметры стиля можно на вкладке :guilabel:`Стиль MapServer` (необязательно). Примеры стилей :term:`MapServer` вы можете найти :ref:`здесь <ngw_mapserver_templates>`;
-#. Нажмите кнопку :guilabel:`Создать`. Если Стиль создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующего Векторного слоя или Слоя PostGIS.
+#. Open the Properties page of :ref:`Vector layer <ngcom_vector_layer>` or :ref:`PostGIS layer <ngcom_postgis_layer>` for which you want to create a style;
+#. Select :menuselection:`Create resource --> MapServer style` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab. You can edit style parameters in :guilabel:`MapServer style` tab (optional). Examples of :term:`MapServer` style can be found :ref:`here <ngw_mapserver_templates>`;
+#. Press :guilabel:`Create` button. If Style is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Vector layer or PostGIS layer.
 
 .. _ngcom_qgis_style:
 
 QGIS style
 -----------------------
 
-#. Откройте окно свойств :ref:`Векторного слоя <ngcom_vector_layer>` или :ref:`Слоя PostGIS <ngcom_postgis_layer>`, для которого вы хотите создать Стиль;
-#. Выберите :menuselection:`Создать ресурс --> Стиль QGIS` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`;
-#. На вкладке :guilabel:`Стиль QGIS` загрузите файл в формате :term:`QML`, созданный с помощью :term:`QGIS` (о том, как создать файл QML с помощью NextGIS QGIS - :ref:`здесь <ngq_save_style>`);
-#. Нажмите кнопку :guilabel:`Создать`. Если Стиль создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующего Векторного слоя или Слоя PostGIS.
+#. Open the Properties page of :ref:`Vector layer <ngcom_vector_layer>` or :ref:`PostGIS layer <ngcom_postgis_layer>` for which you want to create a style;
+#. Select :menuselection:`Create resource --> QGIS style` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab;
+#. In :guilabel:`QGIS style` tab upload a file in :term:`QML` format created with :term:`QGIS` (read about how to create QML file with NextGIS QGIS :ref:`here <ngq_save_style>`);
+#. Press :guilabel:`Create` button. If Style is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Vector layer or PostGIS layer.
 
 .. _ngcom_raster_style:
 
 Raster style
 -----------------------------
 
-#. Откройте окно свойств :ref:`Растрового слоя <ngcom_raster_layer>`, для которого вы хотите создать Стиль;
-#. Выберите :menuselection:`Создать ресурс --> Растровый стиль` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`;
-#. Нажмите кнопку :guilabel:`Создать`. Если Стиль создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующего Растрового слоя.
+#. Open the Properties page of :ref:`Raster <ngcom_raster_layer>` for which you want to create a style;
+#. Select :menuselection:`Create resource --> Raster style` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab;
+#. Press :guilabel:`Create` button. If Style is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Raster layer.
 
-Больше информации о создании и редактировании Стилей - :ref:`здесь <ngw_style_create>`.
+Read more about creation and editing of Styles :ref:`here <ngw_style_create>`.

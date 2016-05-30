@@ -3,39 +3,39 @@
 How to publish data using standard protocols
 =========================================================
 
-:ref:`Веб ГИС <ngcom_description>` позволяет публиковать загруженные и подключенные в нее геоданные по стандартным протоколам :term:`WFS` и :term:`WMS`. Веб ГИС в этом случае выступает как сервер WFS(WFS-T)/сервер WMS.
+:ref:`Web GIS <ngcom_description>` allows to publish uploaded and connected geodata using standard :term:`WFS` и :term:`WMS` protocols. In this case Web GIS actts like WFS(WFS-T)/WMS server.
 
 .. _ngcom_wms_service:
 
 WMS service
 -------------------------
 
-#. Откройте :ref:`Группу ресурсов <ngcom_resources_group>`, в которой вы хотите создать сервис (на главной странице Веб ГИС по умолчанию открыта Основная группа ресурсов);
-#. Выберите :menuselection:`Создать ресурс --> Сервис WMS` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`;
-#. Перейдите на вкладку :guilabel:`Сервис WMS` и выберите те ресурсы (:ref:`Стили <ngcom_styles>` или :ref:`Слои WMS <ngcom_wms_layer>`), которые вы хотите опубликовать по протоколу WMS. Для каждого ресурса нужно указать уникальный ключ;
-#. Нажмите кнопку :guilabel:`Создать`. Если Сервис WMS создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующей Группы ресурсов.
+#. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a service (by default from the main page of Web GIS you can access Main resource group);
+#. Select :menuselection:`Create resource --> WMS service` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab;
+#. Go to :guilabel:`WMS service` tab and select those resources (:ref:`Styles <ngcom_styles>` or :ref:`WMS layers <ngcom_wms_layer>`) which you want to publish using WMS protocol. You need to specify a keyname for each resource;
+#. Press :guilabel:`Create` button. If WMS service is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. note:: 
-	Веб ГИС поддерживает возможность подключения ресурсов, опубликованных через Сервис WMS, по протоколу :term:`TMS`. Подробнее об этой возможности - :ref:`здесь <ngw_create_tms_service>`.
+	Web GIS supports connection of resources published using WMS protocol via :term:`TMS` service. Head more about it :ref:`here <ngw_create_tms_service>`.
 
-Больше информации о создании Сервиса WMS - :ref:`здесь <ngw_create_wms_service>`.
+Read more about WMS service creation :ref:`here <ngw_create_wms_service>`.
 
 .. _ngcom_wfs_service:
 
 WFS service
 -----------------------
 
-#. Откройте :ref:`Группу ресурсов <ngcom_resources_group>`, в которой вы хотите создать сервис (на главной странице Веб ГИС по умолчанию открыта Основная группа ресурсов);
-#. Выберите :menuselection:`Создать ресурс --> Сервис WFS` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`;
-#. Перейдите на вкладку :guilabel:`Сервис WFS` и выберите те ресурсы (:ref:`Векторные слои <ngcom_vector_layer>` или :ref:`Слои PostGIS <ngcom_postgis_layer>`), которые вы хотите опубликовать по протоколу WFS. Для каждого ресурса нужно указать уникальный ключ;
-#. Нажмите кнопку :guilabel:`Создать`. Если Сервис WFS создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующей Группы ресурсов.
+#. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a service (by default from the main page of Web GIS you can access Main resource group);
+#. Select :menuselection:`Create resource --> WFS service` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab;
+#. Go to :guilabel:`WFS service` tab and select those resources (:ref:`Vector layers <ngcom_vector_layer>` or :ref:`PostGIS layers <ngcom_postgis_layer>`) which you want to publish using WMS protocol. You need to specify a keyname for each resource;
+#. Press :guilabel:`Create` button. If WFS service is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. note:: 
-	По умолчанию WFS-сервис опубликует 1000 объектов. Чтобы увеличить это количество, измените значение поля :guilabel:`Число возвращаемых объектов по умолчанию` на вкладке :guilabel:`Сервис WFS`.
+	By default WFS service publishes 1000 objects. To increase this number change the field :guilabel:`Default count of returned features` value in :guilabel:`WFS service` tab.
 
 .. note:: 
-	Веб ГИС поддерживает возможность редактирования Векторных слоев, опубликованных с помощью Сервиса WFS. В числе прочего, это позволяет редактировать хранящиеся в Веб ГИС векторные геоданные через :ref:`мобильные <ngcom_ngmobile_connect>` и :ref:`настольные <ngcom_ngqgis_connect>` приложения.
+	Web GIS supports editing of Vector layers with WFS service. Among other things it allows to edit vector geodata stored in Web GIS using :ref:`mobile <ngcom_ngmobile_connect>` and :ref:`desktop <ngcom_ngqgis_connect>` applications.
 
-Больше информации о создании Сервиса WFS - :ref:`здесь <ngw_wfs_service>`.
+Read more about WFS service creation :ref:`here <ngw_wfs_service>`.

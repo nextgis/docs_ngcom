@@ -3,11 +3,11 @@
 How to export data
 ======================================
 
-:ref:`Веб ГИС <ngcom_description>` позволяет выгружать данные из :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` в форматах :term:`GeoJSON` и :term:`CSV`. Для этого:
+:ref:`Web GIS <ngcom_description>` allows to export data from :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layer <ngcom_postgis_layer>` in :term:`GeoJSON` and :term:`CSV` formats. To do this:
 
-#. Откройте окно свойств Векторного слоя или Слоя PostGIS, данные которого вы хотите экспортировать;
-#. Выберите пункт :menuselection:`Векторный слой --> Загрузить GeoJSON` или :menuselection:`Векторный слой --> Загрузить CSV` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. Сохраните файл в формате GeoJSON или CSV к себе на устройство.
+#. Open the Properties page of Vector layer or PostGIS layer from which you want to export data;
+#. Select :menuselection:`Vector layer --> Download as GeoJSON` or :menuselection:`Vector layer --> Download as CSV` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. Save file in GeoJSON or CSV format to your device.
 
 .. note:: 
-	Поддерживается экспорт данных о геометрии объектов и их атрибутов. Описания и изображения объектов вышеописанным способом не экспортируются, но могут быть :ref:`переданы по NextGIS API <ngcom_ngapi>`.
+	Geometry and attributes data export is supported. Descriptions and images of the objects can't be exported in the described way but can be requested using :ref:`NextGIS API <ngcom_ngapi>`.

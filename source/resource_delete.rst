@@ -3,15 +3,15 @@
 How to delete data
 ======================================
 
-:ref:`Веб ГИС <ngcom_description>` позволяет удалять загруженные и подключенные в нее данные путем удаления соответствующих ресурсов (:ref:`Векторных слоев <ngcom_vector_layer>`, :ref:`Растровых слоев <ngcom_raster_layer>`, :ref:`Слоев PostGIS <ngcom_postgis_layer>`, :ref:`Слоев WMS <ngcom_postgis_layer>`). 
+:ref:`Web GIS <ngcom_description>` allows to delete uploaded and connected geodata by deleting the corresponding resources (:ref:`Vector layers <ngcom_vector_layer>`, :ref:`Raster layers <ngcom_raster_layer>`, :ref:`PostGIS layers <ngcom_postgis_layer>`, :ref:`WMS layers <ngcom_postgis_layer>`). 
 
-Чтобы удалить ресурс:
+To delete a resource:
 
-#. Откройте окно свойств ресурса, который вы хотите удалить;
-#. Выберите :menuselection:`Действие --> Удалить` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшемся окне на вкладке :guilabel:`Удалить ресурс` поставьте галочку в строке :guilabel:`Подтвердить удаление ресурса`;
-#. Нажмите кнопку :guilabel:`Удалить`. Если ресурс успешно удален, то информация о нем исчезнет из соответствующей :ref:`Группы ресурсов <ngcom_resources_group>`.
+#. Open the Properties page of a resource you want to delete;
+#. Select :menuselection:`Action --> Delete` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. In the opened dialog dialog window in :guilabel:`Delete reaource` tab check the box :guilabel:`Confirm deletion of the resource`;
+#. Press :guilabel:`Delete` button. If a resource is deleted successfully its name will disappear from the relevant :ref:`Resource group <ngcom_resources_group>`.
 
 .. note:: 
 
-	Аналогичным образом из Веб ГИС можно удалять и иные ресурсы (:ref:`Соединения PostGIS <ngcom_postgis_connect>` и :ref:`Соединения WMS <ngcom_wms_connect>`, :ref:`Сервисы <ngcom_data_services>`, :ref:`Стили <ngcom_styles>`, :ref:`Группы ресурсов <ngcom_resources_group>`).
+	In the same way you can delete from Web GIS other resources (:ref:`PostGIS and WMS connections <ngcom_data_connect>`, :ref:`WMS and WFS services <ngcom_data_services>`, :ref:`Styles <ngcom_styles>`, :ref:`Resource groups <ngcom_resources_group>`).

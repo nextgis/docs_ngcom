@@ -3,40 +3,40 @@
 How to edit data
 =====================================
 
-:ref:`Веб ГИС <ngcom_description>` позволяет редактировать атрибуты, а также добавлять описания и изображения (в том числе фотографии) отдельных объектов в :ref:`Векторных слоях <ngcom_vector_layer>` и :ref:`Слоях PostGIS <ngcom_postgis_layer>`.
+:ref:`Web GIS <ngcom_description>` allows to edit attributes and add descriptions and images (including photos) of separate objects in :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layers <ngcom_postgis_layer>`.
 
-Сделать это можно 2 способами: 
-1) через форму редактирования объекта в :ref:`Таблице объектов <ngw_feature_table>` или 
-2) через форму редактирования объекта в :ref:`веб-клиенте <ngw_webmaps_client>` Веб-карты (если слой, в котором находится редактируемый объект, добавлен на :ref:`Веб-карту <ngcom_webmap_create>`).
+You can do it in 2 way: 
+1) using object edit form in :ref:`Feature table <ngw_feature_table>` or
+2) using object edit form in Web map :ref:`web client <ngw_webmaps_client>` (if the relevant layer is added to :ref:`Web map <ngcom_webmap_create>`).
 
 .. _ngcom_data_edit_table:
 
 Edit using Feature table
 -----------------------------------------------
 
-#. Откройте окно свойств Векторного слоя или Слоя PostGIS;
-#. Выберите :menuselection:`Векторный слой --> Таблица объектов` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшейся таблице выберите объект, который вы хотите отредактировать (при необходимости воспользуйтесь поиском объекта по атрибутам с помощью поля :guilabel:`Поиск`), и нажмите кнопку “Редактировать”;
-#. В открывшейся форме отредактируйте значения атрибутов объекта на вкладке :guilabel:`Атрибуты`, добавьте описание и изображения объекта на вкладках :guilabel:`Описание` и :guilabel:`Вложения` соответственно.
-#. Нажмите кнопку :guilabel:`Сохранить`. Если атрибуты, описание и изображения успешно сохранены, то их можно будет просмотреть, выбрав объект в :ref:`Таблице объектов <ngw_feature_table>` и нажав кнопку :guilabel:`Открыть`.
+#. Open the Properties page of Vector layer or PostGIS layer;
+#. Select :menuselection:`Vector layer --> Feature table` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. In the opened dialog window select an object you want to edit (if necessary search it by its attributes using :guilabel:`Search` bar) and press :guilabel:`Edit` button;
+#. In the opened form edit object attributes values in :guilabel:`Attributes` tab, add description and images of the object in :guilabel:`Description` and :guilabel:`Attachments` tabs respectively;
+#. Press :guilabel:`Save` button. If attributes, description and images are saved successfully you'll be able to view them by selecting the object in Feature table and pressing :guilabel:`Open` button.
 
 .. _ngcom_data_edit_webmap:
 
 Edit using Web map
 ---------------------------------------
 
-#. Откройте :ref:`Веб-карту <ngcom_webmap_create>` и включите видимость слоя, в котором находится редактируемый объект;
-#. Найдите объект на Веб-карте (при необходимости воспользуйтесь поиском объекта по атрибутам с помощью строки поиска в Панели инструментов или в :ref:`Таблице объектов <ngw_feature_table>`, открыть которую можно через меню :guilabel:`Слой` в верхнем левом углу Веб-карты. Быстро перейти к объекту на карте из Таблицы объектов можно с помощью кнопки :guilabel:`Перейти`);
-#. Щелкните по объекту :ref:`инструментом идентификации <ngw_webmaps_client_tools>`. В открывшемся окне с описанием свойств объекта нажмите кнопку :guilabel:`Редактировать`;
-#. В открывшейся форме отредактируйте значения атрибутов объекта на вкладке :guilabel:`Атрибуты`, добавьте описание и изображения объекта на вкладках :guilabel:`Описание` и :guilabel:`Вложения` соответственно;
-#. Нажмите кнопку :guilabel:`Сохранить`. Если атрибуты, описание и изображения успешно сохранены, то их можно будет просмотреть через Веб-карту, щелкнув по объекту инструментом идентификации, или через Таблицу объектов, нажав кнопку :guilabel:`Открыть`.
+#. Open :ref:`Web map <ngcom_webmap_create>` and switch on the visibility of the relevant layer;
+#. Find an object on the Web map (if necessary search it by its attributes using :guilabel:`Search` bar in the Toolbar or in :ref:`Feature table <ngw_feature_table>` which can be opened via :guilabel:`Layer` dropdown menu in the upper left corner of Web map web client. You can quickly find the selected object on Web map using :guilabel:`Go to` button in Feature table);
+#. Click on the object with :ref:`identify tool <ngw_webmaps_client_tools>`. In the opened dialog window with object properties press :guilabel:`Edit` button;
+#. In the opened form edit object attributes values in :guilabel:`Attributes` tab, add description and images of the object in :guilabel:`Description` and :guilabel:`Attachments` tabs respectively;
+#. Press :guilabel:`Save` button. If attributes, description and images are saved successfully you'll be able to view them on Web map by clicking on the object with identify tool, or by selecting the object in Feature table and pressing :guilabel:`Open` button.
 
 .. warning:: 
-	Веб ГИС поддерживает загрузку файлов только в форматах JPEG и PNG через вкладку “Вложения”. Загрузка файлов в формате GIF не поддерживается.
+	Web GIS supports only JPEG and PNG files upload in :guilabel:`Attachments` tab. GIF format upload is not supported.
 
 .. note:: 
-	Измененные атрибуты объектов Слоев PostGIS сохраняются во внешней базе :term:`PostGIS`. Атрибуты объектов Векторных слоев, описания и изображения объектов Векторных слоев и Слоев PostGIS сохраняются в вашей Веб ГИС.
+	Updated attributes of objects from PostGIS layers are saved directly to external :term:`PostGIS` database. Attributes of objects from Vector layers, descriptions and images of of objects from Vector layers and PostGIS layers are saved in your Web GIS.
 
-Больше информации о редактировании данных - :ref:`здесь <ngw_attributes_edit>`.
+Read more on data editing :ref:`here <ngw_attributes_edit>`.
 
-Как удалять данные из Веб ГИС - :ref:`здесь <ngcom_resource_delete>`.
+How to delete data from Web GIS :ref:`here <ngcom_resource_delete>`.

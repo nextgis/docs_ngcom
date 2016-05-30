@@ -3,13 +3,13 @@
 How to manage data storage
 ==========================================
 
-В :ref:`Веб ГИС <ngcom_description>` можно создавать Группы ресурсов для более удобной организации хранения геоданных. Например, можно создавать отдельные группы для хранения данных по разным проектам, или объединять в группы слои данных по типам). Для создания группы:
+:ref:`Web GIS <ngcom_description>` allows you to create Resource groups to arrange storage of geodata. For example, you can create separate Resource groups to store data related to different projects or to combine data layers of the same type. To create a new Resource group:
 
-#. Откройте главную странице Веб ГИС (на ней по умолчанию открыта Основная группа ресурсов);
-#. Выберите :menuselection:`Создать ресурс --> Группа ресурсов` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`;
-#. Нажмите кнопку :guilabel:`Создать`. Если Группа ресурсов создалась успешно, то информация о ней появится в Основной группе ресурсов на главной странице Веб ГИС.
+#. Open Web GIS main page (by default you can access Main resource group from it);
+#. Select :menuselection:`Create resource --> Resource group` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab;
+#. Press :guilabel:`Create` button. If Resource group is created successfully you'll see its name in Main resource group on Web GIS main page.
 
-Теперь вы можете зайти в созданную группу и создавать ресурсы в ней.
+Now you can access newly created Resource group and create new resources in it.
 
-Больше информации о создании Групп ресурсов - :ref:`здесь <ngw_resources_group>`.
+Read more about Resource group creation :ref:`here <ngw_resources_group>`.

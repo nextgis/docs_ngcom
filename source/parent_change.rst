@@ -1,13 +1,13 @@
 .. _ngcom_parent_change:
 
-How to replace resources inside Web GIS
+How to transfer resources inside Web GIS
 =========================================
 
-Ресурсы :ref:`Веб ГИС <ngcom_description>` (слои, соединения, сервисы, группы) можно перемещать из одной :ref:`Группы ресурсов <ngcom_resources_group>` в другую и после их создания. Для этого:
+:ref:`Web GIS <ngcom_description>` resourses (data layers, connections, services, groups) can be transferred from one :ref:`Resource group <ngcom_resources_group>` to another after their creation. To do that:
 
-#. Откройте окно свойств ресурса, который вы хотите переместить;
-#. Выберите :menuselection:`Действие --> Изменить` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшемся окне через меню :guilabel:`Родитель` на вкладке :guilabel:`Ресурс` выберите Группу ресурсов, в которую вы хотите переместить свой ресурс;
-#. Нажмите кнопку :guilabel:`Сохранить`. Если ресурс успешно перемещен, то информация о нем появится в новой Группе ресурсов и пропадет в старой Группе ресурсов.
+#. Open the Properties page of a resource you want to transfer;
+#. Select :menuselection:`Action --> Update` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. In the opened dialog window in the field :guilabel:`Parent` in :guilabel:`Resource` tab select Resource group you want to transfer your resource to;
+#. Press :guilabel:`Save` button. If a resource is transferred successfully its name will appear in the new Resource group and disappear from the previous Resource group.
 
-Аналогичным образом между родительскими ресурсами (:ref:`Векторными слоями <ngcom_vector_layer>`, :ref:`Растровыми слоями <ngcom_raster_layer>`, :ref:`Слоями PostGIS <ngcom_postgis_layer>`) можно перемещать :ref:`Стили <ngcom_styles>`.
+In the same way you can transfer :ref:`Styles <ngcom_styles>` between parent resources (:ref:`Vector layers <ngcom_vector_layer>`, :ref:`Raster layers <ngcom_raster_layer>`, :ref:`PostGIS layers <ngcom_postgis_layer>`).
