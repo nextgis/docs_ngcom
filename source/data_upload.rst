@@ -11,7 +11,7 @@ Raster data
 -------------------------------
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default from the main page of Web GIS you can access Main resource group);
-#. Select :menuselection:`Create resource --> Raster layer` on the right side of Web GIS :ref:`admin panel <ngw_admin_interface>`;
+#. Select :menuselection:`Create resource --> Raster layer` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
 #. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab and select a file with raster geodata in :guilabel:`Raster layer` tab;
 #. Press :guilabel:`Create` button. If Raster layer is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
@@ -28,7 +28,7 @@ Vector data
 -------------------------------
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default from the main page of Web GIS you can access Main resource group);
-#. Select :menuselection:`Create resource --> Vector layer` on the right side of Web GIS :ref:`admin panel <ngw_admin_interface>`;
+#. Select :menuselection:`Create resource --> Vector layer` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
 #. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab, then select a file with vector geodata and specify its encoding in :guilabel:`Vector layer` tab;
 #. Press :guilabel:`Create` button. If Vector layer is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
