@@ -27,7 +27,7 @@ QGIS style
 #. Open the Properties page of :ref:`Vector layer <ngcom_vector_layer>` or :ref:`PostGIS layer <ngcom_postgis_layer>` for which you want to create a style;
 #. Select :menuselection:`Create resource --> QGIS style` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
 #. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab;
-#. In :guilabel:`QGIS style` tab upload a file in :term:`QML` format created with :term:`QGIS` (read about how to create QML file with NextGIS QGIS :ref:`here <ngq_save_style>`);
+#. In :guilabel:`QGIS style` tab upload a file in :term:`QML` format created with :term:`QGIS`;
 #. Press :guilabel:`Create` button. If Style is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Vector layer or PostGIS layer.
 
 .. _ngcom_raster_style:
