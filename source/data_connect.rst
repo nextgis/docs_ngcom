@@ -27,7 +27,7 @@ Create PostGIS layer:
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default from the main page of Web GIS you can access Main resource group);
 #. Select :menuselection:`Create resource --> PostGIS layer` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab, then in :guilabel:`PostGIS layer` tab select выберите :ref:`PostGIS connection <ngcom_postgis_connection>` and fill in the fields :guilabel:`Schema`, :guilabel:`Table`, :guilabel:`ID column` и :guilabel:`Geometry column`;
+#. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab, then in :guilabel:`PostGIS layer` tab select :ref:`PostGIS connection <ngcom_postgis_connection>` and fill in the fields :guilabel:`Schema`, :guilabel:`Table`, :guilabel:`ID column` and :guilabel:`Geometry column`;
 #. Press :guilabel:`Create` button. If PostGIS layer is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 Read more about connection of vector geodata from external PostGIS databases to Web GIS :ref:`here <ngw_create_postgis_layer>`.

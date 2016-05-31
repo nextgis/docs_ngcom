@@ -9,7 +9,7 @@ To delete a resource:
 
 #. Open the Properties page of a resource you want to delete;
 #. Select :menuselection:`Action --> Delete` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. In the opened dialog dialog window in :guilabel:`Delete reaource` tab check the box :guilabel:`Confirm deletion of the resource`;
+#. In the opened dialog window in :guilabel:`Delete resource` tab check the box :guilabel:`Confirm deletion of the resource`;
 #. Press :guilabel:`Delete` button. If a resource is deleted successfully its name will disappear from the relevant :ref:`Resource group <ngcom_resources_group>`.
 
 .. note:: 

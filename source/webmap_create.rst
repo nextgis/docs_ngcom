@@ -12,7 +12,7 @@ Create Web map
 	Make sure all :ref:`Vector layers <ngcom_vector_layer>`, :ref:`Raster layers <ngcom_raster_layer>` and :ref:`PostGIS layers <ngcom_postgis_layer>` which you want to display on Web map have :ref:`Styles <ngcom_styles>` created for them.
 
 .. note:: 
-	If you use `internet service <http://nextgis.com/>`_  nextgis.com your Web GIS already has one ready-to-use Web map. You can use it for geodata visualization or create an unlimited number of new Web maps.
+	If you're using `internet service <http://nextgis.com/>`_  **nextgis.com**\ your Web GIS already has one ready-to-use Web map. You can use it for geodata visualization or create an unlimited number of new Web maps.
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create Web map (by default from the main page of Web GIS you can access Main resource group);
 #. Select :menuselection:`Create resource --> Web map` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;

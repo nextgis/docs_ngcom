@@ -35,7 +35,7 @@ QGIS style
 Raster style
 -----------------------------
 
-#. Open the Properties page of :ref:`Raster <ngcom_raster_layer>` for which you want to create a style;
+#. Open the Properties page of :ref:`Raster layer <ngcom_raster_layer>` for which you want to create a style;
 #. Select :menuselection:`Create resource --> Raster style` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
 #. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab;
 #. Press :guilabel:`Create` button. If Style is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Raster layer.

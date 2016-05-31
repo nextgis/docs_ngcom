@@ -19,11 +19,11 @@ Geodata in :ref:`Web GIS <ngcom_description>` is managed with resource system. A
 
 **Resources for displaying and publishing of geodata**:
 
-* :ref:`Style <ngcom_styles>` (special type of resource, created inside Raster layers, Vector layers and PostGIS layers to add them to Web map or publish via WMS protocol) 
-* :ref:`Web map <ngcom_webmap_create>` (created to display Raster layers, Vector layers, PostGIS layers and WMS layers on the map through built-in web client) 
+* :ref:`Style <ngcom_styles>` (special type of resource, created inside Raster layers, Vector layers and PostGIS layers to add them to Web map or publish using WMS protocol) 
+* :ref:`Web map <ngcom_webmap_create>` (created to display Raster layers, Vector layers, PostGIS layers and WMS layers on the map through built-in :ref:`web client <ngw_webmaps_client>`) 
 * :ref:`WFS service <ngcom_wfs_service>` (created to publish Vector layers and PostGIS layers using :term:`WFS` protocol) 
 * :ref:`WMS service <ngcom_wms_service>` (created to publish Raster layers, Vector layers, PostGIS layers and WMS layers using WMS protocol)
 
 **Resources for geodata storage management**:
 
-* :ref:`Resource group <ngcom_resources_group>` (create to provide folderlike data structure)
+* :ref:`Resource group <ngcom_resources_group>` (created to provide folderlike data structure)

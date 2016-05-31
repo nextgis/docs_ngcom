@@ -3,7 +3,7 @@
 Intro
 =========
 
-Welcome! In this manual we'll describe the main features of your :ref:`Web GIS <ngcom_description>` and explain how you can quickly start using it to manage your geodata.
+Welcome! In this quickstart tutorial we'll describe the main features of your :ref:`Web GIS <ngcom_description>` and show you the fastest way to start managing your geodata with it.
 
 
 .. only:: latex
