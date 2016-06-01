@@ -13,3 +13,5 @@ How to manage data storage
 Now you can access newly created Resource group and create new resources in it.
 
 Read more about Resource group creation :ref:`here <ngw_resources_group>`.
+
+How to transfer resourses from one group to another read :ref:`here <ngcom_parent_change>`.
