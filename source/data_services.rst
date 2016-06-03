@@ -33,7 +33,7 @@ WFS service
 #. Press :guilabel:`Create` button. If WFS service is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. note::
-        Provided link is not meant to be clicked on (opened with regular browser). You will need to copy and paste in WFS-capable client, such as for example NextGIS QGIS.
+        Link that appears after WFS service is created is not meant to be opened with a regular browser. You will need to copy and paste it in the WFS-capable client, such as for example `NextGIS QGIS <http://nextgis.com/nextgis-qgis/>`_.
 
 .. note:: 
 	By default WFS service publishes 1000 objects. To increase this number change :guilabel:`Default count of returned features` value in :guilabel:`WFS service` tab.
