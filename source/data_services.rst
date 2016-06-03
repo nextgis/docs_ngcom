@@ -32,6 +32,9 @@ WFS service
 #. Go to :guilabel:`WFS service` tab and select those resources (:ref:`Vector layers <ngcom_vector_layer>` or :ref:`PostGIS layers <ngcom_postgis_layer>`) which you want to publish using WMS protocol. **You need to specify a keyname for each resource**;
 #. Press :guilabel:`Create` button. If WFS service is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
+.. note::
+        Provided link is not meant to be clicked on (opened with regular browser). You will need to copy and paste in WFS-capable client, such as for example NextGIS QGIS.
+
 .. note:: 
 	By default WFS service publishes 1000 objects. To increase this number change :guilabel:`Default count of returned features` value in :guilabel:`WFS service` tab.
 
