@@ -25,6 +25,7 @@
    data_edit
    data_export
    resource_delete
+   ngcom_ngqgis_connect
    ngapi
    help
 
