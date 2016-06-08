@@ -15,7 +15,7 @@ Establishing Web GIS connection
 First you need to establish a connection to your Web GIS:
 
 * Open :guilabel:`Settings` dialog from NextGIS Connect control panel;
-* Fill in fields :guilabel:`URL` (for example, http://examples.nextgis.com) and :guilabel:`Name` (this name will be used in a list of available connections). In order to be able to create and delete resources uncheck a checkbox :guilabel:`As guest` and fill in fields :guilabel:`User name`and :guilabel:`Password`;
+* Fill in fields :guilabel:`URL` (for example, http://examples.nextgis.com) and :guilabel:`Name` (this name will be used in a list of available connections). In order to be able to create and delete resources uncheck a checkbox :guilabel:`As guest` and fill in fields :guilabel:`User name` and :guilabel:`Password`;
 * Press :guilabel:`Ок` button. If the connection is established successfully you'll see your Web GIS resources tree in the plugin window.
 
 .. _ngcom_ngqgis_connect_data_upload:
@@ -31,29 +31,32 @@ NextGIS Connect plugin enables a fast upload of raster and vector data and whole
 .. warning:: 
 	When creating vector layers in QGIS from scratch for further upload to Web GIS use :term:`coordinate system` EPSG:3857.
 
-1. Creating and uploading vector data to Web GIS:
+Creating and uploading vector data to Web GIS:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Create in QGIS from scratch or upload from files vector layers :term:`ESRI Shape` or :term:`GeoJSON`. Taylor their styles;
+* Create in QGIS from scratch or upload from :term:`ESRI Shape` or :term:`GeoJSON` files vector layers. Taylor their styles;
 * Select in NextGIS Connect Resources panel :ref:`Resource group <ngcom_resources_group>` to which you want to upload your data;
 * Select in QGIS Layers panel a vector layer which you want to upload to Web GIS;
 * Press :guilabel:`Import selected layer` button on NextGIS Connect control panel or select :menuselection:`NextGIS Connect --> Import selected layer` in layer context menu;
 * If data is uploaded successfully you'll see in the relevant Resource group a new :ref:`Vector layer <ngcom_data_upload>` with :ref:`QGIS style <ngcom_styles>` tailored by you.
 
-2. Uploading raster data to Web GIS:
+Uploading raster data to Web GIS:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Upload to QGIS from files raster layers :term:`GeoTIFF`;
+* Upload to QGIS raster layers from :term:`GeoTIFF` files;
 * Select in NextGIS Connect Resources panel Resource group to which you want to upload your data;
 * Select in QGIS Layers panel a raster layer which you want to upload to Web GIS;
 * Press :guilabel:`Import selected layer` button on NextGIS Connect control panel or select :menuselection:`NextGIS Connect --> Import selected layer` in layer context menu;
 * If data is uploaded successfully you'll see in the relevant Resource group a new :ref:`Raster layer <ngcom_data_upload>` with default :ref:`Raster style <ngcom_styles>`.
 
-3. Creating and uploading a whole QGIS project to Web GIS:
+Creating and uploading a whole QGIS project to Web GIS:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Create a QGIS project with raster and vector layers. Tailor their styles, group them, set their hierarchy and visibility settings. Set the map extent;
 * Select in NextGIS Connect Resources panel :ref:`Resource group <ngcom_resources_group>` to which you want to upload the project;
 * Press :guilabel:`Import current project` button on NextGIS Connect control panel or select :menuselection:`NextGIS Connect --> Import current project` in any layer context menu;
 * In the opened dialog window fill in the name of the new Resource group to which the project will be imported;
-* If the project is uploaded successfully you'll see in a selected Resource group a newly created group with: 1) all Raster and Vector layers to which :guilabel:`Import selected layer` is applicable, and their Styles; 2) :ref:`Web map <ngcom_webmap_create>` with a set extent, to which all the imported layers are added with groups, hierarchy and visibility settings similar to QGIS.
+* If the project is uploaded successfully you'll see in a selected Resource group a newly created group with: 1) all Raster and Vector layers to which :guilabel:`Import selected layer` operation is applicable, and their Styles; 2) :ref:`Web map <ngcom_webmap_create>` with a set extent, to which all the imported layers are added with groups, hierarchy and visibility settings similar to QGIS.
 
 .. note:: 
 	The fastest way to go to the newly created Web map is by pressing :guilabel:`Open map in browser` button on NextGIS Connect control panel or select :guilabel:`Open map in browser` in map's context layer.
@@ -65,7 +68,7 @@ Creating WFS services
 
 NextGIS Connect plugin enables a fast publication of Vector layers from your Web GIS using standard :term:`WFS` protocol. 
 
-It's possible due to the quick creation of :ref:`WFS service <ngcom_resources_group>` option in NextGIS Connect:
+It's possible due to the quick creation of :ref:`WFS service <ngcom_wfs_service>` option in NextGIS Connect:
 
 * Select in NextGIS Connect Resources panel Vector layer which you want to publish using WFS protocol;
 * Select :guilabel:`Create WFS service` in layer context menu;
