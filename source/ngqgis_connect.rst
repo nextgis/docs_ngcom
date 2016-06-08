@@ -5,7 +5,7 @@
 
 Загружать, редактировать и совершать другие операции с геоданными в :ref:`Веб ГИС <ngcom_description>` можно не только через административный :ref:`веб-интерфейс <ngw_admin_interface>`, но и с помощью настольного приложения `NextGIS QGIS <http://nextgis.ru/nextgis-qgis/>`_.
 
-Для этого необходимо установить модуль расширения `NextGIS Connect <https://plugins.qgis.org/plugins/nextgis_connect/>`_. После успешной установки модуля в правой части экрана появится панель :guilabel:`Ресурсы NextGIS`.
+Для удобного управления вашей Веб ГИС мы создали модуль расширения `NextGIS Connect <https://plugins.qgis.org/plugins/nextgis_connect/>`_. После успешной установки модуля в правой части экрана появится панель :guilabel:`Ресурсы NextGIS`.
 
 .. _ngcom_ngqgis_connect_connection:
 
