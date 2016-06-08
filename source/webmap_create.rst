@@ -24,6 +24,9 @@ Create Web map
 .. note:: 
 	You can set the content of geodata attributes displayed on Web map in Vector layers and PostGIS layers settings. Read more about this option :ref:`here <ngw_attributes>`.
 
+.. note:: 
+	When data is uploaded to Web GIS :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_data_upload>` Web map can be created automatically.
+
 Read more about Web map creation :ref:`here <ngw_webmaps_admin>`.
 
 Open Web map

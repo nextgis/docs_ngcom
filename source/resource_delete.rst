@@ -13,5 +13,7 @@ To delete a resource:
 #. Press :guilabel:`Delete` button. If a resource is deleted successfully its name will disappear from the relevant :ref:`Resource group <ngcom_resources_group>`.
 
 .. note:: 
-
 	In the same way you can delete from Web GIS other resources (:ref:`PostGIS and WMS connections <ngcom_data_connect>`, :ref:`WMS and WFS services <ngcom_data_services>`, :ref:`Styles <ngcom_styles>`, :ref:`Resource groups <ngcom_resources_group>`).
+
+.. note:: 
+	You can also delete resources from Web GIS :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_resource_delete>`.

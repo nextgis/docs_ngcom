@@ -30,6 +30,9 @@ QGIS style
 #. In :guilabel:`QGIS style` tab upload a file in :term:`QML` format created with :term:`QGIS`;
 #. Press :guilabel:`Create` button. If Style is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Vector layer or PostGIS layer.
 
+.. note:: 
+	For Vector layers uploaded to Web GIS :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_data_upload>` QGIS style is created automatically.
+
 .. _ngcom_raster_style:
 
 Raster style
@@ -39,5 +42,8 @@ Raster style
 #. Select :menuselection:`Create resource --> Raster style` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
 #. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab;
 #. Press :guilabel:`Create` button. If Style is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Raster layer.
+
+.. note:: 
+	For Raster layers uploaded to Web GIS :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_data_upload>` Raster style is created automatically.
 
 Read more about creation and editing of Styles :ref:`here <ngw_style_create>`.

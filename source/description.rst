@@ -12,5 +12,5 @@ Web GIS allows you to:
 * Visualize geodata on web maps and publish it using standard protocols;
 * Customize map styles for your geodata;
 * Edit attributes, add descriptions and photos of your geodata;
-* Display and edit geodata through mobile app `NextGIS Mobile <http://nextgis.com/nextgis-mobile/>`_ and desktop app `NextGIS QGIS <http://nextgis.com/nextgis-qgis/>`_;
+* Manage geodata with mobile app `NextGIS Mobile <http://nextgis.com/nextgis-mobile/>`_ and desktop app `NextGIS QGIS <http://nextgis.com/nextgis-qgis/>`_;
 * Create end-user applications using :ref:`NextGIS API <ngw_api_description>`.
