@@ -21,7 +21,7 @@ First you need to establish a connection to your Web GIS:
 .. figure:: _static/NGConnect_connection.gif
    :name: NG_Connect_connection
    :align: center
-   :width: 16cm
+   :width: 850px
 
 .. _ngcom_ngqgis_connect_data_upload:
 
@@ -69,7 +69,7 @@ Creating and uploading a whole QGIS project to Web GIS:
 .. figure:: _static/NGConnect_project_import.gif
    :name: NGConnect_project_import
    :align: center
-   :width: 16cm
+   :width: 850px
 
 .. _ngcom_ngqgis_connect_wfs_service:
 
@@ -91,7 +91,7 @@ It's possible due to the quick creation of :ref:`WFS service <ngcom_wfs_service>
 .. figure:: _static/NGConnect_wfs_service.gif
    :name: NGConnect_wfs_service
    :align: center
-   :width: 16cm
+   :width: 850px
 
 .. _ngcom_ngqgis_connect_data_edit:
 
@@ -112,7 +112,7 @@ It's possible due to the use of standard :term:`WFS` protocol (with feature edit
 .. figure:: _static/NGConnect_data_edit.gif
    :name: NGConnect_data_edit
    :align: center
-   :width: 16cm
+   :width: 850px
 
 
 .. _ngcom_ngqgis_connect_data_export:
@@ -134,7 +134,7 @@ It's possible due to the option of fast creation of GeoJSON vector layers in QGI
 .. figure:: _static/NGConnect_data_export.gif
    :name: NGConnect_data_export
    :align: center
-   :width: 16cm
+   :width: 850px
 
 .. _ngcom_ngqgis_connect_resource_group:
 
