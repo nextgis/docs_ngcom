@@ -66,6 +66,11 @@ Creating and uploading a whole QGIS project to Web GIS:
 .. note:: 
 	The fastest way to go to the newly created Web map is by pressing :guilabel:`Open map in browser` button on NextGIS Connect control panel or select :guilabel:`Open map in browser` in map's context layer.
 
+.. figure:: _static/NGConnect_project_import.gif
+   :name: NGConnect_project_import
+   :align: center
+   :width: 16cm
+
 .. _ngcom_ngqgis_connect_wfs_service:
 
 Creating WFS services
@@ -78,10 +83,15 @@ It's possible due to the quick creation of :ref:`WFS service <ngcom_wfs_service>
 * Select in NextGIS Connect Resources panel Vector layer which you want to publish using WFS protocol;
 * Select :guilabel:`Create WFS service` in layer context menu;
 * In the opened dialog window set the number of layer's features to be published via WFS service by changing the value of the field :guilabel:`The number of objects returned by default`;
-* If WFS service is created successfully you'll see it in the relevant Resource group. The Vector layer is alreay connected to it.
+* If WFS service is created successfully you'll see it in the relevant Resource group. The Vector layer is already connected to it.
 
 .. note:: 
 	You can edit settings of WFS service (including its name, published layers and their settings) in Web GIS admin console.
+
+.. figure:: _static/NGConnect_wfs_service.gif
+   :name: NGConnect_wfs_service
+   :align: center
+   :width: 16cm
 
 .. _ngcom_ngqgis_connect_data_edit:
 
@@ -99,6 +109,11 @@ It's possible due to the use of standard :term:`WFS` protocol (with feature edit
 * Edit features' geometries and attributes in added WFS layers using standard QGIS tools;
 * If editing went successful you'll be able to see the changes at once in Web GIS :ref:`Feature table <ngw_feature_table>` and Web map :ref:`web client <ngw_webmaps_client>`.
 
+.. figure:: _static/NGConnect_data_edit.gif
+   :name: NGConnect_data_edit
+   :align: center
+   :width: 16cm
+
 
 .. _ngcom_ngqgis_connect_data_export:
 
@@ -115,6 +130,11 @@ It's possible due to the option of fast creation of GeoJSON vector layers in QGI
 
 .. note:: 
 	Geometry and attributes data export is supported. Styles, descriptions, metadata and images of the objects can't be exported in the described way.
+
+.. figure:: _static/NGConnect_data_export.gif
+   :name: NGConnect_data_export
+   :align: center
+   :width: 16cm
 
 .. _ngcom_ngqgis_connect_resource_group:
 
