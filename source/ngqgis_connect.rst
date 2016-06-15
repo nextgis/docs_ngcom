@@ -18,6 +18,11 @@
 * Заполните поля :guilabel:`URL` (например, http://examples.nextgis.com) и :guilabel:`Имя` (это имя будет отображаться в списке доступных подключений модуля). Чтобы получить возможность создавать и удалять ресурсы, снимите галочку в поле :guilabel:`Как гость` и заполните поля :guilabel:`Имя пользователя` и :guilabel:`Пароль`;
 * Нажмите кнопку :guilabel:`Ок`. Если подключение создалось успешно, то в окне модуля появится дерево ресурсов вашей Веб ГИС.
 
+.. figure:: _static/NGConnect_connection.gif
+   :name: NG_Connect_connection
+   :align: center
+   :width: 850px
+
 .. _ngcom_ngqgis_connect_data_upload:
 
 Создание и загрузка данных
@@ -61,6 +66,11 @@
 .. note:: 
 	Быстро перейти к Веб-карте можно, нажав кнопку :guilabel:`Открыть карту в браузере` на панели инструментов модуля или выполнив команду :guilabel:`Открыть карту в браузере` в контекстном меню Веб-карты.
 
+.. figure:: _static/NGConnect_project_import.gif
+   :name: NGConnect_project_import
+   :align: center
+   :width: 850px
+
 .. _ngcom_ngqgis_connect_wfs_service:
 
 Создание Сервисов WFS
@@ -78,6 +88,11 @@
 .. note:: 
 	Отредактировать настройки созданного таким образом Сервиса WFS (включая его название, публикуемые слои и их настройки) можно через веб-интерфейс Веб ГИС.
 
+.. figure:: _static/NGConnect_wfs_service.gif
+   :name: NGConnect_wfs_service
+   :align: center
+   :width: 850px
+
 .. _ngcom_ngqgis_connect_data_edit:
 
 Редактирование данных
@@ -92,6 +107,10 @@
 * Отредактируйте геометрии и атрибуты объектов в добавленном слое WFS с помощью :ref:`стандартных инструментов QGIS <ngqgis_editing>`;
 * Если редактирование объектов прошло успешно, то соответствующие изменения сразу же будут отображены в Веб ГИС в :ref:`Таблице объектов <ngw_feature_table>` и :ref:`веб-клиенте <ngw_webmaps_client>` Веб-карты.
 
+.. figure:: _static/NGConnect_data_edit.gif
+   :name: NGConnect_data_edit
+   :align: center
+   :width: 850px
 
 .. _ngcom_ngqgis_connect_data_export:
 
@@ -108,6 +127,11 @@
 
 .. note:: 
 	Поддерживается экспорт геометрий и атрибутов объектов. Стили слоев, описания, метаданные и изображения объектов вышеописанным способом не экспортируются.
+
+.. figure:: _static/NGConnect_data_export.gif
+   :name: NGConnect_data_export
+   :align: center
+   :width: 850px
 
 .. _ngcom_ngqgis_connect_resource_group:
 
