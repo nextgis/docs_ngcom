@@ -15,7 +15,8 @@ Establishing Web GIS connection
 First you need to establish a connection to your Web GIS:
 
 * Open :guilabel:`Settings` dialog from NextGIS Connect control panel;
-* Fill in fields :guilabel:`URL` (for example, http://examples.nextgis.com) and :guilabel:`Name` (this name will be used in a list of available connections). In order to be able to create and delete resources uncheck a checkbox :guilabel:`As guest` and fill in fields :guilabel:`User name` and :guilabel:`Password`;
+* Press :guilabel:`New` button;
+* In the opened dialog window fill in fields :guilabel:`URL` (for example, http://examples.nextgis.com) and :guilabel:`Name` (this name will be used in a list of available connections). In order to be able to create and delete resources uncheck a checkbox :guilabel:`As guest` and fill in fields :guilabel:`User name` and :guilabel:`Password`;
 * Press :guilabel:`Ок` button. If the connection is established successfully you'll see your Web GIS resources tree in the plugin window.
 
 .. figure:: _static/NGConnect_connection.gif
