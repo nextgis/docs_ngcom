@@ -19,6 +19,11 @@ MapServer style
 #. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab. You can edit style parameters in :guilabel:`MapServer style` tab (optional). Examples of :term:`MapServer` style can be found :ref:`here <ngw_mapserver_templates>`;
 #. Press :guilabel:`Create` button. If Style is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Vector layer or PostGIS layer.
 
+.. figure:: _static/Mapserver_style.gif
+   :name: Mapserver_style
+   :align: center
+   :width: 850px
+
 .. _ngcom_qgis_style:
 
 QGIS style
@@ -33,6 +38,11 @@ QGIS style
 .. note:: 
 	For Vector layers uploaded to Web GIS :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_data_upload>` QGIS style is created automatically.
 
+.. figure:: _static/QGIS_style.gif
+   :name: QGIS_style
+   :align: center
+   :width: 850px
+
 .. _ngcom_raster_style:
 
 Raster style
@@ -45,5 +55,10 @@ Raster style
 
 .. note:: 
 	For Raster layers uploaded to Web GIS :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_data_upload>` Raster style is created automatically.
+
+.. figure:: _static/Raster_style.gif
+   :name: Raster_style
+   :align: center
+   :width: 850px
 
 Read more about creation and editing of Styles :ref:`here <ngw_style_create>`.

@@ -18,6 +18,11 @@ Raster data
 .. warning:: 
 	Only upload of :term:`GeoTIFF` files with 3 or 4 bands (RGB or RGBA) is supported.
 
+.. figure:: _static/Raster_layer.gif
+   :name: Raster_layer
+   :align: center
+   :width: 850px
+
 Read more about upload of raster geodata to Web GIS :ref:`here <ngw_create_raster_layer>`. 
 
 If you plan to display Raster layer on :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to create :ref:`Style <ngcom_styles>` for it.
@@ -34,6 +39,11 @@ Vector data
 
 .. warning:: 
 	Only upload of :term:`ESRI Shape` files (zip-archived, UTF-8 or Windows-1251) and :term:`GeoJSON` files (UTF-8) is supported. Uploaded files can't inculde mixed or invalid geometries, dates can't have NULL values, attributes' columns can't have the following names: id (ID), type (TYPE), source (SOURCE). ESRI Shapefiles can't include multigeometries.
+
+.. figure:: _static/Vector_layer.gif
+   :name: Vector_layer
+   :align: center
+   :width: 850px
 
 Read more about upload of vector geodata to Web GIS :ref:`here <ngw_create_vector_layer>`.
 

@@ -15,6 +15,11 @@ Now you can access newly created Resource group and create new resources in it.
 .. note:: 
 	You can also create new Resource groups in Web GIS :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_resource_group>`.
 
+.. figure:: _static/Resource_group.gif
+   :name: Resource_group
+   :align: center
+   :width: 850px
+
 Read more about Resource group creation :ref:`here <ngw_resources_group>`.
 
 How to transfer resourses from one group to another read :ref:`here <ngcom_parent_change>`.
