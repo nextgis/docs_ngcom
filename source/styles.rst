@@ -19,6 +19,11 @@
 #. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`. Отредактировать параметры стиля можно на вкладке :guilabel:`Стиль MapServer` (необязательно). Примеры стилей :term:`MapServer` вы можете найти :ref:`здесь <ngw_mapserver_templates>`;
 #. Нажмите кнопку :guilabel:`Создать`. Если Стиль создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующего Векторного слоя или Слоя PostGIS.
 
+.. figure:: _static/Mapserver_style.gif
+   :name: Mapserver_style
+   :align: center
+   :width: 850px
+
 .. _ngcom_qgis_style:
 
 Стиль QGIS 
@@ -33,6 +38,11 @@
 .. note:: 
 	Для Векторных слоев, загружаемых в Веб ГИС :ref:`с помощью настольного приложения NextGIS QGIS <ngcom_ngqgis_connect_data_upload>`, Стиль QGIS создается автоматически.
 
+.. figure:: _static/QGIS_style.gif
+   :name: QGIS_style
+   :align: center
+   :width: 850px
+
 .. _ngcom_raster_style:
 
 Растровый стиль
@@ -45,5 +55,10 @@
 
 .. note:: 
 	Для Растровых слоев, загружаемых в Веб ГИС :ref:`с помощью настольного приложения NextGIS QGIS <ngcom_ngqgis_connect_data_upload>`, Растровый стиль создается автоматически.
+
+.. figure:: _static/Raster_style.gif
+   :name: Raster_style
+   :align: center
+   :width: 850px
 
 Больше информации о создании и редактировании Стилей - :ref:`здесь <ngw_style_create>`.

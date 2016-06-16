@@ -18,6 +18,11 @@
 .. warning:: 
 	Поддерживается только загрузка файлов формата :term:`GeoTIFF` с 3 или 4 каналами (RGB или RGBA).
 
+.. figure:: _static/Raster_layer.gif
+   :name: Raster_layer
+   :align: center
+   :width: 850px
+
 Больше информации о загрузке растровых геоданных в Веб ГИС - :ref:`здесь <ngw_create_raster_layer>`. 
 
 Если вы планируете просматривать Растровый слой с помощью :ref:`Веб-карты <ngcom_webmap_create>` или публиковать его по протоколу :term:`WMS`, необходимо создать для него :ref:`Стиль <ngcom_styles>`.
@@ -34,6 +39,11 @@
 
 .. warning:: 
 	Поддерживается только загрузка файлов форматов :term:`ESRI Shape` (упакованных в zip-архив, с кодировкой UTF-8 или Windows-1251) и :term:`GeoJSON` (с кодировкой UTF-8). В файлах не должно быть смешанных и невалидных геометрий, даты не должны иметь значения NULL, не должно быть полей с названиями: id (ID), type (TYPE), source (SOURCE). В файлах формата ESRI Shape не должно быть мультигеометрий.
+
+.. figure:: _static/Vector_layer.gif
+   :name: Vector_layer
+   :align: center
+   :width: 850px
 
 Больше информации о загрузке векторных геоданных в Веб ГИС - :ref:`здесь <ngw_create_vector_layer>`.
 
