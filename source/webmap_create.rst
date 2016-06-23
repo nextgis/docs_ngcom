@@ -1,6 +1,6 @@
 .. _ngcom_webmap_create:
 
-How to display data on web map
+How to create web map
 ===================================
 
 :ref:`Web GIS <ngcom_description>` allows you to display geodata on Web map and view it through built-in :ref:`web client <ngw_webmaps_client>`.
