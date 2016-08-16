@@ -31,16 +31,16 @@ Creating and uploading data
 
 NextGIS Connect plugin enables a fast upload of raster and vector data and whole QGIS projects to Web GIS. You'll be able to publish your maps and geodata online very quick and easy.
 
-.. warning:: 
-	When uploading files using NextGIS Connect the same data format limitations are in place as with uploading using :ref:`admin console <ngcom_data_upload>`.
-
-.. warning:: 
-	When creating vector layers in QGIS from scratch for further upload to Web GIS use :term:`coordinate system` EPSG:3857.
-
 Creating and uploading vector data to Web GIS:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Create in QGIS from scratch or upload from :term:`ESRI Shape` or :term:`GeoJSON` files vector layers. Taylor their styles;
+.. warning:: 
+   You can avoid :ref:`data format limitations <ngcom_vector_layer>` when uploading vector data to Web GIS through NextGIS Connect by switching on options "Rename forbidden fields" and "Fix incorrect geometries" in :guilabel:`Settings` dialog.
+
+.. warning:: 
+   When creating vector layers in QGIS from scratch for further upload to Web GIS use :term:`coordinate system` EPSG:3857.
+
+* Create in QGIS from scratch or upload from :term:`ESRI Shape`, :term:`GeoJSON` or :term:`CSV` files vector layers. Tailor their styles;
 * Select in NextGIS Connect Resources panel :ref:`Resource group <ngcom_resources_group>` to which you want to upload your data;
 * Select in QGIS Layers panel a vector layer which you want to upload to Web GIS;
 * Press :guilabel:`Import selected layer` button on NextGIS Connect control panel or select :menuselection:`NextGIS Connect --> Import selected layer` in layer context menu;
