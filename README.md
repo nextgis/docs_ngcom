@@ -1,6 +1,7 @@
 Get Started with your Web GIS
 =============================
 
+Read online:
 * English - http://docs.nextgis.com/docs_ngcom/source/toc.html
 * Russian - http://docs.nextgis.ru/docs_ngcom/source/toc.html
 
