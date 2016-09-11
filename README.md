@@ -1,6 +1,10 @@
-Начало работы с Веб ГИС от NextGIS 
-===================================
-Создать Веб ГИС - https://my.nextgis.com/signup/?next=/webgis/
+Get Started with your Web GIS
+=============================
+
+English - http://docs.nextgis.com/docs_ngcom/source/toc.html
+Russian - http://docs.nextgis.ru/docs_ngcom/source/toc.html
+
+Create your Web GIS - https://my.nextgis.com/signup/?next=/webgis/
 
 License
 ==============
