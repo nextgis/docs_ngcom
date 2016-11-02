@@ -19,6 +19,11 @@ Create Web map
 #. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab;
 #. Set Web map :term:`extent` in :guilabel:`Extent and bookmarks` tab (optional);
 #. Go to :guilabel:`Layers` tab and in dialog window :guilabel:`Add layer` select those resources (:ref:`Styles <ngcom_styles>` or :ref:`WMS layers <ngcom_wms_layer>`) which you want to display on your Web map;
+#. Iteratively select layers in a tree on the left and set their properties in the section on the right.
+   For :ref:`WMS layers <ngcom_wms_layer>` it is recommended to select 
+   :guilabel:`Image` as an adapter. If you select :guilabel:`Tiles`), you will quickly
+   exhaust number of available concurrent connections and other layers on the map
+   will stop rendering until they are freed.
 #. Press :guilabel:`Create` button. If Web map is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. note:: 
@@ -36,3 +41,9 @@ Open Web map
 #. Select :menuselection:`Web map --> Display` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`. Web map will open in a web client which allows to view and edit geodata.
 
 Read more about Web map web client :ref:`here <ngw_webmaps_client>`.
+
+.. warning::
+    We do not recommend turning on more than 1 (3) :ref:`WMS layers <ngcom_wms_layer>` 
+    on Free (Premium) plan, as potentially slow connection with external WMS services
+    can fill all available concurrent connections as a result other layers will render 
+    slowly and you'll have trouble using web-interface to your map.
