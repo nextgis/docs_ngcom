@@ -21,7 +21,7 @@ Create Web map
 #. Go to :guilabel:`Layers` tab and in dialog window :guilabel:`Add layer` select those resources (:ref:`Styles <ngcom_styles>` or :ref:`WMS layers <ngcom_wms_layer>`) which you want to display on your Web map;
 #. Iteratively select layers in a tree on the left and set their properties in the section on the right.
    For :ref:`WMS layers <ngcom_wms_layer>` it is recommended to select 
-   :guilabel:`Image` as an adapter. If you select :guilabel:`Tiles`), you will quickly
+   :guilabel:`Image` as an adapter. If you select :guilabel:`Tiles`, you will quickly
    exhaust number of available concurrent connections and other layers on the map
    will stop rendering until they are freed.
 #. Press :guilabel:`Create` button. If Web map is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
