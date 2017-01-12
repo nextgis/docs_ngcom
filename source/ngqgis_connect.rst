@@ -19,7 +19,7 @@ First you need to establish a connection to your Web GIS:
 * In the opened dialog window fill in fields :guilabel:`URL` (for example, http://examples.nextgis.com) and :guilabel:`Name` (this name will be used in a list of available connections). In order to be able to create and delete resources uncheck a checkbox :guilabel:`As guest` and fill in fields :guilabel:`User name` and :guilabel:`Password`;
 
 .. note:: 
-   :guilabel:`User name` and :guilabel:`Password` for newly created Web GIS are sent to email used for signing up at `my.nextgis.com <https://my.nextgis.com/>`_ website.
+   :guilabel:`User name` and :guilabel:`Password` to access your Web GIS are sent by email after you requested to create it (might take time). Email that you provided at `my.nextgis.com <https://my.nextgis.com/>`_ is used. User name and password can also be assigned later by Web GIS administrator through its Control panel.
 
 * Press :guilabel:`Ок` button. If the connection is established successfully you'll see your Web GIS resources tree in the plugin window.
 
