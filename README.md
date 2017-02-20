@@ -1,5 +1,4 @@
-Get Started with your Web GIS
-=============================
+# Get Started with your Web GIS
 
 Read online:
 * English - http://docs.nextgis.com/docs_ngcom/source/toc.html
@@ -7,6 +6,6 @@ Read online:
 
 Create your Web GIS - https://my.nextgis.com/signup/?next=/webgis/
 
-License
-==============
+# License
+
 This documentation is licensed under CC BY-ND 4.0
