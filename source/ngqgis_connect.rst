@@ -3,7 +3,7 @@
 How to manage data with desktop app NextGIS QGIS
 ====================================================================================================
 
-You can upload, edit and perform other operations with geodata in your :ref:`Web GIS <ngcom_description>` not only in :ref:`admin console <ngw_admin_interface>` but also with desktop app `NextGIS QGIS <http://nextgis.ru/nextgis-qgis/>`_.
+You can upload, edit and perform other operations with geodata in your :ref:`Web GIS <ngcom_description>` not only through :ref:`web-based admin interface <ngw_admin_interface>` but also with desktop app `NextGIS QGIS <http://nextgis.ru/nextgis-qgis/>`_.
 
 To make it super-easy we've created `NextGIS Connect <https://plugins.qgis.org/plugins/nextgis_connect/>`_ plugin. After successfull installation you'll see :guilabel:`NextGIS Resources` panel on the right side of the screen.
 
