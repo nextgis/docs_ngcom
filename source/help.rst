@@ -7,6 +7,6 @@
 
 Сообщить об ошибках можно по почте info@nextgis.com. 
 
-Прямая поддержка и дополнительные услуги доступны в рамках планов Mini и Premium (`подробнее http://nextgis.ru/nextgis-com/plans`_).
+Прямая поддержка и дополнительные услуги доступны в рамках планов Mini и Premium (`подробнее <http://nextgis.ru/nextgis-com/plans>`_).
 
-Неофициальная поддержка и обсуждения касающиеся работы сервиса доступны на форуме `GIS-Lab.info http://gis-lab.info/forum/viewforum.php?f=65`_.
+Неофициальная поддержка и обсуждения касающиеся работы сервиса доступны на форуме `GIS-Lab.info <http://gis-lab.info/forum/viewforum.php?f=65>`_.
