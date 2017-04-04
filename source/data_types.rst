@@ -13,6 +13,7 @@ Which data formats and protocols are supported in Web GIS
 
 Web GIS also allows to :ref:`connect <ngcom_data_connect>` geodata from the following external sources: 
 
+* :term:`TMS` services;
 * :term:`PostGIS` databases;
 * :term:`WMS` services (WMS server should support :term:`coordinate system` EPSG:3857).
 

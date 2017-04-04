@@ -12,6 +12,7 @@ Geodata in :ref:`Web GIS <ngcom_description>` is managed with resource system. A
 
 **Resources for managing external sources of geodata**:
 
+* :ref:`Basemap <ngcom_basemap_layer>` (created to add external basemaps to :ref:`Web maps <ngcom_webmap_create>`)
 * :ref:`PostGIS connection <ngcom_postgis_connection>` (created to connect to external :term:`PostGIS` database)
 * :ref:`PostGIS layer <ngcom_postgis_layer>` (create to connect to the specific table with geodata through existing PostGIS connection)
 * :ref:`WMS connection <ngcom_wms_connection>` (created to connect to external :term:`WMS` server)

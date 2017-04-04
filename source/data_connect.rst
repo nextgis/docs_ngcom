@@ -3,7 +3,28 @@
 How to connect data from external sources 
 =======================================================
 
-:ref:`Web GIS <ngcom_description>` supports connection of vector geodata from external :term:`PostGIS` databases and connection of vector and raster geodata from external :term:`WMS` services. 
+:ref:`Web GIS <ngcom_description>` supports connection of basemaps (:term:`TMS` services) from external servers, vector geodata from external :term:`PostGIS` databases and connection of vector and raster geodata from external :term:`WMS` services. 
+
+.. _ngcom_basemap_layer:
+
+Basemaps
+------------
+ 
+.. warning:: 
+	Only Mini/Premium users have access to creation of Basemaps.
+
+Create Basemap:
+~~~~~~~~~~~~~~~~~
+
+#. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a basemap (by default from the main page of Web GIS you can access Main resource group);
+#. Select :menuselection:`Create resource --> Basemap` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab. Then in :guilabel:`Basemap` tab fill in the field :guilabel:`URL` (if you know the correct link to :term:`TMS` service) or start typing the name of the basemap in the field :guilabel:`Search`. If this basemap will be found in :ref:`QuickMapServices <https://qms.nextgis.com/>_` catalog, then :guilabel:`URL` field will be filled in automatically and option "Use options from QMS" will be activated;
+#. Press :guilabel:`Create` button. If Basemap is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
+
+.. note:: 
+	We recommend to create a separate "Basemaps" :ref:`Resource group <ngcom_resources_group>` for storing basemaps which you plan to add to your :ref:`Web maps <ngcom_webmap_create>`.
+
+How to add created basemaps to Web map :ref:`read here <ngcom_webmap_create>`.
 
 .. _ngcom_postgis_connect:
 
