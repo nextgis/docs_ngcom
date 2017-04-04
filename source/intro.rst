@@ -3,7 +3,7 @@
 Intro
 =========
 
-Welcome! In this quickstart tutorial we'll describe the main features of your :ref:`Web GIS <ngcom_description>` and show you the fastest way to start managing your geodata with it.
+Welcome! In this quickstart tutorial we'll describe main features of your :ref:`Web GIS <ngcom_description>` created at `nextgis.com cloud service <http://nextgis.com/>`_  and show you the fastest way to start managing your geodata with it.
 
 
 .. only:: latex
