@@ -8,10 +8,4 @@ How to use Web GIS for creation of end-user apps
 
 Read more about NextGIS API :ref:`here <ngw_api_description>`. 
 
-Developers can deploy Web GIS :ref:`at their own server <ngw_sysadmin_tasks>` (in this case we recommend subsribing to one of our `support programs <http://nextgis.com/services/support/>`_) or use our `cloud service <http://nextgis.com/>`_ **nextgis.com**. 
-
-Online service saves you from Web GIS installation and tuning tasks and provides unlimited space [1]_ for geodata storage and free [1]_ use of :term:`API`. 
-
-.. rubric:: References
-
-.. [1] Lack of limitations offer is valid during beta period. 
+Using Web GIS API you can turn into a geodata storage for other maps and systems. Access for other domains can be provied after you sign up for `Mini <http://nextgis.com/nextgis-com/plans>`_ plan, where API access from other websites is turned on through `CORS <https://wikipedia.org/wiki/Cross-origin_resource_sharing>`_. This mode allows to use data from Web GIS for a map or system on your ogranization's domain, while all geodata uploads and management pains will be taken care of by your Web GIS at nextgis.com.
