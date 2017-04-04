@@ -7,4 +7,4 @@ If you haven't found an answer to your question in this tutorial try `full docum
 
 You can send bug-reports to info@nextgis.com. 
 
-Direct support and more functionality are available under Mini and Premium plans (`more <http://nextgis.com/nextgis-com/plans>`_).
+Direct support and more functionality are available under Mini and Premium plans (`details <http://nextgis.com/nextgis-com/plans>`_).
