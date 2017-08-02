@@ -27,6 +27,7 @@
    resource_delete
    ngqgis_connect
    ngapi
+   CORS
    help
 
 
