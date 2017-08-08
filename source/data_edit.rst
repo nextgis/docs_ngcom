@@ -31,9 +31,6 @@ Edit using Web map
 #. In the opened form edit feature attributes values in :guilabel:`Attributes` tab, add description and attachments in :guilabel:`Description` and :guilabel:`Attachments` tabs;
 #. Press :guilabel:`Save` button. If attributes, description and attachments are saved successfully you'll be able to view them on Web map by clicking on the feature with identify tool, or by selecting the feature in Feature table and pressing :guilabel:`Open` button.
 
-.. warning:: 
-	Web GIS supports only JPEG and PNG files upload in :guilabel:`Attachments` tab. GIF format is not supported.
-
 .. note:: 
 	Editing of attributes in PostGIS layers is not supported at the moment. You can only edit descriptions and add/remove attachments. Edited attributes from Vector layers, as well as edited descriptions and attachments from Vector layers and PostGIS layers are saved in your Web GIS.
 
