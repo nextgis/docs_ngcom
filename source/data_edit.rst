@@ -3,7 +3,7 @@
 How to edit data
 =====================================
 
-:ref:`Web GIS <ngcom_description>` allows to edit attributes in :ref:`Vector layers <ngcom_vector_layer>` and add descriptions and attachments (including photos) of separate features in :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layers <ngcom_postgis_layer>`.
+:ref:`Web GIS <ngcom_description>` allows to edit attributes and add descriptions and attachments (including photos) of separate features in :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layers <ngcom_postgis_layer>`.
 
 You can do it in 2 ways: 
 1) using edit form in :ref:`Feature table <ngw_feature_table>` or
@@ -32,7 +32,7 @@ Edit using Web map
 #. Press :guilabel:`Save` button. If attributes, description and attachments are saved successfully you'll be able to view them on Web map by clicking on the feature with identify tool, or by selecting the feature in Feature table and pressing :guilabel:`Open` button.
 
 .. note:: 
-	Editing of attributes in PostGIS layers is not supported at the moment. You can only edit descriptions and add/remove attachments. Edited attributes from Vector layers, as well as edited descriptions and attachments from Vector layers and PostGIS layers are saved in your Web GIS.
+	Updated attributes in PostGIS layers are saved directly to external :term:`PostGIS` database. Updated attributes in Vector layers, as well as descriptions and attachments in Vector layers and PostGIS layers are saved to your Web GIS.
 
 .. note:: 
 	You can also edit **geometries and attributes** of Vector layers features :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_data_edit>`.
