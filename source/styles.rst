@@ -7,7 +7,7 @@ Style is a special type of resource necessary for geodata visualization on :ref:
 
 The only exception are :ref:`WMS layers <ngcom_wms_layer>` which don't need you to create Styles, because the information about their visualization is passed to :ref:`Web GIS <ngcom_description>` from the external WMS server.
 
-For :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layers <ngcom_postgis_layer>` Web GIS supports creation of 2 types of Styles - :ref:`MapServer style <ngcom_mapserver_style>` and :ref:`QGIS style <ngcom_qgis_style>`. For :ref:`Raster layers <ngcom_raster_layer>` Web GIS allows you to create :ref:`Raster style <ngcom_raster_style>`.
+For :ref:`Vector <ngcom_vector_layer>` and :ref:`PostGIS <ngcom_postgis_layer>` layers Web GIS supports two types of Styles - :ref:`MapServer style <ngcom_mapserver_style>` and :ref:`QGIS style <ngcom_qgis_style>`. For :ref:`Raster layers <ngcom_raster_layer>` Web GIS allows you to create :ref:`Raster style <ngcom_raster_style>`.
 
 .. _ngcom_mapserver_style:
 
