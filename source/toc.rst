@@ -28,6 +28,7 @@
    ngqgis_connect
    ngapi
    CORS
+   CSS
    help
 
 
