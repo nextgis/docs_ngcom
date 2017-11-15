@@ -3,6 +3,9 @@
 How to switch on CORS for your Web GIS
 =======================================
 
+.. note:: 
+	This functionality is available only to nextgis.com `Mini and Premium users <http://nextgis.com/nextgis-com/plans>`_.
+
 If you’re a developer and would like to use your Web GIS as a backend for your own map or an app, you can switch on and set up `CORS <https://wikipedia.org/wiki/Cross-origin_resource_sharing>`_. 
 This mode allows to use data from Web GIS for a map or system on your ogranization's domain, while all geodata uploads and management pains will be taken care of by your Web GIS at nextgis.com.
 
@@ -20,6 +23,3 @@ This mode allows to use data from Web GIS for a map or system on your ogranizati
    :name: CORS
    :align: center
    :width: 850px
-
-.. note:: 
-	This functionality is available only for nextgis.com `Mini and Premium users <http://nextgis.com/nextgis-com/plans>`_.

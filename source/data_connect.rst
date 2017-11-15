@@ -9,9 +9,9 @@ How to connect data from external sources
 
 Basemaps
 ------------
- 
-.. warning:: 
-	Only Mini/Premium users have access to creation of Basemaps.
+
+.. note:: 
+	Only nextgis.com `Mini and Premium users <http://nextgis.com/nextgis-com/plans>`_ have access to creation of Basemaps.
 
 Create Basemap:
 ~~~~~~~~~~~~~~~~~
