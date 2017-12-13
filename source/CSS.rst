@@ -23,17 +23,17 @@ Change header color:
     .header{background-color: #F44336; color: #fff;}
 
 Remove NextGIS logo from Web map:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
 
     .map-logo{display:none;}
 
 .. note:: 
-    At the moment you can't upload a new logo by yourself, but we can do it for you. If you want us to do it simply send your logo to support@nextgis.com.
+    At the moment you can't upload a new logo by yourself, but we can do it for you. If you want us to do it simply send your logo to support@nextgis.com. Format: PNG, height: up to 45 px, width - any.
 
 Advanced example
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 This example shows how to change the look of pretty much all changeable elements of your Web GIS. 
 You can try these examples as is or change it to your liking. You can also see them in action `here <http://nastya.nextgis.com>`_.
