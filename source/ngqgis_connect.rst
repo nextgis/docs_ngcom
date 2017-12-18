@@ -41,9 +41,6 @@ Creating and uploading vector data to Web GIS:
 .. warning:: 
    You can avoid :ref:`data format limitations <ngcom_vector_layer>` when uploading vector data to Web GIS through NextGIS Connect by switching on options "Rename forbidden fields" and "Fix incorrect geometries" in :guilabel:`Settings` dialog.
 
-.. warning:: 
-   When creating vector layers in QGIS from scratch for further upload to Web GIS use :term:`coordinate system` EPSG:3857.
-
 * Create in QGIS from scratch or upload from :term:`ESRI Shape`, :term:`GeoJSON` or :term:`CSV` files vector layers. Tailor their styles;
 * Select in NextGIS Connect Resources panel :ref:`Resource group <ngcom_resources_group>` to which you want to upload your data;
 * Select in QGIS Layers panel a vector layer which you want to upload to Web GIS;
