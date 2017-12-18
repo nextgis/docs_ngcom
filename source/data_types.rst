@@ -9,7 +9,7 @@ Which data formats and protocols are supported in Web GIS
 * Vector - :term:`ESRI Shape` (zip-archived, UTF-8 or Windows-1251) and :term:`GeoJSON` (UTF-8). 
 
 .. warning:: 
-	Uploaded vector files can't inculde mixed or invalid geometries, dates can't have NULL values, attributes' columns can't have the following names: id (ID), type (TYPE), source (SOURCE). ESRI Shapefiles can't include multigeometries.
+	If you are uploading through Web interface pay attention that uploaded vector layers don't include mixed or invalid geometries and attribute columns are not named id (ID). These limitations don't apply if you're uploading with `NextGIS Connect <ngqgis_connect>`. 
 
 Web GIS also allows to :ref:`connect <ngcom_data_connect>` geodata from the following external sources: 
 
