@@ -42,6 +42,16 @@
 
 	.map-logo{display:none;}
 
+Скрыть заголовок окна идентификации объекта на веб-карте:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+	div.ngwPopup__content div div.dijitAlignTop,
+	div.ngwPopup__features span.ngwWebmapToolIdentify-controller {
+	    display: none;
+	}
+
 
 
 .. note:: 
