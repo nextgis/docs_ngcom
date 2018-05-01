@@ -22,12 +22,27 @@
 
 	.header{background-color: #F44336; color: #fff;}
 
+Скрыть пункт Войти на веб-карте:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+	.header-nav {
+		display: none;
+	}
+
+	.dynamic-panel__title {
+		display: none;
+	}
+
 Убрать логотип NextGIS с карты:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
 
 	.map-logo{display:none;}
+
+
 
 .. note:: 
     На данный момент вы не сможете самостоятельно загрузить свой логотип, но его можем добавить мы. Для этого отправьте нам файл с логотипом на support@nextgis.com. Формат: PNG, высота: до 45 px, ширина - любая.
