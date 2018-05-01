@@ -22,6 +22,21 @@ Change header color:
 
     .header{background-color: #F44336; color: #fff;}
 
+Hide sign in link from Web map:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+	.header-nav {
+		display: none;
+	}
+
+	.dynamic-panel__title {
+		display: none;
+	}
+
+
+
 Remove NextGIS logo from Web map:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
