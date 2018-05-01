@@ -44,6 +44,16 @@ Remove NextGIS logo from Web map:
 
     .map-logo{display:none;}
 
+Hide header of the Web map feature identification popup window:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+	div.ngwPopup__content div div.dijitAlignTop,
+	div.ngwPopup__features span.ngwWebmapToolIdentify-controller {
+	    display: none;
+	}
+
 .. note:: 
     At the moment you can't upload a new logo by yourself, but we can do it for you. If you want us to do it simply send your logo to support@nextgis.com. Format: PNG, height: up to 45 px, width - any.
 
