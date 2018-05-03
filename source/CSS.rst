@@ -36,11 +36,25 @@
 	}
 
 Убрать логотип NextGIS с карты:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
 
 	.map-logo{display:none;}
+
+
+Использовать свой логотип на веб-карте:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+	a.map-logo {
+		background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/61/LIRR_logo.svg");
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		width: 400px; /* any value greater than image dimension */
+		height: 400px; /* any value greater than image dimension */
+	}
 
 Скрыть заголовок окна идентификации объекта на веб-карте:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
