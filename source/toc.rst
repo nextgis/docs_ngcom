@@ -12,6 +12,7 @@
 
    intro
    description
+   create
    data_types
    resources
    data_upload
@@ -30,6 +31,3 @@
    CORS
    CSS
    help
-
-
-
