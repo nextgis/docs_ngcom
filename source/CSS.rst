@@ -69,6 +69,24 @@ Hide header of the Web map feature identification popup window:
 	    display: none;
 	}
 
+Hide layer icons on Web map:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+	.dijitIcon.dijitTreeIcon.dijitLeaf {
+    	    display: none;
+	}
+	.dijitIcon.dijitTreeIcon.dijitFolderOpened  {
+    	    display: none;
+	}
+
+	.dijitIcon.dijitTreeIcon.dijitFolderClosed {
+	    display: none;
+	}
+
+
+
 .. note:: 
     At the moment you can't upload a new logo by yourself, but we can do it for you. If you want us to do it simply send your logo to support@nextgis.com. Format: PNG, height: up to 45 px, width - any.
 
