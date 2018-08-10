@@ -22,8 +22,10 @@ Change header color:
 
     .header{background-color: #F44336; color: #fff;}
 
-Hide sign in link from Web map:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Hide sign in link:
+~~~~~~~~~~~~~~~~~~
+
+This will hide sign in text from Web maps and all other pages. You'll have to type sign in link manually to sign in.
 
 .. code-block:: bash
 
