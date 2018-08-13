@@ -30,4 +30,5 @@
    ngapi
    CORS
    CSS
+   homepage
    help
