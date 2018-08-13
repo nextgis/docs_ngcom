@@ -4,7 +4,7 @@ How to change the look of your Web GIS
 ========================================
 
 .. note:: 
-    This functionality is available only to nextgis.com `Premium users <http://nextgis.ru/nextgis-com/plans>`_ for users with administrative privileges.
+    This functionality is available only to nextgis.com `Premium users <http://nextgis.com/nextgis-com/plans>`_ for users with administrative privileges.
 
 You can customize the look of your Web GIS, including logos, backgrounds, header and buttons colors etc with a little bit of CSS magic:
 

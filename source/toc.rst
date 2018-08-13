@@ -1,4 +1,4 @@
-.. sectionauthor:: Дмитрий Барышников <dmitry.baryshnikov@nextgis.ru>
+.. sectionauthor:: Р”РјРёС‚СЂРёР№ Р‘Р°СЂС‹С€РЅРёРєРѕРІ <dmitry.baryshnikov@nextgis.ru>
 
 .. NextGIS Services TOC
 
@@ -29,5 +29,6 @@ Contents:
    ngqgis_connect
    ngapi
    CORS
+   homepage
    CSS
    help
