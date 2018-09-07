@@ -37,27 +37,15 @@ This will hide sign in text from Web maps and all other pages. You'll have to ty
 		display: none;
 	}
 
-
-
-Remove NextGIS logo from Web map:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Hide Print, Share buttons from Web maps:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
 
-    .map-logo{display:none;}
-    
-Use your own logo on Web map:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code-block:: bash
-
-	a.map-logo {
-		background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/61/LIRR_logo.svg");
-		background-repeat: no-repeat;
-		background-position: right bottom;
-		width: 400px; /* any value greater than image dimension */
-		height: 400px; /* any value greater than image dimension */
-	}
+	.navigation-menu__item[data-item-value=sharePanel],
+        .navigation-menu__item[data-item-value=printMapPanel]{
+                display: none;
+        }
 
 Hide header of the Web map feature identification popup window:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
