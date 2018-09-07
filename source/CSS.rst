@@ -37,26 +37,15 @@
 		display: none;
 	}
 
-Убрать логотип NextGIS с карты:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Скрыть кнопки Поделиться, Печать с Веб-карт:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
 
-	.map-logo{display:none;}
-
-
-Использовать свой логотип на веб-карте:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code-block:: bash
-
-	a.map-logo {
-		background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/61/LIRR_logo.svg");
-		background-repeat: no-repeat;
-		background-position: right bottom;
-		width: 400px; /* any value greater than image dimension */
-		height: 400px; /* any value greater than image dimension */
-	}
+	.navigation-menu__item[data-item-value=sharePanel],
+        .navigation-menu__item[data-item-value=printMapPanel]{
+                display: none;
+        }
 
 Скрыть заголовок окна идентификации объекта на веб-карте:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
