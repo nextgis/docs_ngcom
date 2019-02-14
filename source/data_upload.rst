@@ -47,7 +47,7 @@ Vector data
 
 Read more about upload of vector geodata to Web GIS :ref:`here <ngw_create_vector_layer>`.
 
-If you plan to display Vector layer on :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to create :ref:`Style <ngcom_styles>` for it.
+If you plan to display Vector layer on a :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to add a :ref:`Style <ngcom_styles>` for it first.
 
 .. note:: 
 	You can also upload raster and vector geodata to Web GIS :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_data_upload>`.
