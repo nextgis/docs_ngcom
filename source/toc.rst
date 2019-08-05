@@ -19,6 +19,7 @@
    data_connect
    styles
    webmap_create
+   annotation
    data_services
    resources_group
    parent_change
