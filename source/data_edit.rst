@@ -3,7 +3,60 @@
 How to edit data
 =====================================
 
-:ref:`Web GIS <ngcom_description>` allows to edit attributes and add descriptions and attachments (including photos) of separate features in :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layers <ngcom_postgis_layer>`.
+:ref:`Web GIS <ngcom_description>` allows to edit objects, attributes and add descriptions and attachments (including photos) of separate features in :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layers <ngcom_postgis_layer>`.
+	
+.. note:: 
+	You can use described functionality in Web GIS created in nextgis.com_ service on `Premium plan <http://nextgis.com/pricing/#premium/>`_
+
+.. _ngcom_data_edit_objects:
+
+Edit of object on the Web map
+------------------------------
+
+1. Open :ref:`Web map <ngcom_webmap_create>` and select the layer with an object you need to edit.
+2. Open dropdown menu pressing "Layer" button (see :numref:`webmap_edit`) and tick the box next to "Editing" option.
+
+.. figure:: _static/webgis_edit_objects_eng.png
+   :name: webmap_edit
+   :align: center
+   :width: 16cm
+
+   "Layer" menu.
+
+3. Editing toolbar will appear on a Web map (see :numref:`webmap_edit_panel`):
+
+.. figure:: _static/webgis_edit_objects_panel_eng.png
+   :name: webmap_edit_panel
+   :align: center
+   :width: 16cm
+
+   Editing toolbar.
+   
+Create a new object (point, line, polygon)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. On the editing toolbar press "Create features" button (see :numref:`webmap_create_objects`):
+
+.. figure:: _static/webgis_create_new_objects_eng.png
+   :name: webmap_create_objects
+   :align: center
+   :width: 16cm
+
+   "Create features" button on the editing toolbar.
+
+2. A blue circle will appear nearby a mouse pointer, with it you can add new objects. Click on the map, where you can create a new object. You can add several new objects one after another. While creating a line you need to indicate its start and end points by clicking on a map. While creating a polygon each new click on a map will indicate its new vertice, to finish a polygon you need to click on its start point. During vertices adding an adhesion will work.
+3. To finish new objects creation press "Layer" button (see :numref:`webmap_edit`) and clear a tick box next to "Editing" option.
+4. In opened dialog select "Save", if you want to save changes, select "Don't save", if you do not want to save them or "Cancel", if you want to stay in the editing mode:
+
+.. figure:: _static/webgis_finish_editting_eng.png
+   :name: webmap_finish_edit
+   :align: center
+   :width: 16cm
+
+   Dialog window of finishing edits.
+   
+Edit of object's attributes
+---------------------------
 
 You can do it in 2 ways: 
 1) using edit form in :ref:`Feature table <ngw_feature_table>` or
