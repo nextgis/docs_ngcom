@@ -33,7 +33,7 @@ Edit an object on the Web map
    Editing toolbar.
    
 Create a new object (point, line, polygon)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. On the editing toolbar press "Create features" button (see :numref:`webmap_create_objects`):
 
@@ -55,17 +55,17 @@ Create a new object (point, line, polygon)
 
    Dialog window of finishing edits.
    
-Edit of object's attributes
+Edit object attributes
 ---------------------------
 
-You can do it in 2 ways: 
+There 2 ways to edit object attributes: 
 1) using edit form in :ref:`Feature table <ngw_feature_table>` or
 2) using edit form in Web map :ref:`web client <ngw_webmaps_client>` (if the relevant layer is added to :ref:`Web map <ngcom_webmap_create>`).
 
 .. _ngcom_data_edit_table:
 
-Edit using Feature table
------------------------------------------------
+Edit attributes using Feature table
+-----------------------------------
 
 #. Open the Properties page of :ref:`Vector layer <ngcom_vector_layer>` or :ref:`PostGIS layer <ngcom_postgis_layer>`;
 #. Select :menuselection:`Vector layer --> Feature table` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
@@ -75,8 +75,8 @@ Edit using Feature table
 
 .. _ngcom_data_edit_webmap:
 
-Edit using Web map
----------------------------------------
+Edit attributes using Web map
+-----------------------------
 
 #. Open :ref:`Web map <ngcom_webmap_create>` and switch on the visibility of the relevant layer;
 #. Find a feature on the Web map (if necessary search it by its attributes using :guilabel:`Search` bar in the Toolbar or in :ref:`Feature table <ngw_feature_table>` which can be opened via :guilabel:`Layer` dropdown menu in the upper left corner of Web map web client. You can quickly find the selected feature on Web map using :guilabel:`Go to` button in Feature table);
