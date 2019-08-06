@@ -10,8 +10,8 @@ How to edit data
 
 .. _ngcom_data_edit_objects:
 
-Edit an object on the Web map
-------------------------------
+Edit object geometry
+--------------------
 
 1. Open :ref:`Web map <ngcom_webmap_create>` and select the layer with an object you need to edit.
 2. Open dropdown menu pressing "Layer" button (see :numref:`webmap_edit`) and tick the box next to "Editing" option.
@@ -56,7 +56,7 @@ Create a new object (point, line, polygon)
    Dialog window of finishing edits.
    
 Edit object attributes
----------------------------
+----------------------
 
 There 2 ways to edit object attributes: 
 1) using edit form in :ref:`Feature table <ngw_feature_table>` or
@@ -65,7 +65,7 @@ There 2 ways to edit object attributes:
 .. _ngcom_data_edit_table:
 
 Edit attributes using Feature table
------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Open the Properties page of :ref:`Vector layer <ngcom_vector_layer>` or :ref:`PostGIS layer <ngcom_postgis_layer>`;
 #. Select :menuselection:`Vector layer --> Feature table` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
@@ -76,7 +76,7 @@ Edit attributes using Feature table
 .. _ngcom_data_edit_webmap:
 
 Edit attributes using Web map
------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Open :ref:`Web map <ngcom_webmap_create>` and switch on the visibility of the relevant layer;
 #. Find a feature on the Web map (if necessary search it by its attributes using :guilabel:`Search` bar in the Toolbar or in :ref:`Feature table <ngw_feature_table>` which can be opened via :guilabel:`Layer` dropdown menu in the upper left corner of Web map web client. You can quickly find the selected feature on Web map using :guilabel:`Go to` button in Feature table);
