@@ -10,7 +10,7 @@ How to edit data
 
 .. _ngcom_data_edit_objects:
 
-Edit of object on the Web map
+Edit an object on the Web map
 ------------------------------
 
 1. Open :ref:`Web map <ngcom_webmap_create>` and select the layer with an object you need to edit.
