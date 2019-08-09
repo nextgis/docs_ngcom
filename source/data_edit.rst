@@ -14,7 +14,7 @@ Edit a feature on a Web map
 ----------------------------
 
 1. Open :ref:`Web map <ngcom_webmap_create>` and select the layer with an feature you need to edit.
-2. Open dropdown menu pressing "Layer" button (see :numref:`webmap_edit`) and tick the box next to "Editing" field.
+2. Open dropdown menu pressing "Layer" button (see :numref:`webmap_edit`) and tick a box next to "Editing" field.
 
 .. figure:: _static/webgis_edit_objects_eng.png
    :name: webmap_edit
@@ -94,7 +94,7 @@ Modify a feature
 Setting of permission for editing
 -----------------------------------
 
-You can change permission for editing in "Update resource" dialog of a Web map. You can find how to enter it in :ref:`Update resource" <ngw_update_resource>` of NextGIS Web documentation.
+You can change permission for editing in "Update resource" dialog of a Web map. You can find how to enter it in :ref:`Update resource <ngw_update_resource>` of NextGIS Web documentation.
 You can allow or deny editing of all map layers on the "Settings" tab by ticking or clearing a box next to "Enable layers editing" field (see :numref:`webmap_allow_editting`):
 
 .. figure:: _static/webgis_allow_editting_eng.png
