@@ -119,7 +119,7 @@ To forbid some users editing of separate layers add a rule to deny separate user
 Edit feature's attributes
 ----------------------
 
-There 2 ways to edit feature's attributes: 
+There are 2 ways to edit feature's attributes: 
 1) using edit form in :ref:`Feature table <ngw_feature_table>` or
 2) using edit form in Web map :ref:`web client <ngw_webmaps_client>` (if the relevant layer is added to :ref:`Web map <ngcom_webmap_create>`).
 
@@ -152,5 +152,3 @@ Edit attributes using Web map
 	You can also edit **geometries and attributes** of Vector layers features :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_data_edit>`.
 
 	Read more on data editing :ref:`here <ngw_attributes_edit>`.
-
-How to delete data from Web GIS read :ref:`here <ngcom_resource_delete>`.
