@@ -10,7 +10,7 @@
 
 .. note::
     Описываемая в данном разделе функциональность доступна в :ref:`веб ГИС <ngcom_description>`,
-    созданной с помощью сервиса nextgis.com_ и
+    созданной с помощью сервиса nextgis.ru_ и
     находящейся на тарифном плане `Премиум <http://nextgis.ru/pricing/#premium/>`_
 
 Что такое аннотации?
@@ -21,7 +21,7 @@
 
 Визуально аннотация состоит из точки и сообщения, привязанного к этой точке.
 
-.. figure:: _static/ann_annotation_structure.png
+.. figure:: _static/ann_annotation_structure_new.png
    :name: ann_messages_example
    :align: center
    :width: 16cm
