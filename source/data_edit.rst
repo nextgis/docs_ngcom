@@ -1,6 +1,6 @@
 .. _ngcom_data_edit:
 
-.. _nextgis.com: http://nextgis.com/
+.. _nextgis.ru: http://nextgis.ru/
 
 Как редактировать данные
 =====================================
