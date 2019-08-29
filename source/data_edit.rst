@@ -1,10 +1,12 @@
 .. _ngcom_data_edit:
 
+.. _nextgis.com: http://nextgis.com/
+
 How to edit data
 =====================================
 	
 .. note:: 
-	You can use described functionality in Web GIS created in nextgis.com service on `Premium plan <http://nextgis.com/pricing/#premium/>`_
+	You can use described functionality in Web GIS created in nextgis.com_ service on `Premium plan <http://nextgis.com/pricing/#premium/>`_
 	
 :ref:`Web GIS <ngcom_description>` allows to edit objects, attributes and add descriptions and attachments (including photos) of separate features in :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layers <ngcom_postgis_layer>`.
 
