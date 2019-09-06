@@ -28,6 +28,7 @@ Contents:
    data_export
    resource_delete
    ngqgis_connect
+   collector
    ngapi
    CORS
    homepage
