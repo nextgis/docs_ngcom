@@ -1,6 +1,6 @@
 .. _collector:
 
-.. _nextgis.com: http://nextgis.com/
+.. _nextgis.ru: http://nextgis.ru/
 .. _NextGIS Collector: https://play.google.com/store/apps/details?id=com.nextgis.collector
 
 Как начать сбор данных в вашей Веб ГИС
