@@ -1,6 +1,6 @@
 .. _ngcom_annotation:
 
-.. _nextgis.ru: http://nextgis.ru/
+.. _nextgis.com: http://nextgis.com/
 .. _WYSIWYG: https://ru.wikipedia.org/wiki/WYSIWYG
 .. role:: raw-html(raw)
     :format: html
@@ -10,7 +10,7 @@
 
 .. note::
     Описываемая в данном разделе функциональность доступна в :ref:`веб ГИС <ngcom_description>`,
-    созданной с помощью сервиса nextgis.ru_ и
+    созданной с помощью сервиса nextgis.com_ и
     находящейся на тарифном плане `Премиум <http://nextgis.ru/pricing/#premium/>`_
 
 Что такое аннотации?
