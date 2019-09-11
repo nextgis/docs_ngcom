@@ -30,3 +30,13 @@ There are two roles in a process of spatial data collection:
 
 * An organizer of data collection.
 * A participant of data collection.
+
+.. figure:: _static/ngc-data-collection-team-clt_eng.png
+   :name: Abstract roles in the process of data collection
+   :align: center
+
+   Abstract roles in the process of data collection
+   
+An *organizer of data collection* is a subject who organizes a process of data collection, gathers a team of participants, controls a process and verified the data. A group of people or a separate person could be an organizer. In the above-mentioned example a road and operational entity was an organizer.
+
+Below there are some more examples of data collection organizers and their tasks.
