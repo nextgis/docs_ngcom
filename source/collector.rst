@@ -80,10 +80,43 @@ These stages of work with NextGIS Collector could be described schematically as 
     frameborder="0" allow="accelerometer;
     autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 To sum up, for beginning of data collection:
 
 - A data collection organizer should have a Web GIS on `Premium plan <http://nextgis.com/pricing/#premium/>`_.
 - Every data collection participant from a team should have a mobile device with Android OS.
 - Every data collection participant from a team should register in nextgis.com_ and know his email and a password from registration.
 
+
+Organizer of data collection: adding of team participants in Web GIS
+----------------------------------------------------------------------
+
+The first stage of work with the system presumes a registration of data collection participants in Web GIS of the data collection organizer. Data collection participants from a team should have a mobile device with Android OS. They need to install a mobile app `NextGIS Collector`_ on each of mobile devices - it will allow to update data and synchronize updates with Web GIS of the data collection organizer.
+
+Besides, each data collection participant from a team should be registered in nextgis.com_. Team participant can do it himself or pass his login to the data collection organizer. A login in nextgis.com_ is an email used for a registration.
+
+When each data collection participant from a team is registered in nextgis.com_, the data collection organizer will have a list of their emails.
+
+To add team participants to Web GIS you need to do the following:
+
+1. Open Web GIS as administrator.
+
+.. important::
+    Described below actions demand administrator privilegies
+
+2. The home page of your Web GIS resources will be opened. Open a "Main menu" panel:
+
+.. figure:: _static/ngc-stages-001_eng.png
+   :name: ngc-stages-001
+   :align: center
+
+   Open main menu
+
+3. In main menu select «Control panel»:
+
+.. figure:: _static/ngc-stages-002_eng.png
+   :name: ngc-stages-002
+   :align: center
+
+   Select «Control panel»
+
+4. In «Control panel» select «Collector projects»:
