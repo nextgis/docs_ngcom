@@ -119,4 +119,41 @@ To add team participants to Web GIS you need to do the following:
 
    Select «Control panel»
 
-4. In «Control panel» select «Collector projects»:
+4. In «Settings» of the control panel select «Collector projects»:
+
+.. figure:: _static/ngc-stages-003_eng.png
+   :name: ngc-stages-003
+   :align: center
+
+   Select «Collector projects»
+
+5. «NextGIS Collector settings» will be opened:
+
+.. figure:: _static/ngc-stages-004_eng.png
+   :name: ngc-stages-004
+   :align: center
+
+   «NextGIS Collector settings»
+
+6. To add a team participant to Web GIS press "Create" button. In opened window "New collector"
+fill up fields.
+
+.. note::
+    We advice to fill up a field "Description" with the name and the surname of a team participant in order to have a data about all 
+    NextGIS Collector users in one place. You can always find the participant you need with a search tool in a table of Collector users, which is quite suitable when there are a lot of participants.
+
+.. figure:: _static/ngc-stages-005_eng.png
+   :name: ngc-stages-005
+   :align: center
+
+   Add a new data collection team participant
+
+7. As a result of this stage all data collection team participants will be registered in your Web GIS.
+
+.. figure:: _static/ngc-stages-006_eng.png
+   :name: ngc-stages-006
+   :align: center
+
+   An example of a filled table of data collection team participants
+
+Users with a registration in your Web GIS can get data collection projects from your Web GIS and begin data collection after they installed mobile app `NextGIS Collector`_ and successfully authorized there. However you can control over an access of different users in each separate project. It is described in details below.
