@@ -157,3 +157,93 @@ fill up fields.
    An example of a filled table of data collection team participants
 
 Users with a registration in your Web GIS can get data collection projects from your Web GIS and begin data collection after they installed mobile app `NextGIS Collector`_ and successfully authorized there. However you can control over an access of different users in each separate project. It is described in details below.
+
+Organizer of data collection: creation of a data collection project
+-------------------------------------------------------------------
+
+Data collection project is a resource in your Web GIS, it is a set of layers for editing.
+In a Web GIS "data collection project" is called "Collector Project".
+Data collection project allows a data collection team participant to edit layers from it.
+Web GIS owner can restrain access to the project for separate participants.
+
+Suppose, that layers with data are already downloaded in your Web GIS, and you want to create a project
+and to allow data collection team participants to collect or to edit data in your Web GIS. 
+To do it:
+
+1. Open a Web GIS.
+
+2. In «Create resource» select «Collector project»:
+
+.. important::
+    Creation of data collection project is recomended for Web GIS administrator.
+
+.. figure:: _static/ngc-stages-007_eng.png
+   :name: ngc-stages-007
+   :align: center
+
+   Select «Collector project»
+
+3. Name a project. This name will be displayed in a mobile app `NextGIS Collector`_:
+
+.. figure:: _static/ngc-stages-008_eng.png
+   :name: ngc-stages-008
+   :align: center
+
+4. Open "Project" tab and fill up "Starting screen" and "NextGIS Collector user credentials" fields.
+
+«Starting screen» describes a starting screen in a mobile app `NextGIS Collector`_: it could be a list of forms or a map.
+
+`NextGIS Collector`_ mobile app of all data collection team participants will use "User name" and "Password" of «NextGIS Collector user credentials» to bring changes in your Web GIS layers in.
+
+.. note::
+    We advice to create a new user assigned only to `NextGIS Collector`_ mobile app for filling up 
+    «NextGIS Collector user credentials». You need to give him permissions to read and write data for the layers in your Web GIS.
+    It will allow you to provide a safety of your data during the process of data collection.
+
+.. important::
+    It is highly unrecommeneded to use for «NextGIS Collector user credentials» user data with administrator privileges, because in the case of loss or interception of this data malefactor will get an access to your Web GIS.
+
+.. figure:: _static/ngc-stages-009_eng.png
+   :name: ngc-stages-009
+   :align: center
+
+   "Project" tab
+
+5. The next stage is adding necessary items to the project on a tab "Items".
+
+An item of Collector project could be a editable data layer, displaying only data layer, cartographical mat or a form for data collection.
+
+.. note::
+            You could add PostGIS layers in Collector project, but NextGIS Collector mobile app does not support work with them now.
+
+Adding of items is like adding of layers when creating a web map. You need to press "Add item" button to add a layer or a data collection form. Press "Add group" button to create a group of items. Pulling of items is available within an item tree.
+
+.. figure:: _static/ngc-stages-010_eng.png
+   :name: ngc-stages-010
+   :align: center
+
+   "Items" tab
+
+Each item of Collector project has next attributes:
+
+- «Display name» - a layer name, which is displayed in NextGIS Collector mobile app.
+- «Visible» - controls layer's visibility in NextGIS Collector mobile app.
+- «Editable» - allow or deny editing of the layer in NextGIS Collector mobile app.
+- «Syncable» - allow or deny synchronization of the layer with your Web GIS.
+- «Lifetime for tiles (in min)» - time of tiles cashing (is actual for tiling layers).
+- «Min zoom» - a minimal zoom of the layer's visibility.
+- «Max zoom» - a maimum zoom of the layer's visibility.
+
+6. Then give permissions for data collection team participants on a "Collectors" tab ticking net to users participating in the project:
+
+.. figure:: _static/ngc-stages-011_eng.png
+   :name: ngc-stages-011
+   :align: center
+
+   «Collectors» tab
+
+7. Press "Create".
+
+As a result a Collector project (data collection project) will be created.
+
+You can have unlimited number of such projects in your Web GIS. In each of them you can restrain or allow access only for a certain set of participants from a data collection team.
