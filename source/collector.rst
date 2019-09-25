@@ -247,3 +247,86 @@ Each item of Collector project has next attributes:
 As a result a Collector project (data collection project) will be created.
 
 You can have unlimited number of such projects in your Web GIS. In each of them you can restrain or allow access only for a certain set of participants from a data collection team.
+
+
+Team participants: mobile app installation and start of data collection
+------------------------------------------------------------------------
+
+Data collection team participant should download and install NextGIS Collector mobile app on his mobile device.
+He could download it from Google Play Store using following the link - `NextGIS Collector`_
+or find it by the name in Google Play Store.
+
+ .. figure:: _static/ngc-user-01_eng.png
+   :name: ngc-user-01
+   :align: center
+   :width: 10cm
+
+  Search in Play Market
+
+
+After instalation completed start the app, skip information windows and give necessary permissions:
+
+
+ .. figure:: _static/ngc-user-02.png
+   :name: ngc-user-02
+   :align: center
+   :width: 10cm
+
+   Screen 1
+
+
+ .. figure:: _static/ngc-user-03.png
+   :name: ngc-user-03
+   :align: center
+   :width: 10cm
+
+   Screen 2
+
+
+ .. figure:: _static/ngc-user-04.png
+   :name: ngc-user-04
+   :align: center
+   :width: 10cm
+
+
+
+
+ .. figure:: _static/ngc-user-05.png
+   :name: ngc-user-05
+   :align: center
+   :width: 10cm
+
+
+ .. figure:: _static/ngc-user-06.png
+   :name: ngc-user-06
+   :align: center
+   :width: 10cm
+
+After successful signing in data collection team participant will see a list of projects.
+Suppose, there is a data collection project with starting screen as a list of forms in Web GIS.
+When you choose this test project, NextGIS Collector mobile app will display a list of layers.
+You can also switch the mode to a map.
+
+ .. figure:: _static/ngc-user-07.png
+   :name: ngc-user-07
+   :align: center
+   :width: 10cm
+
+   Choose data collection project.
+
+ .. figure:: _static/ngc-user-08.png
+   :name: ngc-user-08
+   :align: center
+   :width: 10cm
+
+   Editable layers of the project
+
+ .. figure:: _static/ngc-user-09.png
+   :name: ngc-user-09
+   :align: center
+   :width: 10cm
+
+   A list of layers in a view mode "Map"
+
+After all above-mentioned is done, data collection team participant could begin editing of layers.
+The process of editing and editing tools are similar to those in NextGIS Mobile.
