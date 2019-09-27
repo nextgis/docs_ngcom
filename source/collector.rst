@@ -256,7 +256,7 @@ Data collection team participant should download and install the NextGIS Collect
 You could download it from Google Play Store using following the link - `NextGIS Collector`_
 or find it by the name in Google Play Store.
 
- .. figure:: _static/ngc-user-01_eng.png
+.. figure:: _static/ngc-user-01_eng.png
    :name: ngc-user-01
    :align: center
    :width: 10cm
@@ -267,7 +267,7 @@ or find it by the name in Google Play Store.
 After instalation completed start the app, skip information windows and give necessary permissions:
 
 
- .. figure:: _static/ngc-user-02.png
+.. figure:: _static/ngc-user-02.png
    :name: ngc-user-02
    :align: center
    :width: 10cm
@@ -275,7 +275,7 @@ After instalation completed start the app, skip information windows and give nec
    Screen 1
 
 
- .. figure:: _static/ngc-user-03.png
+.. figure:: _static/ngc-user-03.png
    :name: ngc-user-03
    :align: center
    :width: 10cm
@@ -283,7 +283,7 @@ After instalation completed start the app, skip information windows and give nec
    Screen 2
 
 
- .. figure:: _static/ngc-user-04.png
+.. figure:: _static/ngc-user-04.png
    :name: ngc-user-04
    :align: center
    :width: 10cm
@@ -291,13 +291,13 @@ After instalation completed start the app, skip information windows and give nec
 
 
 
- .. figure:: _static/ngc-user-05.png
+.. figure:: _static/ngc-user-05.png
    :name: ngc-user-05
    :align: center
    :width: 10cm
 
 
- .. figure:: _static/ngc-user-06.png
+.. figure:: _static/ngc-user-06.png
    :name: ngc-user-06
    :align: center
    :width: 10cm
@@ -308,21 +308,21 @@ Suppose, there is a data collection project with starting screen as a list of fo
 When you choose this test project, the NextGIS Collector mobile app will display a list of layers.
 You can also switch the mode to a map.
 
- .. figure:: _static/ngc-user-07.png
+.. figure:: _static/ngc-user-07.png
    :name: ngc-user-07
    :align: center
    :width: 10cm
 
    Choose data collection project.
 
- .. figure:: _static/ngc-user-08.png
+.. figure:: _static/ngc-user-08.png
    :name: ngc-user-08
    :align: center
    :width: 10cm
 
    Editable layers of the project
 
- .. figure:: _static/ngc-user-09.png
+.. figure:: _static/ngc-user-09.png
    :name: ngc-user-09
    :align: center
    :width: 10cm
