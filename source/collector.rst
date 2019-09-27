@@ -256,16 +256,14 @@ Data collection team participant should download and install the NextGIS Collect
 You could download it from Google Play Store using following the link - `NextGIS Collector`_
 or find it by the name in Google Play Store.
 
-.. figure:: _static/ngc-user-01_eng.png
+.. figure:: _static/ngc-user-01.png
    :name: ngc-user-01
    :align: center
    :width: 10cm
 
   Search in Play Market
 
-
 After instalation completed start the app, skip information windows and give necessary permissions:
-
 
 .. figure:: _static/ngc-user-02.png
    :name: ngc-user-02
@@ -287,7 +285,6 @@ After instalation completed start the app, skip information windows and give nec
    :name: ngc-user-04
    :align: center
    :width: 10cm
-
 
 
 
