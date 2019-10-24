@@ -328,3 +328,6 @@ You can also switch the mode to a map.
 
 After all above-mentioned is done, data collection team participant could begin editing of layers.
 The process of editing and editing tools are similar to those in NextGIS Mobile.
+
+.. important::
+    We advice to collect data with activated gps. 
