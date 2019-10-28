@@ -76,7 +76,7 @@ These stages of work with NextGIS Collector could be described schematically as 
 
 .. raw:: html
 
-   <iframe width="560" height="315" src="https://www.youtube.com/watch?v=xsMcjVUUEQQ&feature=youtu.be" 
+   <iframe width="560" height="315" src="https://www.youtube.com/watch?v=xsMcjVUUEQQ" 
     frameborder="0" allow="accelerometer;
     autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
