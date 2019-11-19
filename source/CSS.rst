@@ -73,10 +73,10 @@ Hide layer icons on Web map:
 	    display: none;
 	}
 
+Upload a logo:
+~~~~~~~~~~~~~~~
 
-
-.. note:: 
-    At the moment you can't upload a new logo by yourself, but we can do it for you. If you want us to do it simply send your logo to support@nextgis.com. Format: PNG, height: up to 45 px, width - any.
+To upload a logo choose :guilabel:`Custom logo` on control panel (see item 1 in :numref:`admin_index_pic`) and in opened window upload a file in PNG format with height up to 45 px, width up to 200 px. Then press "Save".
 
 Advanced example
 ~~~~~~~~~~~~~~~~
