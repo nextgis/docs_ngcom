@@ -216,7 +216,7 @@ An item of Collector project could be a editable data layer, displaying only dat
 .. note::
             You could add PostGIS layers in Collector project, but the NextGIS Collector mobile app does not support work with them now
 
-Adding of items is like adding of layers when creating a web map. You need to press "Add item" button to add a layer or a data collection form. Press "Add group" button to create a group of items. Pulling of items is available within an item tree.
+Adding of items is like adding of layers when creating a web map. You need to press "Add item" button to add a layer or a data collection form. Select a vector layer in resourse list, not form. Press "Add group" button to create a group of items. Pulling of items is available within an item tree.
 
 .. figure:: _static/ngc-stages-010_eng.png
    :name: ngc-stages-010
