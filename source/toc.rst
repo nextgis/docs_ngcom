@@ -20,6 +20,7 @@ Contents:
    styles
    webmap_create
    annotation
+   webmap_print
    data_services
    resources_group
    parent_change
