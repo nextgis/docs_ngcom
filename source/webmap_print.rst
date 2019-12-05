@@ -6,10 +6,8 @@ How to print a Web map
 :ref:`Web GIS <ngcom_description>` allows to print a Web map or save it as a picture. To do it: 
 
 1. Go to the Properties window of Web map from the relevant Resource group;
-2. Select Web map ‣ Display on the right side of Web GIS admin console. 
-Web map will open in a web client which allows to view and edit geodata.
-In opened Web map client you can look at a Web map and edit geodata on it.
-3. Press "Print map" button (see :numref:`ngweb_webmap_client_print`).
+2. Select Web map ‣ Display on the right side of Web GIS admin console;
+3. In opened web client, which allows to view and edit geodata, press "Print map" button (see :numref:`ngweb_webmap_client_print`).
  
 .. figure:: _static/webmap_client_print_eng.png
    :name: ngweb_webmap_client_print
