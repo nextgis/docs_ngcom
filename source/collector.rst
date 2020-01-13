@@ -201,7 +201,7 @@ To do it:
     It will allow you to provide a safety of your data during the process of data collection.
 
 .. important::
-    It is highly unrecommeneded to use for «NextGIS Collector user credentials» data of the user with editor privileges, because in the case of loss or interception of this data malefactor will get an access to your Web GIS.
+    It is highly unrecommeneded to use for «NextGIS Collector user credentials» data of the user with administrator privileges, because in the case of loss or interception of this data malefactor will get an access to your Web GIS.
 
 .. figure:: _static/ngc-stages-009_eng.png
    :name: ngc-stages-009
