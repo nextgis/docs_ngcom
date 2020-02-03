@@ -46,7 +46,7 @@
    
    Создание трекера
 
-.. figure:: _static/tracker_settings.png
+.. figure:: _static/tracker_settings_id.png
    :name: Настройки трекера
    :align: center
    
