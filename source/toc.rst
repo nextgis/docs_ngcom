@@ -29,6 +29,7 @@
    data_export
    resource_delete
    ngqgis_connect
+   tracking
    collector
    ngapi
    CORS
