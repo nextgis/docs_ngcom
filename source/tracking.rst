@@ -176,7 +176,7 @@
 - Установить фильтр на последний день (отображение трека за последние сутки)
 - Показать последнюю активность (посмотреть почасовую активность)
 
-.. figure:: _static/track_and_location_ru.png
+.. figure:: _static/track_and_location_ru.PNG
    :name: Отображение точек трека, линий и текущей геопозиции на Веб карте
    :align: center
    
@@ -201,7 +201,7 @@
 - период времени
 - группировка по дням/часам
 
-.. figure:: _static/Tracking_report_ru.png
+.. figure:: _static/Tracking_report_ru.PNG
    :name: Отчет по трекеру
    :align: center
    
