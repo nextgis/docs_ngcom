@@ -330,4 +330,24 @@ After all above-mentioned is done, data collection team participant could begin 
 The process of editing and editing tools are similar to those in NextGIS Mobile.
 
 .. important::
-    We advice to collect data with activated gps. 
+    We recommend to collect data with activated GPS. 
+
+
+Administrator's check-list
+--------------------------
+
+This a short version of a Web GIS administrator check-list. Follow the steps to get your data collection up and running.
+
+1. Formulate a list of attributes of feature that you're going to collect/descibe in the field.
+2. Install NextGIS Software on your desktop.
+3. Create a Web GIS at nextgis.com, make sure you're on Premium.
+4. Run Formbuilder. Create a form, set field aliases for readability.
+5. Use Formbuilder to send your form to Web GIS. This will create a vector layer with style.
+6. Create an account to send data from NextGIS Collector app. For example:
+   Full name: Collector. Login: Collector. Password. Description: NextGIS Collector Account. Groups:Administrator.
+7. Create a basemap in your Web GIS. Search by 'OpenStreetMap'. Select OpenStreetMap Standard aka Mapnik.
+8. Create a Collector project. Enter name. Project - User name: Collector, enter password. 
+9. Items: add a layer you uploaded with Formbuilder (use Layer menu). Add a basemap you created earlier. Save.
+10. Add yourself as a user. ☰ - Control panel - Collector projects. Enter your e-mail, registered at nextgis.com
+11. Check the form on your device.
+12. Continue adding other users.
