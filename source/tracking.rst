@@ -71,10 +71,9 @@
 Затем в настройках приложения в разделе “Мои треки” активировать функцию **“Отправлять местоположение на сервер”**. 
 
 .. figure:: _static/Mobile_settings_ru.png
-   :scale: 100 %
    :name: Настройки NextGIS Mobile
    :align: center
-   :height: 10cm
+   :width: 400.0px
    
    Настройки NextGIS Mobile
 
@@ -82,10 +81,9 @@
 который необходимо указать в настройках трекера в Веб `ГИС <https://docs.nextgis.ru/docs_ngcom/source/tracking.html#id6>`_.
 
 .. figure:: _static/Mobile_send_to_server_ru.png
-   :scale: 100 %
    :name: Отправка местоположения на сервер. ID устройства
    :align: center
-   :height: 10cm
+   :width: 400.0px
    
    Отправка местоположения на сервер. ID устройства
 
@@ -102,18 +100,16 @@
 Так для того, чтобы начать новую запись, необходимо нажать на иконку “человека” на верхней панели и в контекстном меню выбрать *“Начать”*.
 
 .. figure:: _static/Collector_icon_ru.png
-   :scale: 100 %
    :name: Иконка трекера в NextGIS Collector
    :align: center
-   :height: 10cm
+   :width: 400.0px
    
    Иконка трекера в NextGIS Collector
    
 .. figure:: _static/start_track_ru.png
-   :scale: 100 %
    :name: Начать запись трека
    :align: center
-   :height: 10cm
+   :width: 400.0px
    
    Начать запись трека
 
@@ -121,10 +117,9 @@
 После этого запись трека появится в вашей Веб ГИС.
 
 .. figure:: _static/stop_track_ru.png
-   :scale: 100 %
    :name: Завершить запись трека
    :align: center
-   :height: 10cm
+   :width: 400.0px
    
    Завершить запись трека
    
@@ -139,10 +134,9 @@
 Здесь можно выключить видимость треков, раскрасить их по палитре, удалить или отправить их в формате GPX.
 
 .. figure:: _static/track_list_ru.png
-   :scale: 100 %
    :name: Список записанных треков
    :align: center
-   :height: 10cm
+   :width: 400.0px
    
    Список записанных треков
 
@@ -161,7 +155,6 @@
 Если процедуры, описанные `в разделе 3 <https://docs.nextgis.ru/docs_ngcom/source/tracking.html#id6>`_ были выполнены, то в левой панели отобразится иконка мониторинга движущихся объектов (трекеры).
 
 .. figure:: _static/Tracking_ru.png
-   :scale: 100 %
    :name: Интерфейс трекинга на Веб карте
    :align: center
    
@@ -172,7 +165,6 @@
 В дереве трекеров находится содержимое тех ресурсов, которые были созданы в веб ГИС или выгружены из мобильного приложения.
 
 .. figure:: _static/Tracking_tools_ru.png
-   :scale: 100 %
    :name: Дерево трекеров и опрерации над треком на Веб карте
    :align: center
    
@@ -222,7 +214,6 @@
    :scale: 100 %
    :name: Отчет по трекеру
    :align: center
-   :height: 10cm
    
    Отчет по трекеру
 
