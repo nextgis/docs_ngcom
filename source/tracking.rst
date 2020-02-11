@@ -73,7 +73,8 @@
 .. figure:: _static/Mobile_settings_ru.png
    :name: Настройки NextGIS Mobile
    :align: center
-   :width: 400.0px
+   :width: 425.0px
+   :height: 685.0px
    
    Настройки NextGIS Mobile
 
@@ -83,7 +84,8 @@
 .. figure:: _static/Mobile_send_to_server_ru.png
    :name: Отправка местоположения на сервер. ID устройства
    :align: center
-   :width: 400.0px
+   :width: 425.0px
+   :height: 685.0px
    
    Отправка местоположения на сервер. ID устройства
 
@@ -102,14 +104,16 @@
 .. figure:: _static/Collector_icon_ru.png
    :name: Иконка трекера в NextGIS Collector
    :align: center
-   :width: 400.0px
+   :width: 425.0px
+   :height: 685.0px
    
    Иконка трекера в NextGIS Collector
    
 .. figure:: _static/start_track_ru.png
    :name: Начать запись трека
    :align: center
-   :width: 400.0px
+   :width: 425.0px
+   :height: 685.0px
    
    Начать запись трека
 
@@ -119,12 +123,12 @@
 .. figure:: _static/stop_track_ru.png
    :name: Завершить запись трека
    :align: center
-   :width: 400.0px
+   :width: 425.0px
+   :height: 685.0px
    
    Завершить запись трека
    
 .. figure:: _static/push_notification_ru.png
-   :scale: 100 %
    :name: Всплывающее уведомление
    :align: center
    
@@ -136,7 +140,8 @@
 .. figure:: _static/track_list_ru.png
    :name: Список записанных треков
    :align: center
-   :width: 400.0px
+   :width: 425.0px
+   :height: 685.0px
    
    Список записанных треков
 
@@ -211,7 +216,6 @@
 - группировка по дням/часам
 
 .. figure:: _static/Tracking_report_ru.PNG
-   :scale: 100 %
    :name: Отчет по трекеру
    :align: center
    
