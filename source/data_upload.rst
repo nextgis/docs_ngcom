@@ -16,7 +16,7 @@ Raster data
 #. Press :guilabel:`Create` button. If Raster layer is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. warning:: 
-	Only upload of :term:`GeoTIFF` files with 3 or 4 bands (RGB or RGBA) is supported.
+	Supported are :term:`GeoTIFF` files with 3 or 4 bands (RGB or RGBA). Inputs must be geographically referenced and have correctly set CRS description as GeoTIFF metadata.
 
 .. figure:: _static/Raster_layer.gif
    :name: Raster_layer
