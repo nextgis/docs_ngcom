@@ -35,4 +35,5 @@
    CORS
    CSS
    homepage
+   domain
    help
