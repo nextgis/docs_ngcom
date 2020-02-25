@@ -350,4 +350,4 @@ This a short version of a Web GIS administrator check-list. Follow the steps to 
 9. Items: add a layer you uploaded with Formbuilder (use Layer menu). Add a basemap you created earlier. Save.
 10. Add yourself as a user. ☰ - Control panel - Collector projects. Enter your e-mail, registered at nextgis.com
 11. Check the form on your device.
-12. Continue adding other users.
+12. Continue adding other users. For simplicity, ask users for register unsing gmail account. gmail client is already on every android, and already signed in.
