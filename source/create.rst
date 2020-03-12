@@ -174,7 +174,7 @@
 
    Список пользователей Веб ГИС
    
-   .. figure:: _static/admin_change_password.png
+ .. figure:: _static/admin_change_password.png
    :name: admin_change_password
    :align: center
    :width: 16cm    
@@ -184,7 +184,7 @@
    
 В случае, если вы забыли пароль администратора и не можете войти в Веб ГИС, то установите новый пароль на https://my.nextgis.com/ (см. :numref:`Web_GIS_change_password`)
 
-   .. figure:: _static/Web_GIS_change_password.png
+ .. figure:: _static/Web_GIS_change_password.png
    :name: Web_GIS_change_password
    :align: center
    :width: 16cm    
