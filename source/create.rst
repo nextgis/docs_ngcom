@@ -58,6 +58,20 @@
    Для аккаунтов с неподтвержденным адресом электронной почты создание Веб ГИС недоступно.
 
 
+.. _ngcom_ngid_change_password:
+
+Изменение пароля NextGIS ID
+-----------------
+
+Чтобы изменить пароль учетной записи NextGIS ID, нужно перейти в настройки профиля https://my.nextgis.com/profile и установить новый пароль (см. :numref:`ngid_change_pass`).
+
+.. figure:: _static/ngid_change_pass.png
+   :name: ngid_change_pass
+   :align: center
+   :width: 16cm    
+
+   Изменения пароля NextGIS ID
+
 .. _ngcom_create_webgis:
 
 Создание Веб ГИС
@@ -143,3 +157,36 @@
    :width: 16cm     
 
    Страница "Помощь".
+   
+   
+.. _ngcom_change_password_webgis:
+
+Изменение паролей входа в Веб ГИС
+-----------------
+
+По вашему желанию мы имеете возможность изменять пароли пользователей для входа в вашу Веб ГИС .
+Это функция доступна в разделе "Пользователи" в Панели управления (см. :numref:`list_users`). Пароль можно изменить как для администратора, так и для остальных пользователей в Веб ГИС (см. :numref:`admin_change_password`).
+
+.. figure:: _static/list_users.png
+   :name: list_users
+   :align: center
+   :width: 16cm    
+
+   Список пользователей Веб ГИС
+   
+   .. figure:: _static/admin_change_password.png
+   :name: admin_change_password
+   :align: center
+   :width: 16cm    
+
+   Изменение пароля пользователя Веб ГИС
+   
+   
+В случае, если вы забыли пароль администратора и не можете войти в Веб ГИС, то установите новый пароль на https://my.nextgis.com/ (см. :numref:`Web_GIS_change_password`)
+
+   .. figure:: _static/Web_GIS_change_password.png
+   :name: Web_GIS_change_password
+   :align: center
+   :width: 16cm    
+
+   Изменение пароля администратора Веб ГИС
