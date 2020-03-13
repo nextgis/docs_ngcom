@@ -56,6 +56,22 @@ When you receive the letter click on the link to confirm your email address. Aft
 
    You will not be able to create Web GIS until you confirm your email address.
 
+
+.. _ngcom_ngid_change_password:
+
+How to change password NextGIS ID
+-----------------
+
+To change the password for the NextGIS ID account, go to the profile settings https://my.nextgis.com/profile and set a new password (см. :numref:`ngid_change_pass`).
+
+.. figure:: _static/ngid_change_pass.png
+   :name: ngid_change_pass
+   :align: center
+   :width: 16cm    
+
+   Changing password NextGIS ID
+
+
 .. _ngcom_create_webgis:
 
 How to create Web GIS
@@ -137,3 +153,12 @@ A "Help" page with links to user documentation, legal documents and NextGIS cont
    :width: 16cm     
 
    "Help" page.
+   
+
+.. _ngcom_change_password_webgis:
+
+How to change Web GIS Login Passwords
+-----------------
+
+If you want you have the ability to change user passwords to enter your Web GIS.
+This feature is available in the "Users" section in the Control Panel (см. :numref:`list_users`). You can change the password for the administrator as well as for other users in the Web GIS (см. :numref:`admin_change_password`).
