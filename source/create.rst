@@ -171,6 +171,13 @@
 1. Перейдите на my.nextgis.com
 2. Выберите "Забыли пароль?"
 
+.. figure:: _static/forgot_pass_ngid.png
+   :name: forgot_pass_ngid
+   :align: center
+   :width: 16cm    
+
+   Восстановление пароля NextGIS ID
+
 Пароль от Веб ГИС - administrator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
