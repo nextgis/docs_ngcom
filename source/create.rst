@@ -174,7 +174,7 @@
 
    Список пользователей Веб ГИС
    
- .. figure:: _static/admin_change_password.png
+.. figure:: _static/admin_change_password.png
    :name: admin_change_password
    :align: center
    :width: 16cm    
