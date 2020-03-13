@@ -62,10 +62,10 @@ When you receive the letter click on the link to confirm your email address. Aft
 How to change password NextGIS ID
 -----------------
 
-To change the password for the NextGIS ID account, go to the profile settings https://my.nextgis.com/profile and set a new password (см. :numref:`ngid_change_pass`).
+To change the password for the NextGIS ID account, go to the profile settings https://my.nextgis.com/profile and set a new password (см. :numref:`ngid_change_pass_en`).
 
-.. figure:: _static/ngid_change_pass.png
-   :name: ngid_change_pass
+.. figure:: _static/ngid_change_pass_en.png
+   :name: ngid_change_pass_en
    :align: center
    :width: 16cm    
 
@@ -157,32 +157,57 @@ A "Help" page with links to user documentation, legal documents and NextGIS cont
 
 .. _ngcom_change_password_webgis:
 
-How to change Web GIS Login Passwords
------------------
+Access recovery and passwords
+-------------------------------
 
-If you want you have the ability to change user passwords to enter your Web GIS.
-This feature is available in the "Users" section in the Control Panel (см. :numref:`list_users`). You can change the password for the administrator as well as for other users in the Web GIS (см. :numref:`admin_change_password`).
+NextGIS ID Password
+~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: _static/list_users.png
-   :name: list_users
+If you forgot your account password (NextGIS ID):
+
+1. Go to https://my.nextgis.com/
+2. Choose "Forgot password?"
+
+.. figure:: _static/forgot_pass_ngid_en.png
+   :name: forgot_pass_ngid_en
    :align: center
    :width: 16cm    
 
-   List of Web Gis Users
-   
-.. figure:: _static/admin_change_password.png
-   :name: admin_change_password
+   Password recovery NextGIS ID
+
+
+Web GIS password - administrator
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you have forgotten administrator's password of your Web GIS and cannot log in:
+
+1. Go to на https://my.nextgis.com/
+2. Sign in with NextGIS ID
+3. Go to Web GIS Settings
+4. Click Change Web GIS Password
+5. Enter and confirm a new password
+
+Wait for the confirmation message by email. Then you can log in to your Web GIS administrator user and specified password.
+
+ .. figure:: _static/Web_GIS_change_password_eng.png
+   :name: Web_GIS_change_password_eng
+   :align: center
+   :width: 16cm    
+
+   Changing Web GIS Administrator Password
+
+
+Web GIS password - any other user
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+At your request, you can change user passwords to log into your GIS Web.
+
+This feature is available in the "Users" section in the Control Panel. You can change the password for the administrator as well as for other users in the Web GIS (см. :numref:`change_password_user_en`).
+
+.. figure:: _static/change_password_user_en.png
+   :name: change_password_user_en
    :align: center
    :width: 16cm    
 
    Changing Web GIS User Password
    
-   
-In case you forgot the administrator password and cannot log into Web GIS, set a new password at https://my.nextgis.com/ (см. :numref:`Web_GIS_change_password`)
-
- .. figure:: _static/Web_GIS_change_password.png
-   :name: Web_GIS_change_password
-   :align: center
-   :width: 16cm    
-
-   Changing Web GIS administrator password
