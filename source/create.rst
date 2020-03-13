@@ -163,7 +163,7 @@ Access recovery and passwords
 NextGIS ID Password
 ~~~~~~~~~~~~~~~~~~~~
 
-If you forgot your account password (NextGIS ID):
+If you've forgotten your account password (NextGIS ID):
 
 1. Go to https://my.nextgis.com/
 2. Choose "Forgot password?"
@@ -176,12 +176,12 @@ If you forgot your account password (NextGIS ID):
    Password recovery NextGIS ID
 
 
-Web GIS password - administrator
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Web GIS password for administrator
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you have forgotten administrator's password of your Web GIS and cannot log in:
+If you've forgotten administrator's password of your Web GIS and cannot log in:
 
-1. Go to на https://my.nextgis.com/
+1. Go to https://my.nextgis.com/
 2. Sign in with NextGIS ID
 3. Go to Web GIS Settings
 4. Click Change Web GIS Password
@@ -197,12 +197,12 @@ Wait for the confirmation message by email. Then you can log in to your Web GIS 
    Changing Web GIS Administrator Password
 
 
-Web GIS password - any other user
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Web GIS password for any other user
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-At your request, you can change user passwords to log into your GIS Web.
+Only user with administrator privileges can change other user password.
 
-This feature is available in the "Users" section in the Control Panel. You can change the password for the administrator as well as for other users in the Web GIS (см. :numref:`change_password_user_en`).
+This feature is available in the "Users" section in the Control Panel. You can change the password for the administrator here as well as for other users of the Web GIS (см. :numref:`change_password_user_en`).
 
 .. figure:: _static/change_password_user_en.png
    :name: change_password_user_en
