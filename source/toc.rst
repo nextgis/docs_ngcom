@@ -37,4 +37,4 @@
    homepage
    domain
    help
-   faq
+   faq_webgis
