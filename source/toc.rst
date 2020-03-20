@@ -37,3 +37,4 @@
    homepage
    domain
    help
+   faq
