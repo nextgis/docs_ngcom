@@ -35,3 +35,4 @@ Contents:
    homepage
    CSS
    help
+   faq_webgis
