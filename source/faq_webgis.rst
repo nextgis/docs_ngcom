@@ -49,7 +49,7 @@ Q: I forgot the password for Web GIS user created by the administrator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **A**: If you have forgotten the password for any user who is not a Web GIS administrator, follow these steps: 
 
-1. Go to `my.nextgis.com <https://my.nextgis.com//>` _
+1. Go to `my.nextgis.com <https://my.nextgis.com//>`_
 2. Log in with NextGIS ID
 3. Log in to your Web GIS http://username.nextgis.com/ as user ** administrator **
 4. Open the main menu in the upper right corner of the interface
