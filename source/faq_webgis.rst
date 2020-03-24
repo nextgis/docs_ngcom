@@ -57,7 +57,7 @@ Q: I forgot the password for Web GIS user created by the administrator
 4. Open the main menu in the upper right corner of the interface
 5. Go to Control Panel
 6. Open the user list
-7. Change the password in the user settings (see: numref: `change_password_user_en`)
+7. Change the password in the user settings (см. :numref:`change_password_user_en`)
 
 .. figure:: _static/change_password_user_en.png
    :name: change_password_user_en
