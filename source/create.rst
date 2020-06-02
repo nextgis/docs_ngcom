@@ -157,3 +157,60 @@
 
    Страница "Помощь".
    
+
+Управление командой
+-----------------
+
+.. warning::
+   Данный функционал доступен только для пользователей плана `Premium <http://nextgis.ru/nextgis-com/plans>`_.
+
+
+.. note::
+   Данный раздел относится к пользователям NextGIS, имеющим аккаунт на my.nextgis.com, а не к `пользователям <https://docs.nextgis.ru/docs_ngweb/source/admin_tasks.html#ngw-create-group>`_ определенной Веб ГИС.
+   
+
+В соответствии с тарифными планами nextgis.com владелец Premium аккаунта имеет возможность дать доступ к Pro-функциям `NextGIS QGIS <https://nextgis.ru/nextgis-qgis#pro>`_, `Mobile <https://nextgis.ru/nextgis-mobile#pro>`_ и `Formbuilder <https://nextgis.ru/nextgis-formbuilder#pro>`_ еще 4 пользователям.
+
+Механизм управления командой позволяет добавить в свою команду любого пользователя NextGIS по его никнейму. Управление командой доступно через личный кабинет на https://my.nextgis.com/teammanage в разделе “Команда” (см. :numref:`Team_on_panel`).
+
+.. figure:: _static/Team_on_panel.png
+   :name: Team_on_panel
+   :align: center
+   :width: 16cm    
+
+   Раздел “Команда” в левой панели Личного кабинета
+   
+По умолчанию в команде уже находится администратор, который приобрел подписку на Premium (см. :numref:`First_administrator`). Он имеет возможность добавить новых пользователей, нажав кнопку “Добавить” и найдя их по никнейму NextGIS ID (см. :numref:`list_users`). Пользователи должны быть уже зарегистрированы на my.nextgis.com. Логин пользователя можно увидеть в его профиле на https://my.nextgis.com/. Если пользователь забыл свой логин и не может войти в профиль, он должен восстановить `доступ <https://docs.nextgis.ru/docs_ngcom/source/faq_webgis.html#nextgis-id>`_.
+
+.. figure:: _static/First_administrator.png
+   :name: First_administrator
+   :align: center
+   :width: 16cm    
+
+   Состав команды по умолчанию (только администратор)
+   
+   
+.. figure:: _static/list_users.png
+   :name: list_users
+   :align: center
+   :width: 16cm    
+
+   Добавление пользователя
+   
+   
+Каждый добавленный пользователь появится в списке (см. :numref:`all_users`). В любой момент пользователя можно удалить и/или заменить на другого, если достигнут доступный по тарифу лимит на размер команды (см. :numref:`limit_users`)
+
+.. figure:: _static/all_users.png
+   :name: all_users
+   :align: center
+   :width: 16cm    
+
+   Список пользователей, добавленных в команду
+   
+   
+.. figure:: _static/limit_users.png
+   :name: limit_users
+   :align: center
+   :width: 16cm    
+
+   Сообщение о превышении лимита пользователей в команде
