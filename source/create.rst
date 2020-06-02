@@ -176,7 +176,7 @@
 .. figure:: _static/Team_on_panel.png
    :name: Team_on_panel
    :align: center
-   :width: 16cm    
+   :width: 8cm    
 
    Раздел “Команда” в левой панели Личного кабинета
    
@@ -193,7 +193,7 @@
 .. figure:: _static/list_users.png
    :name: list_users
    :align: center
-   :width: 16cm    
+   :width: 14cm    
 
    Добавление пользователя
    
@@ -211,6 +211,6 @@
 .. figure:: _static/limit_users.png
    :name: limit_users
    :align: center
-   :width: 16cm    
+   :width: 12cm    
 
    Сообщение о превышении лимита пользователей в команде
