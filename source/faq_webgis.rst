@@ -55,11 +55,11 @@
 3. Войдите в свою Веб ГИС http://username.nextgis.com/ под пользователем **administrator**
 4. Откройте основное меню в правом верхем углу интерфейса
 5. Перейдите в Панель управления
-6. Откройте список пользователей (см. :numref:`list_users`)
+6. Откройте список пользователей (см. :numref:`control_list_users`)
 7. Измените пароль в настройках пользователя (см. :numref:`admin_change_password`)
 
-.. figure:: _static/list_users.png
-   :name: list_users
+.. figure:: _static/control_list_users.png
+   :name: control_list_users
    :align: center
    :width: 16cm    
 
