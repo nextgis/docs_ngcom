@@ -154,3 +154,59 @@ A "Help" page with links to user documentation, legal documents and NextGIS cont
 
    "Help" page.
    
+
+.. _ngcom_ream_management:
+
+Team management
+---------------------
+
+.. warning::
+   This functionality is only available for `Premium <http://nextgis.com/nextgis-com/plans>`_ users.
+   
+.. note::
+   This section applies to NextGIS users who have an account on my.nextgis.com, not `users <https://docs.nextgis.com/docs_ngweb/source/admin_tasks.html#ngw-create-group>`_ of a particular Web GIS.
+   
+According to nextgis.com plans, the Premium account holder has an opportunity to give access to Pro-functions of`NextGIS QGIS <https://nextgis.com/nextgis-qgis#pro>`_, `Mobile <https://nextgis.com/nextgis-mobile#pro>`_ и `Formbuilder <https://nextgis.com/nextgis-formbuilder#pro>`_ to 4 more users.
+
+Team management allows adding any NextGIS user by login to your team. Team management is available through your personal account at https://my.nextgis.com/teammanage in the Team section (see :numref:`Team_on_panel`).
+
+.. figure:: _static/Team_on_panel.png
+   :name: Team_on_panel
+   :align: center
+   :width: 8cm    
+
+   The Team section of the Personal Account
+   
+By default, the team includes the owner of the Premium subscription (see :numref:`First_administrator`). The owner can add team members by clicking the Add button and finding them using their NextGIS ID user name (see :numref:`teamlist_users`). Team members must already be registered on my.nextgis.com. The username can be seen in `profile <https://my.nextgis.com/>`_. If the user has forgotten his username and cannot login to his profile, he can `restore <https://docs.nextgis.com/docs_ngcom/source/faq_webgis.html#access-recovery-and-passwords>`_ access.
+
+.. figure:: _static/First_administrator.png
+   :name: First_administrator
+   :align: center
+   :width: 16cm    
+
+   Default view (owner only)
+   
+   
+.. figure:: _static/teamlist_users.png
+   :name: teamlist_users
+   :align: center
+   :width: 14cm    
+
+   Default view (owner only)
+   
+Each added team member will appear in the list (see :numref:`all_users`). At any moment, a team member can be removed and/or replaced by another, until the limit of the team is reached (see :numref:`limit_users`).
+
+.. figure:: _static/all_users.png
+   :name: all_users
+   :align: center
+   :width: 16cm    
+
+   Users added to the team
+   
+   
+.. figure:: _static/limit_users.png
+   :name: limit_users
+   :align: center
+   :width: 12cm    
+
+   Message about exceeding the limit of members in the team
