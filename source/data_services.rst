@@ -16,9 +16,6 @@ WMS service
 #. Go to :guilabel:`WMS service` tab and select those resources (:ref:`Styles <ngcom_styles>` or :ref:`WMS layers <ngcom_wms_layer>`) which you want to publish using WMS protocol. **You need to specify a keyname for each resource**;
 #. Press :guilabel:`Create` button. If WMS service is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
-.. note:: 
-	Web GIS supports connection of resources published using WMS protocol via :term:`TMS` service. Read more about it :ref:`here <ngw_create_tms_service>`.
-
 Read more about WMS service creation :ref:`here <ngw_create_wms_service>`.
 
 .. _ngcom_wfs_service:
