@@ -69,7 +69,7 @@ If you have forgotten the password for any user who is not a Web GIS administrat
 
 .. _ngcom_2_accounts_nextgis:
 
-2 accounts NextGIS. Background
+Two accounts NextGIS. Background
 -------------------------------
 
 NextGIS is growing fast and it has several services and products that use authorization, Web GIS is one of them.
