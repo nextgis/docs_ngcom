@@ -338,11 +338,11 @@ Administrator's check-list
 
 This a short version of a Web GIS administrator check-list. Follow the steps to get your data collection up and running.
 
-1. Formulate a list of attributes of feature that you're going to collect/descibe in the field.
+1. Formulate a list of attributes of feature that you're going to collect and describe in the field.
 2. Install NextGIS Software on your desktop.
 3. Create a Web GIS at nextgis.com, make sure you're on Premium.
-4. Run Formbuilder. Create a form, set field aliases for readability.
-5. Use Formbuilder to send your form to Web GIS. This will create a vector layer with style.
+4. Run NextGIS Formbuilder, unlock Pro. Create a form, set field aliases for readability.
+5. Upload your form to your Web GIS. This will create a vector layer with style.
 6. Create an account to send data from NextGIS Collector app. For example:
    Full name: Collector. Login: Collector. Password. Description: NextGIS Collector Account. Groups:Administrator.
 7. Create a basemap in your Web GIS. Search by 'OpenStreetMap'. Select OpenStreetMap Standard aka Mapnik.
