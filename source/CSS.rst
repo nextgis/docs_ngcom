@@ -54,6 +54,17 @@
         .navigation-menu__item[data-item-value=printMapPanel]{
                 display: none;
         }
+	
+	
+Скрыть кнопки Учеличения и Уменьшения зума, кнопки Домой
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+	.control-pane.control-pane--top.control-pane--left {
+    		display: none;
+	}
+	
 
 Скрыть заголовок окна идентификации объекта на веб-карте
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
