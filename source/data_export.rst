@@ -3,7 +3,18 @@
 Как экспортировать данные
 ======================================
 
-:ref:`Веб ГИС <ngcom_description>` позволяет выгружать данные из :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` в форматах :term:`GeoJSON`, :term:`CSV`, CSV для Microsoft Excel, ESRI Shape, AutoCAD DXF, Mapinfo TAB, MapInfo MIF/MID и GeoPackage. При экспорте в определенные форматы создаются дополнительные полезные файлы, например CSVT (описание полей) и PRJ (описание проекции) для CSV, CPG (кодовая страница) для ESRI Shapefile.
+:ref:`Веб ГИС <ngcom_description>` позволяет выгружать данные из :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` в форматах:
+
+* :term:`GeoJSON`
+* :term:`CSV`
+* CSV для Microsoft Excel
+* ESRI Shape
+* AutoCAD DXF
+* Mapinfo TAB
+* MapInfo MIF/MID
+* GeoPackage.
+
+При экспорте в определенные форматы создаются дополнительные полезные файлы, например CSVT (описание полей) и PRJ (описание проекции) для CSV, CPG (кодовая страница) для ESRI Shapefile.
 
 Для того, чтобы экспортировать данные:
 
