@@ -17,7 +17,7 @@ Web GIS also allows to :ref:`connect <ngcom_data_connect>` geodata from the foll
 * :term:`PostGIS` databases;
 * :term:`WMS` services (WMS server should support :term:`coordinate system` EPSG:3857).
 
-You can add images (including photos) to vector geodata from local and external sources. Image files should be in JPEG or PNG format. Read more :ref:`here <ngcom_data_edit>`.
+You can add images (including photos) to vector geodata from local and external sources. Image files should be in JPEG or PNG format. Read more `here <https://docs.nextgis.com/docs_ngweb/source/layers_settings.html#ngw-add-photos/>`_.
 
 You can also publish uploaded or connected to your Web GIS geodata using :term:`WFS` (with feature update support) and :term:`WMS` protocols. Read more :ref:`here <ngcom_data_services>`.
 
