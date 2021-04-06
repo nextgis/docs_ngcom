@@ -56,7 +56,7 @@
 Для разработчиков все параметры экспорта доступны через HTTP API.
 Например, такой запрос выдаст данные слоя в формате CSV, системе координат EPSG:4326, кодировке UTF-8:
 
-https://demo.nextgis.com/api/resource/4077/export?format=csv&srs=4326&zipped=true&fid=ngw_id&encoding=UTF-8
+https://demo.nextgis.com/api/resource/4077/export?format=CSV&srs=4326&zipped=true&fid=ngw_id&encoding=UTF-8
 
 Настраиваемые системы координат
 ---------------------------------
