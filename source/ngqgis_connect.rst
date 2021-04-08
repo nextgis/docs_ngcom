@@ -35,8 +35,8 @@ Creating and uploading data
 
 NextGIS Connect plugin enables a fast upload of raster and vector data and whole QGIS projects to Web GIS. You'll be able to publish your maps and geodata online very quick and easy.
 
-Creating and uploading vector data to Web GIS:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Uploading vector data
+~~~~~~~~~~~~~~~~~~~~~
 
 .. warning:: 
    You can avoid :ref:`data format limitations <ngcom_vector_layer>` when uploading vector data to Web GIS through NextGIS Connect by switching on options "Rename forbidden fields" and "Fix incorrect geometries" in :guilabel:`Settings` dialog.
@@ -47,17 +47,28 @@ Creating and uploading vector data to Web GIS:
 * Press :guilabel:`Import selected layer` button on NextGIS Connect control panel or select :menuselection:`NextGIS Connect --> Import selected layer` in layer context menu;
 * If data is uploaded successfully you'll see in the relevant Resource group a new :ref:`Vector layer <ngcom_data_upload>` with :ref:`QGIS style <ngcom_styles>` tailored by you.
 
-Uploading raster data to Web GIS:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Uploading raster data
+~~~~~~~~~~~~~~~~~~~~~
 
-* Upload to QGIS raster layers from :term:`GeoTIFF` files;
+* Add raster layers to QGIS from :term:`GeoTIFF` files;
 * Select in NextGIS Connect Resources panel Resource group to which you want to upload your data;
 * Select in QGIS Layers panel a raster layer which you want to upload to Web GIS;
 * Press :guilabel:`Import selected layer` button on NextGIS Connect control panel or select :menuselection:`NextGIS Connect --> Import selected layer` in layer context menu;
 * If data is uploaded successfully you'll see in the relevant Resource group a new :ref:`Raster layer <ngcom_data_upload>` with default :ref:`Raster style <ngcom_styles>`.
 
-Creating and uploading a whole QGIS project to Web GIS:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Uploading basemaps
+~~~~~~~~~~~~~~~~~~
+
+* Add basemaps to QGIS via TMS;
+* Select in NextGIS Connect Resources panel Resource group to which you want to add your basemap;
+* Select in QGIS Layers panel a basemap which you want to upload to Web GIS;
+* Press :guilabel:`Import selected layer` button on NextGIS Connect control panel or select :menuselection:`NextGIS Connect --> Import selected layer` in layer context menu;
+* If a basemap is uploaded successfully you'll see it the relevant Resource group.
+
+You need to be on Mini or Premium to work with basemaps.
+
+Creating and uploading a whole QGIS project
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Create a QGIS project with raster and vector layers. Tailor their styles, group them, set their hierarchy and visibility settings. Set the map extent;
 * Select in NextGIS Connect Resources panel :ref:`Resource group <ngcom_resources_group>` to which you want to upload the project;
