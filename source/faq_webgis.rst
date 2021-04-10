@@ -69,30 +69,30 @@ If you have forgotten the password for any user who is not a Web GIS administrat
 
 .. _ngcom_2_accounts_nextgis:
 
-Two accounts NextGIS. Background
+Two NextGIS accounts. Background
 -------------------------------
 
-NextGIS is growing fast and it has several services and products that use authorization, Web GIS is one of them.
+NextGIS is growing fast and it has several services and products that use authorization. Web GIS is one of this services.
 
-As a rule, a typical NextGIS platform user needs 2 accounts: a global and a local one. But, for some specific tasks, it is possible that one of them will be enough.
+As a rule, a typical NextGIS platform user needs 2 accounts: a global and a local one. But, for some specific tasks, it is possible that just one of them will be enough.
 
 .. _ngcom_global_account:
 
 Global account
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Most services require a **global** account. This is the usual account that acts uniformly almost everywhere. It gives access to all services, except for **Web GIS**.
+~~~~~~~~~~~~~~
+Most services require a **global** account. This is the typical account that acts uniformly almost everywhere. It gives access to all services, except **Web GIS**.
 
-This account is created by registration at http://my.nextgis.com. Email or login provided during registration can be used to sign in with services.
+This account is created by registration at http://my.nextgis.com. Email or login and password provided during registration can be used to sign in with services.
 
-Thus, if the user does not need to *enter* the Web GIS, global account is enough and a local one is not needed.
+Thus, if the user does not need to *enter* the Web GIS, global account is enough.
 
 .. _ngcom_local_account:
 
 Local account (your Web GIS account)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Historically, NextGIS' main product is Web GIS. Unlike other services that use central database of users, **each** Web GIS has its **own account system** that operates **locally** within that Web GIS.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Historically, NextGIS' main service is Web GIS. Unlike other services that use centralized database of users, **each** Web GIS has its **own account system** that operates **locally** within that Web GIS.
 
-For example, each Web GIS has *administrator* user. Its locality lies in the fact that it is impossible to enter a Web GIS with the *administrator* account of another Web GIS. In other words, other services and applications do not know anything about this user, unless it is indicated which Web GIS he is from.
+For example, each Web GIS has *administrator* user. Its locality results in that it is impossible to enter one Web GIS with the *administrator* account of another Web GIS. Other services and applications automatically do not know anything about this user, unless it is indicated which Web GIS he is from.
 
 These accounts are created in the Web GIS control panel by a user with appropriate authority (usually administrator). They are not tied to any E-mails.
 
@@ -100,7 +100,7 @@ These accounts are created in the Web GIS control panel by a user with appropria
 .. _ngcom_how_to_use:
 
 Which account to use and where
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **NextGIS Web (Web GIS)**
 
