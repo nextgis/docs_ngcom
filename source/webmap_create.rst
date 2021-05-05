@@ -40,3 +40,22 @@ Read more about Web map web client :ref:`here <ngw_webmaps_client>`.
 
 .. warning::
     We do not recommend turning on more than 1 :ref:`WMS layer <ngcom_wms_layer>` on Free plan and 3 WMS layers on Mini/Premium plan. Otherwise slow connections with external WMS servers might use up all available similtaneous connections which will considerable slow down (or even stop) work of all your Web maps and :ref:`admin console <ngw_admin_interface>`.
+
+Add description and map legend
+--------------------------------------------------
+
+#. Open :ref:`Resource group <how-to-manage-data-storage>` containing Web map;
+#. Click on **Update** (icon of a pencil) opposite to Web map;
+#. Switch to **Description** tab, set descriptive text, hyperlinks and insert image of map legend via URL or paste it from a clipboard;
+#. Click on **Save** button;
+#. Display Web map. Menu bar with **Description** button (*info* icon) is located on the left side of the workspace. Information under this button reflects the one assigned through Web map settings;
+#.  To share Web map with loaded description, copy link from browser address bar. Link should end with **panel=info**. While following such link Web map with already loaded description opens.
+
+ `Example <https://demo.nextgis.com/resource/4019/display?panel=info>`_ of Web map with legend.
+
+.. figure:: _static/Legend_1.png
+   :name: Legend_1
+   :align: center
+   :width: 20cm
+   
+   Description and legend of a Web map
