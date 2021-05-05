@@ -51,7 +51,7 @@ Add a description and map legend
 #. Display Web map. Menu bar with **Description** button (*info* icon) is located on the left side of the workspace. Information reflects the description you've just set;
 #.  To share Web map with description open, copy link from browser address bar. Link should end with **panel=info**. Following such link will load a Web map with description opened.
 
- `Example <https://demo.nextgis.com/resource/4019/display?panel=info>`_ of Web map with legend.
+ `Example <https://demo.nextgis.com/resource/5201/display?panel=info>`_ of a Web map showing a legend.
 
 .. figure:: _static/Legend_1.png
    :name: Legend_1
