@@ -58,4 +58,4 @@ Add a description and map legend
    :align: center
    :width: 20cm
    
-   Description and legend of a Web map
+   Description and legend for a Web map
