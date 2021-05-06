@@ -10,7 +10,7 @@ To make it super-easy we've created `NextGIS Connect <https://plugins.qgis.org/p
 .. _ngcom_ngqgis_connect_connection:
 
 Establishing Web GIS connection
------------------------------------
+-------------------------------
 
 First you need to establish a connection to your Web GIS:
 
@@ -111,7 +111,7 @@ It's possible due to the quick creation of :ref:`WFS service <ngcom_wfs_service>
 Updating data
 -------------
 
-You can update vector layer contents using NextGIS Connect, keeping styles, field aliases and other settings intact.
+You can update the whole vector layer contents using NextGIS Connect, keeping styles, field aliases and other settings intact.
 
 To update (overwrite) layer's data:
 
@@ -120,6 +120,9 @@ To update (overwrite) layer's data:
 * Right click on the last layer and choose Overwrite selected layer.
 
 Layer resource identifier will also be kept. Overwrite assumes that both layers structures are the same.
+
+.. warning:: 
+   All target layer data including attachments (photos or documens) will be cleared. If you need to save them - update via WFS instead.
 
 .. _ngcom_ngqgis_connect_data_edit:
 
