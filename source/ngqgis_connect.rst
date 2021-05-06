@@ -87,7 +87,7 @@ Creating and uploading a whole QGIS project
 .. _ngcom_ngqgis_connect_wfs_service:
 
 Creating WFS services
---------------------------------------------------------------
+---------------------
 
 NextGIS Connect plugin enables a fast publication of Vector layers from your Web GIS using standard :term:`WFS` protocol. 
 
@@ -106,10 +106,25 @@ It's possible due to the quick creation of :ref:`WFS service <ngcom_wfs_service>
    :align: center
    :width: 850px
 
+.. _ngcom_ngqgis_connect_data_overwrite:
+
+Updating data
+-------------
+
+You can update vector layer contents using NextGIS Connect, keeping styles, field aliases and other settings intact.
+
+To update (overwrite) layer's data:
+
+* Select a vector layer in QGIS Layers panel contents of which you need to send to a vector layer in Web GIS;
+* Select a vector layer in NextGIS Connect panel contents of which you need to overwrite;
+* Right click on the last layer and choose Overwrite selected layer.
+
+Layer resource identifier will also be kept. Overwrite assumes that both layers structures are the same.
+
 .. _ngcom_ngqgis_connect_data_edit:
 
 Editing data
----------------------------------------------------------------
+------------
 
 NextGIS Connect plugin enables an easy editing of geometries and attributes of Vector layers features. 
 
