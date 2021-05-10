@@ -1,7 +1,7 @@
 .. _ngcom_ngqgis_connect:
 
 How to manage data with desktop app NextGIS QGIS
-====================================================================================================
+================================================
 
 You can upload, edit and perform other operations with geodata in your :ref:`Web GIS <ngcom_description>` not only in :ref:`admin console <ngw_admin_interface>` but also with desktop app `NextGIS QGIS <http://nextgis.ru/nextgis-qgis/>`_.
 
@@ -31,7 +31,7 @@ First you need to establish a connection to your Web GIS:
 .. _ngcom_ngqgis_connect_data_upload:
 
 Creating and uploading data
-------------------------------------------------
+---------------------------
 
 NextGIS Connect plugin enables a fast upload of raster and vector data and whole QGIS projects to Web GIS. You'll be able to publish your maps and geodata online very quick and easy.
 
@@ -123,6 +123,11 @@ Layer resource identifier will also be kept. Overwrite assumes that both layers 
 
 .. warning:: 
    All target layer data including attachments (photos or documens) will be cleared. If you need to save them - update via WFS instead.
+
+.. figure:: _static/connect_vector_overwrite.png
+   :name: connect_vector_overwrite
+   :align: center
+   :width: 850px
 
 .. _ngcom_ngqgis_connect_data_edit:
 
