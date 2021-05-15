@@ -19,9 +19,13 @@ Raster data
 #. Press :guilabel:`Create` button. If Raster layer is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. important::
-         If you plan to display Raster layer on :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to create :ref:`Style <ngcom_styles>` for it first.
+	If you plan to display Raster layer on :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to create :ref:`Style <ngcom_styles>` for it first.
 
-Supported raster format is :term:`GeoTIFF`. Inputs must be geographically referenced and have correctly set CRS description as GeoTIFF metadata.
+Input data requirements
+^^^^^^^^^^^^^^^^^^^^^^^
+
+* Supported format: :term:`GeoTIFF`
+* Inputs must be geographically referenced and have correctly set CRS description as GeoTIFF metadata.
 
 .. figure:: _static/Raster_layer.gif
    :name: Raster_layer
@@ -41,7 +45,7 @@ Vector data
 #. Press :guilabel:`Create` button. If Vector layer is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. important::
-        If you plan to display Vector layer on a :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to add a :ref:`Style <ngcom_styles>` for it first.
+	If you plan to display Vector layer on a :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to add a :ref:`Style <ngcom_styles>` for it first.
 
 Input data requirements
 ^^^^^^^^^^^^^^^^^^^^^^^
