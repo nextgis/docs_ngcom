@@ -18,8 +18,10 @@ Raster data
 #. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab and select a file with raster geodata in :guilabel:`Raster layer` tab;
 #. Press :guilabel:`Create` button. If Raster layer is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
-.. warning:: 
-	Supported are :term:`GeoTIFF` files with 3 or 4 bands (RGB or RGBA). Inputs must be geographically referenced and have correctly set CRS description as GeoTIFF metadata.
+.. important::
+         If you plan to display Raster layer on :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to create :ref:`Style <ngcom_styles>` for it first.
+
+Supported raster format is :term:`GeoTIFF`. Inputs must be geographically referenced and have correctly set CRS description as GeoTIFF metadata.
 
 .. figure:: _static/Raster_layer.gif
    :name: Raster_layer
@@ -27,8 +29,6 @@ Raster data
    :width: 850px
 
 Read more about upload of raster geodata to Web GIS :ref:`here <ngw_create_raster_layer>`. 
-
-If you plan to display Raster layer on :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to create :ref:`Style <ngcom_styles>` for it.
 
 .. _ngcom_vector_layer:
 
@@ -39,6 +39,9 @@ Vector data
 #. Select :menuselection:`Create resource --> Vector layer` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
 #. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab, then select a file with vector geodata and specify its encoding in :guilabel:`Vector layer` tab;
 #. Press :guilabel:`Create` button. If Vector layer is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
+
+.. important::
+        If you plan to display Vector layer on a :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to add a :ref:`Style <ngcom_styles>` for it first.
 
 Input data requirements
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -58,7 +61,5 @@ Use NextGIS Connect if you need to upload data in other formats.
 
 Read more about upload of vector geodata to Web GIS :ref:`here <ngw_create_vector_layer>`.
 
-If you plan to display Vector layer on a :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to add a :ref:`Style <ngcom_styles>` for it first.
-
 .. note:: 
-	You can also upload raster and vector geodata to Web GIS :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_data_upload>`.
+	You can also upload raster and vector geodata to Web GIS :ref:`with NextGIS Connect <ngcom_ngqgis_connect_data_upload>`.
