@@ -11,7 +11,7 @@ Raster and vector geodata are uploaded to :ref:`Web GIS <ngcom_description>` by 
 .. _ngcom_raster_layer:
 
 Raster data
--------------------------------
+-----------
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default from the main page of Web GIS you can access Main resource group);
 #. Select :menuselection:`Create resource --> Raster layer` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
@@ -33,15 +33,23 @@ If you plan to display Raster layer on :ref:`Web map <ngcom_webmap_create>` or p
 .. _ngcom_vector_layer:
 
 Vector data
--------------------------------
+-----------
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default from the main page of Web GIS you can access Main resource group);
 #. Select :menuselection:`Create resource --> Vector layer` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
 #. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab, then select a file with vector geodata and specify its encoding in :guilabel:`Vector layer` tab;
 #. Press :guilabel:`Create` button. If Vector layer is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
+Input data requirements
+^^^^^^^^^^^^^^^^^^^^^^^
+
+* Supported formats: ESRI Shapefile ((zip-archived, no sub-folders), GeoJSON, GML or KML
+* Field names can't be: *id(ID)* or *geom(GEOM)*
+
+Use NextGIS Connect if you need to upload data in other formats.
+
 .. warning:: 
-	Only upload of :term:`ESRI Shape` files (zip-archived, UTF-8 or Windows-1251, no sub-folders) and :term:`GeoJSON` files (UTF-8) is supported. Uploaded files can't inculde mixed or invalid geometries, dates can't have NULL values, attributes' columns can't have the following names: *id(ID), geom(GEOM)*. ESRI Shapefiles can't include multigeometries.
+	Avoid using unicode symbols in data field names. While such data can be uploaded, you can experience problems working with it via WFS, in NextGIS Mobile or visualization (especially if styles are using such fields). Use pain latin for field names and set up field aliases to show unicode names.
 
 .. figure:: _static/Vector_layer.gif
    :name: Vector_layer
