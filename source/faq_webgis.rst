@@ -51,13 +51,11 @@ I forgot the password for Web GIS user created by the administrator
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 If you have forgotten the password for any user who is not a Web GIS administrator, follow these steps: 
 
-1. Go to `my.nextgis.com <https://my.nextgis.com//>`_
-2. Log in with NextGIS ID
-3. Log in to your Web GIS http://username.nextgis.com/ as user **administrator**
-4. Open the main menu in the upper right corner of the interface
-5. Go to Control Panel
-6. Open the user list
-7. Change the password in the user settings (см. :numref:`change_password_user_en`)
+1. Log in to your Web GIS https://username.nextgis.com/ as user **administrator**
+2. Open the main menu in the upper right corner of the interface
+3. Go to Control Panel
+4. Open the user list
+5. Change the password in the user settings (см. :numref:`change_password_user_en`)
 
 .. figure:: _static/change_password_user_en.png
    :name: change_password_user_en
