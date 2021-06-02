@@ -5,7 +5,6 @@
 Get Started with your Web GIS
 ===============================
 
-Contents:
     
 .. toctree::
    :maxdepth: 2
@@ -19,6 +18,7 @@ Contents:
    data_connect
    styles
    webmap_create
+   webmap_optimize
    annotation
    webmap_print
    data_services
