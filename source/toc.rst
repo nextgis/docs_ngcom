@@ -5,7 +5,6 @@
 Начало работы с Веб ГИС
 ===========================
 
-Содержание:
     
 .. toctree::
    :maxdepth: 2
@@ -19,6 +18,7 @@
    data_connect
    styles
    webmap_create
+   webmap_optimize
    annotation
    webmap_print
    data_services
