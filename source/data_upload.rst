@@ -50,7 +50,7 @@ Vector data
 Input data requirements
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-* Supported formats: ESRI Shapefile ((zip-archived, no sub-folders), GeoJSON, GML or KML
+* Supported formats: ESRI Shapefile (zip-archived, no sub-folders, no sub-archives, one zip - one layer), GeoJSON, GML or KML
 * Field names can't be: *id(ID)* or *geom(GEOM)*
 
 Use NextGIS Connect if you need to upload data in other formats.
