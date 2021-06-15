@@ -9,5 +9,5 @@ Any layer (style) created in Web GIS can be used as a source of a tile service a
 To do this, you should:
 
 1. Create the required `layer <https://docs.nextgis.com/docs_ngweb/source/layers.html>`_ and `style <https://docs.nextgis.com/docs_ngweb/source/mapstyles.html>`_ (both vector and raster). Inside will be a link **TMS service** - need it on; 
-2. Enable `tile caching <https://docs.nextgis.com/docs_ngweb/source/mapstyles.html#tile-cache>`_ (to speed up work on a web map);
+2. Enable `caching <https://docs.nextgis.com/docs_ngweb/source/mapstyles.html#tile-cache>`_ (to speed up work on a web map, only for `Premium plan <https://nextgis.com/pricing-base/>`_);
 3. Create resource "Basemap" with unchecked "Use options from QMS" and the link of the above-created TMS layer.
