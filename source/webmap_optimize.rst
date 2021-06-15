@@ -1,3 +1,5 @@
+.. sectionauthor:: Роман Гайнуллов <roman.gainullov@nextgis.ru>
+
 .. _ngcom_webmap_optimize:
 
 Как оптимизировать работу Веб-карты
