@@ -19,6 +19,7 @@
    styles
    webmap_create
    webmap_optimize
+   layer_as_basemap
    annotation
    webmap_print
    data_services
