@@ -9,5 +9,5 @@
 Для этого следует:
 
 1. Создать нужный `слой <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-layers>`_ и `стиль <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#qgis>`_ (как векторный, так и растровый) для него. Внутри будет ссылка **TMS сервиса** - она понадобится далее;  
-2. Включить `тайловое кэширование <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#ngw-create-tile-cache>`_ (для ускорения работы на веб-карте);
+2. Включить `кэширование <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#ngw-create-tile-cache>`_ (для ускорения работы на веб-карте, доступно только на плане `Premium <https://nextgis.ru/pricing-base/>`_);
 3. Создать ресурс "Базовая карта" со снятой галочкой "Использовать настройки из QMS" и адресом (ссылкой) вышесозданного TMS слоя.
