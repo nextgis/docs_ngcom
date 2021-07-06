@@ -6,7 +6,7 @@ How to upload data
 Raster and vector geodata are uploaded to :ref:`Web GIS <ngcom_description>` by creation of resources :ref:`Raster layer <ngcom_raster_layer>` and :ref:`Vector layer <ngcom_vector_layer>`.
 
 .. note:: 
-	The size limit for uploaded files depends on the selected plan. For 'Premium' - 1.0 GB, for 'Free' and 'Mini' - 128 Mb.
+	The size limit for uploaded files depends on the selected plan. For 'Premium' - 1.0 GB, for 'Free' and 'Mini' - 128 Mb. For rasters, this limit corresponds to files without compression in EPSG: 3857.
 
 .. _ngcom_raster_layer:
 
