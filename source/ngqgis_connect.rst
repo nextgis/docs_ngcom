@@ -14,7 +14,7 @@ After successfull installation you'll see **NextGIS Connect** panel on the right
 Establishing Web GIS connection
 -------------------------------
 
-После успешной установки модуля в правой части экрана появится панель :guilabel:`NextGIS Connect`.
+After successful installation of the module, a panel will appear on the right side of the screen :guilabel:`NextGIS Connect`.
 
 First you need to establish a connection to your Web GIS:
 
