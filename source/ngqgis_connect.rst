@@ -105,7 +105,7 @@ NextGIS Connect позволяет обмениваться данными с м
    :width: 850px
 
 
-.. _ngcom_ngqgis_connect_wfs_service:
+.. _ngcom_ngqgis_connect_services:
 
 Создание Сервисов WFS и WMS
 ---------------------------
