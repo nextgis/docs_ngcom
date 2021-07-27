@@ -101,10 +101,17 @@ Creating and uploading a whole QGIS project
    :width: 850px
 
 
-.. _ngcom_ngqgis_connect_wfs_service:
+.. _ngcom_ngqgis_connect_services:
+
+Creating WFS and WFS services
+---------------------------
+
+NextGIS Connect module allows you to quickly publish Vector layers to Web GIS using standard protocols :term:`WFS` and :term:` WMS`.
+
+.. _create_wfs_service:
 
 Creating WFS services
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 NextGIS Connect plugin enables a fast publication of Vector layers from your Web GIS using standard :term:`WFS` protocol. 
 
@@ -129,7 +136,6 @@ It's possible due to the quick creation of :ref:`WFS service <ngcom_wfs_service>
 Creating WMS services
 ~~~~~~~~~~~~~~~~~~~~~
 
-Для этого в модуле доступна операция быстрого создания :ref:`Сервиса WMS <ngcom_wms_service>`:
 To do this the module provides a quick creation operation :ref:`WMS service <ngcom_wms_service>`:
 
 * In the desktop application (NextGIS QGIS) in the resource Web GIS tree of module NextGIS Connect select **Vector layer** that you want to publish via the WMS protocol;
