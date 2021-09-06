@@ -7,7 +7,7 @@
 
 Исключением являются :ref:`Слои WMS <ngcom_wms_layer>`, для которых создание Стилей не требуется, так как необходимая для их отображения на карте информация передается в :ref:`Веб ГИС <ngcom_description>` с внешнего сервера WMS.
 
-Для :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` Веб ГИС поддерживает возможность создания 2 видов стилей - :ref:`Стиля MapServer <ngcom_mapserver_style>` и :ref:`Стиля QGIS <ngcom_qgis_style>`. Для :ref:`Растровых слоев <ngcom_raster_layer>` в Веб ГИС создается :ref:`Растровый стиль <ngcom_raster_style>`.
+Для :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` Веб ГИС поддерживает возможность создания двух видов стилей - :ref:`Стиля MapServer <ngcom_mapserver_style>` и :ref:`Стиля QGIS <ngcom_qgis_style>`. Для :ref:`Растровых слоев <ngcom_raster_layer>` в Веб ГИС создается `растровый стиль <https://docs.nextgis.ru/docs_ngcom/source/styles.html#ngcom-raster-style>`_`.
 
 .. _ngcom_mapserver_style:
 
