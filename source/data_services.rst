@@ -29,6 +29,10 @@ WFS service
 #. Go to :guilabel:`WFS service` tab and select those resources (:ref:`Vector layers <ngcom_vector_layer>` or :ref:`PostGIS layers <ngcom_postgis_layer>`) which you want to publish using WFS protocol. **You need to specify a keyname for each resource**;
 #. Press :guilabel:`Create` button. If WFS service is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
+
+.. note::
+     Currently supported filters are Intersects, ResourceId (ObjectId, FeatureId).
+
 .. note::
     Link that appears after WFS service is created is not meant to be opened with a web browser. You need to copy and paste it in the WFS-capable client, such as for example `NextGIS QGIS <http://nextgis.com/nextgis-qgis/>`_.
 
