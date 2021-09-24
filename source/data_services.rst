@@ -8,7 +8,7 @@ How to publish data using standard protocols
 .. _ngcom_wms_service:
 
 WMS service
--------------------------
+-----------
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a service (by default from the main page of Web GIS you can access Main resource group);
 #. Select :menuselection:`Create resource --> WMS service` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
@@ -21,7 +21,9 @@ Read more about WMS service creation :ref:`here <ngw_create_wms_service>`.
 .. _ngcom_wfs_service:
 
 WFS service
------------------------
+-----------
+
+WFS services are used to serve and edit vector layers hosted in Web. You can edit vector geodata using various :ref:`desktop <ngcom_ngqgis_connect_data_edit>` applications.
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a service (by default from the main page of Web GIS you can access Main resource group);
 #. Select :menuselection:`Create resource --> WFS service` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
@@ -29,20 +31,15 @@ WFS service
 #. Go to :guilabel:`WFS service` tab and select those resources (:ref:`Vector layers <ngcom_vector_layer>` or :ref:`PostGIS layers <ngcom_postgis_layer>`) which you want to publish using WFS protocol. **You need to specify a keyname for each resource**;
 #. Press :guilabel:`Create` button. If WFS service is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
-
 .. note::
      Currently supported filters are Intersects, ResourceId (ObjectId, FeatureId).
 
 .. note::
-    Link that appears after WFS service is created is not meant to be opened with a web browser. You need to copy and paste it in the WFS-capable client, such as for example `NextGIS QGIS <http://nextgis.com/nextgis-qgis/>`_.
+    WFS service link is not meant to be opened with a web browser. You need to copy and paste it in the WFS-capable client, such as for example `NextGIS QGIS <http://nextgis.com/nextgis-qgis/>`_.
 
 .. warning:: 
-	By default WFS service publishes 1000 features. To increase this number change :guilabel:`Default count of returned features` value in :guilabel:`WFS service` tab.
+	By default WFS service serves 1000 features. To increase this number change :guilabel:`Default count of returned features` value in :guilabel:`WFS service` tab.
 
-.. note:: 
-	Web GIS supports editing of Vector layers with WFS service. Among other things it allows to edit vector geodata in Web GIS using :ref:`mobile <ngcom_ngmobile_connect>` and :ref:`desktop <ngcom_ngqgis_connect_data_edit>` applications.
-
-.. note:: 
-	You can also quickly create WFS services in your Web GIS :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_wfs_service>`.
+You can also quickly create a WFS service with :ref:`NextGIS Connect <ngcom_ngqgis_connect_wfs_service>`.
 
 Read more about WFS service creation :ref:`here <ngw_wfs_service>`.
