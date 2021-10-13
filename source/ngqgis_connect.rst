@@ -194,14 +194,14 @@ Layer resource identifier will also be kept. Overwrite assumes that both layers 
 
 .. _ngcom_ngqgis_connect_style_overwrite:
 
-Updating style
---------------
+Updating styles
+---------------
 
 * Add layer to NextGIS QGIS via Connect
 * Change the style of the layer (color, line width, etc.)
 * Next select **Import/Update style**, highlighting the **style** of the desired resource in the right pane
 
-After these operations, the NextGIS Connect module will remove the old style of the layer from the Web GIS and load the new one leaving all attachments intact.
+After these operations, the NextGIS Connect module will remove the old style of the layer from the Web GIS and load the new one leaving all data and attachments intact.
 
 
 .. _ngcom_ngqgis_connect_data_export:
