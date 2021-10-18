@@ -35,5 +35,6 @@ Get Started with your Web GIS
    CORS
    homepage
    CSS
+   backup
    help
    faq_webgis
