@@ -37,5 +37,6 @@
    CSS
    homepage
    domain
+   backup
    help
    faq_webgis
