@@ -21,6 +21,9 @@ Raster data
 .. important::
 	If you plan to display Raster layer on :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to create a `Style <https://docs.nextgis.com/docs_ngcom/source/styles.html#ngcom-styles>`_ for it first.
 
+
+.. _ngcom_raster_requirements:
+
 Input data requirements
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -33,6 +36,35 @@ Input data requirements
    :width: 850px
 
 Read more about upload of raster geodata to Web GIS :ref:`here <ngw_create_raster_layer>`. 
+
+.. _ngcom_raster_volume:
+
+Uploading large rasters
+^^^^^^^^^^^^^^^^^^^^^^^
+
+UAS, remote sensing data and other raster are often huge.
+The filesize is not very informative as the real data size might be much larger because of compression.
+To ensure fast rendering on web maps and serving uploaded rasters with TMS and WMS should undergo a series of processing steps while creating corresponding raster layers.
+
+There are three important limitations that are connected with large raster upload:
+
+#. File size - maximum filesize being uploaded in **1 Gb**. This limit can't be changed on Premium, but can be changed `on-premise <https://nextgis.com/pricing/>`_;
+#. Total data volume - you can upload up to `50 Gb <https://nextgis.com/pricing-base/#volume-premium>`_ of data on Premium (this limit can be raised);
+#. Processing time - maximum processing time is 3 minutes. If raster processing time takes more the import process will be interrupted and error message shown. Raster layer will not be created.
+
+
+Processing time depends on input raster parameters, specifically:
+
+#. Coordinate system
+#. Internal compression (often JPEG or LZW)
+
+Consequently, to ensure raster upload:
+
+#. Reproject rasters into EPSG:3857
+#. Unpack raster (remove internal compression)
+
+If this is done, raster of 1 Gb will be uploaded. If this is not done and your raster is smaller, raster layer will also be created if time for reprojection and unpacking is less then 3 minutes.
+
 
 .. _ngcom_vector_layer:
 
