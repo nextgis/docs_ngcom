@@ -16,7 +16,7 @@
 
    _acme-challenge.gis.example.com. CNAME _acme-challenge.nimbo.nextgis.net.
    
-замените gis.example.com на домен для Веб ГИС вашей организации.
+замените gis.example.com на домен для Веб ГИС вашей организации, a example.nextgis.com на адрес вашей Веб ГИС в домене *.nextgis.com
 
 **Проверка 1**
 
@@ -24,13 +24,13 @@
 
 Ожидаемый ответ: возвращается запись CNAME (TTL и TARGET).
 
-**Шаг 2. Внести в DNS Запись 2 для перенаправления запросов к Веб ГИС (вместо существующей A-записи если она есть)**
+**Шаг 2. Внести в DNS Запись 2 для перенаправления запросов к Веб ГИС**
 
 .. code-block:: bash
 
    gis.example.com. CNAME example.nextgis.com.
 
-замените gis.example.com на домен для Веб ГИС вашей организации.
+замените gis.example.com на домен для Веб ГИС вашей организации, a example.nextgis.com на адрес вашей Веб ГИС в домене *.nextgis.com
 
 **Проверка 2**
 
