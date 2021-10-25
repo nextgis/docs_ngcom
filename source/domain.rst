@@ -16,7 +16,7 @@
 
    _acme-challenge.gis.example.com. CNAME _acme-challenge.nimbo.nextgis.net.
    
-замените gis.example.com на домен для Веб ГИС вашей организации, a example.nextgis.com на адрес вашей Веб ГИС в домене *.nextgis.com
+замените gis.example.com на домен для Веб ГИС вашей организации.
 
 **Проверка 1**
 
