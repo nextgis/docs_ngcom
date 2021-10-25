@@ -4,13 +4,38 @@ How to change Web GIS domain
 ============================
 
 .. note:: 
-	This functionality is available only to nextgis.com `Premium users <http://nextgis.com/nextgis-com/plans>`_.
+    This functionality is available only to nextgis.com `Premium users <http://nextgis.com/nextgis-com/plans>`_.
 
-By creating your Web GIS you get a domain at nextgis.com, for example mywebgis.nextgis.com. You can change it to a domain of your organization, for example gis.myorg.com.
+After you created a Web GIS you get a domain at nextgis.com, for example mywebgis.nextgis.com. Afterwards, you can change it to a domain of your organization, for example gis.mycompany.com.
 
-To do that, you need to add an A records in your DNS settings, pointing to 95.213.223.211. This is usually preformed by a system administrator of your company who has access to company's domain settings.
+Follow these steps. Typically this done by system administrator of your company who has access to DNS records.
 
-.. note::
-        Make sure that the changes made effect by using `Dig <https://toolbox.googleapps.com/apps/dig/#A/>`_. ANSWER section must point to IP 95.213.223.211. Note that DNS changes may take time, please wait until it happens.
+**Step 1. Add DNS record 1 to get HTTPS certificates**
 
-When DNS changes are in place, let us know at support@nextgis.com, we will finish the configuration.
+.. code-block:: bash
+
+   _acme-challenge.gis.example.com. CNAME _acme-challenge.nimbo.nextgis.net.
+   
+change gis.example.com to the needed domain under the domain of your organization, change example.nextgis.com to your Web GIS address at *.nextgis.com
+
+**Check 1**
+
+Your system administrator needs to check that changes took effect. Use `Dig <https://toolbox.googleapps.com/apps/dig/#CNAME/>`_. Enter: _acme-challenge.gis.example.com. Give some time for DNS changes to take an effect.
+
+Expected answer: CNAME (TTL and TARGET).
+
+**Step 2. Внести в DNS Запись 2 для перенаправления запросов к Веб ГИС**
+
+.. code-block:: bash
+
+   gis.example.com. CNAME example.nextgis.com.
+
+change gis.example.com to the needed domain under the domain of your organization, change example.nextgis.com to your Web GIS address at *.nextgis.com
+
+**Check 2**
+
+Your system administrator needs to check that changes took effect. Use `Dig <https://toolbox.googleapps.com/apps/dig/#CNAME/>`_. Enter: gis.example.com. Give some time for DNS changes to take an effect.
+
+Expected answer: CNAME (TTL and TARGET).
+
+When all changes are entered and confirmed, let us know at support@nextgis.com to finalize.
