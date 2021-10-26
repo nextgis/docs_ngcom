@@ -162,7 +162,7 @@
 -----------------
 
 .. warning::
-   Данный функционал доступен только для пользователей плана `Premium <http://nextgis.ru/nextgis-com/plans>`_ и `Корпоративный <https://nextgis.ru/pricing/#corporate>`_.
+   Данный функционал доступен только для пользователей плана `Premium <http://nextgis.ru/nextgis-com/plans>`_.
 
 
 .. note::
