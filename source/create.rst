@@ -166,7 +166,7 @@ Team management
 .. note::
    This section applies to NextGIS users who have an account on my.nextgis.com, not `users <https://docs.nextgis.com/docs_ngweb/source/admin_tasks.html#ngw-create-group>`_ of a particular Web GIS.
    
-According to nextgis.com plans, the Premium account holder has an opportunity to give access to Pro-functions of`NextGIS QGIS <https://nextgis.com/nextgis-qgis#pro>`_, `Mobile <https://nextgis.com/nextgis-mobile#pro>`_ и `Formbuilder <https://nextgis.com/nextgis-formbuilder#pro>`_ to 4 more users.
+According to nextgis.com plans, the Premium account holder has an opportunity to give access to Pro-functions of `NextGIS QGIS <https://nextgis.com/nextgis-qgis#pro>`_, `Mobile <https://nextgis.com/nextgis-mobile#pro>`_ и `Formbuilder <https://nextgis.com/nextgis-formbuilder#pro>`_ to 4 more users.
 
 Team management allows adding any NextGIS user by login to your team. Team management is available through your personal account at https://my.nextgis.com/teammanage in the Team section (see :numref:`Team_on_panel`).
 
@@ -192,7 +192,7 @@ By default, the team includes the owner of the Premium subscription (see :numref
    :align: center
    :width: 14cm    
 
-   Default view (owner only)
+   Adding user to the team
    
 Each added team member will appear in the list (see :numref:`all_users`). At any moment, a team member can be removed and/or replaced by another if the limit of the team is reached (see :numref:`limit_users`).
 
