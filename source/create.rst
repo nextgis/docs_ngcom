@@ -26,7 +26,7 @@ A sign-up form will open, where you need to fill in E-mail and Password fields, 
    :align: center
    :width: 16cm    
 
-   Signup form.
+   Sign-up form
       
 .. note::
 
@@ -39,7 +39,7 @@ After you click "Create account" button, a window will pop up telling you to con
    :align: center
    :width: 16cm    
 
-   "Please confirm your E-mail" window.
+   "Please confirm your E-mail" window
 
 Don't close this window. Check your email, you should receive a letter with an account confirmation link. In case you don't receive this letter in 10-15 minutes, click "Send the email again" link in the "Please confirm your E-mail" window (see :numref:`confirm_email_pic`). In case you made an error during sign-up, you can also change your email address using this window. 
 
@@ -50,7 +50,7 @@ When you receive the letter, click on the link to confirm your email address. Af
    :align: center
    :width: 16cm    
   
-   Profile page at nextgis.com. 
+   Profile page at nextgis.com
 
 .. warning::
 
@@ -86,7 +86,7 @@ To create Web GIS you need to complete a Web GIS creation form by indicating dom
    :align: center
    :width: 16cm    
 
-   Web GIS creation form.
+   Web GIS creation form
 
 After you finish completing all required fields, press "Create Web GIS" button (see :numref:`WebGIS_creation_2_pic`): 
 
@@ -95,9 +95,9 @@ After you finish completing all required fields, press "Create Web GIS" button (
    :align: center
    :width: 16cm     
 
-   Web GIS creation.
+   Web GIS creation
 
-.. note::
+.. warning::
 
    You won't be able to change domain name and default language of your Web GIS after it's been created!
    
@@ -108,7 +108,7 @@ After you finish completing all required fields, press "Create Web GIS" button (
    :align: center
    :width: 16cm    
 
-   "Web GIS Settings" page during Web GIS creation.
+   "Web GIS Settings" page during Web GIS creation
 
 After your Web GIS is created, the outlook of "Web GIS Settings" page will change: it will contain your Web GIS address, fields for changing your Web GIS password, your current Plan information, and a link to your Web GIS in the upper right corner (see :numref:`WebGIS_settings_pic`): 
 
@@ -117,7 +117,7 @@ After your Web GIS is created, the outlook of "Web GIS Settings" page will chang
    :align: center
    :width: 16cm     
 
-   "Web GIS Settings" page.
+   "Web GIS Settings" page
 
 To open your Web GIS click the link on "Web GIS Settings" page. Web GIS Main resource group will open (see :numref:`WebGIS_main_pic`): 
 
@@ -126,7 +126,7 @@ To open your Web GIS click the link on "Web GIS Settings" page. Web GIS Main res
    :align: center
    :width: 16cm    
 
-   Main resource group.
+   Main resource group
    
    A red rectangle indicates a menu containing "Resources", "Control panel" (only for Premium users) and "Help" sections.
    
@@ -143,7 +143,7 @@ If you have questions about your Web GIS, you can go to "Help" section of the me
    :align: center
    :width: 16cm    
 
-   Web GIS menu with "Help" button.
+   Web GIS menu with "Help" button
 
 A "Help" page with links to user documentation, legal documents and NextGIS contact information will open (see :numref:`help_pic`): 
 
@@ -152,7 +152,7 @@ A "Help" page with links to user documentation, legal documents and NextGIS cont
    :align: center
    :width: 16cm     
 
-   "Help" page.
+   "Help" page
    
 
 .. _ngcom_ream_management:
