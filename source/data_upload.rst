@@ -3,23 +3,23 @@
 How to upload data
 ================================
 
-Raster and vector geodata are uploaded to :ref:`Web GIS <ngcom_description>` by creation of resources :ref:`Raster layer <ngcom_raster_layer>` and :ref:`Vector layer <ngcom_vector_layer>`.
+Raster and vector geodata are uploaded to :ref:`Web GIS <ngcom_description>` by creation of :ref:`Raster layer <ngcom_raster_layer>` and :ref:`Vector layer <ngcom_vector_layer>` resources.
 
 .. note:: 
-	The size limit for uploaded files depends on the selected plan. For 'Premium' - 1.0 GB, for 'Free' and 'Mini' - 128 Mb. For rasters, this limit corresponds to files without compression in EPSG: 3857.
+	The size limit for uploaded files depends on the selected plan. For **Premium** - 1.0 GB, for **Free** and **Mini** - 128 Mb. For rasters, this limit corresponds to uncompressed files in EPSG: 3857.
 
 .. _ngcom_raster_layer:
 
 Raster data
 -----------
 
-#. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default from the main page of Web GIS you can access Main resource group);
+#. Open the :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default the main page of Web GIS has Main resource group displayed);
 #. Select :menuselection:`Create resource --> Raster layer` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab and select a file with raster geodata in :guilabel:`Raster layer` tab;
-#. Press :guilabel:`Create` button. If Raster layer is created successfully you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
+#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new layer in the field :guilabel:`Display name`. Then go to :guilabel:`Raster layer` tab and select a file with raster geodata;
+#. Press :guilabel:`Create` button. If Raster layer is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. important::
-	If you plan to display Raster layer on :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to create a `Style <https://docs.nextgis.com/docs_ngcom/source/styles.html#ngcom-styles>`_ for it first.
+	If you plan to display Raster layer on :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol, you need to create a `Style <https://docs.nextgis.com/docs_ngcom/source/styles.html#ngcom-styles>`_ for it first.
 
 
 .. _ngcom_raster_requirements:
@@ -42,15 +42,15 @@ Read more about upload of raster geodata to Web GIS :ref:`here <ngw_create_raste
 Uploading large rasters
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-UAS, remote sensing data and other raster are often huge.
-The filesize is not very informative as the real data size might be much larger because of compression.
-To ensure fast rendering on web maps and serving uploaded rasters with TMS and WMS should undergo a series of processing steps while creating corresponding raster layers.
+UAS, remote sensing data and other rasters are often huge.
+The file size is not very informative as the real data size might be much larger because of compression.
+To ensure fast rendering on web maps and serving, rasters with TMS and WMS used to create raster layers should be properly processed before upload.
 
-There are three important limitations that are connected with large raster upload:
+There are three important limitations for uploading large raster files:
 
-#. File size - maximum filesize being uploaded in **1 Gb**. This limit can't be changed on Premium, but can be changed `on-premise <https://nextgis.com/pricing/>`_;
-#. Total data volume - you can upload up to `50 Gb <https://nextgis.com/pricing-base/#volume-premium>`_ of data on Premium (this limit can be raised);
-#. Processing time - maximum processing time is 3 minutes. If raster processing time takes more the import process will be interrupted and error message shown. Raster layer will not be created.
+#. File size - maximum file size being uploaded is **1 Gb**. This limit can't be changed on Premium, but can be changed `on-premise <https://nextgis.com/pricing/>`_;
+#. Total data volume - you can upload up to `50 Gb <https://nextgis.com/pricing-base/#volume-premium>`_ of data on Premium (this limit can be `raised <https://nextgis.com/pricing-base/#volume-premium>`);
+#. Processing time - maximum processing time is 3 minutes. If raster processing takes more time, the import process will be interrupted and an error message appears. Raster layer will not be created.
 
 
 Processing time depends on input raster parameters, specifically:
@@ -63,7 +63,7 @@ Consequently, to ensure raster upload:
 #. Reproject rasters into EPSG:3857
 #. Unpack raster (remove internal compression)
 
-If this is done, raster of 1 Gb will be uploaded. If this is not done and your raster is smaller, raster layer will also be created if time for reprojection and unpacking is less then 3 minutes.
+If this is done, raster of 1 Gb will be uploaded. If this is not done, but your raster is smaller and reprojecting and unpacking it takes less than 3 minutes, raster layer will still be created.
 
 
 .. _ngcom_vector_layer:
