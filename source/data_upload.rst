@@ -49,8 +49,8 @@ To ensure fast rendering on web maps and serving, rasters with TMS and WMS used 
 There are three important limitations for uploading large raster files:
 
 #. File size - maximum file size being uploaded is **1 Gb**. This limit can't be changed on Premium, but can be changed `on-premise <https://nextgis.com/pricing/>`_;
-#. Total data volume - you can upload up to `50 Gb <https://nextgis.com/pricing-base/#volume-premium>`_ of data on Premium (this limit can be `raised <https://nextgis.com/pricing-base/#volume-premium>`);
-#. Processing time - maximum processing time is 3 minutes. If raster processing takes more time, the import process will be interrupted and an error message appears. Raster layer will not be created.
+#. Total data volume - you can upload up to `50 Gb <https://nextgis.com/pricing-base/#volume-premium>`_ of data on Premium (this limit can be `raised <https://nextgis.com/pricing-base/#volume-premium>`_);
+#. Processing time - maximum processing time is 3 minutes. If raster processing takes more time, the import process will be interrupted and an error message will appear. Raster layer will not be created.
 
 
 Processing time depends on input raster parameters, specifically:
