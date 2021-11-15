@@ -34,12 +34,11 @@ External PostGIS databases
 .. _ngcom_postgis_connection:
 
 Create PostGIS connection:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a connection (by 
-from the main page of Web GIS you can access Main resource group);
+#. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a connection (by default, from the main page of Web GIS you access the Main resource group);
 #. Select :menuselection:`Create resource --> PostGIS connection` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new connection in the field :guilabel:`Display name`. Then in :guilabel:`PostGIS connection` tab fill in the fields :guilabel:`Host`, :guilabel:`Database`, :guilabel:`User` (if applicable) and :guilabel:`Password` (if applicable);
+#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new connection in the field :guilabel:`Display name`. Then in :guilabel:`PostGIS connection` tab fill in the fields :guilabel:`Host`, :guilabel:`Database`, :guilabel:`User` (if applicable) and :guilable:`Password` (if applicable);
 #. Press :guilabel:`Create` button. If PostGIS connection is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. _ngcom_postgis_layer:
