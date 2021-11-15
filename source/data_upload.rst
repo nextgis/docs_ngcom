@@ -53,7 +53,7 @@ To ensure fast rendering on web maps and serving, rasters with TMS and WMS used 
 There are three important limitations for uploading large raster files:
 
 #. File size - maximum file size being uploaded is **1 Gb**. This limit can't be changed on Premium, but can be changed `on-premise <https://nextgis.com/pricing/>`_;
-#. Total data volume - you can upload up to `50 Gb <https://nextgis.com/pricing-base/#volume-premium>`_ of data on Premium (this limit can be `raised <https://nextgis.com/pricing-base/#volume-premium>`_);
+#. Total data volume - you can upload up to **50 Gb** of data on Premium (this limit can be `raised <https://nextgis.com/pricing-base/#volume-premium>`_);
 #. Processing time - maximum processing time is 3 minutes. If raster processing takes more time, the import process will be interrupted and an error message will appear. Raster layer will not be created.
 
 
@@ -83,6 +83,9 @@ Input data requirements
 
 Use NextGIS Connect if you need to upload data in other formats.
 
+.. warning:: 
+	Avoid using Unicode symbols in data field names. While such data can be uploaded, you may experience problems working with it via WFS, in NextGIS Mobile or visualization (especially if styles are using such fields). Use plain Latin for field names and set up field aliases to show Unicode names.
+
 Creating vector layer
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -90,6 +93,9 @@ Creating vector layer
 #. Select :menuselection:`Create resource --> Vector layer` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
 #. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new layer in the field :guilabel:`Display name`. Then in :guilabel:`Vector layer` tab select a file with vector geodata and specify its encoding;
 #. Press :guilabel:`Create` button. If Vector layer is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
+
+.. important::
+	If you plan to display Vector layer on a :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to add a :ref:`Style <ngcom_styles>` for it first.
 
 .. figure:: _static/Vector_layer.gif
    :name: Vector_layer
@@ -100,13 +106,7 @@ Creating vector layer
 
 Web GIS can process multy-layer datasets. If an archive contains several layers, then after it is uploaded, you will be asked to select which layer will be used for creating Vector layer resource.
 
-.. important::
-	If you plan to display Vector layer on a :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to add a :ref:`Style <ngcom_styles>` for it first.
-
-.. warning:: 
-	Avoid using Unicode symbols in data field names. While such data can be uploaded, you may experience problems working with it via WFS, in NextGIS Mobile or visualization (especially if styles are using such fields). Use plain Latin for field names and set up field aliases to show Unicode names.
-
-Read more about upload of vector geodata to Web GIS :ref:`here <ngw_create_vector_layer>`.
+Read more about on uploading vector geodata to Web GIS :ref:`here <ngw_create_vector_layer>`.
 
 .. note:: 
 	You can also upload raster and vector geodata to Web GIS :ref:`with NextGIS QGIS <ngcom_ngqgis_connect_data_upload>`.
