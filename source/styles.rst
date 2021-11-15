@@ -3,11 +3,11 @@
 Как создавать стили для визуализации данных
 ============================================
 
-Стиль является особым видом ресурса, необходимым для визуализации геоданных на :ref:`Веб-карте <ngcom_webmap_create>` или с помощью :ref:`Сервиса WMS <ngcom_wms_service>`. При добавлении слоя на Веб-карту или публикации его по протоколу :term:`WMS` используется именно его стиль, описывающий способ визуального представления геоданных. 
+Стиль является особым видом ресурса, необходимым для визуализации геоданных на :ref:`Веб-карте <ngcom_webmap_create>` или с помощью :ref:`Сервиса WMS <ngcom_wms_service>`. При добавлении слоя на Веб-карту или его публикации по протоколу :term:`WMS` используется именно его стиль, описывающий способ визуального представления геоданных. 
 
 Исключением являются :ref:`Слои WMS <ngcom_wms_layer>`, для которых создание Стилей не требуется, так как необходимая для их отображения на карте информация передается в :ref:`Веб ГИС <ngcom_description>` с внешнего сервера WMS.
 
-Для :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` Веб ГИС поддерживает возможность создания двух видов стилей - :ref:`Стиля MapServer <ngcom_mapserver_style>` и :ref:`Стиля QGIS <ngcom_qgis_style>`. Для :ref:`Растровых слоев <ngcom_raster_layer>` в Веб ГИС создается `растровый стиль <https://docs.nextgis.ru/docs_ngcom/source/styles.html#ngcom-raster-style>`_`.
+Для :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` Веб ГИС поддерживает возможность создания двух видов стилей - :ref:`Стиля MapServer <ngcom_mapserver_style>` и :ref:`Стиля QGIS <ngcom_qgis_style>`. Для :ref:`Растровых слоев <ngcom_raster_layer>` в Веб ГИС создается `Растровый стиль <https://docs.nextgis.ru/docs_ngcom/source/styles.html#ngcom-raster-style>`_.
 
 .. _ngcom_mapserver_style:
 
@@ -23,6 +23,8 @@
    :name: Mapserver_style
    :align: center
    :width: 850px
+   
+   Создание Стиля MapServer
 
 .. _ngcom_qgis_style:
 
@@ -42,6 +44,8 @@
    :name: QGIS_style
    :align: center
    :width: 850px
+   
+   Создание Стиля QGIS
 
 .. _ngcom_raster_style:
 
@@ -60,5 +64,7 @@
    :name: Raster_style
    :align: center
    :width: 850px
+   
+   Создание Растрового стиля
 
 Больше информации о создании и редактировании Стилей - :ref:`здесь <ngw_style_create>`.
