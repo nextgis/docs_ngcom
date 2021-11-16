@@ -81,7 +81,7 @@ Input data requirements
 * Supported formats: ESRI Shapefile (zip-archived, no sub-folders, no sub-archives, one zip - one layer), GeoJSON, GML or KML
 * Field names can't be: *id(ID)* or *geom(GEOM)*
 
-Use NextGIS Connect if you need to upload data in other formats.
+Use :ref:`NextGIS Connect <ngcom_ngqgis_connect_data_upload>` if you need to upload data in other formats.
 
 .. warning:: 
 	Avoid using Unicode symbols in data field names. While such data can be uploaded, you may experience problems working with it via WFS, in NextGIS Mobile or visualization (especially if styles are using such fields). Use plain Latin for field names and set up field aliases to show Unicode names.
@@ -106,7 +106,7 @@ Creating vector layer
 
 Web GIS can process multy-layer datasets. If an archive contains several layers, then after it is uploaded, you will be asked to select which layer will be used for creating Vector layer resource.
 
-Read more about on uploading vector geodata to Web GIS :ref:`here <ngw_create_vector_layer>`.
+Read more about upload of vector geodata to Web GIS :ref:`here <ngw_create_vector_layer>`.
 
 .. note:: 
 	You can also upload raster and vector geodata to Web GIS :ref:`with NextGIS QGIS <ngcom_ngqgis_connect_data_upload>`.
