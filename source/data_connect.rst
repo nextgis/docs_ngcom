@@ -11,14 +11,14 @@ Basemaps
 ------------
 
 .. note:: 
-	Creating Basemaps is only available for nextgis.com `Mini and Premium users <http://nextgis.com/nextgis-com/plans>`_.
+	Creating Basemaps is only available for nextgis.com `Mini and Premium users <https://nextgis.com/pricing-base>`_.
 
 Create Basemap:
 ~~~~~~~~~~~~~~~~~
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a basemap (by default, from the main page of Web GIS you access the Main resource group);
 #. Select :menuselection:`Create resource --> Basemap` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. In the opened dialog, go to :guilabel:`Resource`  tab and type a name for the new basemap in the field :guilabel:`Display name`. Then in :guilabel:`Basemap` tab fill in the field :guilabel:`URL` (if you know the correct link to :term:`TMS` service) or start typing the name of the basemap in the field :guilabel:`Search`. If this basemap is found in `QuickMapServices <https://qms.nextgis.com/>`_ catalog, the :guilabel:`URL` field will be filled in automatically and option "Use options from QMS" will be activated;
+#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new basemap in the field :guilabel:`Display name`. Then in :guilabel:`Basemap` tab fill in the field :guilabel:`URL` (if you know the correct link to :term:`TMS` service) or start typing the name of the basemap in the field :guilabel:`Search`. If this basemap is found in `QuickMapServices <https://qms.nextgis.com/>`_ catalog, the :guilabel:`URL` field will be filled in automatically and option "Use options from QMS" will be activated;
 #. Press :guilabel:`Create` button. If Basemap is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. note:: 
@@ -38,7 +38,7 @@ Create PostGIS connection:
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a connection (by default, from the main page of Web GIS you access the Main resource group);
 #. Select :menuselection:`Create resource --> PostGIS connection` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new connection in the field :guilabel:`Display name`. Then in :guilabel:`PostGIS connection` tab fill in the fields :guilabel:`Host`, :guilabel:`Database`, :guilabel:`User` (if applicable) and :guilable:`Password` (if applicable);
+#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new connection in the field :guilabel:`Display name`. Then in :guilabel:`PostGIS connection` tab fill in the fields :guilabel:`Host`, :guilabel:`Database`, :guilabel:`User` (if applicable) and :guilabel:`Password` (if applicable);
 #. Press :guilabel:`Create` button. If PostGIS connection is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. _ngcom_postgis_layer:
@@ -68,7 +68,7 @@ Create WMS connection:
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a connection (by default, from the main page of Web GIS you access the Main resource group);
 #. Select :menuselection:`Create resource --> WMS connection` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new connection in the field :guilabel:`Display name`. Then in :guilabel:`WMS connection` tab fill in the fields :guilabel:`URL`, :guilabel:`Username` (if applicable) и :guilabel:`Paasword` (if applicable) to connect to :term:`WMS` server;
+#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new connection in the field :guilabel:`Display name`. Then in :guilabel:`WMS connection` tab fill in the fields :guilabel:`URL`, :guilabel:`Username` (if applicable) and :guilabel:`Password` (if applicable) to connect to :term:`WMS` server;
 #. Press :guilabel:`Create` button. If WMS connection is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. warning:: 
@@ -89,7 +89,7 @@ Create WMS layer:
 
 .. _ngcom_tms_connect:
 
-External TMS-services
+External TMS services
 -----------------------------------------------
 
 .. _ngcom_tms_connection:
@@ -109,7 +109,7 @@ Create TMS layer:
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default, from the main page of Web GIS you access the Main resource group);
 #. Select :menuselection:`Create resource --> TMS layer` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new layer in the field :guilabel:`Display name`. Then in the :guilabel:`Tile cache` tab choose cashe settings, and in the :guilabel:`TMS layer` tab select the required TMS connection and set up display parameters;
+#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new layer in the field :guilabel:`Display name`. Then in the :guilabel:`Tile cache` tab choose cache settings, and in the :guilabel:`TMS layer` tab select the required TMS connection and set up display parameters;
 #. Press :guilabel:`Create` button. If TMS layer is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. note:: 
