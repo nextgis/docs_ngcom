@@ -41,4 +41,4 @@ Your system administrator needs to check that changes took effect. Use `Dig <htt
 
 Expected answer: CNAME (TTL and TARGET).
 
-When all changes are entered and confirmed, let us know at support@nextgis.com to finalize.
+When all changes are made and confirmed to take effect, let us know at support@nextgis.com to finalize, include information on domain chosen for Web GIS of your organization.
