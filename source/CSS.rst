@@ -38,10 +38,6 @@ This will hide sign in text from Web maps and all other pages. You'll have to ty
 		display: none;
 	}
 
-	.dynamic-panel__title {
-		display: none;
-	}
-
 Hide Print, Share buttons from Web maps
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
