@@ -48,6 +48,15 @@ Hide Print, Share buttons from Web maps
                 display: none;
         }
 
+Hide Zoom In, Zoom Out Buttons, Home Buttons
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+	.control-pane.control-pane--top.control-pane--left {
+    		display: none;
+	}
+
 Hide header of the Web map feature identification popup window
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
