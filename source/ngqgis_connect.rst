@@ -90,7 +90,7 @@ Creating and uploading a whole QGIS project
 * Select in NextGIS Connect panel :ref:`Resource group <ngcom_resources_group>` to which you want to upload the project;
 * Press **Import current project** button on NextGIS Connect control panel or select **NextGIS Connect** --> **Import current project** in any layer context menu;
 * In the opened dialog window fill in the name of the new Resource group to which the project will be imported;
-* If the project is uploaded successfully you'll see in a selected Resource group a newly created group with: 1) all Raster and Vector layers to which **Import selected layer** operation is applicable, and their Styles; 2) :ref:`Web map <ngcom_webmap_create>` with a set extent, to which all the imported layers are added with groups, hierarchy and visibility settings similar to QGIS.
+* If the project is uploaded successfully you'll see in a selected Resource group a newly created group with: 1) all Raster and Vector layers to which **Import selected layer** operation is applicable, and their Styles; 2) automatically created :ref:`Web map <ngcom_webmap_create>` with a set extent, to which all the imported layers are added with groups, hierarchy and visibility settings similar to QGIS.
 
 .. note:: 
 	The fastest way to go to the newly created Web map is by pressing **Open map in browser** button on NextGIS Connect control panel or select **Open map in browser** in map's context layer.
