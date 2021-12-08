@@ -18,6 +18,7 @@
    data_connect
    styles
    webmap_create
+   tile_cache
    webmap_optimize
    layer_as_basemap
    annotation
