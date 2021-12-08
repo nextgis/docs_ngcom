@@ -39,14 +39,14 @@ Open Web map
 Read more about Web map web client :ref:`here <ngw_webmaps_client>`.
 
 .. warning::
-    We do not recommend turning on more than 1 :ref:`WMS layer <ngcom_wms_layer>` on Free/Mini plan and 3 WMS layers on Premium plan. Otherwise slow connections with external WMS servers might use up all available similtaneous connections, slowing down considerably (or stopping altogher) the rendering of the Web map and making :ref:`admin console <ngw_admin_interface>` unavailable.
+    We do not recommend turning on more than 1 :ref:`WMS layer <ngcom_wms_layer>` on Free/Mini plan and 3 WMS layers on Premium plan. Otherwise slow connections with external WMS servers might use up all available similtaneous connections, slowing down considerably (or stopping altogher) the rendering of all your Web maps and making :ref:`admin console <ngw_admin_interface>` unavailable.
 
 Add a description and map legend
 --------------------------------
 
 #. Open :ref:`Resource group <how-to-manage-data-storage>` containing the Web map;
 #. Click on **Update** (pencil icon) next to your Web map;
-#. Switch to **Description** tab, set descriptive text, hyperlinks and insert map legend image via URL or paste it from the clipboard;
+#. Switch to **Description** tab, set descriptive text, hyperlinks and insert a map legend image via URL or paste it from the clipboard;
 #. Click on **Save** button;
 #. Display Web map. Menu bar with **Description** button (*info* icon) is located on the left side of the workspace. Information presented there reflects the description you've just set;
 #.  To share Web map with the description open, copy the link from your browser address bar. The link should end with **panel=info**. Clicking on such a link will load a Web map with description opened.
