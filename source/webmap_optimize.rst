@@ -3,7 +3,7 @@
 How to optimize Web Map performance
 ====================================
 
-Web Maps show data rendered by the server. The more of this data you have, the more server resources are needed to render and the more time it takes. There are several technologies you can use to improve your map experience.
+Web Maps show data rendered by the server. The more of this data you have, the more server resources are needed to render and the more time it takes. There are several techniques you can use to improve your map experience.
 
 **Don't show everything at once**
 
