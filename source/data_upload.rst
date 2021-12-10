@@ -8,6 +8,21 @@ Raster and vector geodata are uploaded to :ref:`Web GIS <ngcom_description>` by 
 .. note:: 
 	The size limit for uploaded files depends on the selected plan. For **Premium** - 1.0 GB, for **Free** and **Mini** - 128 Mb. For rasters, this limit corresponds to uncompressed files in EPSG: 3857.
 
+
+.. _ngcom_data_preview:
+
+Quick preview
+-------------
+
+To quickly view the downloaded data - click on the **Preview** button on the right menu in the **Additional** section.
+
+.. note:: 
+	For vector data, previews are available for both the layer and the style. For rasters - for style only. For TMS and WFS layers, preview is also available.
+
+The preview function in the frontend is described `here <https://docs.nextgis.com/docs_ngweb/source/layers.html#data-preview>`_
+
+
+
 .. _ngcom_raster_layer:
 
 Raster data
