@@ -11,7 +11,7 @@ Access recovery and passwords
 -------------------------------
 
 I forgot my account password (NextGIS ID). What to do?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To recover a password from *NextGIS ID*, follow these steps:
 
 1. Go to `my.nextgis.com <https://my.nextgis.com//>`_
@@ -64,6 +64,28 @@ If you have forgotten the password for any user who is not a Web GIS administrat
 
    Changing Web GIS User Password
 
+.. _ngcom_personaldata:
+   
+Personal data
+-------------
+
+What personal data are stored by NextGIS services?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Log in with your account at my.nextgis.com
+2. Go to Profile, Profile management section
+3. Choose Data export, press Request data.
+
+You will receive a copy of your personal data processed by NextGIS.
+
+How do I completely remove all personal data stored at NextGIS?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Log in with your account at my.nextgis.com
+2. Go to Profile, Profile management section
+3. Choose Profile removal, press Delete profile.
+
+Your profile and personal data will be completely deleted. This can't be undone.
 
 .. _ngcom_2_accounts_nextgis:
 
