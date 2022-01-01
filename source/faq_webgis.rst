@@ -72,7 +72,7 @@ Personal data
 What personal data are stored by NextGIS services?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Log in with your account at my.nextgis.com
+1. Log in with your account at https://my.nextgis.com. See FAQ sections above to restore access.
 2. Go to Profile, Profile management section
 3. Choose Data export, press Request data.
 
@@ -81,7 +81,7 @@ You will receive a copy of your personal data processed by NextGIS.
 How do I completely remove all personal data stored at NextGIS?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Log in with your account at my.nextgis.com
+1. Log in with your account at https://my.nextgis.com. See FAQ sections above to restore access.
 2. Go to Profile, Profile management section
 3. Choose Profile removal, press Delete profile.
 
