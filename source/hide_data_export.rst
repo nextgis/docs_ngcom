@@ -1,7 +1,7 @@
 .. sectionauthor:: Roman Gainullov <roman.gainullov@nextgis.com>
 
-How to hide the ability to export data option from the user
-==========================================================
+How to hide the ability to export data option
+=============================================
 
 .. note:: 
    This option is available only to users with Administrator rights.
