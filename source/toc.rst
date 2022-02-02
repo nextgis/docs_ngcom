@@ -29,6 +29,7 @@
    metadata_add
    data_edit
    data_export
+   hide_data_export
    resource_delete
    ngqgis_connect
    tracking
