@@ -91,3 +91,140 @@ Here you can also see the unique identifier (ID) of the device, which must be sp
    Send location to server. Device ID
 
 The process of recording a track is described in details in the `Tracks <https://docs.nextgis.com/docs_ngmobile/source/tracks.html/>`_ section of the documentation for NextGIS Mobile.
+
+**2. NextGIS Collector**
+
+This application is intended for collective data collection. It allows to Web GIS’s owner to get people on a team and begin `data collection <https://docs.nextgis.com/docs_ngcom/source/collector.html#team-participants-mobile-app-installation-and-start-of-data-collection>`_ using mobile devices.
+
+A track recording process is similar to NextGIS Mobile’s `algorithm <https://docs.nextgis.com/docs_ngmobile/source/tracks.html#recording-a-track>`_ but with some interface differences.  
+
+So in order to start a new track it’s needed to tap on the ‘human’ icon in the upper panel and select ‘Start’. 
+
+.. figure:: _static/Collector_icon_en.png
+   :name: Tracker icon in NextGIS Collector
+   :align: center
+   :scale: 70%
+   :width: 425.0px
+   :height: 685.0px
+   
+   Tracker icon in NextGIS Collector
+
+.. figure:: _static/start_track_en.png
+   :name: Start recording track
+   :align: center
+   :scale: 70%
+   :width: 425.0px
+   :height: 685.0px
+   
+   Start recording track
+
+
+The end of the recording can be done both in the panel in the background mode, and in the same context menu of the top panel by clicking “Stop”.
+The track record will then appear in your Web GIS.
+
+.. figure:: _static/stop_track_en.png
+   :name: Stop recording track
+   :align: center
+   :scale: 70%
+   :width: 425.0px
+   :height: 685.0px
+   
+   Stop recording track
+
+.. figure:: _static/push_notification_en.png
+   :name: Popup notification
+   :align: center
+   
+   Popup notification
+
+
+The track list is in the second line of the context menu track icons. Here you can enable/disable tracks, color them according to the palette, remove or share in GPX format.
+
+.. figure:: _static/track_list_en.png
+   :name: List of recorded tracks
+   :align: center
+   :scale: 70%
+   :width: 425.0px
+   :height: 685.0px
+   
+   List of recorded tracks
+
+
+**3. NextGIS Tracker**
+
+This is a simple app that allows you to track recording.
+
+*...Coming up...*
+
+
+Tracking results on the web map
+--------------------------------
+
+Tracking results can be displayed on any web map of your Web GIS. For that create a ‘web map’ resource and open it. If procedures, described in `Section 3 <https://docs.nextgis.com/docs_ngcom/source/tracking.html#id6>`_, are done - you will see the corresponding icon (trackers)  in the left panel of the web map.
+
+.. figure:: _static/Tracking_en.png
+   :name: Tracking interface on Web map
+   :align: center
+   
+   Tracking interface on Web map
+
+The interface of trackers consists of 2 parts - a calendar and a resources tree of trackers (folders ‘tracker groups’ and a set of trackers themselves inside). A calendar allows you to filter recorded tracks by the date and time. Tracker's tree contains the content of those resources that were created in Web GIS or were uploaded from the mobile application.
+
+.. figure:: _static/Tracking_tools_en.png
+   :name: Tracker tree and track operations on Web map
+   :align: center
+   
+   Tracker tree and track operations on Web map
+
+A track consists of 4 parts:
+
+- lines
+- points
+- current location
+- and long stopovers
+
+Operations that are available by right click on the track:
+
+- Zoom to layer (display layer extent)
+- Zoom to the last point (center last track point)
+- Set up a filter on the last day (display a track for the last day)
+- Show the last activity (see hourly activity)
+
+
+.. figure:: _static/track_and_location_en.png
+   :name: Displaying track points, lines and current location on the Web map
+   :align: center
+   
+   Displaying track points, lines and current location on the Web map
+
+
+Reports
+-------
+
+There is a possibility by ‘Reports’ button to create various types of reports depending on selected tracker and parameters.
+
+.. figure:: _static/Report_icon_en.png
+   :name: Report tool icon
+   :align: center
+   
+   Report tool icon
+
+A separate page for receiving tracking reports is opening.
+In the first block, you need to select the trackers for which you want to get an information summary.
+
+The second block is for configuring the following parameters:
+
+- report type
+- time range
+- grouping by days/hours
+
+.. figure:: _static/Tracking_report_en.png
+   :name: Tracker report
+   :align: center
+   
+   Tracker report
+   
+.. note::
+    For getting the spent fuel report you need to set up a fuel consumption in NextGIS Web settings (l/100 km)
+    
+Also you can export reports in GPX format. 
