@@ -32,6 +32,7 @@ Get Started with your Web GIS
    hide_data_export
    resource_delete
    ngqgis_connect
+   tracking
    collector
    ngapi
    CORS
