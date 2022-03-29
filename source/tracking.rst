@@ -160,7 +160,7 @@ This is a simple app that allows you to track recording.
 Tracking results on the web map
 --------------------------------
 
-Tracking results can be displayed on any web map of your Web GIS. For that create a ‘web map’ resource and open it. If procedures, described in `Section 3 <https://docs.nextgis.com/docs_ngcom/source/tracking.html#id6>`_, are done - you will see the corresponding icon (trackers)  in the left panel of the web map.
+Tracking results can be displayed on any web map of your Web GIS. For that create a ‘web map’ resource and open it. If procedures, described in `Section 3 <https://docs.nextgis.com/docs_ngcom/source/tracking.html#creating-tracker-groups>`_, are done - you will see the corresponding icon (trackers)  in the left panel of the web map.
 
 .. figure:: _static/Tracking_en.png
    :name: Tracking interface on Web map
@@ -225,6 +225,6 @@ The second block is for configuring the following parameters:
    Tracker report
    
 .. note::
-    For getting the spent fuel report you need to set up a fuel consumption in NextGIS Web settings (l/100 km)
+    For getting the spent fuel report you need to set up a `fuel consumption <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracker-settings>`_ in NextGIS Web settings (l/100 km)
     
 Also you can export reports in GPX format. 
