@@ -131,7 +131,7 @@ The track record will then appear in your Web GIS.
    
    Stop recording track
 
-.. figure:: _static/Popup notification_en.png
+.. figure:: _static/Popupnotification_en.png
    :name: Popup notification
    :align: center
    
