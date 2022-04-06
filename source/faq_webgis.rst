@@ -24,7 +24,13 @@ To recover a password from *NextGIS ID*, follow these steps:
 
    Password recovery NextGIS ID
 
+I forgot both username and password of my account. What to do?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+If you lost both username (email) and password from your account and can't recover access to your Web GIS, follow these steps:
 
+1. Write us at support@nextgis.com with the address of your Web GIS. Add information that will help us identify you as the owner of this Web GIS. Agreement number or paid invoice or any other information.
+2. We will let you know in a reply what your login is.
+3. Use instruction above "I forgot my account password (NextGIS ID). What to do?" to recover your password and futher access to your account.
 
 I forgot the password from the user *administrator* of my Web GIS and can not log in. What to do?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
