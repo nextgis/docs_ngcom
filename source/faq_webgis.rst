@@ -16,6 +16,9 @@
 
 1. Перейдите на `my.nextgis.com <https://my.nextgis.com//>`_
 2. Выберите "Забыли пароль?" (см. :numref:`forgot_pass_ngid`)
+3. Введите e-mail который вы использовали при создании аккаунта.
+
+На этот e-mail придет информация для восстановления пароля.
 
 .. figure:: _static/forgot_pass_ngid.png
    :name: forgot_pass_ngid
