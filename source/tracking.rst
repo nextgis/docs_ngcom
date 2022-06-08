@@ -11,27 +11,27 @@ How to enable the monitoring of moving objects (tracking)
 Introduction
 -------------
 
-Monitoring of moving objects function is based on registration of changing user’s geolocation in time
+Monitoring of moving objects function is based on registration of the user’s geolocation changing over time
 and is necessary to record the history of its movement on the ground.
 Tracking can be useful when you need to save a record of the route,
-track and further analyze the trajectories of movement of objects in space.
+track and further analyze the trajectories of objects moving in space.
 
 
 How tracking works
 -------------------
 
-A track is a sequence of points in space over time to be displayed on a web map.
+A track is a sequence of points in space over time to be displayed on a Web Map.
 
-Monitoring process looks like this - a person launches tracking in the mobile application, follows the route, stops tracking in the end.
-After that, recorded tracks are sent to the Web GIS server and are displayed on the web map (if it's configured).
+Monitoring process looks like this - a person launches tracking in the mobile application, follows the route, stops tracking at the end.
+After that, the recorded tracks are sent to the Web GIS server and are displayed on the Web Map (if it's configured).
 
 
 Creating tracker groups
 -----------------------
 
-If you want see tracks on a web map, it’s needed to set up your Web GIS - create special resources groups:
+If you want see tracks on a Web Map, you need to set up your Web GIS - create special resource groups:
 
-1. Create a resource **Trackers group**. This is a folder which contains trackers (devices that sent data to Web GIS).
+1. Create a resource **Trackers group**. This is a folder which contains trackers (devices that send data to Web GIS).
 
 .. figure:: _static/group_trackers_en.png
    :name: Create a group of trackers
@@ -39,7 +39,7 @@ If you want see tracks on a web map, it’s needed to set up your Web GIS - crea
    
    Creating a group of trackers
 
-2. Create a resource **Tracker** into a trackers group. For sync tracker with a mobile device, it’s needed enter ID (it can be found in NextGIS Mobile/Collector app’s settings (Mobile: Settings -> My tracks -> under Send location to server).
+2. Create a resource **Tracker** in the trackers group. To sync a tracker with a mobile device, you need to enter the device's ID. It can be found in NextGIS Mobile/Collector app’s settings (Mobile: Settings -> My tracks -> under Send location to server).
 
 .. figure:: _static/create_tracker_en.png
    :name: Creating a tracker
@@ -59,15 +59,15 @@ Tracking in NextGIS Mobile, Collector and Tracker
 
 For now you can track in mobile apps such as
 `NextGIS Mobile <https://play.google.com/store/apps/details?id=com.nextgis.mobile>`_,
-`NextGIS Collector <https://play.google.com/store/apps/details?id=com.nextgis.collector>`_ и NextGIS Tracker.
+`NextGIS Collector <https://play.google.com/store/apps/details?id=com.nextgis.collector>`_ and NextGIS Tracker.
 An Android smartphone is required for that.
 
 
 **1. NextGIS Mobile**
 
-It’s the complete mobile `GIS <https://nextgis.com/nextgis-mobile/>`_ that allows create, edit and share geodata both online and offline mode.
+It’s the complete mobile `GIS <https://nextgis.com/nextgis-mobile/>`_ that allows you to create, edit and share geodata both online and offline.
 
-First of all you need to install an application and sign in.
+First of all you need to install the application and sign in.
 Then activate the ‘Send location to server’ option in the ‘My tracks’ section of Settings.
 
 .. figure:: _static/Mobile_settings_en.png
@@ -94,11 +94,11 @@ The process of recording a track is described in details in the `Tracks <https:/
 
 **2. NextGIS Collector**
 
-This application is intended for collective data collection. It allows to Web GIS’s owner to get people on a team and begin `data collection <https://docs.nextgis.com/docs_ngcom/source/collector.html#team-participants-mobile-app-installation-and-start-of-data-collection>`_ using mobile devices.
+This application is intended for collective data collection. It allows the Web GIS’s owner to get people on a team and begin `data collection <https://docs.nextgis.com/docs_ngcom/source/collector.html#team-participants-mobile-app-installation-and-start-of-data-collection>`_ using mobile devices.
 
-A track recording process is similar to NextGIS Mobile’s `algorithm <https://docs.nextgis.com/docs_ngmobile/source/tracks.html#recording-a-track>`_ but with some interface differences.  
+Track recording process is similar to NextGIS Mobile’s `algorithm <https://docs.nextgis.com/docs_ngmobile/source/tracks.html#recording-a-track>`_ but with some interface differences.  
 
-So in order to start a new track it’s needed to tap on the ‘human’ icon in the upper panel and select ‘Start’. 
+So in order to start a new track you need to tap on the ‘human’ icon in the upper panel and select ‘Start’. 
 
 .. figure:: _static/Collector_icon_en.png
    :name: Tracker icon in NextGIS Collector
@@ -135,10 +135,10 @@ The track record will then appear in your Web GIS.
    :name: Popup notification
    :align: center
    
-   Popup notification
+   Pop-up notification
 
 
-The track list is in the second line of the context menu track icons. Here you can enable/disable tracks, color them according to the palette, remove or share in GPX format.
+The track list is in the second line of the context menu for the track icons. Here you can enable/disable tracks, color them according to the palette, remove or share in GPX format.
 
 .. figure:: _static/track_list_en.png
    :name: List of recorded tracks
@@ -152,23 +152,23 @@ The track list is in the second line of the context menu track icons. Here you c
 
 **3. NextGIS Tracker**
 
-This is a simple app that allows you to track recording.
+This is a simple app for track recording.
 
 *...Coming up...*
 
 
-Tracking results on the web map
+Tracking results on the Web Map
 --------------------------------
 
-Tracking results can be displayed on any web map of your Web GIS. For that create a ‘web map’ resource and open it. If procedures, described in `Section 3 <https://docs.nextgis.com/docs_ngcom/source/tracking.html#creating-tracker-groups>`_, are done - you will see the corresponding icon (trackers)  in the left panel of the web map.
+Tracking results can be displayed on any Web Map of your Web GIS. For that create a ‘Web Map’ resource and open it. If procedures described in `Section 3 <https://docs.nextgis.com/docs_ngcom/source/tracking.html#creating-tracker-groups>`_, are done - you will see the corresponding icon (trackers) in the left panel of the Web Map.
 
 .. figure:: _static/Tracking_en.png
    :name: Tracking interface on Web map
    :align: center
    
-   Tracking interface on Web map
+   Tracking interface on Web Map
 
-The interface of trackers consists of 2 parts - a calendar and a resources tree of trackers (folders ‘tracker groups’ and a set of trackers themselves inside). A calendar allows you to filter recorded tracks by the date and time. Tracker's tree contains the content of those resources that were created in Web GIS or were uploaded from the mobile application.
+The interface of trackers consists of 2 parts - a calendar and a tree of trackers (‘tracker groups’ folders and sets of trackers inside). A calendar allows you to filter recorded tracks by the date and time. Tracker's tree contains the content of those resources that were created in Web GIS or were uploaded from the mobile application.
 
 .. figure:: _static/Tracking_tools_en.png
    :name: Tracker tree and track operations on Web map
@@ -187,7 +187,7 @@ Operations that are available by right click on the track:
 
 - Zoom to layer (display layer extent)
 - Zoom to the last point (center last track point)
-- Set up a filter on the last day (display a track for the last day)
+- Set up a filter for the last day (display a track for the last day)
 - Show the last activity (see hourly activity)
 
 
@@ -195,13 +195,13 @@ Operations that are available by right click on the track:
    :name: Displaying track points, lines and current location on the Web map
    :align: center
    
-   Displaying track points, lines and current location on the Web map
+   Displaying track points, lines and current location on the Web Map
 
 
 Reports
 -------
 
-There is a possibility by ‘Reports’ button to create various types of reports depending on selected tracker and parameters.
+By clicking the ‘Reports’ button you can create various types of reports depending on selected tracker and parameters.
 
 .. figure:: _static/Report_icon_en.png
    :name: Report tool icon
@@ -209,7 +209,7 @@ There is a possibility by ‘Reports’ button to create various types of report
    
    Report tool icon
 
-A separate page for receiving tracking reports is opening.
+A separate page for receiving tracking reports opens.
 In the first block, you need to select the trackers for which you want to get an information summary.
 
 The second block is for configuring the following parameters:
@@ -225,6 +225,6 @@ The second block is for configuring the following parameters:
    Tracker report
    
 .. note::
-    For getting the spent fuel report you need to set up a `fuel consumption <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracker-settings>`_ in NextGIS Web settings (l/100 km)
+    For getting the spent fuel report you need to set up `fuel consumption <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracker-settings>`_ parameter in NextGIS Web settings (l/100 km)
     
 Also you can export reports in GPX format. 
