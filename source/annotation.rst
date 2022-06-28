@@ -107,14 +107,14 @@ You can create and edit annotations, if the option *Edit annotations* on the *"A
    :align: center
    :width: 20cm
 
-   Annotation edit mode
+   Annotation edit mode (1 - annotation editing enabled, 2 - mouse pointer when hovering over the map, 3 - edit pictogram appearing when the pointer is over the annotation text)
 
 To **create** an annotation you need to click the left mouse button on the Web Map. Then a dialog window of annotation creation will be opened:
 
 .. figure:: _static/ann_create_eng_2.png
    :name: ann_create
    :align: center
-   :width: 13cm
+   :width: 16cm
 
    Dialog window of annotation creation
 
@@ -169,32 +169,55 @@ If annotations are enabled in the Web Map settings, a particular user can have c
 .. list-table::
 
    * - Settings
-     - Result
-   * - | Web-map: View annotations - Deny
+     - Result for **administrator**
+     - Result for other users
+   * - | Web-map: View annotations - **Deny**
        | annotation_read - Deny
      - | Annotations panel is not shown on the Web Map.
        | No annotations are displayed on the Web Map, even the public annotations that are shown to unlogged users are hidden.
-   * - | Web-map: View annotations - Allow
+     - | Annotations panel is not shown on the Web Map.
+       | No annotations are displayed on the Web Map, even the public annotations that are shown to unlogged users are hidden.
+   * - | Web-map: View annotations - **Allow**
        | annotation_read - Allow
      - | Annotations panel is available on the Web Map.
        | Annotations can be viewed.
-       | Editing of annotations is possible.
-   * - | Web-map: View annotations - Allow
-       | Web-map: Edit annotations - Deny
+       | *Editing of annotations is possible*.
+     - | Annotations panel is available on the Web Map.
+       | Public annotations and *this user's annotations* can be displayed.
+       | *Annotations created by other users can not be displayed.*
+       | *Annotation editing tools are unavailable*.
+   * - | Web-map: View annotations - **Allow**
+       | Web-map: Edit annotations - **Deny**
        | annotation_read - Allow
        | annotation_write - Deny
      - | Annotations panel is available on the Web Map.
        | Public annotations and this user's annotations can be displayed.
        | Annotations created by other users can not be displayed.
        | Annotation editing tools are unavailable.
-   * - | Web-map: View annotations - Allow
-       | Web-map: Edit annotations - Allow
+     - | Annotations panel is available on the Web Map.
+       | Public annotations and this user's annotations can be displayed.
+       | Annotations created by other users can not be displayed.
+       | Annotation editing tools are unavailable.
+   * - | Web-map: View annotations - **Allow**
+       | Web-map: Edit annotations - **Allow**
        | annotation_read - Allow
        | annotation_write - Allow
      - | Annotations panel is available on the Web Map.
        | Public annotations and annotations created by all users can be displayed.
        | Editing of annotations is possible.
- 
+     - | Annotations panel is available on the Web Map.
+       | Public annotations and *this user's annotations* can be displayed.
+       | *Annotations created by other users can not be displayed*.
+       | Editing of annotations is possible.
+   * - | Web-map: View annotations - **Allow**
+       | Web-map: Edit annotations - **Allow**
+       | Web-map: Manage annotations - **Allow**
+     - | Annotations panel is available on the Web Map.
+       | Public annotations and annotations created by all users can be displayed.
+       | Editing of annotations is possible.
+     - | Annotations panel is available on the Web Map.
+       | Public annotations and annotations *created by all users* can be displayed.
+       | Editing of annotations is possible.
 
 
 
