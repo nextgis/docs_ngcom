@@ -46,7 +46,7 @@
 
 Получив письмо, перейдите по ссылке для подтверждения адреса электронной почты. Откроется страница личного кабинета с данными вашего профиля, в котором вы можете заполнить данные о себе, выбрать язык интерфейса и изменить пароль своего аккаунта. Для применения любых изменений нажмите кнопку "Сохранить" (см. :numref:`profile_pic`): 
 
-.. figure:: _static/Profile.png
+.. figure:: _static/Profile_ru.png
    :name: profile_pic
    :align: center
    :width: 16cm    
@@ -65,7 +65,7 @@
 
 Чтобы изменить пароль учетной записи NextGIS ID, нужно перейти в настройки профиля https://my.nextgis.com/profile и установить новый пароль (см. :numref:`ngid_change_pass`).
 
-.. figure:: _static/ngid_change_pass.png
+.. figure:: _static/ngid_change_pass_ru.png
    :name: ngid_change_pass
    :align: center
    :width: 16cm    
@@ -98,10 +98,6 @@
 
    Создание Веб ГИС.
 
-.. warning::
-
-   После создания Веб ГИС изменить её URL и язык интерфейса будет невозможно!
-
 Будет открыта страница "Настройки Веб ГИС" в вашем личном кабинете с информацией о том, что ваша Веб ГИС находится в процессе создания. 
 Когда процесс создания завершится, на вашу электронную почту придет письмо с логином и паролем для авторизации в Веб ГИС.
 (см. :numref:`WebGIS_creation_3_pic`): 
@@ -124,7 +120,7 @@
 
 Для перехода в Веб ГИС воспользуйтесь ссылкой на странице "Настройки Веб ГИС". Откроется окно с Основной группой ресурсов (см. :numref:`WebGIS_main_pic`): 
 
-.. figure:: _static/WebGIS_main.png
+.. figure:: _static/WebGIS_main_ru.png
    :name: WebGIS_main_pic
    :align: center
    :width: 16cm    
@@ -141,7 +137,7 @@
 
 Если у вас возникнут вопросы по работе с Веб ГИС, можно воспользоваться командой "Справка", нажав кнопку вызова меню в правом верхнем углу (см. :numref:`WebGIS_menu_pic`): 
 
-.. figure:: _static/WebGIS_menu.png
+.. figure:: _static/WebGIS_menu_ru.png
    :name: WebGIS_menu_pic
    :align: center
    :width: 16cm    
@@ -150,7 +146,7 @@
 
 После выбора команды "Справка" откроется страница со ссылками на документацию, правовые документы и контактную информацию NextGIS (см. :numref:`help_pic`): 
 
-.. figure:: _static/Help.png
+.. figure:: _static/Help_ru.png
    :name: help_pic
    :align: center
    :width: 16cm     
@@ -173,16 +169,16 @@
 
 Механизм управления командой позволяет добавить в свою команду любого пользователя NextGIS по его никнейму. Управление командой доступно через личный кабинет на https://my.nextgis.com/teammanage в разделе “Команда” (см. :numref:`Team_on_panel`).
 
-.. figure:: _static/Team_on_panel.png
+.. figure:: _static/Team_on_panel_ru.png
    :name: Team_on_panel
    :align: center
-   :width: 8cm    
+   :width: 7cm    
 
    Раздел “Команда” в левой панели Личного кабинета
    
 По умолчанию в команде уже находится администратор, который приобрел подписку на Premium (см. :numref:`First_administrator`). Он имеет возможность добавить новых пользователей, нажав кнопку “Добавить” и найдя их по никнейму NextGIS ID (см. :numref:`list_users`). Пользователи должны быть уже зарегистрированы на my.nextgis.com. Логин пользователя можно увидеть в его профиле на https://my.nextgis.com/. Если пользователь забыл свой логин и не может войти в профиль, он должен восстановить `доступ <https://docs.nextgis.ru/docs_ngcom/source/faq_webgis.html#nextgis-id>`_.
 
-.. figure:: _static/First_administrator.png
+.. figure:: _static/First_administrator_ru.png
    :name: First_administrator
    :align: center
    :width: 16cm    
@@ -200,7 +196,7 @@
    
 Каждый добавленный пользователь появится в списке (см. :numref:`all_users`). В любой момент пользователя можно удалить и/или заменить на другого, если достигнут доступный по тарифу лимит на размер команды (см. :numref:`limit_users`)
 
-.. figure:: _static/all_users.png
+.. figure:: _static/all_users_ru.png
    :name: all_users
    :align: center
    :width: 16cm    
