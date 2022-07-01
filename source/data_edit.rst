@@ -10,6 +10,33 @@ How to edit data
 	
 :ref:`Web GIS <ngcom_description>` allows to edit objects, attributes and add descriptions and attachments (including photos) of separate features in :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layers <ngcom_postgis_layer>`.
 
+Setting of permission for editing
+-----------------------------------
+
+By default, web map editing is always disabled. In order for the user to be able to make changes to the layers on the map, editing must be enabled in the web map settings.
+You can change permission for editing in "Update resource" dialog of a Web map. You can find how to enter it in :ref:`Update resource <ngw_update_resource>` of NextGIS Web documentation.
+You can allow or deny editing of all map layers on the "Settings" tab by ticking or clearing a box next to "Enable layers editing" field (see :numref:`webmap_allow_editting`):
+
+.. figure:: _static/webgis_allow_editting_eng.png
+   :name: webmap_allow_editting
+   :align: center
+   :width: 16cm
+
+   "Enable layers editing" field.
+
+.. note:: 
+	By default a box next to "Enable layers editing" field is clear.
+	
+To forbid some users editing of separate layers add a rule to deny separate users data writing (permission "Data:Write")on "Permissions" tab of "Update resorce" dialog (see :numref:`webmap_forbid_editting`). If user does not have a permission, he cannot enter the edit mode.
+
+.. figure:: _static/webgis_forbid_editting_eng.png
+   :name: webmap_forbid_editting
+   :align: center
+   :width: 16cm
+
+   Changes of editing permission for separate users.
+
+
 .. _ngcom_data_edit_objects:
 
 Edit a feature on a Web map
@@ -93,31 +120,7 @@ Modify a feature
 .. note:: 
 	You can edit several layers simultaneously. To do it enter the edit mode in every layer you want to edit. An adhesion will work for features of all editing layers.
 	
-Setting of permission for editing
------------------------------------
-
-You can change permission for editing in "Update resource" dialog of a Web map. You can find how to enter it in :ref:`Update resource <ngw_update_resource>` of NextGIS Web documentation.
-You can allow or deny editing of all map layers on the "Settings" tab by ticking or clearing a box next to "Enable layers editing" field (see :numref:`webmap_allow_editting`):
-
-.. figure:: _static/webgis_allow_editting_eng.png
-   :name: webmap_allow_editting
-   :align: center
-   :width: 16cm
-
-   "Enable layers editing" field.
-
-.. note:: 
-	By default a box next to "Enable layers editing" field is clear.
 	
-To forbid some users editing of separate layers add a rule to deny separate users data writing (permission "Data:Write")on "Permissions" tab of "Update resorce" dialog (see :numref:`webmap_forbid_editting`). If user does not have a permission, he cannot enter the edit mode.
-
-.. figure:: _static/webgis_forbid_editting_eng.png
-   :name: webmap_forbid_editting
-   :align: center
-   :width: 16cm
-
-   Changes of editing permission for separate users.
-
 Edit feature's attributes
 ----------------------
 
