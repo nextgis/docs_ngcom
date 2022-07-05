@@ -76,13 +76,13 @@ These stages of work with NextGIS Collector could be described schematically as 
 
 .. raw:: html
 
-   <iframe width="560" height="315" src="https://www.youtube.com/watch?v=xsMcjVUUEQQ" 
+   <iframe width="560" height="315" src="https://youtu.be/xsMcjVUUEQQ" 
     frameborder="0" allow="accelerometer;
     autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 To sum up, for beginning of data collection:
 
-- A data collection organizer should have a Web GIS on `Premium plan <http://nextgis.com/pricing/#premium/>`_.
+- A data collection organizer should have a Web GIS on `Premium plan <https://youtu.be/xsMcjVUUEQQ>`_.
 - Every data collection team participant should have a mobile device with Android OS.
 - Every data collection team participant should register in nextgis.com_ and know his registration email and a password.
 
