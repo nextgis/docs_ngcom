@@ -92,7 +92,7 @@ NextGIS Collector представляет собой технологическ
 
 .. raw:: html
 
-   <iframe width="560" height="315" src="https://youtu.be/xsMcjVUUEQQ"
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/fal_oUeGiLE"
     frameborder="0" allow="accelerometer;
     autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
