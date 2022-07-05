@@ -12,19 +12,17 @@ How to begin data collection in your Web GIS
 Introduction
 ------------
 
-You need to collect spatial data to get geographic and attributive information about objects located in some area. Geographic information is described by a set of coordinates. 
-Attributive information is a description of object's features.
+Collecting spatial data is used to get geographic and attributive information about objects located in some area. Geographic information is a set of coordinates. Attributive information is a description of the object's features.
 
 .. note::
-    As an **example** we can describe a task of monitoring of road infrastructure objects' condition.
-    A road and operational entity should perform monitoring of roadbed condition.
+    As an **example** we can describe a task of monitoring the condition of road infrastructure objects.
+    A road maintenance service should perform monitoring of the roadbed condition.
     Objects of spatial data collecting in this case are roadbed damages.
-    Geographical information in this example is damages coordinates. Attributive information includes
+    Geographical information in this example is coordinates of the damages. Attributive information includes
     damage type, its size, a description of its location within roadbed, photos of the damage.
     The NextGIS Collector was developed to simplify the procedure of such data collection and to give an instrument to do it.
 
-However before a technical description of this system possibilities lets look at main participants of data collection
-for better understanding of how this system works.
+However before a technical description of this system possibilities let's look at the main participants of data collection in order to better understand how this system works.
 
 There are two roles in a process of spatial data collection:
 
@@ -37,7 +35,7 @@ There are two roles in a process of spatial data collection:
 
    Abstract roles in the process of data collection
    
-An *organizer of data collection* is a subject who organizes a process of data collection, gathers a team of participants, controls a process and verified the data. An organizer could be a group of people as well as a separate person. In the above-mentioned example a road and operational entity was an organizer.
+An *organizer of data collection* is a subject who organizes the process of data collection, gathers a team of participants, controls the process and verifies the data. An organizer could be a group of people as well as an individual. In the above-mentioned example a road maintenance service was the organizer.
 
 Below there are some more examples of data collection organizers and their tasks.
 
@@ -47,30 +45,31 @@ Below there are some more examples of data collection organizers and their tasks
 
    Examples of data collection organizers
 
-A *participant of data collection* is a person who collects data in the field. His task is to describe properties of a real object in the field. Before active spreading of mobile devices people collected data using a paper notebook and writing implements. Nowadays mobile devices help to simplify this process and decrease a number of mistakes, so that we suppose, that every participant of data collection has a mobile device.
+A *participant of data collection* is a person who collects data in the field. His task is to describe properties of a real object in the field. Before active spreading of mobile devices people collected data using a paper notebook. Nowadays mobile devices help to simplify this process and decrease the number of mistakes, so we assume that every participant of data collection has a mobile device.
 
 Principles of work with NextGIS Collector
 -----------------------------------------
 
-NextGIS Collector is a technology created for simplifying of spatial data collection in the field.
+NextGIS Collector is a technology created to simplify spatial data collection in the field.
 
-NextGIS Collector allows an owner of created on nextgis.com Web GIS to organize a team and to begin data collection using mobile devices.
+NextGIS Collector allows the owner of a Web GIS created on nextgis.com to organize a team and to begin data collection using mobile devices.
 
-NextGIS Collector is a technologic stack allowing to create a dataflow between an organizer and participants of data collection for effective supervision over the process and for an easement of data collection (a process is described in a previous section).
+NextGIS Collector is a technological stack allowing users to create a dataflow between an organizer and participants of data collection for effective process supervision and easier data collection (the process is described in the previous section).
 
 .. figure:: _static/ngc-data-collection-team-ngc_eng.png
    :name: A place of NextGIS Collector among participants of data collection process
    :align: center
 
-   A place of NextGIS Collector among participants of data collection process
+   The place of NextGIS Collector in the data collection process
 
-There are the next stages of data collection process in NextGIS Collector:
+There are several stages of data collection process in NextGIS Collector:
 
-1. An organizer of data collection registers in nextgis.com_ and creates a Web GIS on `Premium plan <http://nextgis.com/pricing/#premium/>`_.
-2. A team of data collection participants registers in nextgis.com_.
-3. The organizer of data collection adds a team of data collection participants in his Web GIS and creates a project of data collection.
-4. Data collection participants install the `NextGIS Collector`_ app and join the project.
-5. Data collection participants begin data collection. Data is sent to Web GIS automatically.
+1. The organizer of data collection registers in nextgis.com_ and creates a Web GIS on `Premium plan <http://nextgis.com/pricing/#premium/>`_.
+2. The organizer installs `NextGIS Formbuilder <http://nextgis.com/nextgis-formbuilder>`_, creates data collection forms and uploads them to the Web GIS (`see documentation <https://docs.nextgis.com/docs_formbuilder/source/toc.html>`_). 
+3. A team of data collection participants registers in nextgis.com_.
+4. The organizer of data collection adds a team of data collection participants to his Web GIS and creates a project of data collection.
+5. Data collection participants install the `NextGIS Collector`_ app and join the project.
+6. Data collection participants begin data collection. Data is sent to Web GIS automatically.
 
 These stages of work with NextGIS Collector could be described schematically as follows:
 
@@ -80,38 +79,35 @@ These stages of work with NextGIS Collector could be described schematically as 
     frameborder="0" allow="accelerometer;
     autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-To sum up, for beginning of data collection:
+To sum up, to begin data collection:
 
-- A data collection organizer should have a Web GIS on `Premium plan <https://youtu.be/xsMcjVUUEQQ>`_.
+- The data collection organizer should have a Web GIS on `Premium plan <https://youtu.be/xsMcjVUUEQQ>`_.
 - Every data collection team participant should have a mobile device with Android OS.
-- Every data collection team participant should register in nextgis.com_ and know his registration email and a password.
+- Every data collection team participant should register in nextgis.com_ and know his registration email and password.
 
 
-Organizer of data collection: adding of team participants in Web GIS
+Organizer of data collection: adding team participants in Web GIS
 ----------------------------------------------------------------------
 
-The first stage of work with the system presumes a registration of data collection participants in Web GIS of the data collection organizer. Data collection team participants should have a mobile device with Android OS. They need to install the `NextGIS Collector`_ mobile app on each of mobile devices - it will allow to update data and synchronize updates with Web GIS of the data collection organizer.
+The first stage of work with the system is adding data collection participants in the Web GIS of the data collection organizer. Data collection team participants should have a mobile device with Android OS. They need to install the `NextGIS Collector`_ mobile app on each of mobile devices - it will allow them to update data and synchronize updates with the Web GIS of the data collection organizer.
 
-Besides, each data collection team participant should be registered in nextgis.com_. Team participant can do it himself or pass his login to the data collection organizer. A login in nextgis.com_ is an email used for a registration.
+Besides, each data collection team participant should be registered in nextgis.com_. Team participant can do it himself and pass his login to the data collection organizer. A login in nextgis.com_ is the email used for a registration.
 
 When all data collection team participants are registered in nextgis.com_, the data collection organizer will have a list of their emails.
 
-To add team participants to Web GIS you need to do the following:
+To add team participants to the Web GIS you need to do the following:
 
 1. Open Web GIS as administrator.
 
-.. important::
-    Described below actions demand administrator privilegies
+2. The home page of your Web GIS resources will be opened. Open the "Main menu" panel:
 
-2. The home page of your Web GIS resources will be opened. Open a "Main menu" panel:
-
-.. figure:: _static/ngc-stages-001_eng.png
+.. figure:: _static/ngc-stages-001_eng_2.png
    :name: ngc-stages-001
    :align: center
 
    Open main menu
 
-3. In main menu select «Control panel»:
+3. In the main menu select «Control panel»:
 
 .. figure:: _static/ngc-stages-002_eng.png
    :name: ngc-stages-002
@@ -121,149 +117,142 @@ To add team participants to Web GIS you need to do the following:
 
 4. In «Settings» of the control panel select «Collector projects»:
 
-.. figure:: _static/ngc-stages-003_eng.png
+.. figure:: _static/ngc-stages-003_eng_2.png
    :name: ngc-stages-003
    :align: center
 
    Select «Collector projects»
 
-5. «NextGIS Collector settings» will be opened:
+5. A page for managing data collection participants will be opened:
 
-.. figure:: _static/ngc-stages-004_eng.png
+.. figure:: _static/ngc-stages-004_eng_2.png
    :name: ngc-stages-004
    :align: center
 
-   «NextGIS Collector settings»
+   List of collectors
 
-6. To add a team participant to Web GIS press "Create" button. In opened window "New collector"
-fill up fields.
+6. To add a team participant to the Web GIS press "Create" button. It will redirect you to the "Create new collector" page. Make sure to type in full email adress that serves as NextGIS ID login.
 
 .. note::
-    We advice to fill up a field "Description" with the name and the surname of a team participant in order to have data about all 
-    NextGIS Collector users in one place. You can always find the participant you need with a search tool in a table of Collector users, which is quite suitable when there are a lot of participants.
+    We recommend filling up the field "Description" with the name and the surname of the team participant in order to have data about all NextGIS Collector users in one place. You can always find the participant you need with a search tool in a table of Collector users, which is quite suitable when there are a lot of participants.
 
-.. figure:: _static/ngc-stages-005_eng.png
+.. figure:: _static/ngc-stages-005_eng_2.png
    :name: ngc-stages-005
    :align: center
 
-   Add a new data collection team participant
+   Creating a new data collection participant
 
 7. As a result of this stage all data collection team participants will be registered in your Web GIS.
 
-.. figure:: _static/ngc-stages-006_eng.png
+.. figure:: _static/ngc-stages-006_eng_2.png
    :name: ngc-stages-006
    :align: center
 
-   An example of a filled table of data collection team participants
+   An example of a filled list of collectors
 
-Users with a registration in your Web GIS can get data collection projects from your Web GIS and begin data collection after they installed the `NextGIS Collector`_ mobile app and successfully authorized there. However you can control over an access of different users in each separate project. It is described in details below.
+Users with a registration in your Web GIS can access data collection projects from your Web GIS and begin data collection after they installed the `NextGIS Collector`_ mobile app and successfully sign in there. However you can control the access of different users to each individual project. It is described in details below.
 
 Organizer of data collection: creation of a data collection project
 -------------------------------------------------------------------
 
 Data collection project is a resource in your Web GIS, it is a set of layers for editing.
 In a Web GIS "data collection project" is called "Collector Project".
-Data collection project allows a data collection team participant to edit layers from it.
+Data collection project allows a data collection team participant to edit its layers.
 Web GIS owner can restrain access to the project for separate participants.
 
-Suppose, that layers with data are already downloaded in your Web GIS, and you want to create a project
-and to allow data collection team participants to collect or to edit data in your Web GIS. 
+Create necessary data layers in NextGIS Formbuilder or upload them from a file.
+
+Let's suppose that layers with data are already uploaded to your Web GIS, and you want to create a project
+and allow data collection team participants to collect or edit data in your Web GIS. 
 To do it:
 
-1. Open a Web GIS.
+1. Open the Web GIS.
 
-2. In «Create resource» select «Collector project»:
+2. Create a basemap if the collector will need to see a map on the mobile app.
 
-.. important::
-    Creation of data collection project is recomended for Web GIS administrator.
+3. In «Create resource» select «Collector project»:
 
-.. figure:: _static/ngc-stages-007_eng.png
+.. figure:: _static/ngc-stages-007_eng_2.png
    :name: ngc-stages-007
    :align: center
 
    Select «Collector project»
 
-3. Name a project. This name will be displayed in the `NextGIS Collector`_ mobile app :
+4. Name your project. This name will be displayed in the `NextGIS Collector`_ mobile app :
 
-.. figure:: _static/ngc-stages-008_eng.png
+.. figure:: _static/ngc-stages-008_eng_2.png
    :name: ngc-stages-008
    :align: center
 
-4. Open "Project" tab and fill up "Starting screen" and "NextGIS Collector user credentials" fields.
+5. In the "Project" tab select "Starting screen" and fill in "NextGIS Collector user credentials".
 
-«Starting screen» describes a starting screen in the `NextGIS Collector`_ mobile app: it could be a list of forms or a map.
+The starting screen in the `NextGIS Collector`_ mobile app could be a list of forms or a map.
 
-`NextGIS Collector`_ mobile app of all data collection team participants will use "User name" and "Password" of «NextGIS Collector user credentials» to bring changes in your Web GIS layers in.
+«NextGIS Collector user credentials» are the user name and password of a Web GIS user with necessary permission that the `NextGIS Collector`_ mobile app installed by all the participants will use to edit the layers in your Web GIS.
 
-.. note::
-    We advice to create a new user assigned only to the `NextGIS Collector`_ mobile app for filling up 
-    «NextGIS Collector user credentials». You need to give him permissions to read and write data for the layers in your Web GIS.
-    It will allow you to provide a safety of your data during the process of data collection.
-
-.. important::
-    It is highly unrecommeneded to use for «NextGIS Collector user credentials» data of the user with administrator privileges, because in the case of loss or interception of this data malefactor will get an access to your Web GIS.
-
-.. figure:: _static/ngc-stages-009_eng.png
+.. figure:: _static/ngc-stages-009_eng_2.png
    :name: ngc-stages-009
    :align: center
 
    "Project" tab
 
-5. The next stage is adding necessary items to the project on a tab "Items".
+6. The next stage is adding necessary items to the project on the "Items" tab.
 
-An item of Collector project could be a editable data layer, displaying only data layer, cartographical mat or a form for data collection.
+An item of Collector project could be an editable data layer, display-only data layer, basemap or a form for data collection.
 
 .. note::
-            You could add PostGIS layers in Collector project, but the NextGIS Collector mobile app does not support work with them now
+            You could add PostGIS layers in Collector project, but the NextGIS Collector mobile app does not support work with them for now
 
-Adding of items is like adding of layers when creating a web map. You need to press "Add item" button to add a layer or a data collection form. Select a vector layer in resourse list, not form. Press "Add group" button to create a group of items. Pulling of items is available within an item tree.
+Adding of items is like adding layers when creating a Web Map. Press the "Add item" button to add a layer or a data collection form. Select the vector layer in the resource list, not the form. Press "Add group" to create a group of items. Drag-and-drop of items is available within the item tree.
 
-.. figure:: _static/ngc-stages-010_eng.png
+.. figure:: _static/ngc-stages-010_eng_2.png
    :name: ngc-stages-010
    :align: center
 
    "Items" tab
 
-Each item of Collector project has next attributes:
+Each item of Collector project has the following attributes:
 
-- «Display name» - a layer name, which is displayed in the NextGIS Collector mobile app.
+- «Display name» - a layer name which is displayed in the NextGIS Collector mobile app.
 - «Visible» - controls layer's visibility in the NextGIS Collector mobile app.
 - «Editable» - allow or deny editing of the layer in the NextGIS Collector mobile app.
 - «Syncable» - allow or deny synchronization of the layer with your Web GIS.
 - «Lifetime for tiles (in min)» - time of tiles cashing (is actual for tiling layers).
-- «Min zoom» - a minimal zoom of the layer's visibility.
-- «Max zoom» - a maimum zoom of the layer's visibility.
+- «Min zoom» - minimal zoom of the layer's visibility.
+- «Max zoom» - maximum zoom of the layer's visibility.
 
-6. Then give permissions for data collection team participants on a "Collectors" tab ticking net to users participating in the project:
+7. Add basemap if necessary.
 
-.. figure:: _static/ngc-stages-011_eng.png
+8. Then on the "Collectors" tab ticking net give permissions to the users participating in the project:
+
+.. figure:: _static/ngc-stages-011_eng_2.png
    :name: ngc-stages-011
    :align: center
 
    «Collectors» tab
 
-7. Press "Create".
+9. Press "Create".
 
 As a result a Collector project (data collection project) will be created.
 
-You can have unlimited number of projects in your Web GIS. In each of them you can restrain or allow access only for a certain set of participants from a data collection team.
+You can have unlimited number of projects in your Web GIS. In each of them you can restrain or allow access for a particular set of participants from the data collection team.
 
 
 Team participants: mobile app installation and start of data collection
 ------------------------------------------------------------------------
 
 Data collection team participant should download and install the NextGIS Collector mobile app on his mobile device.
-You could download it from Google Play Store using following the link - `NextGIS Collector`_
+You could download it from Google Play Store using the following link - `NextGIS Collector`_
 or find it by the name in Google Play Store.
 
-.. figure:: _static/ngc-user-01.png
-   :name: ngc-user-01
+.. figure:: _static/ngc-user-01_eng.png
+   :name: ngc-user-02
    :align: center
    :width: 10cm
+   
+   Search in Play Market
 
-  Search in Play Market
-
-After instalation completed start the app, skip information windows and give necessary permissions:
+After the instalation is completed, start the app, skip information screens and give necessary permissions:
 
 .. figure:: _static/ngc-user-02.png
    :name: ngc-user-02
@@ -285,23 +274,30 @@ After instalation completed start the app, skip information windows and give nec
    :name: ngc-user-04
    :align: center
    :width: 10cm
+   
+   Access screen
+   
 
-
-
-.. figure:: _static/ngc-user-05.png
+.. figure:: _static/ngc-user-05_eng.png
    :name: ngc-user-05
    :align: center
    :width: 10cm
+   
+   Authorization
 
+By default the server used is my.nextgis.com, you can also choose to :ref:`use on-premise server <ngcollector_auth>`.
+If you're using NextGIS ID, make sure to enter the full email address.
 
 .. figure:: _static/ngc-user-06.png
    :name: ngc-user-06
    :align: center
    :width: 10cm
+   
+   Signing in with NextGIS ID
 
 After successful signing in you will see a list of projects.
 
-Suppose, there is a data collection project with starting screen as a list of forms in Web GIS.
+Let's suppose that there is a data collection project with a list of forms as a starting screen.
 When you choose this test project, the NextGIS Collector mobile app will display a list of layers.
 You can also switch the mode to a map.
 
@@ -310,7 +306,7 @@ You can also switch the mode to a map.
    :align: center
    :width: 10cm
 
-   Choose data collection project.
+   Choose data collection project
 
 .. figure:: _static/ngc-user-08.png
    :name: ngc-user-08
@@ -324,13 +320,13 @@ You can also switch the mode to a map.
    :align: center
    :width: 10cm
 
-   A list of layers in a view mode "Map"
+   List of layers in the "Map" mode
 
-After all above-mentioned is done, data collection team participant could begin editing of layers.
-The process of editing and editing tools are similar to those in NextGIS Mobile.
+After completing these steps a data collection team participant can begin editing layers.
+The process of editing and the editing tools are similar to those in NextGIS Mobile.
 
 .. important::
-    We recommend to collect data with activated GPS. 
+    We recommend collecting data with activated GPS. 
 
 
 Administrator's check-list
@@ -338,16 +334,16 @@ Administrator's check-list
 
 This a short version of a Web GIS administrator check-list. Follow the steps to get your data collection up and running.
 
-1. Formulate a list of attributes of feature that you're going to collect and describe in the field.
+1. Formulate a list of feature attributes that you're going to collect and describe in the field.
 2. Install NextGIS Software on your desktop.
 3. Create a Web GIS at nextgis.com, make sure you're on Premium.
-4. Run NextGIS Formbuilder, unlock Pro. Create a form, set field aliases for readability.
-5. Upload your form to your Web GIS. This will create a vector layer with style.
-6. Create an account to send data from NextGIS Collector app. For example:
-   Full name: Collector. Login: Collector. Password. Description: NextGIS Collector Account. Groups:Administrator.
+4. Run NextGIS Formbuilder, unlock Pro. Create a form, set field aliases for readability. Set default values for lists.
+5. Using Formbuilder, upload the form to your Web GIS. This will create a vector layer with style.
+6. Create an account to send data from NextGIS Collector app and give it the necessary permissions. For example:
+   Full name: Collector. Login: Collector. Password. Description: NextGIS Collector Account. Groups: Administrator.
 7. Create a basemap in your Web GIS. Search by 'OpenStreetMap'. Select OpenStreetMap Standard aka Mapnik.
 8. Create a Collector project. Enter name. Project - User name: Collector, enter password. 
-9. Items: add a layer you uploaded with Formbuilder (use Layer menu). Add a basemap you created earlier. Save.
+9. Items: add the layer you uploaded with Formbuilder (use Layer menu). Add the basemap you created earlier. Save.
 10. Add yourself as a user. ☰ - Control panel - Collector projects. Enter your e-mail, registered at nextgis.com
 11. Check the form on your device.
-12. Continue adding other users. For simplicity, ask users for register unsing gmail account. gmail client is already on every android, and already signed in.
+12. Continue adding other users. For simplicity, ask users to register using gmail account. Gmail client is already on every android, and already signed in.
