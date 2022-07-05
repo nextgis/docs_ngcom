@@ -327,34 +327,39 @@ NextGIS Collector представляет собой технологическ
    :name: ngc-user-04
    :align: center
    :width: 10cm
+   
+   Экран запроса доступа
 
-
-
-
- .. figure:: _static/ngc-user-05.png
+ .. figure:: _static/ngc-user-05_ru.png
    :name: ngc-user-05
    :align: center
    :width: 10cm
+   
+   Экран авторизации
 
+По умолчанию предлагается войти через сервер my.nextgis.com, при необходимости можно :ref:`использовать собственный сервер <ngcollector_auth>`.
+При авторизации по NextGIS ID введите полностью email-адрес.
 
- .. figure:: _static/ngc-user-06.png
+ .. figure:: _static/ngc-user-06_ru.png
    :name: ngc-user-06
    :align: center
    :width: 10cm
+   
+   Авторизация в облачном сервисе
 
 После успешного входа участник команды по сбору данных увидит список проектов.
 Предположим, что в Веб ГИС был создан проект по сбору данных с настройкой стартовой страницы в виде списка.
 При выборе этого тестового проекта мобильное приложение NextGIS Collector отобразит список слоев.
 Также можно переключить в режим карты.
 
- .. figure:: _static/ngc-user-07.png
+ .. figure:: _static/ngc-user-07_ru.png
    :name: ngc-user-07
    :align: center
    :width: 10cm
 
-   Выберите проект для сбора.
+   Выберите проект для сбора
 
- .. figure:: _static/ngc-user-08.png
+ .. figure:: _static/ngc-user-08_ru.png
    :name: ngc-user-08
    :align: center
    :width: 10cm
