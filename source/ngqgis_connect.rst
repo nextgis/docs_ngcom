@@ -20,12 +20,8 @@ First you need to establish a connection to your Web GIS:
 
 * Open *Settings* dialog from NextGIS Connect control panel;
 * Press **New** button;
-* In the opened dialog window fill in fields **URL** (for example, https://examples.nextgis.com) and **Name** (this name will be used in a list of available connections). In order to be able to create and delete resources uncheck a checkbox *As guest* and fill in fields **User name** and **Password**;
-
-.. note:: 
-   :guilabel:`User name` and :guilabel:`Password` to access your Web GIS are sent by email after you requested to create it (might take time). Email that you provided at `my.nextgis.com <https://my.nextgis.com/>`_ is used. User name and password can also be assigned later by Web GIS administrator through its Control panel.
-
-* Press :guilabel:`Ок` button and close dialog wndow. If the connection is established successfully you'll see your Web GIS resources tree in the plugin window.
+* In the opened dialog window fill in fields **URL** (for example, https://examples.nextgis.com) and **Name** (this name will be used in a list of available connections). Uncheck the checkbox *As guest* and enter the your NextGIS ID **username** (or the e-mail you used to register) and **password**;
+* Press :guilabel:`Ок` button and close the dialog wndow. If the connection is established successfully you'll see your Web GIS resources tree in the plugin window.
 
 .. figure:: _static/NGConnect_connection.gif
    :name: NG_Connect_connection
