@@ -160,7 +160,9 @@ In a Web GIS "data collection project" is called "Collector Project".
 Data collection project allows a data collection team participant to edit its layers.
 Web GIS owner can restrain access to the project for separate participants.
 
-Create necessary data layers in NextGIS Formbuilder or upload them from a file.
+You can create a Collector project via NextGIS Formbuilder (the simplest way, described `here <https://docs.nextgis.com/docs_formbuilder/source/workflow.html#nextgis-web>`_) or in your WebGIS.
+
+If you want to use your WebGIS to create a Collector project, first you need to create necessary data layers in NextGIS Formbuilder or upload them from a file.
 
 Let's suppose that layers with data are already uploaded to your Web GIS, and you want to create a project
 and allow data collection team participants to collect or edit data in your Web GIS. 
@@ -337,13 +339,10 @@ This a short version of a Web GIS administrator check-list. Follow the steps to 
 1. Formulate a list of feature attributes that you're going to collect and describe in the field.
 2. Install NextGIS Software on your desktop.
 3. Create a Web GIS at nextgis.com, make sure you're on Premium.
-4. Run NextGIS Formbuilder, unlock Pro. Create a form, set field aliases for readability. Set default values for lists.
-5. Using Formbuilder, upload the form to your Web GIS. This will create a vector layer with style.
-6. Create an account to send data from NextGIS Collector app and give it the necessary permissions. For example:
+4. Add yourself as a user. ☰ - Control panel - Collector projects. Enter your e-mail, registered at nextgis.com
+5. Create an account to send data from NextGIS Collector app and give it the necessary permissions. For example:
    Full name: Collector. Login: Collector. Password. Description: NextGIS Collector Account. Groups: Administrator.
-7. Create a basemap in your Web GIS. Search by 'OpenStreetMap'. Select OpenStreetMap Standard aka Mapnik.
-8. Create a Collector project. Enter name. Project - User name: Collector, enter password. 
-9. Items: add the layer you uploaded with Formbuilder (use Layer menu). Add the basemap you created earlier. Save.
-10. Add yourself as a user. ☰ - Control panel - Collector projects. Enter your e-mail, registered at nextgis.com
-11. Check the form on your device.
-12. Continue adding other users. For simplicity, ask users to register using gmail account. Gmail client is already on every android, and already signed in.
+6. Run NextGIS Formbuilder, unlock Pro. Create a form, set field aliases for readability. Set default values for lists.
+7. Using Formbuilder, upload the form to your Web GIS. This will create a vector layer with style. While uploading the form, create Collector project (a basemap and data collection project will be created) and a Web Map for data visualisation.
+8. Check the form on your device.
+9. Continue adding other users. For simplicity, ask users to register using gmail account. Gmail client is already on every android, and already signed in. Add names for the data collectors.
