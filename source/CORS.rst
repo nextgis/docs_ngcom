@@ -11,15 +11,35 @@ This mode allows to use data from Web GIS for a map or system on your ogranizati
 
 1. To switch on CORS, first go to your Web GIS Control panel:
 
-.. figure:: _static/Control_panel.png
+.. figure:: _static/Main_menu_eng.png
+   :name: Main_menu
+   :align: center
+   :width: 850px
+   
+   Opening the main menu
+
+.. figure:: _static/Control_panel_eng.png
    :name: Control_panel
    :align: center
    :width: 850px
+   
+   Selecting Control panel
 
 
 2. Select "Cross-origin resource sharing (CORS)" section and enter allowed origins for cross-domain requests on CORS Settings page:
 
-.. figure:: _static/CORS_settings.png
+.. figure:: _static/CORS_select_eng.png
+   :name: CORS_select
+   :align: center
+   :width: 850px
+   
+   Selecting CORS in the Control panel
+
+.. figure:: _static/CORS_settings_eng.png
    :name: CORS
    :align: center
    :width: 850px
+   
+   CORS settings page
+   
+Press **Save**.
