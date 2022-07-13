@@ -3,7 +3,18 @@
 How to export data
 ======================================
 
-:ref:`Web GIS <ngcom_description>` allows to export data from :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layer <ngcom_postgis_layer>` in :term:`GeoJSON`, :term:`CSV`, ESRI Shape, AutoCAD DXF and Mapinfo TAB formats. Depending on a format, additional file components are exported making further use of exported data more convenient. For example CSVT (field structure description) and PRJ (coordinate system description) are added to CSV and CPG (codepage) to ESRI Shape.
+:ref:`Web GIS <ngcom_description>` allows to export data from :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layer <ngcom_postgis_layer>` in the following formats:
+
+* :term:`GeoJSON`
+* :term:`CSV`
+* CSV for Microsoft Excel
+* :term:`ESRI Shapefile`
+* AutoCAD DXF
+* Mapinfo TAB
+* MapInfo MIF/MID
+* :term:`GeoPackage`.
+
+Depending on the format, additional file components are exported making further use of the exported data more convenient. For example CSVT (field structure description) and PRJ (coordinate system description) are added to CSV and CPG (codepage) to ESRI Shapefile.
 
 To export data:
 
@@ -13,28 +24,28 @@ To export data:
 
 In "Format" field select data format you need: CSV, DXF, ESRI Shapefile, GeoJSON or Mapinfo File:
 
-.. figure:: _static/newformats_eng.png
+.. figure:: _static/formats_en.png
    :name: newformats_pic
    :align: center
-   :width: 16cm    
+   :width: 20cm    
 
    "Format" field.
 
 In "SRS" field (Spatial reference system) in addition to standart coordinate systems Longitude-Latitude (EPSG: 4326) amd Mercator (EPSG: 3857) you can select custom coordinate systems created earlier (how to add custom SRS see below): 
 
-.. figure:: _static/coordinate_systems_eng.png
+.. figure:: _static/coordinate_systems_en.png
    :name: coordinate_systems_pic
    :align: center
-   :width: 16cm    
+   :width: 20cm    
 
    "SRS" field.
 
 In "Encoding" field you can choose among UTF-8, Windows-1251, Windows-1252 encoding for your data:
 
-.. figure:: _static/encodings_eng.png
+.. figure:: _static/encodings_en.png
    :name: encodings_pic
    :align: center
-   :width: 16cm    
+   :width: 20cm    
 
    "Encoding" field.
 
@@ -57,25 +68,54 @@ Custom coordinate systems
 .. note::
     Only userswith administrative privileges can add and modify SRS.
 
-To add a new SRS open "Control panel" (see item 1 in :numref:`admin_index_pic`) and press "Create" in "Spatial reference systems": 
+You can import a SRS from the catalog or create your own.
 
-.. figure:: _static/new_srs_eng.png
+To **import SRS from the catalog** open "Control panel" in the main menu and press "Catalog" in "Spacial reference systems". Start typing the name of the SRS in the search bar. When you find the desired SRS in the search results, press the icon with the arrow next to it.
+
+.. figure:: _static/new_srs_catalog_en.png
+   :name: new_srs_catalog
+   :align: center
+   :width: 20cm    
+
+   Search results in the catalog
+
+You will be redirected to the import page. Here you can modify the name of SRS to be displayed in your WebGIS.
+
+.. figure:: _static/new_srs_import_en.png
+   :name: new_srs_import
+   :align: center
+   :width: 20cm    
+
+   Adding SRS from catalog
+   
+.. figure:: _static/new_srs_import_save_en.png
+   :name: new_srs_import_save
+   :align: center
+   :width: 20cm    
+
+   Completing import
+
+On the next page, press **Save** to complete the import.
+
+To **create a new SRS** open "Control panel" in the main menu and press "Create" in "Spatial reference systems": 
+
+.. figure:: _static/new_srs_eng_2.png
    :name: new_srs_pic
    :align: center
-   :width: 16cm    
+   :width: 20cm    
 
-   Creation of a new SRS.
+   Creation of a new SRS
    
 You can give an SRS display name and its definition in OGC WKT format. You can also import definitions from common formats as PROJ, MapInfo and EPSG, after the import they will get converted to OGC WKT format. Then press "Create" button.
 
 You can find a list of created and available SRS in the "List" of "Spatial reference systems" in "Control panel". In this list there are two SRS by default: «WGS 84 / Lon-lat (EPSG:4326)» and «WGS 84 / Pseudo-Mercator (EPSG:3857)», which can’t be removed or edited (except name):
 
-.. figure:: _static/list_srs_eng.png
+.. figure:: _static/list_srs_eng_2.png
    :name: list_srs_pic
    :align: center
-   :width: 16cm    
+   :width: 20cm    
 
-   A list of SRS.
+   A list of SRS
    
 The added SRS can be used for various purposes:
 
@@ -84,7 +124,7 @@ The added SRS can be used for various purposes:
 .. figure:: _static/use_of_custom_srs1_eng.png
    :name: use_of_custom_srs1_pic
    :align: center
-   :width: 16cm    
+   :width: 20cm    
 
    The use of custom SRS.
    
