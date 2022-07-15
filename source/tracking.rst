@@ -32,7 +32,7 @@
 
 1. Создать ресурс **“Группа трекеров”**. Это папка, в которой находятся трекеры (устройства, с которых будут отправляться данные в Веб ГИС).
 
-.. figure:: _static/group_trackers.png
+.. figure:: _static/group_trackers_ru.png
    :name: Создание группы трекеров
    :align: center
    
@@ -40,13 +40,13 @@
 
 2. Внутри *группы трекеров* создать ресурс **“Трекер”**. Чтобы связать его с устройством, в разделе “Трекер” настроек ресурса нужно ввести уникальный идентификатор (ID) вашего устройства (его можно посмотреть в настройках приложения NextGIS Mobile и NextGIS Collector).
 
-.. figure:: _static/create_tracker.png
+.. figure:: _static/create_tracker_ru.png
    :name: Создание трекера
    :align: center
    
    Создание трекера
 
-.. figure:: _static/tracker_settings_id.png
+.. figure:: _static/tracker_settings_id_ru.png
    :name: Настройки трекера
    :align: center
    
