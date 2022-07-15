@@ -36,9 +36,9 @@ Get Started with your Web GIS
    collector
    ngapi
    CORS
+   CSS
    homepage
    domain
-   CSS
    backup
    help
    faq_webgis
