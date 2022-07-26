@@ -83,6 +83,16 @@ Hide layer icons on Web map
 	    display: none;
 	}
 
+Change Web map background color
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+	.ol-viewport {
+		background-color: #000;
+	}
+	
+
 Advanced example
 ~~~~~~~~~~~~~~~~
 
