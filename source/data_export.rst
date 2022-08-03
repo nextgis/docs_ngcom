@@ -66,7 +66,7 @@ Custom coordinate systems
     Custom SRS functionality is available on `Premium <http://nextgis.com/pricing/#premium/>`_ and `Corporate <http://nextgis.com/pricing/#corporate/>`_ plans. 
 
 .. note::
-    Only userswith administrative privileges can add and modify SRS.
+    Only users with administrative privileges can add and modify SRS.
 
 You can import a SRS from the catalog or create your own.
 
@@ -106,7 +106,7 @@ To **create a new SRS** open "Control panel" in the main menu and press "Create"
 
    Creation of a new SRS
    
-You can give an SRS display name and its definition in OGC WKT format. You can also import definitions from common formats as PROJ, MapInfo and EPSG, after the import they will get converted to OGC WKT format. Then press "Create" button.
+You can give an SRS display name and enter its definition in OGC WKT format. You can also import definitions from common formats as PROJ, MapInfo and EPSG, after the import they will get converted to OGC WKT format. Then press "Create" button.
 
 You can find a list of created and available SRS in the "List" of "Spatial reference systems" in "Control panel". In this list there are two SRS by default: «WGS 84 / Lon-lat (EPSG:4326)» and «WGS 84 / Pseudo-Mercator (EPSG:3857)», which can’t be removed or edited (except name):
 
@@ -126,7 +126,7 @@ The added SRS can be used for various purposes:
    :align: center
    :width: 20cm    
 
-   The use of custom SRS.
+   The use of custom SRS
    
 2. To export vector layers. All custom SRS are also available for data export (see above).
 
