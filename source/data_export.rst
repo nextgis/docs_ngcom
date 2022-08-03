@@ -63,7 +63,7 @@ Custom coordinate systems
 ---------------------------------
 
 .. note::
-    Custom SRS functionality is available on `Premium <http://nextgis.com/pricing/#premium/>`_ and `Corporate <http://nextgis.com/pricing/#corporate/>`_ plans. 
+    Custom SRS functionality is available on `Premium <http://nextgis.com/pricing/#premium/>`_ and while using the product `On-premise <https://nextgis.com/pricing/>`_. 
 
 .. note::
     Only users with administrative privileges can add and modify SRS.
