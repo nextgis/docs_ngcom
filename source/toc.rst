@@ -32,6 +32,7 @@
    hide_data_export
    resource_delete
    ngqgis_connect
+   address_search
    tracking
    collector
    ngapi
