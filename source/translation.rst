@@ -71,12 +71,12 @@ Russian translation example:
 Also you can see these parameters: %s, %d, %f and like these that also don’t require the translation.
 When the program is running, they are automatically replaced by string or numeric parameters.
 
-Пример 1:
+Example 1:
 
 * en. - *User count: %d*.
 * ru. - *Количество пользователей: %d*.
 
-Пример 2:
+Example 2:
 
 * en. - *Field ‘%s(?)’ encoding is broken*.
 * ru. - *Кодировка поля ‘%s(?)’ повреждена*.
