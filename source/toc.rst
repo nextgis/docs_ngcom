@@ -41,5 +41,6 @@ Get Started with your Web GIS
    homepage
    domain
    backup
+   translation
    help
    faq_webgis
