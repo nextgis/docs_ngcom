@@ -19,7 +19,8 @@ The following user interface languages are currently available for NGW:
 
 
 We invite users to contribute to the quality of our translations.
-If you are an expert in any of the listed languages, you can improve the current user interface by yourself.
+If you are an expert in any of the listed or other languages, you can improve the current user interface by yourself.
+As soon as 80% of translated content appears, we add a new language to NGW.
 
 
 .. figure:: _static/ngw_translation_3.png
