@@ -21,6 +21,10 @@ First you need to establish a connection to your Web GIS:
 * Open *Settings* dialog from NextGIS Connect control panel;
 * Press **New** button;
 * In the opened dialog window fill in fields **URL** (for example, https://examples.nextgis.com) and **Name** (this name will be used in a list of available connections). Uncheck the checkbox *As guest* and enter the your NextGIS ID **username** (or the e-mail you used to register) and **password**;
+
+.. note:: 
+   Only the owner of the Web GIS and users added to the `team <https://docs.nextgis.com/docs_ngcom/source/create.html#team-management>`_ can create and delete resources in the Web GIS.
+
 * Press :guilabel:`Ок` button and close the dialog wndow. If the connection is established successfully you'll see your Web GIS resources tree in the plugin window.
 
 .. figure:: _static/NGConnect_connection.gif
