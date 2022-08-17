@@ -117,6 +117,52 @@ You'll receive an email with your Web GIS login and password. After your Web GIS
 
 To open your Web GIS click the link on the "Web GIS Settings" page. Web GIS Main resource group will open (see :numref:`WebGIS_main_pic`): 
 
+.. figure:: _static/WebGIS_main_guest_en.png
+   :name: WebGIS_main_guest_pic
+   :align: center
+   :width: 16cm 
+   
+   Window of the Main resource group
+
+
+How to sign in to your Web GIS
+------------------------------
+
+To start working in your Web GIS, first sign in using a **"Sign in"** button in the upper right corner.
+
+.. figure:: _static/ngweb_before_signin_en.png
+   :name: ngweb_before_signin_pic
+   :align: center
+   :width: 16cm
+   
+   Signing in from Web GIS main page
+
+In the opened dialog press the green button that reads "Sign in with NextGIS ID".
+
+.. figure:: _static/ngweb_signin_nextgisid_en.png
+   :name: ngweb_signin_nextgisid_pic
+   :align: center
+   :width: 16cm
+   
+   Selecting sign-in via NextGIS
+
+You will be redirected to my.nextgis.com authorization page. Enter your username or email you used for registration and your password. 
+
+.. figure:: _static/ngweb_nextgisid_en.png
+   :name: ngweb_nextgisid_pic
+   :align: center
+   :width: 12cm
+   
+   Signing in with NextGIS
+
+After the authorization is completed successfully you will be redirected back to the Web GIS.
+
+
+Main menu
+----------
+
+A red rectangle indicates a menu containing "Resources", "Control panel" (only for Premium users) and "Help" sections.
+
 .. figure:: _static/WebGIS_main_en.png
    :name: WebGIS_main_pic
    :align: center
@@ -124,15 +170,7 @@ To open your Web GIS click the link on the "Web GIS Settings" page. Web GIS Main
 
    Main resource group
    
-A red rectangle indicates a menu containing "Resources", "Control panel" (only for Premium users) and "Help" sections.
-   
-To start working in your Web GIS, first sign in with your Web GIS login and password using a **"Sign in"** button in the upper right corner.
-
-.. warning::
-
-   Your Web GIS login and password differ from your NextGIS ID login and password!
-
-If you have questions about your Web GIS, you can go to the "Help" section of the menu by clicking on menu button in the upper right corner (see :numref:`WebGIS_menu_pic`): 
+If you have questions about your Web GIS, you can go to the "Help" section of the menu. 
 
 .. figure:: _static/WebGIS_menu_en.png
    :name: WebGIS_menu_pic
@@ -159,10 +197,8 @@ Team management
 .. warning::
    This functionality is only available for `Premium <http://nextgis.com/nextgis-com/plans>`_ users.
    
-.. note::
-   This section applies to NextGIS users who have an account on my.nextgis.com, not `users <https://docs.nextgis.com/docs_ngweb/source/admin_tasks.html#ngw-create-group>`_ of a particular Web GIS.
    
-According to nextgis.com plans, the Premium account holder has an opportunity to give access to Pro-functions of `NextGIS QGIS <https://nextgis.com/nextgis-qgis#pro>`_, `Mobile <https://nextgis.com/nextgis-mobile#pro>`_ и `Formbuilder <https://nextgis.com/nextgis-formbuilder#pro>`_ to 4 more users.
+According to nextgis.com plans, the Premium account holder has an opportunity to give access to Pro-functions of `NextGIS QGIS <https://nextgis.com/nextgis-qgis#pro>`_, `Mobile <https://nextgis.com/nextgis-mobile#pro>`_ и `Formbuilder <https://nextgis.com/nextgis-formbuilder#pro>`_ to 4 more users who have a NextGIS ID.
 
 Team management allows adding any NextGIS user by login to your team. Team management is available through your personal account at https://my.nextgis.com/teammanage in the Team section (see :numref:`Team_on_panel`).
 
