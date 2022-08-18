@@ -5,6 +5,23 @@ Problem Solving (Q&A)
 
 In this section you can find answers to the most frequently asked questions about using Web GIS.
 
+
+.. _ngcom_webgis_howto_signin:
+
+How to sign in to Web GIS
+--------------------------
+
+I have a Web GIS. How do sign in?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In the upper right corner press "Sign in", then select "Sign in with NextGIS ID". Enter the credentials of your global NextGIS account (username or email used for registration and password).
+If you forgot your password or login, see instructions `below <https://docs.nextgis.com/docs_ngcom/source/faq_webgis.html#ngcom_change_passwords_webgis>`_.
+
+I want to let another user access my Web GIS. How can I do it?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. The user creates an account on `my.nextgis.com <https://my.nextgis.com/>`_. 
+2. The owner of the Web GIS goes to the `Team <https://docs.nextgis.com/docs_ngcom/source/create.html#team-management>`_ page and adds a new team member by username.
+3. The user logs in with NextGIS ID.
+
 .. _ngcom_change_passwords_webgis:
 
 Access recovery and passwords
@@ -106,11 +123,10 @@ As a rule, a typical NextGIS platform user needs 2 accounts: a global and a loca
 
 Global account
 ~~~~~~~~~~~~~~
-Most services require a **global** account. This is the typical account that acts uniformly almost everywhere. It gives access to all services, except **Web GIS**.
+Most services require a **global** account. This is the typical account that acts uniformly almost everywhere. It gives access to all services.
 
 This account is created by registration at http://my.nextgis.com. Email or login and password provided during registration can be used to sign in with services.
 
-Thus, if the user does not need to *enter* the Web GIS, global account is enough.
 
 .. _ngcom_local_account:
 
