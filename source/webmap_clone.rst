@@ -3,7 +3,7 @@
 
 .. _ngcom_webmap_clone:
 
-How to clone (copy) Web Map
+How to clone (copy) a Web Map
 ======================================
 
 With NextGIS you can copy a Web Map within a Web GIS by using Cloning. The copy will have the same parameters and layers.
@@ -29,7 +29,7 @@ Also you need to choose the group for the copy. By default it's the group contai
 If all the parameters are correct, press "Clone". A copy of the map will be created.
 After the cloning process is completed successfully you will be redirected to "Update resource" page where you can change the settings of the newly created copy.
 
-How to select a group for the cloning
+How to select a target group
 ------------------------------
 
 If you wish to create a copy in a different folder, press the magnifying glass icon at the end of the "Resource group" field.
@@ -70,7 +70,7 @@ Another way is to open the group and press "Clone to this group". If no group is
 Use this way to copy a Web Map to the main resource group (marked by a house icon in the path panel).
 
 
-How to create a new group for cloning
+How to clone to a new group
 --------------------------------------
 
 If you need to create a new group, click on the folder icon with a plus in the bottom left corner of the pop-up window.
