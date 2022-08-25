@@ -24,32 +24,41 @@ To export data:
 
 In "Format" field select data format you need: CSV, DXF, ESRI Shapefile, GeoJSON or Mapinfo File:
 
-.. figure:: _static/formats_en.png
+.. figure:: _static/formats_en_2.png
    :name: newformats_pic
    :align: center
    :width: 20cm    
 
-   "Format" field.
+   "Format" field
 
 In "SRS" field (Spatial reference system) in addition to standart coordinate systems Longitude-Latitude (EPSG: 4326) amd Mercator (EPSG: 3857) you can select custom coordinate systems created earlier (how to add custom SRS see below): 
 
-.. figure:: _static/coordinate_systems_en.png
+.. figure:: _static/coordinate_systems_en_2.png
    :name: coordinate_systems_pic
    :align: center
    :width: 20cm    
 
-   "SRS" field.
+   "SRS" field
 
 In "Encoding" field you can choose among UTF-8, Windows-1251, Windows-1252 encoding for your data:
 
-.. figure:: _static/encodings_en.png
+.. figure:: _static/encodings_en_2.png
    :name: encodings_pic
    :align: center
    :width: 20cm    
 
-   "Encoding" field.
+   "Encoding" field
 
 “FID field” is used for setting a field name to be added to a exported data where the object identifiers will be placed (the default is “ngw_id”).
+
+Next you can chose which of the fields of the data to keep in the file. By default, all are selected. To remove a field, click on the cross by its name or untick it in the drop-down menu. To add a field again, tick it in the drop-down menu.
+
+.. figure:: _static/export_fields_en.png
+   :name: export_fields_pic
+   :align: center
+   :width: 20cm    
+
+   Selcting fields
 
 Output in ESRI Shapefile or MapInfo TAB results in a Zip archive with necessary files. For single-file formats (like GeoJSON or CSV) creation of Zip archive is optional.
 
