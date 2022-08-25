@@ -5,13 +5,17 @@
 How to set up address search for your Web Map
 =============================================
 
-In NextGIS Web you can search features on the Web Map. Results appear as you type. 
+In NextGIS Web you can search features on the Web Map. Results appear as you type, sorted in the following order: 
 
-* First, matches found in attributes of features in the layers added to the Web Map
-* Below them, addresses containing the search text
+1. Coordinates.
+2. Matches found in attributes of features in the layers added to the Web Map.
+3. Addresses containing the search text.
  
 After a click on a search result the map changes extent to show the selected feature.
 
+.. note::
+   To find a point using the coordinates, enter the latitude and longitude in degrees, minutes and seconds or decimal degrees, for example: 79°4'14.08"W, 43°4'59.37"N or -79 43; -79,07 43,08; -79.068493 43.079920.
+   
 .. figure:: _static/webmap_search_results_en.png
    :name: webmap_search_results_pic
    :align: center
