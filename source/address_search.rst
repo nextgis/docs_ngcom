@@ -14,8 +14,23 @@ In NextGIS Web you can search features on the Web Map. Results appear as you typ
 After a click on a search result the map changes extent to show the selected feature.
 
 .. note::
-   To find a point using the coordinates, enter the latitude and longitude in degrees, minutes and seconds or decimal degrees, for example: 79°4'14.08"W, 43°4'59.37"N or -79 43; -79,07 43,08; -79.068493 43.079920.
+   To find a point using the coordinates, enter the latitude and longitude in decimal degrees or degrees, minutes and seconds (make sure to use straight single and double quotes), for example: 
    
+.. code-block:: bash
+
+    79 W 43 N
+    W 79 N 43
+    -79 43 (the results will contain two points: 79 W, 43 N and 43 E, 79 S)
+    79- 43
+    -79 W 43 N
+    79°4'14.08" W 43°4'59.37" N
+    -79°4'14.08"  43°4'59.37"
+    -79 4.25 W  43 4.95 N
+    -79 4.25  43 4.95
+    79.068493 43.079920
+    79.068 W 43.08 N
+
+
 .. figure:: _static/webmap_search_results_en.png
    :name: webmap_search_results_pic
    :align: center
