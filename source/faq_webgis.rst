@@ -81,19 +81,19 @@
 2. Откройте основное меню в правом верхем углу интерфейса
 3. Перейдите в Панель управления
 4. Откройте список пользователей (см. :numref:`control_list_users`)
-5. Измените пароль в настройках пользователя (см. :numref:`admin_change_password`)
+5. В настройках пользователя выберите в поле "Пароль" в выпадающем меню "Назначить новый" и введите новый пароль (см. :numref:`admin_change_password`).
 
-.. figure:: _static/control_list_users.png
+.. figure:: _static/control_list_users_ru.png
    :name: control_list_users
    :align: center
-   :width: 16cm    
+   :width: 20cm    
 
    Список пользователей Веб ГИС
    
-.. figure:: _static/admin_change_password.png
-   :name: admin_change_password
+.. figure:: _static/admin_change_user_password_ru.png
+   :name: admin_change_user_password_pic
    :align: center
-   :width: 16cm    
+   :width: 20cm    
 
    Изменение пароля пользователя Веб ГИС
 
