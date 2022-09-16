@@ -61,10 +61,10 @@ If you have forgotten the password from the administrator of your Web GIS, resto
 
 Wait for the confirmation message by email. Then you can log in to your Web GIS **administrator** user and specified password.
 
-.. figure:: _static/Web_GIS_change_password_eng.png
+.. figure:: _static/Web_GIS_change_password_eng_2.png
    :name: Web_GIS_change_password_eng
    :align: center
-   :width: 16cm    
+   :width: 20cm    
 
    Changing Web GIS Administrator Password
    
@@ -78,12 +78,19 @@ If you have forgotten the password for any user who is not a Web GIS administrat
 2. Open the main menu in the upper right corner of the interface
 3. Go to Control Panel
 4. Open the user list
-5. Change the password in the user settings (см. :numref:`change_password_user_en`)
+5. Change the password in the user settings
 
-.. figure:: _static/change_password_user_en.png
-   :name: change_password_user_en
+.. figure:: _static/control_list_users_en.png
+   :name: control_list_users_pic
    :align: center
-   :width: 16cm    
+   :width: 20cm    
+   
+   List of Web GIS users
+
+.. figure:: _static/admin_change_user_password_eng.png
+   :name: admin_change_user_password_pic
+   :align: center
+   :width: 20cm 
 
    Changing Web GIS User Password
 
