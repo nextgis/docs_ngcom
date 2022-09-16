@@ -66,7 +66,7 @@
 
 Дождитесь подтверждающего сообщения по почте. После этого вы сможете войти в вашу Веб ГИС с пользователем **administrator** и указанным паролем.
 
-.. figure:: _static/Web_GIS_change_password.png
+.. figure:: _static/Web_GIS_change_password_ru.png
    :name: Web_GIS_change_password
    :align: center
    :width: 16cm    
@@ -81,7 +81,7 @@
 2. Откройте основное меню в правом верхем углу интерфейса
 3. Перейдите в Панель управления
 4. Откройте список пользователей (см. :numref:`control_list_users`)
-5. В настройках пользователя выберите в поле "Пароль" в выпадающем меню "Назначить новый" и введите новый пароль (см. :numref:`admin_change_password`).
+5. В настройках пользователя выберите в поле "Пароль" в выпадающем меню "Назначить новый" и введите новый пароль.
 
 .. figure:: _static/control_list_users_ru.png
    :name: control_list_users
