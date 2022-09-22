@@ -3,10 +3,10 @@
 How to upload data
 ================================
 
-Raster and vector geodata are uploaded to :ref:`Web GIS <ngcom_description>` by creation of :ref:`Raster layer <ngcom_raster_layer>` and :ref:`Vector layer <ngcom_vector_layer>` resources.
+Raster and vector geodata are uploaded to :ref:`Web GIS <ngcom_description>` by creation of :ref:`Raster layer <ngcom_raster_layer>` and :ref:`Vector layer <ngcom_vector_layer>` resources respectively.
 
 .. note:: 
-	The size limit for uploaded files depends on the selected plan. For **Premium** - 1.0 GB, for **Free** and **Mini** - 128 Mb. For rasters, this limit corresponds to uncompressed files in EPSG: 3857.
+	The size limit for uploaded files depends on the selected plan. For **Premium** - 2.0 GB, for **Free** and **Mini** - 128 Mb. For rasters, this limit corresponds to uncompressed files in EPSG: 3857.
 
 
 .. _ngcom_data_preview:
@@ -38,21 +38,21 @@ Creating raster layer
 ^^^^^^^^^^^^^^^^^^^^^
 
 #. Open the :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default the main page of Web GIS has Main resource group displayed);
-#. Select :menuselection:`Create resource --> Raster layer` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. Select :menuselection:`Create resource --> Raster layer` on the right side of the Web GIS :ref:`admin console <ngw_admin_interface>`;
 #. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new layer in the field :guilabel:`Display name`. Then go to :guilabel:`Raster layer` tab and select a file with raster geodata;
 #. Press :guilabel:`Create` button. If Raster layer is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
-If you plan to add this raster in QGIS directly from your Web GIS, turn on Upload as Cloud Optimized GeoTIFF (COG) checkbox.
+If you plan to add this raster to QGIS directly from your Web GIS, turn on Upload as Cloud Optimized GeoTIFF (COG) checkbox.
 
 .. important::
-	If you plan to display Raster layer on :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol, you need to create a `Style <https://docs.nextgis.com/docs_ngcom/source/styles.html#ngcom-styles>`_ for it first.
+	If you plan to display the Raster layer on a :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol, you need to create a `Style <https://docs.nextgis.com/docs_ngcom/source/styles.html#ngcom-styles>`_ for it first.
 
 .. _ngcom_raster_requirements:
 
-.. figure:: _static/Raster_layer.gif
+.. figure:: _static/raster_layer_en.gif
    :name: Raster_layer
    :align: center
-   :width: 850px
+   :width: 800px
 
    Raster upload process
 
@@ -69,7 +69,7 @@ To ensure fast rendering on web maps and serving, rasters with TMS and WMS used 
 
 There are three important limitations for uploading large raster files:
 
-#. File size - maximum file size being uploaded is **1 Gb**. This limit can't be changed on Premium, but can be changed `on-premise <https://nextgis.com/pricing/>`_;
+#. File size - maximum file size being uploaded is **2 Gb**. This limit can't be changed on Premium, but can be changed `on-premise <https://nextgis.com/pricing/>`_;
 #. Total data volume - you can upload up to **50 Gb** of data on Premium (this limit can be `raised <https://nextgis.com/pricing-base/#volume-premium>`_);
 #. Processing time - maximum processing time is 3 minutes. If raster processing takes more time, the import process will be interrupted and an error message will appear. Raster layer will not be created.
 
@@ -84,7 +84,7 @@ Consequently, to ensure raster upload:
 #. Reproject rasters into EPSG:3857
 #. Unpack raster (remove internal compression)
 
-If this is done, raster of 1 Gb will be uploaded. If this is not done, but your raster is smaller and reprojecting and unpacking it takes less than 3 minutes, raster layer will still be created.
+If this is done, raster of 2 Gb will be uploaded. If this is not done, but your raster is smaller and reprojecting and unpacking it takes less than 3 minutes, raster layer will still be created.
 
 
 .. _ngcom_vector_layer:
@@ -106,17 +106,17 @@ Creating vector layer
 ^^^^^^^^^^^^^^^^^^^^^
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default from the main page of Web GIS you can access Main resource group);
-#. Select :menuselection:`Create resource --> Vector layer` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new layer in the field :guilabel:`Display name`. Then in :guilabel:`Vector layer` tab select a file with vector geodata and specify its encoding;
+#. Select :menuselection:`Create resource --> Vector layer` on the right side of the Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new layer in the field :guilabel:`Display name`. Then in :guilabel:`Vector layer` tab select a file with vector geodata;
 #. Press :guilabel:`Create` button. If Vector layer is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. important::
 	If you plan to display Vector layer on a :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to add a :ref:`Style <ngcom_styles>` for it first.
 
-.. figure:: _static/Vector_layer.gif
+.. figure:: _static/vector_layer_en.gif
    :name: Vector_layer
    :align: center
-   :width: 850px
+   :width: 800px
 
    Vector upload process
 
