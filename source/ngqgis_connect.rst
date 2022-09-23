@@ -1,11 +1,11 @@
 .. _ngcom_ngqgis_connect:
 
-How to manage data with desktop app NextGIS QGIS
+How to manage data with desktop app QGIS
 ================================================
 
-You can upload, edit and perform other operations with geodata in your :ref:`Web GIS <ngcom_description>` not only in :ref:`admin console <ngw_admin_interface>` but also with desktop app `NextGIS QGIS <https://nextgis.com/nextgis-qgis/>`_.
+You can upload, edit and perform other operations with geodata in your :ref:`Web GIS <ngcom_description>` not only in :ref:`admin console <ngw_admin_interface>` but also with desktop app QGIS.
 
-To make it super-easy we've created `NextGIS Connect <https://plugins.qgis.org/plugins/nextgis_connect/>`_ plugin. In `NextGIS QGIS <https://nextgis.com/nextgis-qgis/>`_ it is installed by default. If necessary, you can update the module through the menu **Modules** -> **Manage Modules** -> **NextGIS Connect**.
+To make it super-easy we've created `NextGIS Connect <https://plugins.qgis.org/plugins/nextgis_connect/>`_ plugin. You can update the module through the menu **Modules** -> **Manage Modules** -> **NextGIS Connect**.
 After successfull installation you'll see **NextGIS Connect** panel on the right side of the screen.
 
 
@@ -138,7 +138,7 @@ Creating WMS services
 
 To do this the module provides a quick creation operation :ref:`WMS service <ngcom_wms_service>`:
 
-* In the desktop application (NextGIS QGIS) in the resource Web GIS tree of module NextGIS Connect select **Vector layer** that you want to publish via the WMS protocol;
+* In the desktop application (QGIS) in the resource Web GIS tree of module NextGIS Connect select **Vector layer** that you want to publish via the WMS protocol;
 * Select **Create WMS Service** in the context menu of the layer;
 * In the dialog that opens select a layer style for publishing the WMS Service;
 * If the WFS Service has been created successfully, then a new WMS Service will appear in the corresponding Resource Group, to which your Vector Layer is already connected.
@@ -197,7 +197,7 @@ Layer resource identifier will also be kept. Overwrite assumes that both layers 
 Updating styles
 ---------------
 
-* Add layer to NextGIS QGIS via Connect
+* Add layer to QGIS via Connect
 * Change the style of the layer (color, line width, etc.)
 * Next select **Import/Update style**, highlighting the **style** of the desired resource in the right pane
 
