@@ -7,18 +7,30 @@ How to manage data storage
 
 #. Open Web GIS main page (by default you can access Main resource group from it);
 #. Select :menuselection:`Create resource --> Resource group` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
+
+.. figure:: _static/admin_layers_create_resource_group_eng_2.png
+   :name: create_resource_group_pic
+   :align: center
+   :width: 20cm
+   
+   Selecting "Resource group"
+
 #. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab;
-#. Press :guilabel:`Create` button. If Resource group is created successfully you'll see its name in Main resource group on Web GIS main page.
+#. Press :guilabel:`Create` button. 
+
+.. figure:: _static/admin_layers_create_group_eng_2.png
+   :name: create_group_pic
+   :align: center
+   :width: 20cm
+   
+   Group creation dialog
+
+If Resource group is created successfully you'll see its name in Main resource group on Web GIS main page.
 
 Now you can access newly created Resource group and create new resources in it.
 
 .. note:: 
 	You can also create new Resource groups in Web GIS :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_resource_group>`.
-
-.. figure:: _static/Resource_group.gif
-   :name: Resource_group
-   :align: center
-   :width: 850px
 
 Read more about Resource group creation :ref:`here <ngw_resources_group>`.
 
