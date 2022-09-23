@@ -6,7 +6,7 @@ How to upload data
 Raster and vector geodata are uploaded to :ref:`Web GIS <ngcom_description>` by creation of :ref:`Raster layer <ngcom_raster_layer>` and :ref:`Vector layer <ngcom_vector_layer>` resources respectively.
 
 .. note:: 
-	The size limit for uploaded files depends on the selected plan. For **Premium** - 2.0 GB, for **Free** and **Mini** - 128 Mb. For rasters, this limit corresponds to uncompressed files in EPSG: 3857.
+	The size limit for uploaded files depends on the selected plan. For **Premium** - 2.0 GB, for **Free** - 128 Mb and **Mini** - 256 Mb. For rasters, this limit corresponds to uncompressed files in EPSG: 3857.
 
 
 .. _ngcom_data_preview:
@@ -70,21 +70,10 @@ To ensure fast rendering on web maps and serving, rasters with TMS and WMS used 
 There are three important limitations for uploading large raster files:
 
 #. File size - maximum file size being uploaded is **2 Gb**. This limit can't be changed on Premium, but can be changed `on-premise <https://nextgis.com/pricing/>`_;
+#. Raster size on the server - afther the file is extracted to the cloud, it must not be larger than **4 Gb**. You can calculate the size of the extracted raster using the following formula: number of pixels * number of channels * bytes per pixel. 
 #. Total data volume - you can upload up to **50 Gb** of data on Premium (this limit can be `raised <https://nextgis.com/pricing-base/#volume-premium>`_);
-#. Processing time - maximum processing time is 3 minutes. If raster processing takes more time, the import process will be interrupted and an error message will appear. Raster layer will not be created.
 
-
-Processing time depends on input raster parameters, specifically:
-
-#. Coordinate system
-#. Internal compression (often JPEG or LZW)
-
-Consequently, to ensure raster upload:
-
-#. Reproject rasters into EPSG:3857
-#. Unpack raster (remove internal compression)
-
-If this is done, raster of 2 Gb will be uploaded. If this is not done, but your raster is smaller and reprojecting and unpacking it takes less than 3 minutes, raster layer will still be created.
+There is no limitation for processing time.
 
 
 .. _ngcom_vector_layer:
