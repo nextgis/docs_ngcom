@@ -45,7 +45,7 @@ Creating raster layer
 If you plan to add this raster to QGIS directly from your Web GIS, turn on Upload as Cloud Optimized GeoTIFF (COG) checkbox.
 
 .. important::
-	If you plan to display the Raster layer on a :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol, you need to create a `Style <https://docs.nextgis.com/docs_ngcom/source/styles.html#ngcom-styles>`_ for it first.
+	If you plan to display the Raster layer on a :ref:`Web Map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol, you need to create a `Style <https://docs.nextgis.com/docs_ngcom/source/styles.html#ngcom-styles>`_ for it first.
 
 .. _ngcom_raster_requirements:
 
@@ -65,7 +65,7 @@ Uploading large rasters
 
 UAS, remote sensing data and other rasters are often huge.
 The file size is not very informative as the real data size might be much larger because of compression.
-To ensure fast rendering on web maps and serving, rasters with TMS and WMS used to create raster layers should be properly processed before upload.
+To ensure fast rendering on Web Maps and serving, rasters with TMS and WMS used to create raster layers should be properly processed before upload.
 
 There are three important limitations for uploading large raster files:
 
@@ -100,7 +100,7 @@ Creating vector layer
 #. Press :guilabel:`Create` button. If Vector layer is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. important::
-	If you plan to display Vector layer on a :ref:`Web map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to add a :ref:`Style <ngcom_styles>` for it first.
+	If you plan to display Vector layer on a :ref:`Web Map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to add a :ref:`Style <ngcom_styles>` for it first.
 
 .. figure:: _static/vector_layer_en.gif
    :name: Vector_layer
