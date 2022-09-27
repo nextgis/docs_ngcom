@@ -10,7 +10,7 @@
 ВебГИС поддерживает возможность создания разных видов стилей.
 
 * Для :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` можно создать :ref:`Стиль MapServer <ngcom_mapserver_style>` или :ref:`Стиль QGIS <ngcom_qgis_style>`;
-* Для :ref:`Растровых слоев <ngcom_raster_layer>` можно создать :ref:`Растровый стиль <ngcom_raster_style>`или :ref:`Стиль QGIS <ngcom_qgis_style>`.
+* Для :ref:`Растровых слоев <ngcom_raster_layer>` можно создать :ref:`Растровый стиль <ngcom_raster_style>` или :ref:`Стиль QGIS <ngcom_qgis_style>`.
 
 
 .. _ngcom_mapserver_style:
@@ -70,7 +70,7 @@
    Загрузка QML файла
 
 .. note:: 
-	Для Векторных слоев, загружаемых в Веб ГИС :ref:`с помощью настольного приложения NextGIS QGIS <ngcom_ngqgis_connect_data_upload>`, Стиль QGIS создается автоматически.
+	Для Векторных слоев, загружаемых в Веб ГИС :ref:`с помощью настольного приложения QGIS <ngcom_ngqgis_connect_data_upload>`, Стиль QGIS создается автоматически.
 
 
 .. _ngcom_raster_style:
@@ -84,7 +84,7 @@
 #. Нажмите кнопку :guilabel:`Создать`. Если Стиль создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующего Растрового слоя.
 
 .. note:: 
-	Для Растровых слоев, загружаемых в Веб ГИС :ref:`с помощью настольного приложения NextGIS QGIS <ngcom_ngqgis_connect_data_upload>`, Растровый стиль создается автоматически.
+	Для Растровых слоев, загружаемых в Веб ГИС :ref:`с помощью настольного приложения QGIS <ngcom_ngqgis_connect_data_upload>`, Растровый стиль создается автоматически.
 
 .. figure:: _static/raster_style_select_ru.png
    :name: raster_style_select
