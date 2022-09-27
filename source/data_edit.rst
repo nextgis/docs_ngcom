@@ -8,41 +8,41 @@ How to edit data
 .. note:: 
 	You can use described functionality in Web GIS created in nextgis.com_ service on `Premium plan <http://nextgis.com/pricing/#premium/>`_
 	
-:ref:`Web GIS <ngcom_description>` allows to edit objects, attributes and add descriptions and attachments (including photos) of separate features in :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layers <ngcom_postgis_layer>`.
+:ref:`Web GIS <ngcom_description>` allows to edit objects and their attributes and to add descriptions and attachments (including photos) of features in :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layers <ngcom_postgis_layer>`.
 
-Setting of permission for editing
+How to set up editing permission
 -----------------------------------
 
-By default, web map editing is always disabled. In order for the user to be able to make changes to the layers on the map, editing must be enabled in the web map settings.
-You can change permission for editing in "Update resource" dialog of a Web map. You can find how to enter it in :ref:`Update resource <ngw_update_resource>` of NextGIS Web documentation.
+By default, Web Map editing is always disabled. In order for the user to be able to make changes to the layers on the map, editing must be enabled in the Web Map settings.
+You can change permission for editing in "Update resource" dialog of a Web Map. You can find how to enter it in :ref:`Update resource <ngw_update_resource>` of NextGIS Web documentation.
 You can allow or deny editing of all map layers on the "Settings" tab by ticking or clearing a box next to "Enable layers editing" field (see :numref:`webmap_allow_editting`):
 
-.. figure:: _static/webgis_allow_editting_eng.png
+.. figure:: _static/webgis_allow_editting_eng_2.png
    :name: webmap_allow_editting
    :align: center
-   :width: 16cm
+   :width: 20cm
 
-   "Enable layers editing" field.
+   "Enable layers editing" field
 
 .. note:: 
 	By default a box next to "Enable layers editing" field is clear.
 	
-To forbid some users editing of separate layers add a rule to deny separate users data writing (permission "Data:Write")on "Permissions" tab of "Update resorce" dialog (see :numref:`webmap_forbid_editting`). If user does not have a permission, he cannot enter the edit mode.
+To forbid some users to edit layers add a rule to deny specified users or groups of users to write data (permission ``"Data:Write"``) on the "Permissions" tab of the "Update resorce" dialog (see :numref:`webmap_forbid_editting`). For user without permission the edit mode is unavailable.
 
-.. figure:: _static/webgis_forbid_editting_eng.png
+.. figure:: _static/webgis_forbid_editting_eng_2.png
    :name: webmap_forbid_editting
    :align: center
-   :width: 16cm
+   :width: 20cm
 
-   Changes of editing permission for separate users.
+   Changes of editing permission for separate users
 
 
 .. _ngcom_data_edit_objects:
 
-Edit a feature on a Web map
+Edit a feature on a Web Map
 ----------------------------
 
-1. Open :ref:`Web map <ngcom_webmap_create>` and select the layer with an feature you need to edit.
+1. Open :ref:`Web Map <ngcom_webmap_create>` and select the layer with an feature you need to edit.
 2. Open dropdown menu pressing "Layer" button (see :numref:`webmap_edit`) and tick a box next to "Editing" field.
 
 .. figure:: _static/webgis_edit_objects_eng.png
@@ -50,9 +50,9 @@ Edit a feature on a Web map
    :align: center
    :width: 16cm
 
-   "Layer" menu.
+   "Layer" menu
 
-3. Editing toolbar will appear on a Web map (see :numref:`webmap_edit_panel`):
+3. Editing toolbar will appear on a Web Map (see :numref:`webmap_edit_panel`):
 
 .. figure:: _static/webgis_edit_objects_panel_eng.png
    :name: webmap_edit_panel
@@ -126,7 +126,7 @@ Edit feature's attributes
 
 There are 2 ways to edit feature's attributes: 
 1) using edit form in :ref:`Feature table <ngw_feature_table>` or
-2) using edit form in Web map :ref:`web client <ngw_webmaps_client>` (if the relevant layer is added to :ref:`Web map <ngcom_webmap_create>`).
+2) using edit form in Web Map :ref:`web client <ngw_webmaps_client>` (if the relevant layer is added to :ref:`Web Map <ngcom_webmap_create>`).
 
 .. _ngcom_data_edit_table:
 
