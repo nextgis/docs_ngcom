@@ -77,4 +77,4 @@ How to delete several resources at once
 
 
 .. note:: 
-	You can also delete resources from Web GIS :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_resource_delete>`.
+	You can also delete resources from Web GIS :ref:`with desktop app QGIS <ngcom_ngqgis_connect_resource_delete>`.
