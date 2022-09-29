@@ -114,4 +114,4 @@ Web GIS can process multy-layer datasets. If an archive contains several layers,
 Read more about upload of vector geodata to Web GIS :ref:`here <ngw_create_vector_layer>`.
 
 .. note:: 
-	You can also upload raster and vector geodata to Web GIS :ref:`with NextGIS QGIS <ngcom_ngqgis_connect_data_upload>`.
+	You can also upload raster and vector geodata to Web GIS :ref:`with QGIS <ngcom_ngqgis_connect_data_upload>`.
