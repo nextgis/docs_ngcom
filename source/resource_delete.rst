@@ -77,4 +77,4 @@
 
 
 .. note:: 
-	Вы также можете удалять ресурсы из Веб ГИС :ref:`с помощью настольного приложения NextGIS QGIS <ngcom_ngqgis_connect_resource_delete>`.
+	Вы также можете удалять ресурсы из Веб ГИС :ref:`с помощью настольного приложения QGIS <ngcom_ngqgis_connect_resource_delete>`.
