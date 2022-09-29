@@ -30,7 +30,7 @@ If Resource group is created successfully you'll see its name in Main resource g
 Now you can access newly created Resource group and create new resources in it.
 
 .. note:: 
-	You can also create new Resource groups in Web GIS :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_resource_group>`.
+	You can also create new Resource groups in Web GIS :ref:`with desktop app QGIS <ngcom_ngqgis_connect_resource_group>`.
 
 Read more about Resource group creation :ref:`here <ngw_resources_group>`.
 
