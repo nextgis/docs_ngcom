@@ -45,7 +45,7 @@ QGIS style
 #. Open the Properties page of the layer for which you want to create a style;
 #. Select :menuselection:`Create resource --> QGIS style` on the right side of the Web GIS :ref:`admin console <ngw_admin_interface>`;
 #. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new style in the field :guilabel:`Display name`;
-#. Go to :guilabel:`QGIS style` tab and upload a file in :term:`QML` format created with :term:`QGIS` (learn how to :ref:`create QML file <ngq_save_style>` with NextGIS QGIS);
+#. Go to :guilabel:`QGIS style` tab and upload a file in :term:`QML` format created with :term:`QGIS` (learn how to :ref:`create QML file <ngq_save_style>` with QGIS);
 #. Press :guilabel:`Create` button.  If Style is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant layer.
 
 .. figure:: _static/QGIS_style_select_en.png
