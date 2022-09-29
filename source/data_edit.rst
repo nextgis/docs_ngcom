@@ -42,83 +42,100 @@ To forbid some users to edit layers add a rule to deny specified users or groups
 Edit a feature on a Web Map
 ----------------------------
 
-1. Open :ref:`Web Map <ngcom_webmap_create>` and select the layer with an feature you need to edit.
-2. Open dropdown menu pressing "Layer" button (see :numref:`webmap_edit`) and tick a box next to "Editing" field.
+1. Open :ref:`Web Map <ngcom_webmap_create>` and select the layer with the feature you need to edit.
+2. Open dropdown menu by pressing the "Layer" button (see :numref:`webmap_edit`), then tick the box next to "Editing".
 
-.. figure:: _static/webgis_edit_objects_eng.png
+.. figure:: _static/webgis_edit_objects_eng_2.png
    :name: webmap_edit
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    "Layer" menu
 
-3. Editing toolbar will appear on a Web Map (see :numref:`webmap_edit_panel`):
+3. Editing toolbar will appear on the Web Map (see :numref:`webmap_edit_panel`):
 
-.. figure:: _static/webgis_edit_objects_panel_eng.png
+.. figure:: _static/webgis_edit_objects_panel_eng_2.png
    :name: webmap_edit_panel
    :align: center
-   :width: 16cm
+   :width: 20cm
 
-   Editing toolbar.
+   Editing toolbar
    
 Create a new feature (point, line, polygon)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. On the editing toolbar activate "Create features" button (it will be highlighted in green, see :numref:`webmap_create_objects`):
+1. On the editing toolbar activate "Create features" button (see :numref:`webmap_create_objects`):
 
-.. figure:: _static/webgis_create_new_objects_eng.png
+.. figure:: _static/webgis_create_new_objects_eng_2.png
    :name: webmap_create_objects
    :align: center
-   :width: 16cm
+   :width: 20cm
 
-   "Create features" button on the editing toolbar.
+   "Create features" button on the editing toolbar
 
-2. A blue circle will appear nearby a mouse pointer, with it you can add new features. Click on the map, where you can create a new feature. You can add several new features one after another. While creating a line you need to indicate its start and end points by clicking on a map. While creating a polygon each new click on a map will indicate its new vertice, to finish a polygon you need to click on its start point. During vertices adding an adhesion will work.
-3. To finish new features creation press "Layer" button (see :numref:`webmap_edit`) and clear a tick box next to "Editing" field.
-4. In opened dialog select "Save", if you want to save changes, select "Don't save", if you do not want to save them or "Cancel", if you want to stay in the edit mode:
+2. A blue circle will appear nearby a mouse pointer, with it you can add new features. Click on the map to create a new feature. You can add several new features one after another. While creating a line you need to indicate its start and end points by clicking on the map. While creating a polygon each new click on the map will indicate its new vertice, to finish a polygon you need to click on its start point. You can use adhesion while creating vertices.
+3. To finish creation of the new feature press "Layer" button (see :numref:`webmap_edit`) and clear the tick box next to "Editing".
+4. In the opened dialog select "Save" to save changes, "Don't save" to discard them, or "Cancel" to stay in the edit mode:
 
-.. figure:: _static/webgis_finish_editting_eng.png
+.. figure:: _static/webgis_finish_editting_eng_2.png
    :name: webmap_finish_edit
    :align: center
-   :width: 16cm
+   :width: 20cm
 
-   Dialog window of finishing edits.
+   Dialog window of finishing edits
 
 Delete a feature
 ~~~~~~~~~~~~~~~~
 
-1. On the editing toolbar activate "Delete features" button (it will be highlighted in green, :numref:`webmap_delete_objects`):
+1. On the editing toolbar activate "Delete features" button (see :numref:`webmap_delete_objects`):
 
-.. figure:: _static/webgis_delete_objects_eng.png
+.. figure:: _static/webgis_delete_objects_eng_2.png
    :name: webmap_delete_objects
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    "Delete features" button on the editing toolbar.
 
-2. Select features you would like to delete by clicking on them with a left button of a mouse.
-3. Press "Layer" button (see :numref:`webmap_edit`) and clear a tick box next to "Editing" field.
-4. In opened dialog select "Save" (see :numref:`webmap_finish_edit`).
+2. Features you can modify will reduce their color intensity and have a blue outline. The pointer will become a black cross.
+3. Left-click to select the features you would like to delete.
+
+.. figure:: _static/webgis_delete_objects_select_en.png
+   :name: webgis_delete_objects_select
+   :align: center
+   :width: 20cm
+   
+   The layer with the purple points is active. The marked points have been selected to be deleted
+   
+4. Press "Layer" button (see :numref:`webmap_edit`) and clear the tick box next to "Editing".
+5. In the opened dialog select "Save" (see :numref:`webmap_finish_edit`).
 
 Modify a feature
 ~~~~~~~~~~~~~~~~~
 
-1. Make sure that on the editing toolbar "Modify features" button is active (it is active by default when you enter the edit mode, see :numref:`webmap_change_objects`):
+1. On the editing toolbar activate "Modify features" button (pencil icon, see :numref:`webmap_change_objects`):
 
-.. figure:: _static/webgis_change_objects_eng.png
+.. figure:: _static/webgis_change_objects_eng_2.png
    :name: webmap_change_objects
    :align: center
-   :width: 16cm
+   :width: 20cm
 
-   "Modify features" button on the editing toolbar.
+   "Modify features" button on the editing toolbar
 
 2. Features you can modify will reduce their color intensity.
-3. Select a feature (point) or one of its vertices (line, polygon) with a mouse pointer and holding it with a left button of a mouse change its location,  then release on a new place. During vertices modifying an adhesion will work.
-4. Press "Layer" button (see :numref:`webmap_edit`) and clear a tick box next to "Editing" field.
-5. In opened dialog select "Save" (see :numref:`webmap_finish_edit`).
+3. Select a feature (point) or one of its vertices (line, polygon) with the pointer and drag it,  then release on a new place. For vertices modifying an adhesion will work.
+
+.. figure:: _static/webgis_move_objects_en.png
+   :name: webgis_move_objects
+   :align: center
+   :width: 20cm
+   
+   Moving a point. Before you confirm the edit, both its initial and its final location will be visible on the map
+
+4. Press "Layer" button (see :numref:`webmap_edit`) and clear the tick box next to "Editing".
+5. In the opened dialog select "Save" (see :numref:`webmap_finish_edit`).
 
 .. note:: 
-	You can edit several layers simultaneously. To do it enter the edit mode in every layer you want to edit. An adhesion will work for features of all editing layers.
+	You can edit several layers simultaneously. To do it enter the edit mode in every layer you want to edit. Adhesion will work for features of all these layers.
 	
 	
 Edit feature's attributes
@@ -141,19 +158,35 @@ Edit attributes using Feature table
 
 .. _ngcom_data_edit_webmap:
 
-Edit attributes using Web map
+Edit attributes using Web Map
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Open :ref:`Web map <ngcom_webmap_create>` and switch on the visibility of the relevant layer;
-#. Find a feature on the Web map (if necessary search it by its attributes using :guilabel:`Search` bar in the Toolbar or in :ref:`Feature table <ngw_feature_table>` which can be opened via :guilabel:`Layer` dropdown menu in the upper left corner of Web map web client. You can quickly find the selected feature on Web map using :guilabel:`Go to` button in Feature table);
-#. Click on the feature with :ref:`identify tool <ngw_webmaps_client_tools>`. In the opened dialog window with feature properties press :guilabel:`Edit` button;
-#. In the opened form edit feature attributes values in :guilabel:`Attributes` tab, add description and attachments in :guilabel:`Description` and :guilabel:`Attachments` tabs;
-#. Press :guilabel:`Save` button. If attributes, description and attachments are saved successfully you'll be able to view them on Web map by clicking on the feature with identify tool, or by selecting the feature in Feature table and pressing :guilabel:`Open` button.
+1. Open :ref:`Web Map <ngcom_webmap_create>` and switch on the visibility of the relevant layer;
+2. Find the feature on the Web Map (if necessary search it by its attributes using :guilabel:`Search` bar in the Toolbar or in the :ref:`Feature table <ngw_feature_table>` which can be opened via :guilabel:`Layer` dropdown menu in the upper left corner of Web Map web client. You can quickly find the selected feature on Web Map using :guilabel:`Go to` button in Feature table);
+3. Click on the feature. In the opened dialog window with feature properties press :guilabel:`Edit` button;
+
+.. figure:: _static/webgis_change_attr_en.png
+   :name: webgis_change_attr
+   :align: center
+   :width: 20cm
+   
+   Edit icon in the feature properties
+   
+4. In the opened form edit the values of feature attributes in :guilabel:`Attributes` tab, add description and attachments in :guilabel:`Description` and :guilabel:`Attachments` tabs;
+
+.. figure:: _static/webgis_change_attr_tab_en.png
+   :name: webgis_change_attr_tab
+   :align: center
+   :width: 20cm
+   
+   Editing attributes
+   
+5. Press :guilabel:`Save` button. If attributes, description and attachments are saved successfully you'll be able to view them on the Web Map by clicking on the feature or by selecting the feature in the Feature table and pressing the :guilabel:`Open` button.
 
 .. note:: 
-	Updated attributes in PostGIS layers are saved directly to external :term:`PostGIS` database. Updated attributes in Vector layers, as well as descriptions and attachments in Vector layers and PostGIS layers are saved to your Web GIS.
+	Updated attributes in PostGIS layers are saved directly to the external :term:`PostGIS` database. Updated attributes in Vector layers, as well as descriptions and attachments in Vector layers and PostGIS layers are saved to your Web GIS.
 
 .. note:: 
-	You can also edit **geometries and attributes** of Vector layers features :ref:`with desktop app NextGIS QGIS <ngcom_ngqgis_connect_data_edit>`.
+	You can also edit **geometries and attributes** of Vector layers features :ref:`with desktop app QGIS <ngcom_ngqgis_connect_data_edit>`.
 
 	Read more on data editing :ref:`here <ngw_attributes_edit>`.
