@@ -84,7 +84,7 @@ Vector data
 Input data requirements
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-* Supported formats: ESRI Shapefile (zip-archived, no sub-folders, no sub-archives, one zip - one layer), GeoJSON, GML, KML or GeoPackage.
+Supported formats: ESRI Shapefile (zip-archived, no sub-folders, no sub-archives, one zip - one layer), GeoJSON, GML, KML or GeoPackage.
 
 Use :ref:`NextGIS Connect <ngcom_ngqgis_connect_data_upload>` if you need to upload data in other formats.
 
