@@ -19,18 +19,51 @@ After successful installation of the module, a panel will appear on the right si
 First you need to establish a connection to your Web GIS:
 
 * Open *Settings* dialog from NextGIS Connect control panel;
+
+.. figure:: _static/NGconnection_main_en.png
+   :name: NGconnection_main_pic
+   :align: center
+   :width: 20cm
+   
+   Selecting NextGIS Connect Settings
+
 * Press **New** button;
+
+.. figure:: _static/NGconnection_new_en.png
+   :name: NGconnection_new_pic
+   :align: center
+   :width: 20cm
+   
+   NextGIS Connect Settings widnow
+
 * In the opened dialog window fill in fields **URL** (for example, https://examples.nextgis.com) and **Name** (this name will be used in a list of available connections). Uncheck the checkbox *As guest* and enter the your NextGIS ID **username** (or the e-mail you used to register) and **password**;
+
+.. figure:: _static/NGconnection_create_en.png
+   :name: NGconnection_create_pic
+   :align: center
+   :width: 20cm
+   
+   Creating new connection
 
 .. note:: 
    Only the owner of the Web GIS and users added to the `team <https://docs.nextgis.com/docs_ngcom/source/create.html#team-management>`_ can create and delete resources in the Web GIS.
 
-* Press :guilabel:`Ок` button and close the dialog wndow. If the connection is established successfully you'll see your Web GIS resources tree in the plugin window.
+* Press :guilabel:`Ок` button. The name of the new connection will appear in the Settings window. Press :guilabel:`Close`. If the connection is established successfully you'll see your Web GIS resources tree in the plugin window.
 
-.. figure:: _static/NGConnect_connection.gif
-   :name: NG_Connect_connection
+.. figure:: _static/NGconnection_complete_en.png
+   :name: NGconnection_complete_pic
    :align: center
-   :width: 850px
+   :width: 20cm
+   
+   Completing the creation of a new connection
+   
+.. figure:: _static/NGconnection_result_en.png
+   :name: NGconnection_result_pic
+   :align: center
+   :width: 20cm
+   
+   Web GIS resources tree in the plugin window
+
 
 
 .. _ngcom_ngqgis_connect_data_upload:
