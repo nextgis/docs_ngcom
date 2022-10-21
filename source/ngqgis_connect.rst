@@ -151,17 +151,44 @@ NextGIS Connect plugin enables a fast publication of Vector layers from your Web
 It's possible due to the quick creation of :ref:`WFS service <ngcom_wfs_service>` option in NextGIS Connect:
 
 * Select in NextGIS Connect Resources panel Vector layer which you want to publish using WFS protocol;
+
+.. figure:: _static/NGConnect_wfs_select_en.png
+   :name: NGConnect_wfs_select_pic
+   :align: center
+   :width: 20cm
+   
+   Selecting vector layer
+
 * Select **Create WFS service** in layer context menu;
+
+.. figure:: _static/NGConnect_wfs_context_en.png
+   :name: NGConnect_wfs_context_pic
+   :align: center
+   :width: 20cm
+   
+   Selecting "Create WFS service" in the Vector layer context menu
+   
 * In the opened dialog window set the number of layer's features to be published via WFS service by changing the value of the field **The number of objects returned by default**;
+
+.. figure:: _static/NGConnect_wfs_number_en.png
+   :name: NGConnect_wfs_number_pic
+   :align: center
+   :width: 20cm
+   
+   Number of objects returned by default
+   
 * If WFS service is created successfully you'll see it in the relevant Resource group. The Vector layer is already connected to it.
 
-.. note:: 
-	You can edit settings of WFS service (including its name, published layers and their settings) in Web GIS admin console.
-
-.. figure:: _static/NGConnect_wfs_service.gif
-   :name: NGConnect_wfs_service
+.. figure:: _static/NGConnect_wfs_result_en.png
+   :name: NGConnect_wfs_result_pic
    :align: center
-   :width: 850px
+   :width: 20cm
+   
+   Newly created WFS service
+
+.. note:: 
+	You can edit the settings of WFS service (including its name, published layers and their settings) in the Web GIS admin console.
+
 
 
 .. _create_wms_service:
@@ -169,13 +196,43 @@ It's possible due to the quick creation of :ref:`WFS service <ngcom_wfs_service>
 Creating WMS services
 ~~~~~~~~~~~~~~~~~~~~~
 
-To do this the module provides a quick creation operation :ref:`WMS service <ngcom_wms_service>`:
+To do this the module provides a quick creation operation :ref:`WMS service <ngcom_wms_service>`. The process is similar to creation of WFS service (see above)
 
 * In the desktop application (QGIS) in the resource Web GIS tree of module NextGIS Connect select **Vector layer** that you want to publish via the WMS protocol;
-* Select **Create WMS Service** in the context menu of the layer;
-* In the dialog that opens select a layer style for publishing the WMS Service;
-* If the WFS Service has been created successfully, then a new WMS Service will appear in the corresponding Resource Group, to which your Vector Layer is already connected.
 
+.. figure:: _static/NGConnect_wfs_select_en.png
+   :name: NGConnect_wfs_select_pic
+   :align: center
+   :width: 20cm
+   
+   Selecting vector layer
+
+* Select **Create WMS Service** in the context menu of the layer;
+
+.. figure:: _static/NGConnect_wms_context_en.png
+   :name: NGConnect_wms_context_pic
+   :align: center
+   :width: 20cm
+   
+   Selecting "Create WMS service" in the Vector layer context menu
+
+* In the dialog that opens select a layer style for publishing the WMS Service;
+
+.. figure:: _static/NGConnect_wms_style_en.png
+   :name: NGConnect_wms_style_pic
+   :align: center
+   :width: 20cm
+   
+   Selecting layer style
+
+* If the WMS Service has been created successfully, then a new WMS Service will appear in the corresponding Resource Group, to which your Vector Layer is already connected.
+
+.. figure:: _static/NGConnect_wms_result_en.png
+   :name: NGConnect_wms_result_pic
+   :align: center
+   :width: 20cm
+   
+   Newly created WMS service
 
 .. _ngcom_ngqgis_connect_data_edit:
 
