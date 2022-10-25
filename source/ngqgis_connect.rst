@@ -308,17 +308,19 @@ NextGIS Connect allows you to update the content of an existing Web GIS vector l
 
 To update (overwrite) layer's data:
 
-* Select a vector layer in QGIS Layers panel contents of which you need to send to a vector layer in Web GIS;
-* Select a vector layer in NextGIS Connect panel contents of which you need to overwrite;
+* Select the vector layer in QGIS Layers panel the contents of which you need to send to a vector layer in Web GIS;
+* Select the vector layer in NextGIS Connect panel the contents of which you need to overwrite;
 * Right click on the last layer and choose **Overwrite selected layer**.
 
-Layer resource identifier will also be kept. Overwrite assumes that both layers structures are the same.
+Layer resource identifier will also be kept. Overwrite assumes that both layers have the same structure.
 
 
-.. figure:: _static/connect_vector_overwrite.png
+.. figure:: _static/NGconnect_vector_overwrite_en.png
    :name: connect_vector_overwrite
    :align: center
-   :width: 850px
+   :width: 20cm
+   
+   Overwriting layer with the new version via context menu
 
 
 .. _ngcom_ngqgis_connect_style_overwrite:
@@ -344,16 +346,31 @@ It's possible due to the option of fast creation of GeoJSON vector layers in QGI
 
 * Select in NextGIS Connect Resources panel Vector layer which you want to export to QGIS;
 * Press **Add to QGIS** button on NextGIS Connect control panel or select **Add to QGIS** in layer context menu;
-* If the layer is exported successfully you'll see in QGIS Layers panel a new GeoJSON vector layer which you can use in your projects or save to your device in a required format.
+
+.. figure:: _static/NGConnect_export_select_en.png
+   :name: NGConnect_export_select_pic
+   :align: center
+   :width: 20cm
+   
+   Exporting vector layer from Web GIS
+
+If the layer is exported successfully you'll see in QGIS Layers panel a new GeoJSON vector layer which you can use in your projects or save to your device in a required format. 
+
+* To save the layer select it in the Layers panel, then open the "Layer" menu in the main menu panel and press **Save as**.
+
+* In the opened window select the desired file type and enter the name for the file.
+
+.. figure:: _static/NGConnect_export_save_en.png
+   :name: NGConnect_export_save_pic
+   :align: center
+   :width: 20cm
+   
+   Saving the exported layer to the device
 
 .. note:: 
 	Geometry and attributes data export is supported. Styles, descriptions, metadata and images of the objects can't be exported in the described way.
-
-.. figure:: _static/NGConnect_data_export.gif
-   :name: NGConnect_data_export
-   :align: center
-   :width: 850px
-
+   
+   
 .. _ngcom_ngqgis_connect_resource_group:
 
 Creating Resource groups
