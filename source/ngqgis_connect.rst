@@ -122,16 +122,36 @@ Creating and uploading a whole QGIS project
 * Create a QGIS project with raster and vector layers. Tailor their styles, group them, set their hierarchy and visibility settings. Set the map extent;
 * Select in NextGIS Connect panel :ref:`Resource group <ngcom_resources_group>` to which you want to upload the project;
 * Press **Import current project** button on NextGIS Connect control panel or select **NextGIS Connect** --> **Import current project** in any layer context menu;
+
+.. figure:: _static/NGConnect_import_menu_en.png
+   :name: NGConnect_import_menu_pic
+   :align: center
+   :width: 20cm
+   
+   Choosing "Import current project" in the NextGIS Connect panel. Target resource group is highligthed in blue
+
 * In the opened dialog window fill in the name of the new Resource group to which the project will be imported;
+
+
+.. figure:: _static/NGConnect_import_name_en.png
+   :name: NGConnect_import_name_pic
+   :align: center
+   :width: 20cm
+   
+   Entering the name of the imported project
+
 * If the project is uploaded successfully you'll see in a selected Resource group a newly created group with: 1) all Raster and Vector layers to which **Import selected layer** operation is applicable, and their Styles; 2) automatically created :ref:`Web map <ngcom_webmap_create>` with a set extent, to which all the imported layers are added with groups, hierarchy and visibility settings similar to QGIS.
 
 .. note:: 
 	The fastest way to go to the newly created Web map is by pressing **Open map in browser** button on NextGIS Connect control panel or select **Open map in browser** in map's context layer.
 
-.. figure:: _static/NGConnect_project_import.gif
-   :name: NGConnect_project_import
+
+.. figure:: _static/NGConnect_import_view_en.png
+   :name: NGConnect_import_view_pic
    :align: center
-   :width: 850px
+   :width: 20cm
+   
+   Opening the newly created Web Map via context menu of the imported project
 
 
 .. _ngcom_ngqgis_connect_services:
@@ -246,15 +266,34 @@ It's possible due to the use of standard :term:`WFS` protocol (with feature edit
 * :ref:`Publish via WFS protocol <ngcom_ngqgis_connect_wfs_service>` Vector layer which features you're going to edit;
 * Select in NextGIS Connect Resources panel the relevant WFS service;
 * Press **Add to QGIS** button on NextGIS Connect control panel or select **Add to QGIS** in service context menu;
+
+.. figure:: _static/NGConnect_edit_add_en.png
+   :name: NGConnect_edit_add_pic
+   :align: center
+   :width: 20cm
+   
+   Adding layer to QGIS using WFS service
+
 * If operation is successful you'll see in QGIS Layers panel a new group of WFS layers published via selected WFS service;
 * Edit features' geometries and attributes in added WFS layers using standard QGIS tools;
-* If editing went successful you'll be able to see the changes at once in Web GIS :ref:`Feature table <ngw_feature_table>` and Web map :ref:`web client <ngw_webmaps_client>`.
 
-.. figure:: _static/NGConnect_data_edit.gif
-   :name: NGConnect_data_edit
+.. figure:: _static/NGConnect_edit_process_en.png
+   :name: NGConnect_edit_process_pic
    :align: center
-   :width: 850px
+   :width: 20cm
+   
+   Added layer in the Layers panel.
 
+* Press the "Toggle Edit" button to finish editing and press "Save" in the opened window.
+
+.. figure:: _static/NGConnect_edit_save_en.png
+   :name: NGConnect_edit_save_pic
+   :align: center
+   :width: 20cm
+   
+   Saving changes
+
+* If editing went successful you'll be able to see the changes at once in the Web GIS :ref:`Feature table <ngw_feature_table>` and Web Map :ref:`web client <ngw_webmaps_client>`.
 
 
 .. _ngcom_ngqgis_connect_data_overwrite:
