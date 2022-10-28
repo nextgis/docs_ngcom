@@ -282,7 +282,7 @@ It's possible due to the use of standard :term:`WFS` protocol (with feature edit
    :align: center
    :width: 20cm
    
-   Added layer in the Layers panel.
+   Added layer in the Layers panel
 
 * Press the "Toggle Edit" button to finish editing and press "Save" in the opened window.
 
@@ -354,9 +354,19 @@ It's possible due to the option of fast creation of GeoJSON vector layers in QGI
    
    Exporting vector layer from Web GIS
 
+* If the layer has multiple QGIS styles, select one in the pop-up window.
+
+.. figure:: _static/NGConnect_export_select_style_en.png
+   :name: NGConnect_export_select_pic
+   :align: center
+   :width: 20cm
+   
+   Selecting QGIS style for export
+
+
 If the layer is exported successfully you'll see in QGIS Layers panel a new GeoJSON vector layer which you can use in your projects or save to your device in a required format. 
 
-* To save the layer select it in the Layers panel, then open the "Layer" menu in the main menu panel and press **Save as**.
+* To save the layer select it in the Layers panel, then open the "Layer" menu in the main menu panel and press **Save as** or use the context menu of the "Layers" panel to select :menuselection:`Export --> Save features as`.
 
 * In the opened window select the desired file type and enter the name for the file.
 
