@@ -23,18 +23,50 @@ NextGIS Connect позволяет обмениваться данными с м
 Для начала работы **создайте подключение** к своей Веб ГИС:
 
 * Откройте диалог **Настройки** (шестренка) на панели управления NextGIS Connect;
+
+.. figure:: _static/NGConnection_main_ru.png
+   :name: NGconnection_main_pic
+   :align: center
+   :width: 20cm
+   
+   Вызов настроек из панели NextGIS Connect
+
 * Нажмите кнопку **Новое**;
+
+.. figure:: _static/NGConnection_new_ru.png
+   :name: NGconnection_new_pic
+   :align: center
+   :width: 20cm
+   
+   Окно настроек NextGIS Connect
+
 * В открывшемся диалоговом окне заполните поля **URL** (веб-адрес вашей Веб ГИС, например, - https://examples.nextgis.com) и **Имя** (будет отображаться в списке доступных подключений). Чтобы получить возможность создавать и удалять ресурсы, снимите галочку в поле *Как гость* и заполните поля **Логин** и **Пароль**, используя данные вашего NextGIS ID;
+
+.. figure:: _static/NGConnection_create_ru.png
+   :name: NGconnection_create_pic
+   :align: center
+   :width: 20cm
+   
+   Создание нового подключения
 
 .. note:: 
    Создавать и удалять ресурсы Веб ГИС может ее владелец и пользователи, добавленные в `команду <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-team-management>`_.
    
 * Нажмите кнопку :guilabel:`Ок` и закройте диалоговое онко `Настройки`. В окне модуля появится дерево ресурсов вашей Веб ГИС.
 
-.. figure:: _static/NGConnect_connection.gif
-   :name: NG_Connect_connection
+.. figure:: _static/NGConnection_complete_ru.png
+   :name: NGconnection_complete_pic
    :align: center
-   :width: 850px
+   :width: 20cm
+   
+   Завершение создания подключения
+   
+.. figure:: _static/NGConnection_result_ru.png
+   :name: NGconnection_result_pic
+   :align: center
+   :width: 20cm
+   
+   Дерево ресурсов подключенной Веб ГИС в окне NextGIS Connect
 
 
 .. _ngcom_ngqgis_connect_data_upload:
@@ -93,7 +125,23 @@ NextGIS Connect позволяет обмениваться данными с м
 * Соберите в QGIS проект из растровых и векторных слоев. Настройте их стили отображения, иерархию, группировку, видимость. Настройте охват карты;
 * Выберите в дереве ресурсов Веб ГИС в окне модуля NextGIS Connect Группу ресурсов, в которую вы хотите загрузить проект;
 * Нажмите кнопку **Импортировать текущий проект** на панели инструментов модуля или выберите **NextGIS Connect --> Импортировать текущий проект** в контекстном меню любого слоя;
+
+.. figure:: _static/NGConnect_import_menu_ru.png
+   :name: NGConnect_import_menu_pic
+   :align: center
+   :width: 20cm
+   
+   Импорт текущего проекта через контекстное меню
+   
 * В открывшемся диалоговом окне укажите название новой Группы ресурсов, в которую будет загружен проект;
+
+.. figure:: _static/NGConnect_import_name_ru.png
+   :name: NGConnect_import_name_pic
+   :align: center
+   :width: 20cm
+   
+   Указание имени импортируемого проекта
+
 * Если проект загрузился успешно, то в соответствующей Группе ресурсов появится новая Группа ресурсов с заданным названием, внутри которой будут находиться: 
 1) все Растровые и Векторные слои, для которых доступна операция *Импортировать выбранный слой*, а также их Стили;
 2) автоматически созданная :ref:`Веб-карта <ngcom_webmap_create>` с заданным охватом, на которую будут добавлены все импортированные слои с учетом их группировки, иерархии и видимости в панели слоёв QGIS.
@@ -101,10 +149,12 @@ NextGIS Connect позволяет обмениваться данными с м
 .. note:: 
 	Быстро перейти к Веб-карте можно, нажав кнопку **Открыть карту в браузере** на панели инструментов модуля или выбрав соответствующую команду в контекстном меню Веб-карты.
 
-.. figure:: _static/NGConnect_project_import.gif
-   :name: NGConnect_project_import
+.. figure:: _static/NGConnect_import_view_ru.png
+   :name: NGConnect_import_view_pic
    :align: center
-   :width: 850px
+   :width: 20cm
+   
+   Открытие импортированного проекта в Веб ГИС через контекстное меню
 
 
 .. _ngcom_ngqgis_connect_services:
@@ -122,17 +172,45 @@ NextGIS Connect позволяет обмениваться данными с м
 Для этого в модуле доступна операция быстрого создания :ref:`Сервиса WFS <ngcom_wfs_service>`:
 
 * В настольном приложении (QGIS) в дереве ресурсов Веб ГИС модуля NextGIS Connect выберите **Векторный слой**, который вы хотите опубликовать по протоколу WFS;
+
+.. figure:: _static/NGConnect_wfs_select_ru.png
+   :name: NGConnect_wfs_select_pic
+   :align: center
+   :width: 20cm
+   
+   Выбор слоя
+
 * Выберите пункт **Создать сервис WFS** в контекстном меню слоя;
+
+.. figure:: _static/NGConnect_wfs_context_ru.png
+   :name: NGConnect_wfs_context_pic
+   :align: center
+   :width: 20cm
+   
+   Контекстное меню слоя
+   
 * В открывшемся диалоговом окне укажите число объектов слоя, которое должен публиковать Сервис WFS;
+
+.. figure:: _static/NGConnect_wfs_number_ru.png
+   :name: NGConnect_wfs_number_pic
+   :align: center
+   :width: 20cm
+   
+   Число публикуемых объектов слоя
+
 * Если Сервис WFS создался успешно, то в соответствующей Группе ресурсов появится новый Сервис WFS, в который уже подключен ваш Векторный слой.
 
+
+.. figure:: _static/NGConnect_wfs_result_ru.png
+   :name: NGConnect_wfs_result_pic
+   :align: center
+   :width: 20cm
+   
+   Созданный сервис WFS в дереве ресурсов
+   
 .. note:: 
 	Отредактировать настройки созданного таким образом Сервиса WFS (включая его название, публикуемые слои и их настройки) можно через веб-интерфейс Веб ГИС.
 
-.. figure:: _static/NGConnect_wfs_service.gif
-   :name: NGConnect_wfs_service
-   :align: center
-   :width: 850px
 
 .. _create_wms_service:
 
@@ -142,9 +220,42 @@ NextGIS Connect позволяет обмениваться данными с м
 Для этого в модуле доступна операция быстрого создания :ref:`Сервиса WMS <ngcom_wms_service>`:
 
 * В настольном приложении (QGIS) в дереве ресурсов Веб ГИС модуля NextGIS Connect выберите **Векторный слой**, который вы хотите опубликовать по протоколу WMS;
+
+
+.. figure:: _static/NGConnect_wfs_select_ru.png
+   :name: NGConnect_wfs_select_pic
+   :align: center
+   :width: 20cm
+   
+   Выбор слоя
+   
 * Выберите пункт **Создать WMS сервис** в контекстном меню слоя;
+
+.. figure:: _static/NGConnect_wms_context_ru.png
+   :name: NGConnect_wms_context_pic
+   :align: center
+   :width: 20cm
+   
+   Контекстное меню слоя
+   
 * В открывшемся диалоговом выберите стиль слоя для публикация Сервиса WMS;
+
+
+.. figure:: _static/NGConnect_wms_style_ru.png
+   :name: NGConnect_wms_style_pic
+   :align: center
+   :width: 20cm
+   
+   Выбор стиля для публикации Сервиса WMS
+   
 * Если Сервис WFS создался успешно, то в соответствующей Группе ресурсов появится новый Сервис WMS, в который уже подключен ваш Векторный слой.
+
+.. figure:: _static/NGConnect_wms_result_ru.png
+   :name: NGConnect_wms_result_pic
+   :align: center
+   :width: 20cm
+   
+   Созданный Сервис WFS в дереве ресурсов
 
 
 .. _ngcom_ngqgis_connect_data_edit:
@@ -154,17 +265,38 @@ NextGIS Connect позволяет обмениваться данными с м
 
 Модуль NextGIS Connect позволяет быстро редактировать геометрии и атрибуты объектов в Векторных слоях Веб ГИС. Это возможно благодаря использованию стандартного протокола :term:`WFS` (с поддержкой редактирования):
 
-* :ref:`Опубликуйте по протоколу WFS <ngcom_ngqgis_connect_wfs_service>` Векторный слой, объекты которого вы хотите отредактировать;
+* :ref:`Опубликуйте по протоколу WFS <ngcom_ngqgis_connect_wfs_service>` Векторный слой, объекты которого вы хотите отредактировать (как это сделать, см выше);
 * Выберите в дереве ресурсов Веб ГИС в окне модуля NextGIS Connect соответствующий WFS сервис;
 * Нажмите кнопку **Добавить в QGIS** на панели инструментов модуля или выберите пункт **Добавить в QGIS** в контекстном меню сервиса;
+
+.. figure:: _static/NGConnect_edit_add_ru.png
+   :name: NGConnect_edit_add_pic
+   :align: center
+   :width: 20cm
+   
+   Добавление слоя в QGIS через панель NextGIS Connect
+   
 * Если операция прошла успешно, то на панели слоев QGIS появится новая группа слоев WFS, опубликованных с помощью добавленного WFS сервиса;
-* Отредактируйте геометрии и атрибуты объектов в добавленном слое WFS с помощью :ref:`стандартных инструментов QGIS <ngqgis_editing>`;
+* Включите режим редактирования (иконка карандаша) и отредактируйте геометрии и атрибуты объектов в добавленном слое WFS с помощью :ref:`стандартных инструментов QGIS <ngqgis_editing>`;
+
+.. figure:: _static/NGConnect_edit_process_ru.png
+   :name: NGConnect_edit_process_pic
+   :align: center
+   :width: 20cm
+   
+   Редактирование объектов
+
+* Нажмите ещё раз кнопку "Режим редактирования" и подтвердите сохранение изменений.
+
+.. figure:: _static/NGConnect_edit_save_ru.png
+   :name: NGConnect_edit_save_pic
+   :align: center
+   :width: 20cm
+   
+   Сохранение изменений векторного слоя
+   
 * Если редактирование объектов прошло успешно, то соответствующие изменения сразу же будут отображены в Веб ГИС в :ref:`Таблице объектов <ngw_feature_table>` и :ref:`веб-клиенте <ngw_webmaps_client>` Веб-карты.
 
-.. figure:: _static/NGConnect_data_edit.gif
-   :name: NGConnect_data_edit
-   :align: center
-   :width: 850px
 
 
 .. _ngcom_ngqgis_connect_data_overwrite:
@@ -186,10 +318,12 @@ NextGIS Connect позволяет обмениваться данными с м
 Идентификатор ресурса слоя при этом останется неизменным. Операция подозревает что слой источник и целевой слой имеют одинаковую структуру атрибутов.
 
    
-.. figure:: _static/connect_vector_overwrite.png
+.. figure:: _static/NGconnect_vector_overwrite_ru.png
    :name: connect_vector_overwrite
    :align: center
-   :width: 850px
+   :width: 20cm
+   
+   Перезапись выбранного слоя через контекстное меню
 
 
 .. _ngcom_ngqgis_connect_style_overwrite:
@@ -214,15 +348,37 @@ NextGIS Connect позволяет обмениваться данными с м
 
 * Выберите в дереве ресурсов Веб ГИС в окне модуля NextGIS Connect Векторный слой, который вы хотите экспортировать в QGIS;
 * Нажмите кнопку **Добавить в QGIS** на панели инструментов модуля или выберите пункт **Добавить в QGIS** в контекстном меню слоя;
-* Если слой экспортировался успешно, то в панели слоев QGIS появится новый векторный слой GeoJSON, который можно использовать в текущих проектах или сохранить на устройство в нужном формате.
+
+.. figure:: _static/NGConnect_export_select_ru.png
+   :name: NGConnect_export_select_pic
+   :align: center
+   :width: 20cm
+   
+   Экспорт векторного слоя из Веб ГИС
+
+* В случае, если слой имеет несколько стилей QGIS, откроется всплывающее окно, где будет предложено выбрать один из них для экспорта.
+
+.. figure:: _static/NGConnect_export_select_style_ru.png
+   :name: NGConnect_export_select_pic
+   :align: center
+   :width: 20cm
+   
+   Выбор QGIS-стиля слоя для экспорта
+
+Если слой экспортировался успешно, то в панели слоев QGIS появится новый векторный слой GeoJSON, который можно использовать в текущих проектах или сохранить на устройство в нужном формате.
+
+* Чтобы сохранить слой на устройстве, выберите в главном меню :menuselection:`Слой --> Сохранить как` или в панели слоев вызовите контекстное меню и нажмите :menuselection:`Экспорт --> Сохранить объекты как`.
+
+.. figure:: _static/NGConnect_export_save_ru.png
+   :name: NGConnect_export_save_pic
+   :align: center
+   :width: 20cm
+   
+   Сохранение векторного слоя в файл
 
 .. note:: 
 	Поддерживается экспорт геометрий и атрибутов объектов. Стили слоев, описания, метаданные и изображения объектов вышеописанным способом не экспортируются.
 
-.. figure:: _static/NGConnect_data_export.gif
-   :name: NGConnect_data_export
-   :align: center
-   :width: 850px
 
 .. _ngcom_ngqgis_connect_resource_group:
 
