@@ -190,7 +190,7 @@ To do it:
 
 The starting screen in the `NextGIS Collector`_ mobile app could be a list of forms or a map.
 
-«NextGIS Collector user credentials» are the user name and password of a Web GIS user with necessary permission that the `NextGIS Collector`_ mobile app installed by all the participants will use to edit the layers in your Web GIS.
+«NextGIS Collector user credentials» - user name and password of a Web GIS user with necessary permissions to access data used in the project. This user is not related to accounts of actual data collectors.
 
 .. figure:: _static/ngc-stages-009_eng_2.png
    :name: ngc-stages-009
