@@ -19,6 +19,7 @@
    styles
    webmap_create
    webmap_clone
+   svgmarkers
    tile_cache
    webmap_optimize
    layer_as_basemap
