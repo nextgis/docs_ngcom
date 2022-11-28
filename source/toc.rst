@@ -24,6 +24,7 @@
    webmap_optimize
    layer_as_basemap
    annotation
+   embed_webmap
    webmap_print
    data_services
    resources_group
