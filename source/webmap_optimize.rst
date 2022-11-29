@@ -19,6 +19,12 @@ This will allow you to avoid requesting data outside this range and showing exce
 Set up `caching <https://docs.nextgis.com/docs_ngweb/source/layers.html#tms-layer>`_ for your layer styles.
 In this case, already rendered data will not be re-requested. Note that, while technically it's possible to turn on caching for rasters, this is not recommended.
 
+**Services**
+
+Today's interactive map is often a complex system that might include connections to external services, such as basemaps, WMS, TMS services and more. If you use them on your map, overall speed on it will depend on their performance. Remove them if you don't need them or at least turn them off not to show by default. 
 **Select Image as an adapter**
 
 In the Web Map settings, go to the Layers tab and `select <https://docs.nextgis.com/docs_ngweb/source/webmaps_admin.html?highlight=adapter#admin-webmap-create-layers>`_ **Image** as an adapter to allow for faster data processing. We do not recommend using Tiles if it isn't necessary. It slows down the entire Web GIS if large amounts of data are used.
+
+**Raster styles instead of QGIS raster style**
+If your map shows big rasters you can add few percents of performance by switching from QGIS raster styles to regular raster styles. Go to your raster, add a raster style (if possible), add them back to your Web map replacing QGIS ones.
