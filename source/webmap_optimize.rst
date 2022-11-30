@@ -27,4 +27,5 @@ Today's interactive map is often a complex system that might include connections
 In the Web Map settings, go to the Layers tab and `select <https://docs.nextgis.com/docs_ngweb/source/webmaps_admin.html?highlight=adapter#admin-webmap-create-layers>`_ **Image** as an adapter to allow for faster data processing. We do not recommend using Tiles if it isn't necessary. It slows down the entire Web GIS if large amounts of data are used.
 
 **Raster styles instead of QGIS raster style**
+
 If your map shows big rasters you can add few percents of performance by switching from QGIS raster styles to regular raster styles. Go to your raster, add a raster style (if possible), add them back to your Web map replacing QGIS ones.
