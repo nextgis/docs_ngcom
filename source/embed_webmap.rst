@@ -14,7 +14,7 @@
 * Вставьте код на свой сайт.
 
 .. figure:: _static/embed_webmap.png
-   :name: svg_qgis_style
+   :name: embed_webmap
    :align: center
    :width: 20cm
 
@@ -22,7 +22,7 @@
    
    
 .. figure:: _static/webmap_on_site.png
-   :name: svg_qgis_style
+   :name: webmap_on_site
    :align: center
    :width: 20cm
 
