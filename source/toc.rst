@@ -43,6 +43,7 @@
    CSS
    homepage
    domain
+   yandexmetrika
    backup
    translation
    help
