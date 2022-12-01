@@ -13,7 +13,7 @@
 .. figure:: _static/cr_metr.png
    :name: cr_metr
    :align: center
-   :width: 25cm
+   :width: 35cm
 
    Создание нового счетчика
 
@@ -32,7 +32,7 @@
 .. figure:: _static/metr_sett_2.png
    :name: metr_sett_2
    :align: center
-   :width: 25cm
+   :width: 20cm
 
    Настройки и код счетчика
    
