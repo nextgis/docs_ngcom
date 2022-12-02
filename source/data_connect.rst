@@ -60,6 +60,9 @@ If you plan to display PostGIS layer on :ref:`Web map <ngcom_webmap_create>` or 
 External WMS services
 ---------------------
 
+.. note:: 
+	Currently supported WMS versions 1.1.1 and 1.3.0.
+
 .. _ngcom_wms_connection:
 
 Create a WMS connection
