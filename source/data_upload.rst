@@ -31,7 +31,7 @@ Raster data
 Input data requirements
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-* Supported format: :term:`GeoTIFF` (with 3 or 4 bands, RGB or RGBA)
+* Supported format: :term:`GeoTIFF`
 * Inputs must be geographically referenced and have correctly set CRS description as GeoTIFF metadata.
 
 Creating raster layer
