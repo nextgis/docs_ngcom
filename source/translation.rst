@@ -22,15 +22,6 @@ We invite users to contribute to the quality of our translations.
 If you are an expert in any of the listed or other languages, you can improve the current user interface by yourself.
 As soon as 80% of translated content appears, we add a new language to NGW.
 
-
-.. figure:: _static/ngw_translation_3.png
-   :name: ngw_translation_3
-   :align: center
-   :width: 20cm    
-
-   NextGIS Web GUI project for user interface translation
-
-
 Join the project
 -----------------
 
@@ -38,27 +29,35 @@ The translation of `NextGIS Web <https://nextgis.com/nextgis-web/>`_ is carried 
 First, you need to `sign up <https://poeditor.com/login/>`_. 
 After authentication you can join the NextGIS Web GUI project via this `link <https://poeditor.com/join/project?hash=dOVs4gs2WS>`_.
 Then select languages and click **Join translation**.
-After that, this `page <https://poeditor.com/projects/>`_ will display a list of projects (in our case, NextGIS Web GUI) that have a set of selected languages.
 
-
-.. figure:: _static/ngw_translation_1.png
-   :name: ngw_translation_1
+.. figure:: _static/ngw_translation_join_en.png
+   :name: ngw_translation_3
    :align: center
-   :width: 10cm    
+   :width: 16cm    
 
-   Selecting a language for translation
+   NextGIS Web GUI project for user interface translation
+
+After that, this `page <https://poeditor.com/projects/>`_ will display a list of projects (in our case, NextGIS Web GUI) that have a set of selected languages.
 
 
 How to translate
 ----------------
 
 To start translating click on the icon of a specific language in the project.
+
+.. figure:: _static/ngw_translation_project_en.png
+   :name: ngw_translation_1
+   :align: center
+   :width: 18cm    
+
+   Selecting a language for translation
+
 Row order and filter are customizable. There is also a search.
 
-.. figure:: _static/ngw_translation_2.png
+.. figure:: _static/ngw_translation_bg.png
    :name: ngw_translation_2
    :align: center
-   :width: 20cm    
+   :width: 18cm    
 
    Translator UI window
 
