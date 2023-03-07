@@ -15,7 +15,7 @@ The following user interface languages are currently available for NGW:
 * Italian
 * Portuguese
 * Russian
-* And Chinese
+* Chinese
 
 
 We invite users to contribute to the quality of our translations.
@@ -34,7 +34,7 @@ As soon as 80% of translated content appears, we add a new language to NGW.
 Join the project
 -----------------
 
-The translation of `NextGIS Web <https://nextgis.ru/nextgis-web/>`_ is carried out on the platform `POEditor <https://poeditor.com/>`_.
+The translation of `NextGIS Web <https://nextgis.com/nextgis-web/>`_ is carried out on the platform `POEditor <https://poeditor.com/>`_. 
 First, you need to `sign up <https://poeditor.com/login/>`_. 
 After authentication you can join the NextGIS Web GUI project via this `link <https://poeditor.com/join/project?hash=dOVs4gs2WS>`_.
 Then select languages and click **Join translation**.
@@ -64,10 +64,10 @@ Row order and filter are customizable. There is also a search.
 
 Strings often contain such parameter names as ‘date_first’ and ‘date_last’ like in the image above. They don't need to be translated.
 
-Russian translation example:
+Bulgarian translation example:
 
 * en. - *'date_first' and 'date_last' are mutually exclusive*.
-* ru. - *'date_first' и 'date_last' взаимоисключающие*.
+* bg. - *'date_first' и 'date_last' са взаимноизключващи се*.
 
 Also you can see these parameters: %s, %d, %f and like these that also don’t require the translation.
 When the program is running, they are automatically replaced by string or numeric parameters.
@@ -75,12 +75,12 @@ When the program is running, they are automatically replaced by string or numeri
 Example 1:
 
 * en. - *User count: %d*.
-* ru. - *Количество пользователей: %d*.
+* bg. - *Брой потребители: %d*.
 
 Example 2:
 
 * en. - *Field ‘%s(?)’ encoding is broken*.
-* ru. - *Кодировка поля ‘%s(?)’ повреждена*.
+* bg. - *Кодировката на полето ‘%s(?)’ е счупена.*.
 
 
 Parameters are often enclosed in single quotes ', double quotes " or brackets ().
