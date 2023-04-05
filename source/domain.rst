@@ -27,7 +27,7 @@ Your system administrator needs to check that changes took effect. Use `Dig <htt
 
 Expected answer: CNAME (TTL and TARGET).
 
-**Step 2. Внести в DNS Запись 2 для перенаправления запросов к Веб ГИС**
+**Step 2. Add DNS record 2 to redirect requests to Web GIS**
 
 .. code-block:: bash
 
