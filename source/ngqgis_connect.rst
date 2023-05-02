@@ -52,7 +52,7 @@ NextGIS Connect позволяет обмениваться данными с м
 .. note:: 
    Создавать и удалять ресурсы Веб ГИС может ее владелец и пользователи, добавленные в `команду <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-team-management>`_.
    
-* Нажмите кнопку :guilabel:`Ок` и закройте диалоговое онко `Настройки`. В окне модуля появится дерево ресурсов вашей Веб ГИС.
+* Нажмите кнопку :guilabel:`Ок` и закройте диалоговое окно `Настройки`. В окне модуля появится дерево ресурсов вашей Веб ГИС.
 
 .. figure:: _static/NGConnection_complete_ru.png
    :name: NGconnection_complete_pic
@@ -404,4 +404,4 @@ NextGIS Connect позволяет обмениваться данными с м
 * Если ресурс удалился успешно, то он исчезнет из дерева ресурсов Веб ГИС.
 
 
-Больше информации о модуле расширения NextGIS Connect - :ref:`здесь <ng_connect>`. 
+Больше информации о модуле расширения NextGIS Connect - `здесь <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>`_. 
