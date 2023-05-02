@@ -35,6 +35,6 @@
 
 По умолчанию при добавлении в клиент сервис WFS отдаёт 1000 объектов. Чтобы увеличить это количество, измените значение поля :guilabel:`Число возвращаемых объектов по умолчанию` на вкладке :guilabel:`Сервис WFS`.
 
-Быстро создавать сервис WFS на основе слоя можно с помощью :ref:`NextGIS Connect <ngcom_ngqgis_connect_wfs_service>`.
+Быстро создавать сервис WFS на основе слоя можно с помощью `NextGIS Connect <https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html#ngcom-ngqgis-connect-services>`_.
 
 Больше информации о создании Сервиса WFS - :ref:`здесь <ngw_wfs_service>`.
