@@ -96,18 +96,33 @@ Creating vector layer
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default from the main page of Web GIS you can access Main resource group);
 #. Select :menuselection:`Create resource --> Vector layer` on the right side of the Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new layer in the field :guilabel:`Display name`. Then in :guilabel:`Vector layer` tab select a file with vector geodata;
+#. In the opened dialog, go to :guilabel:`Vector layer` tab and select a file with vector geodata or select geometry type for an empty vector layer;
+#. Then in :guilabel:`Resource` tab type a name for the new layer in the field :guilabel:`Display name`.
 #. Press :guilabel:`Create` button. If Vector layer is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. important::
 	If you plan to display Vector layer on a :ref:`Web Map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to add a :ref:`Style <ngcom_styles>` for it first.
 
-.. figure:: _static/vector_layer_en.gif
-   :name: Vector_layer
+.. figure:: _static/create_vector_layer_select_en.png
+   :name: create_vector_layer_select_pic
    :align: center
-   :width: 800px
+   :width: 20cm
 
-   Vector upload process
+   Selection of "Vector layer" action
+
+.. figure:: _static/create_vector_layer_upload_en.png
+   :name: create_vector_layer_upload_pic
+   :align: center
+   :width: 15cm
+
+   Vector file upload tab
+
+.. figure:: _static/create_vector_layer_resourse_name__save_en.png
+   :name: create_vector_layer_resourse_name_pic
+   :align: center
+   :width: 15cm
+
+   Naming the vector layer and finishing the creation process
 
 Web GIS can process multy-layer datasets. If an archive contains several layers, then after it is uploaded, you will be asked to select which layer will be used for creating Vector layer resource.
 
