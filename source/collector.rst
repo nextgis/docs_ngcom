@@ -182,9 +182,11 @@ To do it:
 
 4. Name your project. This name will be displayed in the `NextGIS Collector`_ mobile app :
 
-.. figure:: _static/ngc-stages-008_eng_2.png
+.. figure:: _static/ngc-stages-008_name_en.png
    :name: ngc-stages-008
    :align: center
+   
+   Adding name for Collector project
 
 5. In the "Project" tab select "Starting screen" and fill in "NextGIS Collector user credentials".
 
