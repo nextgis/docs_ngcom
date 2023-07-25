@@ -18,7 +18,7 @@ How to manage data storage
 #. In the opened dialog fill in the field :guilabel:`Display name` in :guilabel:`Resource` tab;
 #. Press :guilabel:`Create` button. 
 
-.. figure:: _static/admin_layers_create_group_eng_2.png
+.. figure:: _static/admin_layers_create_group_eng_3.png
    :name: create_group_pic
    :align: center
    :width: 20cm
