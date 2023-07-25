@@ -113,10 +113,10 @@
 
    Окно загрузки векторного файла
 
-.. figure:: _static/create_vector_layer_resourse_name__save_ru.png
+.. figure:: _static/create_vector_layer_resourse_name_save_ru_2.png
    :name: create_vector_layer_resourse_name_pic
    :align: center
-   :width: 15cm
+   :width: 20cm
 
    Наименование векторного слоя и завершение создания ресурса
 
