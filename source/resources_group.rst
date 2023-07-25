@@ -18,7 +18,7 @@
 #. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`;
 #. Нажмите кнопку :guilabel:`Создать`. 
 
-.. figure:: _static/admin_layers_create_group_rus_2.png
+.. figure:: _static/admin_layers_create_group_rus_3.png
    :name: create_group_pic
    :align: center
    :width: 20cm
