@@ -30,7 +30,7 @@
    
    Выбор создаваемого ресурса "Стиль MapServer"
 
-.. figure:: _static/mapserver_style_create_ru.png
+.. figure:: _static/mapserver_style_create_ru_2.png
    :name: mapserver_style_create
    :align: center
    :width: 20cm
@@ -44,8 +44,8 @@
 
 #. Откройте окно свойств слоя, для которого вы хотите создать Стиль;
 #. Выберите :menuselection:`Создать ресурс --> Стиль QGIS` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`;
-#. На вкладке :guilabel:`Стиль QGIS` загрузите файл в формате :term:`QML`, созданный с помощью :term:`QGIS` (о том, как создать файл QML с помощью NextGIS QGIS - :ref:`здесь <ngq_save_style>`);
+#. В открывшемся окне На вкладке :guilabel:`Стиль QGIS` загрузите файл в формате :term:`QML`, созданный с помощью :term:`QGIS` (о том, как создать файл QML с помощью NextGIS QGIS - :ref:`здесь <ngq_save_style>`);
+#. На вкладке :guilabel:`Ресурс` заполните поле :guilabel:`Наименование` ;
 #. Нажмите кнопку :guilabel:`Создать`. Если Стиль создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующего слоя.
 
 .. figure:: _static/QGIS_style_select_ru.png
@@ -55,19 +55,19 @@
    
    Выбор создаваемого ресурса "Стиль QGIS"
 
-.. figure:: _static/QGIS_style_name_ru.png
-   :name: QGIS_style_name
-   :align: center
-   :width: 20cm
-   
-   Окно "Создать ресурс" для стиля QGIS
-
 .. figure:: _static/QGIS_style_upload_ru.png
    :name: QGIS_style_upload
    :align: center
    :width: 20cm
    
    Загрузка QML файла
+
+.. figure:: _static/QGIS_style_name_ru.png
+   :name: QGIS_style_name
+   :align: center
+   :width: 20cm
+   
+   Окно "Создать ресурс" для стиля QGIS
 
 .. note:: 
 	Для Векторных слоев, загружаемых в Веб ГИС :ref:`с помощью настольного приложения QGIS <ngcom_ngqgis_connect_data_upload>`, Стиль QGIS создается автоматически.
