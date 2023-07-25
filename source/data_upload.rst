@@ -117,10 +117,10 @@ Creating vector layer
 
    Vector file upload tab
 
-.. figure:: _static/create_vector_layer_resourse_name__save_en.png
+.. figure:: _static/create_vector_layer_resourse_name_save_en_2.png
    :name: create_vector_layer_resourse_name_pic
    :align: center
-   :width: 15cm
+   :width: 20cm
 
    Naming the vector layer and finishing the creation process
 
