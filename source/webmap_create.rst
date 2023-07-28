@@ -31,6 +31,8 @@ Create Web Map
 
 Read more about Web Map creation :ref:`here <ngw_webmaps_admin>`.
 
+.. _ngcom_webmap_create_open:
+
 Open Web Map
 --------------------------------------------------
 
@@ -42,7 +44,9 @@ Read more about Web Map web client :ref:`here <ngw_webmaps_client>`.
 .. warning::
     We do not recommend turning on more than 1 :ref:`WMS layer <ngcom_wms_layer>` on Free/Mini plan and 3 WMS layers on Premium plan. Otherwise slow connections with external WMS servers might use up all available similtaneous connections, slowing down considerably (or stopping altogher) the rendering of all your Web Maps and making :ref:`admin console <ngw_admin_interface>` unavailable.
 
-Add a description and map legend
+.. _ngcom_webmap_create_desc:
+
+Add a description
 --------------------------------
 
 #. Open :ref:`Resource group <how-to-manage-data-storage>` containing the Web Map;
@@ -60,3 +64,5 @@ Add a description and map legend
    :width: 20cm
    
    Description and legend for a Web Map
+
+Legend is also viewed in the layer tree, see `more on how to set it up <https://docs.nextgis.com/docs_ngcom/source/legend.html>.
