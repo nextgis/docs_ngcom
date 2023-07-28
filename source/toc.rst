@@ -18,6 +18,7 @@
    data_connect
    styles
    webmap_create
+   legend
    webmap_clone
    svgmarkers
    tile_cache
