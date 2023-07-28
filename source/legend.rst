@@ -2,8 +2,8 @@
 
 .. _ngcom_webmap_legend:
 
-How to set up legend for Web Map
-=====================
+How to set up legend visibility for Web Map
+=============================================
 
 
 Map symbols may need additional explanation. Paper maps and atlases use a separate page or an insert explaining what each symbol means. 
@@ -11,7 +11,7 @@ Map symbols may need additional explanation. Paper maps and atlases use a separa
 In NextGIS Web you have two options to display the information on symbols used in a vector layer:
 
 Display the map symbols in the layer tree. The markers of the layer styles will be used.
-In addition, you can add detailed description of the map symbols in the `Description panel<https://docs.nextgis.com/docs_ngcom/source/webmap_create.html#add-a-description-and-map-legend>`_  (i in a circle).
+In addition, you can add detailed description of the map symbols in the `Description panel <https://docs.nextgis.com/docs_ngcom/source/webmap_create.html#add-a-description-and-map-legend>`_  (i in a circle).
 
 In NextGIS Web settings the term "legend" refers specifically to the map symbols displayed in the layer tree of the Web Map under the layer name.
 
