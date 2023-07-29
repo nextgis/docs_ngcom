@@ -44,14 +44,14 @@ At the same time, you can use annotations as a simple tool to create point data 
    An example of annotation display (as point data)
 
 .. note::
-    In contrast to a full vector layer, annotation tool does not allow to export data, search for it etc. Therefore, we recommend using :ref:`vector layers <ngcom_vector_layer>` to create the bulk of the data.
+    In contrast to a full vector layer, annotation tool does not allow to export data, search for it etc. Therefore, we recommend using `vector layers <https://docs.nextgis.com/docs_ngweb/source/layers.html#empty-vector-layer>`_ to create the bulk of the data.
 
-How to plug in Web Map annotations?
+How to enable Web Map annotations?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You can enable creation of annotations and set the display options in the Settings tab of the "Create resource" or "Update resource" windows for the Web Map (see :ref:`Update resource <ngw_update_resource>`). By default the annotation tool is inactive.
 
-.. figure:: _static/ann_settings_eng_2.png
+.. figure:: _static/ann_settings_eng_3.png
    :name: ann_settings
    :align: center
    :width: 16cm
@@ -60,15 +60,20 @@ You can enable creation of annotations and set the display options in the Settin
 
 There are two parameters in the Settings tab of a Web Map:
 
-- **Enable annotations** - enable or forbid working with annotations while working with the Web Map.
-- **Show annotations by default** - if there is a tick next to *"Enable annotations"*, annotations are shown on a Web Map when it opens. Otherwise they will be hidden.
+**Enable annotations** - enable or forbid working with annotations while working with the Web Map.
 
-Web Map: a panel for work with annotations
+**Show annotations**:
+
+- *No* - annotations are hidden
+- *Yes* - the annotation symbols are visible on the Web Map when it opens
+- *With messages* - both symbols and text are shown on the Web Map
+
+Web Map: Annotations panel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If the *"Enable annotations"* option is active, the "Annotations" panel appears on the Web Map:
 
-.. figure:: _static/ann_panel_eng_2.png
+.. figure:: _static/ann_panel_eng_3.png
    :name: ann_panel
    :align: center
    :width: 20cm
@@ -77,24 +82,22 @@ If the *"Enable annotations"* option is active, the "Annotations" panel appears 
 
 "Annotations" panel consists of several options:
 
-- **Show annotations layer** - allows to show or hide points and messages of annotations.
-- **Show messages** - allow to show or hide annotation messages, but does not influence points of annotations. (Active only if *Show annotations layer* is on.)
-- **Edit annotations** - activate or inactivate annotation edit mode.
+**Show annotations** - allows to show or hide symbols and messages of annotations.
 
-- **Show annotation types** - Annotations can be public or private. If there is a tick next to this option, the annotation texts will be color-coded.
+**Edit annotations** - activate or inactivate annotation edit mode.
 
-Below you can choose which types of annotations to view. The color of the tick corresponds to the color marking the side of the annotation text of the selected type.
+**Private annotations** - select what types of annotations are displayed. The types are color-coded:
 
-- **Public annotations** - marked green. One doesn't need to be logged in to see them.
-- **My private annotations** - marked purple
-- **Other private annotations** - marked red
+- **Public annotations** - marked green. Visible for everyone, even unlogged users.
+- **My private annotations** - marked purple. Visible for the creater and authorized users, including the administrator
+- **Other private annotations** - marked red. Private annotations added by other users of the WebGIS
 
-.. figure:: _static/ann_types_eng.png
+.. figure:: _static/ann_types_eng_2.png
    :name: ann_types_eng
    :align: center
    :width: 20cm
 
-   Three color-coded types of annotations
+   Three color-coded types of annotations: 1 - public, 2 - my private, 3 - other private
 
 
 Web Map: annotation editting
@@ -102,14 +105,16 @@ Web Map: annotation editting
 
 You can create and edit annotations, if the option *Edit annotations* on the *"Annotations" panel* is active. When it is active, the mouse pointer has a blue point next to it and a pencil pictogram appears above existing annotations:
 
-.. figure:: _static/ann_edit_option_eng_2.png
+.. figure:: _static/ann_edit_option_eng_3.png
    :name: ann_edit_option
    :align: center
    :width: 20cm
 
-   Annotation edit mode (1 - annotation editing enabled, 2 - mouse pointer when hovering over the map, 3 - edit pictogram appearing when the pointer is over the annotation text)
+   Annotation edit mode (1 - annotation editing enabled, 2 - mouse pointer while creating a line, 3 - edit pictogram appearing when the pointer hovers over the annotation text)
 
-To **create** an annotation you need to click the left mouse button on the Web Map. Then a dialog window of annotation creation will be opened:
+To **create** an annotation you need to click the left mouse button on the Web Map. For a point symbol, only click once. To finish creating a line or a polygon, double click on the last point (polygon will be automatically completed).
+
+Then a dialog window of annotation creation will be opened:
 
 .. figure:: _static/ann_create_eng_2.png
    :name: ann_create
@@ -127,7 +132,7 @@ Dialog of annotation creation consists of:
 
 After clicking **Save**, a drop-down menu appears. In it you need to select the type for your annotation - public or private. After you do so, the newly created annotation will appear on the Web Map.
 
-To **edit** annotations you need to activate annotation edit mode, point to an annotation and click the pictogram on it with the left mouse button. The dialog window for annotation editting looks like a dialog window of annotation creation, but has a *"Delete"* button, which allows to **delete** the chosen annotation. In order to change the font size of the message or its part, you need to select the text first. 
+To **edit** annotations you need to activate annotation edit mode, point to an annotation and click the pictogram on it with the left mouse button. The dialog window for annotation editting looks like a dialog window of annotation creation, but has a **"Delete"** button, which allows to delete the chosen annotation. In order to change the font size of the message or its part, you need to select the text first. 
 You can edit both your own private annotations and those created by other users if you have the necessary permissions. The type of the annotation is marked at the top of the edit window. For private annotations of other users you will see the creator's name in brackets.
 
 Web Map: user's permissions associated with annotations
