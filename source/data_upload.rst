@@ -63,7 +63,7 @@ Read more about upload of raster geodata to Web GIS :ref:`here <ngw_create_raste
 Uploading large rasters
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-UAS, remote sensing data and other rasters are often huge.
+UAV, remote sensing data and other rasters are often huge.
 The file size is not very informative as the real data size might be much larger because of compression.
 To ensure fast rendering on Web Maps and serving, rasters with TMS and WMS used to create raster layers should be properly processed before upload.
 
