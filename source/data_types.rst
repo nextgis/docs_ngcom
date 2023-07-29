@@ -5,7 +5,7 @@ Which data formats and protocols are supported in Web GIS
 
 :ref:`Web GIS <ngcom_description>` allows to :ref:`upload <ngcom_data_upload>` and store geodata from local sources in the following spatial data formats:
 
-* Raster - :term:`GeoTIFF` (with 3 or 4 bands, RGB or RGBA);
+* Raster - :term:`GeoTIFF` (standard raster style supports files with 3 or 4 bands, RGB or RGBA, for other types you can use QGIS style);
 * Vector - :term:`ESRI Shape`, :term:`GeoJSON`, :term:`GeoPackage`, :term:`GML`, :term:`KML`, :term:`CSV` or XLSX formats are supported. For CSV and XLSX only points are supported, coordinates must be put in lat and lot columns.
 
 Use :ref:`NextGIS Connect <ngcom_ngqgis_connect_data_upload>` if you need to upload data in other formats.
