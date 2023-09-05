@@ -11,20 +11,20 @@ Basemaps
 ------------
 
 .. note:: 
-	Creating Basemaps is only available for nextgis.com `Mini and Premium users <https://nextgis.com/pricing-base>`_.
+	Adding non-standard Basemaps is only available for nextgis.com `Mini and Premium users <https://nextgis.com/pricing-base>`_.
 
-Create a Basemap
-~~~~~~~~~~~~~~~~
+Add a Basemap resource
+~~~~~~~~~~~~~~~~~~~~~~
 
-#. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a basemap (by default, from the main page of Web GIS you access the Main resource group);
+#. Navigate to a :ref:`Resource group <ngcom_resources_group>` where you want to create a basemap resource (by default, from the main page of Web GIS you access the Main resource group);
 #. Select :menuselection:`Create resource --> Basemap` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
 #. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new basemap in the field :guilabel:`Display name`. Then in :guilabel:`Basemap` tab fill in the field :guilabel:`URL` (if you know the correct link to :term:`TMS` service) or start typing the name of the basemap in the field :guilabel:`Search`. If this basemap is found in `QuickMapServices <https://qms.nextgis.com/>`_ catalog, the :guilabel:`URL` field will be filled in automatically and option "Use options from QMS" will be activated;
 #. Press :guilabel:`Create` button. If Basemap is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. note:: 
-	We recommend creating a separate "Basemaps" :ref:`Resource group <ngcom_resources_group>` to store basemaps which you plan to add to your :ref:`Web maps <ngcom_webmap_create>`.
+	We recommend creating a separate "Basemaps" :ref:`Resource group <ngcom_resources_group>` to keep the basemaps to add your :ref:`Web maps <ngcom_webmap_create>`.
 
-Find out how to add basemaps you created to the Web map :ref:`here <ngcom_webmap_create>`.
+Find out how to add basemaps you've created to the Web map :ref:`here <ngcom_webmap_create>`.
 
 .. _ngcom_postgis_connect:
 
