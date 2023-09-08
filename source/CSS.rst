@@ -32,6 +32,8 @@
   background-color: blue !important;
 }
 
+.. code-block:: bash
+
 .ngw-pyramid-layout-header > .text {
   color: gold !important;
 }
