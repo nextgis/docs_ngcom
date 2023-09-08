@@ -28,7 +28,13 @@
 
 .. code-block:: bash
 
-	.header{background-color: #F44336; color: #fff;}
+	.ngw-pyramid-layout-header{
+  background-color: blue !important;
+}
+
+.ngw-pyramid-layout-header > .text {
+  color: gold !important;
+}
 
 Скрыть пункт Войти
 ~~~~~~~~~~~~~~~~~~
