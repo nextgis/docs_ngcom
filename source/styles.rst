@@ -9,8 +9,17 @@
 
 ВебГИС поддерживает возможность создания разных видов стилей.
 
-* Для :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` можно создать :ref:`Стиль MapServer <ngcom_mapserver_style>` или :ref:`Стиль QGIS <ngcom_qgis_style>`;
-* Для :ref:`Растровых слоев <ngcom_raster_layer>` можно создать :ref:`Растровый стиль <ngcom_raster_style>` или :ref:`Стиль QGIS <ngcom_qgis_style>`.
+* Для :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` можно создать :ref:`Стиль MapServer <ngcom_mapserver_style>` или :ref:`Векторный стиль QGIS <ngcom_qgis_style>`;
+* Для :ref:`Растровых слоев <ngcom_raster_layer>` можно создать :ref:`Растровый стиль <ngcom_raster_style>` или :ref:`Растровый стиль QGIS <ngcom_qgis_style>`.
+
+Для того, чтобы создать стиль QGIS с настройками по умолчанию для нового слоя, достаточно нажать на кнопку на странице ресурса.
+
+.. figure:: _static/default_style_select_ru.png
+   :name: mapserver_style_select
+   :align: center
+   :width: 20cm
+   
+   Создание стиля QGIS по умолчанию
 
 
 .. _ngcom_mapserver_style:
@@ -44,7 +53,7 @@
 
 #. Откройте окно свойств слоя, для которого вы хотите создать Стиль;
 #. Выберите :menuselection:`Создать ресурс --> Стиль QGIS` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
-#. В открывшемся окне На вкладке :guilabel:`Стиль QGIS` загрузите файл в формате :term:`QML`, созданный с помощью :term:`QGIS` (о том, как создать файл QML с помощью NextGIS QGIS - :ref:`здесь <ngq_save_style>`);
+#. В открывшемся окне на вкладке :guilabel:`Стиль QGIS` загрузите файл в формате :term:`QML` или SLD, созданный с помощью :term:`QGIS` (о том, как создать файл QML с помощью NextGIS QGIS - :ref:`здесь <ngq_save_style>`). Для векторных слоев также можно создать простой пользовательский стиль (подробнее см :ref:`здесь <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html>`_);
 #. На вкладке :guilabel:`Ресурс` заполните поле :guilabel:`Наименование` ;
 #. Нажмите кнопку :guilabel:`Создать`. Если Стиль создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующего слоя.
 
@@ -55,7 +64,7 @@
    
    Выбор создаваемого ресурса "Стиль QGIS"
 
-.. figure:: _static/QGIS_style_upload_ru.png
+.. figure:: _static/QGIS_style_upload_ru_2.png
    :name: QGIS_style_upload
    :align: center
    :width: 20cm
@@ -67,7 +76,9 @@
    :align: center
    :width: 20cm
    
-   Окно "Создать ресурс" для стиля QGIS
+   Наименование стиля
+
+Простые векторные стили можно редактировать непосредственно в облаке.
 
 .. note:: 
 	Для Векторных слоев, загружаемых в Веб ГИС :ref:`с помощью настольного приложения QGIS <ngcom_ngqgis_connect_data_upload>`, Стиль QGIS создается автоматически.
