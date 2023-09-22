@@ -9,8 +9,17 @@ The only exception are :ref:`WMS layers <ngcom_wms_layer>` and :ref:`TMS layers 
 
 Web GIS supports several types of Styles.
 
-* For :ref:`Vector <ngcom_vector_layer>` and :ref:`PostGIS <ngcom_postgis_layer>` layers you can create :ref:`MapServer style <ngcom_mapserver_style>` or :ref:`QGIS style <ngcom_qgis_style>`.
-* For :ref:`Raster layers <ngcom_raster_layer>` you can create :ref:`Raster style <ngcom_raster_style>` or :ref:`QGIS style <ngcom_qgis_style>`.
+* For :ref:`Vector <ngcom_vector_layer>` and :ref:`PostGIS <ngcom_postgis_layer>` layers you can create :ref:`MapServer style <ngcom_mapserver_style>` or :ref:`QGIS vector style <ngcom_qgis_style>`.
+* For :ref:`Raster layers <ngcom_raster_layer>` you can create :ref:`Raster style <ngcom_raster_style>` or :ref:`QGIS raster style <ngcom_qgis_style>`.
+
+To create a default QGIS style, just press the blue button on the resource page of the layer.
+
+.. figure:: _static/default_style_select_en.png
+   :name: mapserver_style_select
+   :align: center
+   :width: 20cm
+   
+   Creating default QGIS style
 
 
 .. _ngcom_mapserver_style:
@@ -18,10 +27,9 @@ Web GIS supports several types of Styles.
 MapServer style 
 ----------------------------
 
-#. Open the Properties page of :ref:`Vector layer <ngcom_vector_layer>` or :ref:`PostGIS layer <ngcom_postgis_layer>` for which you want to create a style;
+#. Open the Properties page of a :ref:`Vector layer <ngcom_vector_layer>` or :ref:`PostGIS layer <ngcom_postgis_layer>` for which you want to create a style;
 #. Select :menuselection:`Create resource --> MapServer style` on the right side of the Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new style in the field :guilabel:`Display name`.  You can edit style parameters in :guilabel:`MapServer style` tab (optional). Examples of :term:`MapServer` style can be found :ref:`here <ngw_mapserver_templates>`;
-#. Press :guilabel:`Create` button.  If Style is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Vector layer or PostGIS layer.
+#. Press :guilabel:`Create` button.  If Style is created successfully, you'll see its name in the :guilabel:`Child resources` pane of the relevant Vector layer or PostGIS layer.
 
 .. figure:: _static/mapserver_style_select_en.png
    :name: mapserver_style_select
@@ -30,12 +38,16 @@ MapServer style
    
    Selecting MapServer style
 
-.. figure:: _static/mapserver_style_create_en.png
-   :name: mapserver_style_create
+You can type a custom display name for the new style in the :guilabel:`Resource` tab and edit style parameters in the :guilabel:`MapServer style` tab.
+
+.. figure:: _static/mapserver_style_name_en.png
+   :name: mapserver_style_name
    :align: center
-   :width: 20cm
+   :width: 15cm
    
-   Creating MapServer style 
+   Display name field of a MapServer style
+
+Examples of :term:`MapServer` style can be found :ref:`here <ngw_mapserver_templates>`.
 
 .. _ngcom_qgis_style:
 
@@ -44,8 +56,9 @@ QGIS style
 
 #. Open the Properties page of the layer for which you want to create a style;
 #. Select :menuselection:`Create resource --> QGIS style` on the right side of the Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new style in the field :guilabel:`Display name`;
-#. Go to :guilabel:`QGIS style` tab and upload a file in :term:`QML` format created with :term:`QGIS` (learn how to :ref:`create QML file <ngq_save_style>` with QGIS);
+#. In the opened dialog, Go to :guilabel:`QGIS style` tab and upload a file in :term:`QML` format created with :term:`QGIS` (learn how to :ref:`create QML file <ngq_save_style>` with QGIS);
+
+
 #. Press :guilabel:`Create` button.  If Style is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant layer.
 
 .. figure:: _static/QGIS_style_select_en.png
@@ -55,19 +68,23 @@ QGIS style
    
    Selecting QGIS style
 
-.. figure:: _static/QGIS_style_name_en.png
-   :name: QGIS_style_name
-   :align: center
-   :width: 20cm
-   
-   Create resource window for QGIS style
-
 .. figure:: _static/QGIS_style_upload_en.png
    :name: QGIS_style_upload
    :align: center
    :width: 20cm
    
    Uploading QML file
+
+You can type a custom name for the new style in the field :guilabel:`Display name` of the :guilabel:`Resource` tab.
+
+.. figure:: _static/QGIS_style_name_en.png
+   :name: QGIS_style_name
+   :align: center
+   :width: 20cm
+   
+   Display name field of a QGIS style
+
+Simple vector styles can be edited directly from NextGIS Web.
 
 .. note:: 
 	For Vector layers uploaded to Web GIS :ref:`with desktop app QGIS <ngcom_ngqgis_connect_data_upload>` a QGIS style is created automatically.
@@ -80,7 +97,6 @@ Raster style
 
 #. Open the Properties page of :ref:`Raster layer <ngcom_raster_layer>` for which you want to create a style;
 #. Select :menuselection:`Create resource --> Raster style` on the right side of the Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new style in the field :guilabel:`Display name`;
 #. Press :guilabel:`Create` button.  If Style is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Raster layer.
 
 .. note:: 
@@ -91,13 +107,15 @@ Raster style
    :align: center
    :width: 20cm
    
-   Selecting "Raster style
+   Selecting "Raster style"
+
+You can type a custom name for the new style in the field :guilabel:`Display name` of the :guilabel:`Resource` tab.
 
 .. figure:: _static/raster_style_create_en.png
    :name: raster_style_create
    :align: center
    :width: 20cm
    
-   Creating Raster style
+   Creating Raster style with a custom name
 
 Read more on how to create and edit Styles :ref:`here <ngw_style_create>`. 
