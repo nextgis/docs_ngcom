@@ -87,7 +87,7 @@
    
    Пользовательское имя стиля 
 
-Примеры стилей :term:`MapServer` вы можете найти :ref:`здесь <ngw_mapserver_templates>`.
+Примеры стилей :term:`MapServer` вы можете найти :ref:`здесь <https://docs.nextgis.ru/docs_ngweb/source/mapservertemplates.html>`.
 
 .. _ngcom_raster_style:
 
