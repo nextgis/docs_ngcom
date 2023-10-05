@@ -22,32 +22,6 @@ To create a default QGIS style, just press the blue button on the resource page 
    Creating default QGIS style
 
 
-.. _ngcom_mapserver_style:
-
-MapServer style 
-----------------------------
-
-#. Open the Properties page of a :ref:`Vector layer <ngcom_vector_layer>` or :ref:`PostGIS layer <ngcom_postgis_layer>` for which you want to create a style;
-#. Select :menuselection:`Create resource --> MapServer style` on the right side of the Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. Press :guilabel:`Create` button.  If Style is created successfully, you'll see its name in the :guilabel:`Child resources` pane of the relevant Vector layer or PostGIS layer.
-
-.. figure:: _static/mapserver_style_select_en.png
-   :name: mapserver_style_select
-   :align: center
-   :width: 20cm
-   
-   Selecting MapServer style
-
-You can type a custom display name for the new style in the :guilabel:`Resource` tab and edit style parameters in the :guilabel:`MapServer style` tab.
-
-.. figure:: _static/mapserver_style_name_en.png
-   :name: mapserver_style_name
-   :align: center
-   :width: 15cm
-   
-   Display name field of a MapServer style
-
-Examples of :term:`MapServer` style can be found :ref:`here <ngw_mapserver_templates>`.
 
 .. _ngcom_qgis_style:
 
@@ -84,10 +58,38 @@ You can type a custom name for the new style in the field :guilabel:`Display nam
    
    Display name field of a QGIS style
 
-Simple vector styles can be edited directly from NextGIS Web.
+Simple vector styles can be edited directly from NextGIS Web (more about it `here <https://docs.nextgis.com/docs_ngweb/source/mapstyles.html#editing-qgis-style>`_).
 
 .. note:: 
 	For Vector layers uploaded to Web GIS :ref:`with desktop app QGIS <ngcom_ngqgis_connect_data_upload>` a QGIS style is created automatically.
+
+.. _ngcom_mapserver_style:
+
+MapServer style 
+----------------------------
+
+#. Open the Properties page of a :ref:`Vector layer <ngcom_vector_layer>` or :ref:`PostGIS layer <ngcom_postgis_layer>` for which you want to create a style;
+#. Select :menuselection:`Create resource --> MapServer style` on the right side of the Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. Press :guilabel:`Create` button.  If Style is created successfully, you'll see its name in the :guilabel:`Child resources` pane of the relevant Vector layer or PostGIS layer.
+
+.. figure:: _static/mapserver_style_select_en.png
+   :name: mapserver_style_select
+   :align: center
+   :width: 20cm
+   
+   Selecting MapServer style
+
+You can type a custom display name for the new style in the :guilabel:`Resource` tab and edit style parameters in the :guilabel:`MapServer style` tab.
+
+.. figure:: _static/mapserver_style_name_en.png
+   :name: mapserver_style_name
+   :align: center
+   :width: 15cm
+   
+   Display name field of a MapServer style
+
+Examples of :term:`MapServer` style can be found :ref:`here <https://docs.nextgis.com/docs_ngweb/source/mapservertemplates.html>`.
+
 
 
 .. _ngcom_raster_style:
