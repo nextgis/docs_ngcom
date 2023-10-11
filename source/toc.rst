@@ -14,6 +14,7 @@
    create
    data_types
    resources
+   demoprojects
    data_upload
    data_connect
    styles
