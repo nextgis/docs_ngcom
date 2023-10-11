@@ -36,6 +36,7 @@
    data_export
    hide_data_export
    resource_delete
+   cadaster
    ngqgis_connect
    address_search
    tracking
