@@ -5,6 +5,9 @@ How to embed a web map on your website
 
 All web maps created on nextgis.com can be easily embedded into your website.
 
+.. note:: 
+	For embedded map to work, `cross-origin resource sharing <https://docs.nextgis.com/docs_ngcom/source/CORS.html>`_ needs to be set for the external website.
+
 For this:
 
 * Open web map
