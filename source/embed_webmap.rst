@@ -39,4 +39,4 @@ There are also additional options:
 * Preview - to preview the embedded web map before publishing it
 
 If you are a developer check out the `code.nextgis.com <https://code.nextgis.com/>`_ library suite
-and the `NGW API <https://docs.nextgis.ru/docs_ngweb_dev/doc/toc.html>`_.
+and the `NGW API <https://docs.nextgis.com/docs_ngweb_dev/doc/toc.html>`_.
