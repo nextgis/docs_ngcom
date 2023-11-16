@@ -32,6 +32,6 @@ Now you can access newly created Resource group and create new resources in it.
 .. note:: 
 	You can also create new Resource groups in Web GIS :ref:`with desktop app QGIS <ngcom_ngqgis_connect_resource_group>`.
 
-Read more about Resource group creation `here <https://docs.nextgis.com/docs_ngweb/source/layers.html#id53>`_.
+Read more about Resource group creation `here <https://docs.nextgis.com/docs_ngweb/source/layers.html#creation-of-a-resource-group>`_.
 
 How to transfer resourses from one group to another read :ref:`here <ngcom_parent_change>`.
