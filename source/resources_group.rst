@@ -32,6 +32,6 @@
 .. note:: 
 	Вы также можете создавать новые Группы ресурсов в Веб ГИС :ref:`с помощью настольного приложения NextGIS QGIS <ngcom_ngqgis_connect_resource_group>`.
 
-Больше информации о создании Групп ресурсов - :ref:`здесь <ngw_resources_group>`.
+Больше информации о создании Групп ресурсов - `здесь <https://docs.nextgis.ru/docs_ngweb/source/layers.html#id53>`_.
 
 О том, как перемещать ресурсы из одной Группы в другую - :ref:`здесь <ngcom_parent_change>`.
