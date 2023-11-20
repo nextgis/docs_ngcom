@@ -159,7 +159,7 @@ After the authorization is completed successfully you will be redirected back to
 
 
 Main menu
-----------
+---------
 
 A red rectangle indicates a menu containing "Resources", "Control panel" (only for Premium users) and "Help" sections.
 
@@ -192,15 +192,15 @@ If you have questions about your Web GIS, you can go to the "Help" section of th
 .. _ngcom_ream_management:
 
 Team management
----------------------
+---------------
 
 .. warning::
    This functionality is only available for `Premium <http://nextgis.com/nextgis-com/plans>`_ users.
    
    
-According to nextgis.com plans, the Premium account holder has an opportunity to give access to Pro-functions of `NextGIS QGIS <https://nextgis.com/nextgis-qgis#pro>`_, `Mobile <https://nextgis.com/nextgis-mobile#pro>`_ и `Formbuilder <https://nextgis.com/nextgis-formbuilder#pro>`_ to 4 more users who have a NextGIS ID.
+According to nextgis.com plans, the Premium account holder has an opportunity to give access to Premium-functions of `NextGIS QGIS <https://nextgis.com/nextgis-qgis#pro>`_, `Mobile <https://nextgis.com/nextgis-mobile#pro>`_ и `Formbuilder <https://nextgis.com/nextgis-formbuilder#pro>`_ to 4 more users who have a NextGIS ID.
 
-Team management allows adding any NextGIS user by login to your team. Team management is available through your personal account at https://my.nextgis.com/teammanage in the Team section (see :numref:`Team_on_panel`).
+Team management allows adding any NextGIS user by username to your team. Team management is available through your personal account at https://my.nextgis.com/teammanage in the Team section (see :numref:`Team_on_panel`).
 
 .. figure:: _static/Team_on_panel_en.png
    :name: Team_on_panel
@@ -209,7 +209,9 @@ Team management allows adding any NextGIS user by login to your team. Team manag
 
    The Team section of the Personal Account
    
-By default, the team includes the owner of the Premium subscription (see :numref:`First_administrator`). The owner can add team members by clicking the **Add** button and finding them using their NextGIS ID user name (see :numref:`teamlist_users`). Team members must already be registered on my.nextgis.com. The username can be seen in the `profile <https://my.nextgis.com/>`_. If the user has forgotten his username and cannot login to his profile, he can `restore <https://docs.nextgis.com/docs_ngcom/source/faq_webgis.html#access-recovery-and-passwords>`_ access.
+By default, the team includes the owner of the Premium subscription (see :numref:`First_administrator`). The owner can add team members by clicking the **Add** button and finding them by using their NextGIS ID username (see :numref:`teamlist_users`). Team members must already be registered on my.nextgis.com. The username can be seen in the `profile <https://my.nextgis.com/>`_. Team member will have Free plan under subscription, it's normal, he/she will also have access Premium-functionality.
+
+If the user has forgotten his username and cannot login, he can `restore <https://docs.nextgis.com/docs_ngcom/source/faq_webgis.html#access-recovery-and-passwords>`_ access.
 
 .. figure:: _static/First_administrator_en.png
    :name: First_administrator
