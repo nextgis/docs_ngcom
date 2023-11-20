@@ -6,7 +6,7 @@
 .. _ngcom_create_account:
 
 Создание аккаунта (NextGIS ID)
--------------------------------
+------------------------------
 
 До работы с любыми сервисами и ПО NextGIS, включая :ref:`Веб ГИС <ngcom_description>`, необходимо создать аккаунт (NextGIS ID).
 
@@ -207,9 +207,9 @@
    Данный функционал доступен только для пользователей плана `Premium <http://nextgis.ru/nextgis-com/plans>`_.
    
 
-В соответствии с тарифными планами nextgis.com владелец Premium аккаунта имеет возможность дать доступ к Pro-функциям `NextGIS QGIS <https://nextgis.ru/nextgis-qgis#pro>`_, `Mobile <https://nextgis.ru/nextgis-mobile#pro>`_ и `Formbuilder <https://nextgis.ru/nextgis-formbuilder#pro>`_ еще 4 пользователям, у которых есть NextGIS ID.
+В соответствии с тарифными планами nextgis.com владелец Premium аккаунта имеет возможность дать доступ к Premium-функциям `NextGIS QGIS <https://nextgis.ru/nextgis-qgis#pro>`_, `Mobile <https://nextgis.ru/nextgis-mobile#pro>`_ и `Formbuilder <https://nextgis.ru/nextgis-formbuilder#pro>`_ еще 4 пользователям, у которых есть NextGIS ID.
 
-Механизм управления командой позволяет добавить в свою команду любого пользователя NextGIS по его никнейму. Управление командой доступно через личный кабинет на https://my.nextgis.com/teammanage в разделе “Команда” (см. :numref:`Team_on_panel`).
+Механизм управления командой позволяет добавить в свою команду любого пользователя NextGIS по его имени. Управление командой доступно через личный кабинет на https://my.nextgis.com/teammanage в разделе “Команда” (см. :numref:`Team_on_panel`).
 
 .. figure:: _static/Team_on_panel_ru.png
    :name: Team_on_panel
@@ -218,7 +218,9 @@
 
    Раздел “Команда” в левой панели Личного кабинета
    
-По умолчанию в команде уже находится администратор, который приобрел подписку на Premium (см. :numref:`First_administrator`). Он имеет возможность добавить новых пользователей, нажав кнопку **“Добавить”** и найдя их по никнейму NextGIS ID (см. :numref:`list_users`). Пользователи должны быть уже зарегистрированы на my.nextgis.com. Логин пользователя можно увидеть в его профиле на https://my.nextgis.com/. Если пользователь забыл свой логин и не может войти в профиль, он должен восстановить `доступ <https://docs.nextgis.ru/docs_ngcom/source/faq_webgis.html#nextgis-id>`_.
+По умолчанию в команде уже находится администратор, который приобрел подписку на Premium (см. :numref:`First_administrator`). Он имеет возможность добавить новых пользователей, нажав кнопку **“Добавить”** и найдя их по имени NextGIS ID (см. :numref:`list_users`). Пользователи должны быть уже зарегистрированы на my.nextgis.com. Имя пользователя можно увидеть в его профиле на https://my.nextgis.com/. У пользователя в команде будет значится план Free - это нормально, он будет иметь возможность пользоваться Premium-функциями программного обеспечения.
+
+Если пользователь забыл своё имя и не может войти в профиль, он может восстановить `доступ <https://docs.nextgis.ru/docs_ngcom/source/faq_webgis.html#nextgis-id>`_.
 
 .. figure:: _static/First_administrator_ru.png
    :name: First_administrator
