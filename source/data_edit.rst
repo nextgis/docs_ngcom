@@ -27,12 +27,12 @@ You can allow or deny editing of all map layers on the "Settings" tab by ticking
 .. note:: 
 	By default a box next to "Enable layers editing" field is clear.
 	
-To forbid some users to edit layers add a rule to deny specified users or groups of users to write data (permission ``"Data:Write"``) on the "Permissions" tab of the "Update resorce" dialog (see :numref:`webmap_forbid_editting`). For user without permission the edit mode is unavailable.
+To forbid some users to edit layers add a rule to deny specified users or groups of users to write data (permission ``"Resource:Modify"``) on the "Permissions" tab of the "Update resorce" dialog (see :numref:`webmap_forbid_editting`). For user without permission the edit mode is unavailable.
 
-.. figure:: _static/webgis_forbid_editting_eng_2.png
+.. figure:: _static/webgis_forbid_editting_eng_3.png
    :name: webmap_forbid_editting
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Changes of editing permission for separate users
 
@@ -45,7 +45,7 @@ Edit a feature on a Web Map
 1. Open :ref:`Web Map <ngcom_webmap_create>` and select the layer with the feature you need to edit.
 2. Open dropdown menu by pressing the "Layer" button (see :numref:`webmap_edit`), then tick the box next to "Editing".
 
-.. figure:: _static/webgis_edit_objects_eng_2.png
+.. figure:: _static/webgis_edit_objects_eng_3.png
    :name: webmap_edit
    :align: center
    :width: 20cm
