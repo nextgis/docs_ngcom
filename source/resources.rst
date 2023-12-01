@@ -19,6 +19,7 @@ Geodata in :ref:`Web GIS <ngcom_description>` is managed with resource system. A
 * :ref:`WMS layer <ngcom_wms_layer>` (created to connect to the specific raster layers through existing WMS connection)
 * :ref:`TMS connection <ngcom_tms_connection>` (created to connect to an external :term:`TMS` server)
 * :ref:`TMS layer <ngcom_tms_layer>` (created to connect to the specific layers using an existing TMS connection)
+* `OGC API Features <https://docs.nextgis.com/docs_ngweb/source/layers.html#ogc-api-features-service>`_ (Third party software can use these services to edit vector data on server).
 
 **Resources for displaying and publishing geodata**:
 
