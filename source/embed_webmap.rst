@@ -38,7 +38,7 @@ There are also additional options:
 * Generate events - for integration and programmatic interaction with the iframe
 * Preview - to preview the embedded Web Map before publishing it
 
-To embed a Web Map with all the panels available delete ``/tiny`` from the iframe code. This will allow users, for instance, to enable and disable particular layers.
+To embed a Web Map with all the panels available remove ``/tiny`` part from the Web GIS link in iframe code. This will allow users, for instance, to enable and disable particular layers.
 
 If you are a developer check out the `code.nextgis.com <https://code.nextgis.com/>`_ library suite
 and the `NGW API <https://docs.nextgis.com/docs_ngweb_dev/doc/toc.html>`_.
