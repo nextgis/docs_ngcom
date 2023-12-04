@@ -21,9 +21,9 @@ Customize design with CSS
 
 You can modify the look of NextGIS Web using CSS.
 
-From the main menu (see :numref:`ngweb_main_page_administrative_interface_pic`) open the Control Panel (see :numref:`ngweb_main_page_main_menu_pic`).
+From the main menu (see :numref:`admin_index_pic`) open the Control Panel (see :numref:`ngweb_main_page_main_menu_pic`).
 
-In the Control Panel (see :numref:`ngweb_control_panel`) select **Custom CSS** in the Settings section.
+In the Control Panel (see :numref:`admin_control_panel`) select **Custom CSS** in the Settings section.
 Here you can enter your own :term:`CSS` rules. They will be used throughout your Web GIS on all its pages. 
 
 Custom CSS examples
