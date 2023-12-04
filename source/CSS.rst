@@ -14,82 +14,51 @@ You can change the upper-left logo (present on all pages), you can't change the 
 
 To upload a logo choose :guilabel:`Custom logo` on control panel (see item 1 in :numref:`admin_index_pic`) and in opened window upload a file in PNG format with height up to 45 px, width up to 200 px. Then press "Save".
 
+
+
+Customize design with CSS
+-------------------------------------------
+
+You can modify the look of NextGIS Web using CSS.
+
+From the main menu (see :numref:`ngweb_main_page_administrative_interface_pic`) open the Control Panel (see :numref:`ngweb_main_page_main_menu_pic`).
+
+In the Control Panel (see :numref:`ngweb_control_panel`) select **Custom CSS** in the Settings section.
+Here you can enter your own :term:`CSS` rules. They will be used throughout your Web GIS on all its pages. 
+
 Custom CSS examples
--------------------
+-------------------------------------------
 
-#. Sign in as the user with administrative privileges and open Control panel, then select Custom CSS. 
-#. Enter your own CSS rules. They will be used throughout your Web GIS on all its pages.
+Change main Web GIS color 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Change header color
-~~~~~~~~~~~~~~~~~~~
+Affects header, symbols in the header, buttons, field contours, links highlighted on hover etc.
 
-.. code-block:: bash
+.. code-block:: css
 
-    .header{background-color: #F44336; color: #fff;}
-
-Hide sign in link
-~~~~~~~~~~~~~~~~~
-
-This will hide sign in text from Web maps and all other pages. You'll have to type sign in link manually to sign in.
-
-.. code-block:: bash
-
-	.header-nav {
-		display: none;
+	:root {
+  	--primary: red
 	}
 
-Hide Print, Share buttons from Web maps
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Change main font color 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: bash
+Affects menu, name and parameters of displayed resource group etc.
 
-	.navigation-menu__item[data-item-value=sharePanel],
-        .navigation-menu__item[data-item-value=printMapPanel]{
-                display: none;
-        }
+.. code-block:: css
 
-Hide Zoom In, Zoom Out Buttons, Home Buttons
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code-block:: bash
-
-	.control-pane.control-pane--top.control-pane--left {
-    		display: none;
+	:root {
+  	--text-base: #ff6600
 	}
 
-Hide header of the Web map feature identification popup window
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Change additional font color
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: bash
+Affects paths for the displayed resource, parameters etc.
 
-	div.ngwPopup__content div div.dijitAlignTop,
-	div.ngwPopup__features span.ngwWebmapToolIdentify-controller {
-	    display: none;
-	}
+.. code-block:: css
 
-Hide layer icons on Web map
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code-block:: bash
-
-	.dijitIcon.dijitTreeIcon.dijitLeaf {
-    	    display: none;
-	}
-	.dijitIcon.dijitTreeIcon.dijitFolderOpened  {
-    	    display: none;
-	}
-
-	.dijitIcon.dijitTreeIcon.dijitFolderClosed {
-	    display: none;
-	}
-
-Change Web map background color
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code-block:: bash
-
-	.ol-viewport {
-		background-color: #000;
+	:root {
+  	--text-secondary: rgb(40 200 40 / .8)
 	}
 	
-
