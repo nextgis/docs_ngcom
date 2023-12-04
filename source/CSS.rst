@@ -16,93 +16,39 @@
 Чтобы загрузить логотип, в панели управления (см. :numref:`ngweb_main_page_administrative_interface_pic`, п.1) необходимо выбрать пункт :guilabel:`Логотип` и в открывшемся окне загрузить файл в формате PNG, высотой до 45 px, ширина до 200 px. После этого требуется нажать на кнопку "Сохранить".
 
 
-Изменение стиля элементов интерфейса
-------------------------------------
+Примеры настроек внешнего вида интерфейса
+-------------------------------------------
 
-#. Войдите в свою Веб ГИС с правами администратора, откройте раздел :guilabel:`Панель управления` и выберите пункт :guilabel:`Пользовательские стили CSS`. 
-#. В открывшейся вкладке можно задать собственные стили CSS. Они будут использованы для оформления всех страниц вашей Веб ГИС. 
+Изменить основной цвет Веб ГИС 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Шапка, символы в шапке, кнопки, обводка полей, подсветка ссылок при наведении и другое.
 
-Изменить цвет шапки
-~~~~~~~~~~~~~~~~~~~
+.. code-block:: css
 
-.. code-block:: bash
-
-	.ngw-pyramid-layout-header{
-  background-color: blue !important;
-}
-
-.. code-block:: bash
-
-.ngw-pyramid-layout-header > .text {
-  color: gold !important;
-}
-
-Скрыть пункт Войти
-~~~~~~~~~~~~~~~~~~
-
-Пункт будет скрыт с Веб-карт и со всех остальных страниц.
-
-.. code-block:: bash
-
-	.header-nav {
-		display: none;
+	:root {
+  	--primary: red
 	}
 
-Скрыть кнопки Поделиться, Печать с Веб-карт
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Изменить цвет основных надписей 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. code-block:: bash
+Пункты меню, имя и свойства текущей группы ресурсов и другое.
 
-	.navigation-menu__item[data-item-value=sharePanel],
-        .navigation-menu__item[data-item-value=printMapPanel]{
-                display: none;
-        }
-	
-	
-Скрыть кнопки Увеличения и Уменьшения зума, кнопки Домой
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. code-block:: css
 
-.. code-block:: bash
+	:root {
+  	--text-base: #ff6600
+	}
 
-	.control-pane.control-pane--top.control-pane--left {
-    		display: none;
+Изменить цвет вспомогательных надписей
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Путь до текущего ресурса, заголовки свойств ресурсов и другое.
+
+.. code-block:: css
+
+	:root {
+  	--text-secondary: rgb(40 200 40 / .8)
 	}
 	
-
-Скрыть заголовок окна идентификации объекта на веб-карте
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code-block:: bash
-
-	div.ngwPopup__content div div.dijitAlignTop,
-	div.ngwPopup__features span.ngwWebmapToolIdentify-controller {
-	    display: none;
-	}
-
-Скрыть иконки у слоёв на веб-карте
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code-block:: bash
-
-	.dijitIcon.dijitTreeIcon.dijitLeaf {
-    	    display: none;
-	}
-	.dijitIcon.dijitTreeIcon.dijitFolderOpened  {
-    	    display: none;
-	}
-
-	.dijitIcon.dijitTreeIcon.dijitFolderClosed {
-	    display: none;
-	}
-
-Сделать фон веб карты другим цветом
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code-block:: bash
-
-	.ol-viewport {
-		background-color: #000;
-	}
-	
-
