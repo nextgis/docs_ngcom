@@ -72,5 +72,5 @@ https://demo.nextgis.com/resource/7023/display?panel=layers&hl_lid=7021&hl_attr=
    Web Map opened via the link
 
 
-You can make the link manually (`more on how to do it <https://docs.nextgis.ru/docs_ngweb/source/webmaps_client.html#ngw-webmaps-client-feature-link>`_).
+You can make the link manually (`more on how to do it <https://docs.nextgis.com/docs_ngweb/source/webmaps_client.html#ngw-webmaps-client-feature-link>`_).
 
