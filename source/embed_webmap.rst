@@ -55,12 +55,13 @@
 
 Рассмотрим работу таких ссылок на примере:
 
-https://demo.nextgis.ru/resource/6144/display?panel=layers&hl_lid=6145&hl_attr=NID&hl_val=12
+https://demo.nextgis.ru/resource/6144/display?panel=layers&hl_lid=6145&hl_attr=NID&hl_val=12&zoom=11
 
 * https://demo.nextgis.ru/resource/6144/display?panel=layers  – «чистая» ссылка на веб-карту;
 * hl_lid – ID слоя;
 * hl_attr – атрибут слоя (название поля атрибутов, из которого берётся значение);
-* hl_val – значение атрибута.
+* hl_val – значение атрибута;
+* zoom – степень приближения к объекту (от 1 до 17, где 17 - максимальное приближение).
 
 .. figure:: _static/webmap_feature_lik_ru.png
    :name: webmap_feature_lik_pic
