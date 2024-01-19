@@ -33,6 +33,7 @@
    parent_change
    metadata_add
    data_edit
+   lookup
    data_export
    hide_data_export
    resource_delete
