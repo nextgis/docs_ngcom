@@ -50,7 +50,7 @@ How to use a lookup table for layer editing in NextGIS Web
 
 A lookup table connected to a layer can be used for editing the vector layer in the web application. To select an attribute value from the list, open the Feature table on a separate tab or on a Web Map.
 
-Select the row and press **Edit**.
+Select the feature and press **Edit**.
 
 .. figure:: _static/attr_table_edit_en.png
    :name: attr_table_edit_pic
