@@ -16,24 +16,28 @@ How to print a Web Map
    
    "Print map" button
  
-In the opened window you can select the region you would like to print and set printing parameters:
+In the opened window you can select the area you would like to print and set up printing parameters:
 
 * Paper format
-* Margin
+* Margins
 * Scale
 
-You can also tick for scale value and scale bar to be displayed on the printed map.
+You can also include scale value and scale bar to the printed map.
 
-.. figure:: _static/webmap_client_print2_eng_2.png
+.. figure:: _static/webmap_client_print2_eng_3.png
    :name: ngweb_webmap_client_print2
    :align: center
    :width: 20cm
    
    Printing parameters
    
-After you set all parameters press "Print" button. 
+After you set all parameters press **Print**. 
 
-To save a map as a picture press "Save as" button and in a list choose a format: JPEG or PNG. Then uploading will begin automatically.
+You can also share the map prepared for printing with all the parameters. Click on the |button_share| symbol to copy the link. Upon opening this link you'll get the same setup and print the map as needed.
+
+.. |button_share| image:: _static/button_share.png
+
+To save a map as a picture press **Save as** and choose a format from the list: JPEG, PNG, TIFF or PDF. Then uploading will begin automatically.
 
 .. figure:: _static/saved_map_en.png
    :name: saved_map_pic
