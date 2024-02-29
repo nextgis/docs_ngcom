@@ -41,6 +41,7 @@
    ngqgis_connect
    address_search
    tracking
+   permissions
    collector
    ngapi
    CORS
