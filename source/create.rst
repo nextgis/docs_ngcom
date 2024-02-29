@@ -254,7 +254,7 @@ Each added team member will appear in the list (see :numref:`all_users`). At any
 Allow team members to access Web GIS using NextGIS ID
 -----------------------------------------------
 
-Users added to the `team <https://docs.nextgis.com/docs_ngcom/source/create.html#ngcom-team-management>` do not automatically become users of the Web GIS. To get access to the Web GIS, the user must log in to it.
+Users added to the `team <https://docs.nextgis.com/docs_ngcom/source/create.html#ngcom-team-management>`_ do not automatically become users of the Web GIS. To get access to the Web GIS, the user must log in to it.
 By default a new Web GIS user has no permissions. Set up permissions for your team before their first login.
 It can be done in one of two ways:
 
