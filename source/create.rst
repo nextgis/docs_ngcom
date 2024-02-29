@@ -124,6 +124,7 @@ To open your Web GIS click the link on the "Web GIS Settings" page. Web GIS Main
    
    Window of the Main resource group
 
+.. _ngcom_webgis_signin:
 
 How to sign in to your Web GIS
 ------------------------------
@@ -157,6 +158,8 @@ You will be redirected to my.nextgis.com authorization page. Enter your username
 
 After the authorization is completed successfully you will be redirected back to the Web GIS.
 
+
+.. _ngcom_main_menu:
 
 Main menu
 ---------
@@ -244,3 +247,16 @@ Each added team member will appear in the list (see :numref:`all_users`). At any
    :width: 12cm    
 
    Message about exceeding the limit of members in the team
+
+
+.. _ngcom_auth_id_webgis:
+
+Allow team members to access Web GIS using NextGIS ID
+-----------------------------------------------
+
+Users added to the `team <https://docs.nextgis.com/docs_ngcom/source/create.html#ngcom-team-management>` do not automatically become users of the Web GIS. To get access to the Web GIS, the user must log in to it.
+By default a new Web GIS user has no permissions. Set up permissions for your team before their first login.
+It can be done in one of two ways:
+
+* The best way is to set up permissions for a `user group <https://docs.nextgis.com/docs_ngweb/source/admin_tasks.html#ngw-create-group>`_ with the option "New users" enabled. Users will be included in this group upon their first login to the Web GIS.
+* An alternative way is to set up permissions for the principal "Authenticated".
