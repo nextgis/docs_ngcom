@@ -163,7 +163,7 @@ NextGIS Connect позволяет обмениваться данными с м
 
 .. _ngcom_ngqgis_connect_services:
 
-Создание Сервисов WFS и WMS
+Создание Сервисов: WFS, WMS, OGC API - Features
 ---------------------------
 
 Модуль NextGIS Connect позволяет быстро публиковать Векторные слои в Веб ГИС по стандартным протоколам :term:`WFS`, :term:`WMS` и OGC API - Features. 
