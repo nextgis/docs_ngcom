@@ -40,6 +40,7 @@ Get Started with your Web GIS
    ngqgis_connect
    address_search
    tracking
+   permissions
    collector
    ngapi
    CORS
