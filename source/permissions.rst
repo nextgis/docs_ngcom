@@ -54,9 +54,9 @@ Other than that, there are two main options to apply a permission:
 .. figure:: _static/permission_apply_en.png
    :name: permission_apply_pic
    :align: center
+   :width: 6cm
 
-
-   Selecting permission application
+   Menu to select what permission applies to
 
 2. By default users have NO permissions.
 
