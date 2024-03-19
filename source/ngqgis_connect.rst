@@ -87,6 +87,7 @@ Uploading vector data
 * Press **Import selected layer** button on NextGIS Connect control panel or select **NextGIS Connect --> Import selected layer** in layer context menu;
 * If data is uploaded successfully you'll see in the relevant Resource group a new :ref:`Vector layer <ngcom_data_upload>` with :ref:`QGIS style <ngcom_styles>` tailored by you.
 
+If a layer has **multiple styles**, they will all be uploaded. Their names will be kept. If the style name is "default", the layer's name will be used instead.
 
 .. _raster_data:
 
@@ -153,13 +154,15 @@ Creating and uploading a whole QGIS project
    
    Opening the newly created Web Map via context menu of the imported project
 
+If you select a resource group containing layers with **multiple styles**, all the styles will be added. The style used as current will be the one with the same name as the layer or the first in alphabetical order. No dialog will be displayed.
+
 
 .. _ngcom_ngqgis_connect_services:
 
-Creating WFS and WFS services
+Creating WFS, WFS and OGC API - Features services
 ---------------------------
 
-NextGIS Connect module allows you to quickly publish Vector layers to Web GIS using standard protocols :term:`WFS` and :term:` WMS`.
+NextGIS Connect module allows you to quickly publish Vector layers to Web GIS using standard protocols :term:`WFS`, :term:` WMS` and OGC API - Features.
 
 .. _create_wfs_service:
 
@@ -208,6 +211,53 @@ It's possible due to the quick creation of :ref:`WFS service <ngcom_wfs_service>
 
 .. note:: 
 	You can edit the settings of WFS service (including its name, published layers and their settings) in the Web GIS admin console.
+
+
+.. _create_ogc_api_feat_service:
+
+Creating OGC API - Features services
+~~~~~~~~~~~~~~~~~~~~~
+
+NextGIS Connect plugin enables a fast publication of Vector layers from your Web GIS using standard OGC API - Features protocol. 
+
+It's possible due to the quick creation of OGC API - Features option in NextGIS Connect:
+
+* Select in NextGIS Connect Resources panel Vector layer which you want to publish using OGCF protocol;
+
+.. figure:: _static/NGConnect_ogc_select_en.png
+   :name: NGConnect_ogc_select_pic
+   :align: center
+   :width: 22cm
+   
+   Selecting vector layer
+
+* Select **Create OGC API - Features service** in layer context menu;
+
+.. figure:: _static/NGConnect_ogc_context_en.png
+   :name: NGConnect_ogc_context_pic
+   :align: center
+   :width: 22cm
+   
+   Selecting "Create OGC API - Features service" in the Vector layer context menu
+   
+* In the opened dialog window set the number of layer's features to be published via OGCF service by changing the value of the field **The number of objects returned by default**;
+
+.. figure:: _static/NGConnect_ogc_number_en.png
+   :name: NGConnect_ogc_number_pic
+   :align: center
+   :width: 22cm
+   
+   Number of objects returned by default
+   
+* If OGCF service is created successfully you'll see it in the relevant Resource group. The Vector layer is already connected to it.
+
+.. figure:: _static/NGConnect_ogc_result_en.png
+   :name: NGConnect_ogc_result_pic
+   :align: center
+   :width: 22cm
+   
+   Newly created OGC API - Features service
+
 
 
 
@@ -354,7 +404,9 @@ It's possible due to the option of fast creation of GeoJSON vector layers in QGI
    
    Exporting vector layer from Web GIS
 
-* If the layer has multiple QGIS styles, select one in the pop-up window.
+* If the layer has multiple QGIS styles, there are several options depending on what you select in the Connect window:
+
+1. If you select a **layer with multiple styles** in the Connect window, all the styles will be added, but you need to chose current style in a dialog window.
 
 .. figure:: _static/NGConnect_export_select_style_en.png
    :name: NGConnect_export_select_pic
@@ -363,6 +415,13 @@ It's possible due to the option of fast creation of GeoJSON vector layers in QGI
    
    Selecting QGIS style for export
 
+2. If you select a **style** in the Connect window, all the styles of the layer weill be added, with the selected style chosen as current style.
+
+3. If you select a **resource group** containing layers with multiple styles, all the styles will be added. The style used as current will be the one with the same name as the layer or the first in alphabetical order. No dialog will be displayed.
+
+4. If you add WFS/OGCF, the style with the same name as the layer or the first in alphabetical order will be chosen.
+
+You can change current style in the layer properties.
 
 If the layer is exported successfully you'll see in QGIS Layers panel a new GeoJSON vector layer which you can use in your projects or save to your device in a required format. 
 
@@ -377,8 +436,7 @@ If the layer is exported successfully you'll see in QGIS Layers panel a new GeoJ
    
    Saving the exported layer to the device
 
-.. note:: 
-	Geometry and attributes data export is supported. Styles, descriptions, metadata and images of the objects can't be exported in the described way.
+
    
    
 .. _ngcom_ngqgis_connect_resource_group:
