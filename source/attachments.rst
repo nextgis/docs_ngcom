@@ -15,7 +15,7 @@
    Вложения на карточке объекта
 
 - Использовать можно любые файлы.
-- Просмотр работает только для фото и сферических панорам, соответствующих `спецификации <https://developers.google.com/streetview/spherical-metadata?hl=ru>_.
+- Просмотр работает только для фото и сферических панорам, соответствующих `спецификации <https://developers.google.com/streetview/spherical-metadata?hl=ru>`_.
 
 .. _ngcom_attachments_add:
 
