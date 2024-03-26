@@ -143,7 +143,129 @@ Types of rules - what can be allowed or denied
      - Read Collector data
 
 
+.. _ngcom_permissions_cases:
 
+Common cases
+------------------------------
+
+
+.. _ngcom_permissions_guest_webgis:
+
+Allow Guests to view the entire Web GIS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Go to the Main resource group, select the Update action and set up the following permissions:
+
+* Action: **Allow**
+* Principal: **Guest**
+* Apply to **This and subresources**
+* Permission to **Read** for the **resource, metadata, data structure** and **data**.
+
+.. figure:: _static/allow_guest_webGIS_en.png
+   :name: allow_guest_webGIS_pic
+   :align: center
+   :width: 20cm
+
+
+.. _ngcom_permissions_guest_webmap:
+
+Allow Guests to view just one Web Map
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Action: **Allow**
+* Principal: **Guest**
+
+1. For the Main resource group **Resource: Read**;
+
+.. figure:: _static/allow_guest_main_en.png
+   :name: allow_guest_main_pic
+   :align: center
+   :width: 20cm
+
+2. For the resource group containing data for the Web Map: **Resource: Read, Data: Read** and **Data structure: Read**;
+
+.. figure:: _static/allow_guest_data_group_en.png
+   :name: allow_guest_data_group_pic
+   :align: center
+   :width: 20cm
+
+3. For the resource group containing the Web Map, if it is not the same group that contains the data, also assign permission **Resource: Read**;
+
+.. figure:: _static/allow_guest_webmap_group_en.png
+   :name: allow_guest_webmap_group_pic
+   :align: center
+   :width: 20cm
+
+4. For the Web Map: **Resource: Read** and **Web Map: Display**.
+
+.. figure:: _static/allow_guest_webmap_en.png
+   :name: allow_guest_webmap_pic
+   :align: center
+   :width: 20cm
+
+.. important::
+	We recommend keeping Web Map in a **separate group** from its layers, it will make setting up access rights more easy. If the Web Map is in the same group as the data, for the group only assign Resource: Read, then assing reading permission for every layer that has to be included. 
+
+If there are other Web Maps in the group that you wish to keep hidden from guests, make sure that the **Resource: Read** permission for the group is not propagated to the subresources and set to **This resource only**. 
+
+.. figure:: _static/guest_webmap_forbid_open_en.png
+   :name: guest_webmap_forbid_open_pic
+   :align: center
+   :width: 16cm
+
+   There are three Web Maps in the group. One is available to guests. The other is visible in the resource list, but cannot be opened. The third one is not visible in the list
+
+
+
+
+
+.. _ngcom_permissions_auth_wms:
+
+Allow logged in users to use WMS service
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Action: **Allow**
+* Principal: **Authenticated**
+
+1. For the Main resource group: **Resource: Read**, apply to **This resource only**.
+
+
+
+2. For the group containing the data and the WMS service: **Resource: Read, Data: Read**, **Data structure: Read** and **Service: Use**, apply to **This and subresources**.
+
+
+
+
+
+.. _ngcom_permissions_postgis:
+
+Allow to view PostGIS layer on a Web Map
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Action: **Allow**
+* Principal: **Guest** (if the map needs to be available unauthorized users), **Authenticated** (if it needs to be available only to users who have logged in) etc.
+* Apply to **This resource**
+
+1. For the Main resource group **Resource: Read**;
+
+
+
+2. For the resource group containing data for the Web Map and the PostGIS layer: **Resource: Read, Data: Read, Data structure: Read** and **Connection: Use**;
+
+
+
+3. For the resource group containing the Web Map, if it is not the same group that contains the data, also assign permission **Resource: Read**;
+
+
+
+4. For the Web Map: **Resource: Read** and **Web Map: Display**.
+
+
+
+.. important::
+	We recommend keeping Web Map in a **separate group** from its layers, it will make setting up access rights more easy. If the Web Map is in the same group as the data, for the group only assign Resource: Read, then assing reading permission for every layer that has to be included. 
+
+If there are other Web Maps in the group that you wish to keep hidden from guests, make sure that the **Resource: Read** permission for the group is not propagated to the subresources and set to **This resource only**.
 
 
 
