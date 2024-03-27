@@ -195,10 +195,10 @@
    :align: center
    :width: 20cm
 
-4. Для веб-карты **Ресурс: Чтение** и **Веб-карта: Открытие**
+4. Для веб-карты **Ресурс: Чтение** и **Веб-карта: Открытие**.
 
 .. figure:: _static/allow_guest_webmap_ru.png
-   :name: allow_guest_webmap_ru
+   :name: allow_guest_webmap_pic
    :align: center
    :width: 20cm
 
