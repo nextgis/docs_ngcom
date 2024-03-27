@@ -1,4 +1,4 @@
-.. sectionauthor:: Роман Гайнуллов <roman.gainullov@nextgis.ru>
+.. sectionauthor:: Роман Гайнуллов <roman.gainullov@nextgis.ru>, Юлия Григоренко <grigorenko.j@gmail.com>
 
 .. _ngcom_permissions_intro:
 
@@ -218,7 +218,6 @@ If there are other Web Maps in the group that you wish to keep hidden from guest
 
 
 
-
 .. _ngcom_permissions_auth_wms:
 
 Allow logged in users to use WMS service
@@ -229,12 +228,19 @@ Allow logged in users to use WMS service
 
 1. For the Main resource group: **Resource: Read**, apply to **This resource only**.
 
+.. figure:: _static/allow_auth_main_en.png
+   :name: allow_auth_main_pic
+   :align: center
+   :width: 20cm
 
+2. For the group containing the data and the WMS service: **Resource: Read, Data: Read**, **Data structure: Read** and **Service: Access**, apply to **This and subresources**.
 
-2. For the group containing the data and the WMS service: **Resource: Read, Data: Read**, **Data structure: Read** and **Service: Use**, apply to **This and subresources**.
+.. figure:: _static/allow_authorized_WMS_en.png
+   :name: allow_authorized_WMS_pic
+   :align: center
+   :width: 20cm
 
-
-
+   Permissions for the group containing both the data and the WMS service
 
 
 .. _ngcom_permissions_postgis:
@@ -248,25 +254,36 @@ Allow to view PostGIS layer on a Web Map
 
 1. For the Main resource group **Resource: Read**;
 
-
+.. figure:: _static/allow_auth_main_en.png
+   :name: allow_auth_main_pic
+   :align: center
+   :width: 20cm
 
 2. For the resource group containing data for the Web Map and the PostGIS layer: **Resource: Read, Data: Read, Data structure: Read** and **Connection: Use**;
 
-
+.. figure:: _static/allow_auth_postgis_group_en.png
+   :name: allow_auth_postgis_group_pic
+   :align: center
+   :width: 20cm
 
 3. For the resource group containing the Web Map, if it is not the same group that contains the data, also assign permission **Resource: Read**;
 
-
+.. figure:: _static/allow_auth_webmap_group_en.png
+   :name: allow_auth_webmap_group_pic
+   :align: center
+   :width: 20cm
 
 4. For the Web Map: **Resource: Read** and **Web Map: Display**.
 
-
+.. figure:: _static/allow_auth_webmap_en.png
+   :name: allow_auth_webmap_pic
+   :align: center
+   :width: 20cm
 
 .. important::
 	We recommend keeping Web Map in a **separate group** from its layers, it will make setting up access rights more easy. If the Web Map is in the same group as the data, for the group only assign Resource: Read, then assing reading permission for every layer that has to be included. 
 
 If there are other Web Maps in the group that you wish to keep hidden from guests, make sure that the **Resource: Read** permission for the group is not propagated to the subresources and set to **This resource only**.
-
 
 
 
