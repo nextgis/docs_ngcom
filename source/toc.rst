@@ -33,6 +33,7 @@ Get Started with your Web GIS
    parent_change
    metadata_add
    data_edit
+   attachments
    lookup
    data_export
    hide_data_export
