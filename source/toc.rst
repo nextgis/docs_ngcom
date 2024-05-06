@@ -37,6 +37,7 @@
    lookup
    data_export
    srs
+   external_srs
    hide_data_export
    resource_delete
    cadaster
