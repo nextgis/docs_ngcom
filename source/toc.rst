@@ -36,6 +36,7 @@
    attachments
    lookup
    data_export
+   srs
    hide_data_export
    resource_delete
    cadaster
