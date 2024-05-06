@@ -36,6 +36,7 @@ Get Started with your Web GIS
    attachments
    lookup
    data_export
+   srs
    hide_data_export
    resource_delete
    ngqgis_connect
