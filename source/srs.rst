@@ -9,9 +9,14 @@ Custom coordinate systems
 .. note::
     Only users with administrative privileges can add and modify SRS.
 
-You can import a SRS from the catalog or create your own.
+You can import Spacial Reference Systems from the catalog or create your own.
 
-To **import SRS from the catalog** open "Control panel" in the main menu and press "Catalog" in "Spacial reference systems". Start typing the name of the SRS in the search bar. When you find the desired SRS in the search results, press the icon with the arrow next to it.
+.. _ngcom_srs_from_catalog:
+
+Add SRS from catalog
+--------------------------------------------
+
+To import SRS from the catalog open “Control panel” in the main menu and press **“Catalog”** in “Spacial reference systems”.  You will be redirected to the catalog page. Start typing the name of the SRS in the search bar. When you find the desired SRS in the search results, press the icon with the arrow next to it. 
 
 .. figure:: _static/new_srs_catalog_en.png
    :name: new_srs_catalog
@@ -19,7 +24,7 @@ To **import SRS from the catalog** open "Control panel" in the main menu and pre
    :width: 20cm    
 
    Search results in the catalog
-
+   
 You will be redirected to the import page. Here you can modify the name of SRS to be displayed in your WebGIS.
 
 .. figure:: _static/new_srs_import_en.png
@@ -35,10 +40,15 @@ You will be redirected to the import page. Here you can modify the name of SRS t
    :width: 20cm    
 
    Completing import
-
+   
 On the next page, press **Save** to complete the import.
 
-To **create a new SRS** open "Control panel" in the main menu and press "Create" in "Spatial reference systems": 
+.. _ngcom_srs_from_descr:
+
+Create SRS using definition
+--------------------------------------------
+
+To create a new SRS open “Control panel” in the main menu and press **“Create”** in “Spatial reference systems”: 
 
 .. figure:: _static/new_srs_eng_2.png
    :name: new_srs_pic
@@ -47,9 +57,14 @@ To **create a new SRS** open "Control panel" in the main menu and press "Create"
 
    Creation of a new SRS
    
-You can give an SRS display name and enter its definition in OGC WKT format. You can also import definitions from common formats as PROJ, MapInfo and EPSG, after the import they will get converted to OGC WKT format. Then press "Create" button.
+You can give an SRS display name and enter its definition in OGC WKT format.  You can also import definitions from common formats as PROJ, MapInfo and EPSG, after the import they will get converted to OGC WKT format.  Then press **“Create”** .
 
-You can find a list of created and available SRS in the "List" of "Spatial reference systems" in "Control panel". In this list there are two SRS by default: «WGS 84 / Lon-lat (EPSG:4326)» and «WGS 84 / Pseudo-Mercator (EPSG:3857)», which can’t be removed or edited (except name):
+.. _ngcom_srs_additional:
+
+Additional coordinate systems
+-------------------------------------------------
+
+To view the list of all added SRS, go to the "Control panel" and select **"List"** in the "Spatial reference systems" section. In this list there are two default SRS: «WGS 84 / Lon-lat (EPSG:4326)» and «WGS 84 / Pseudo-Mercator (EPSG:3857)», which can’t be removed or edited (apart from their names):
 
 .. figure:: _static/list_srs_eng_2.png
    :name: list_srs_pic
@@ -60,7 +75,7 @@ You can find a list of created and available SRS in the "List" of "Spatial refer
    
 The added SRS can be used for various purposes:
 
-1. To capture coordinates on Web maps. If you have set up additional SRS (one or several), you can now conveniently capture coordinates in this SRS from anywhere on the map:
+1. To capture coordinates on Web maps.  If you have set up additional SRS (one or several), you can now conveniently capture coordinates in this SRS by clicking anywhere on the map.
 
 .. figure:: _static/use_of_custom_srs1_eng.png
    :name: use_of_custom_srs1_pic
@@ -69,12 +84,30 @@ The added SRS can be used for various purposes:
 
    The use of custom SRS
    
-2. To export vector layers. All custom SRS are also available for data export (see above).
+2. To export vector layers.  All custom SRS are also available for `data export <https://docs.nextgis.com/docs_ngcom/source/data_export.html>`_.
 
-3. To extend API requests. Support for custom SRS is gradually added to NextGIS Web API too. For example, this request will return a feature in a required SRS:
+3. To extend API requests. Support for custom SRS is gradually added to NextGIS Web API too.  For example, this request will return a feature in a required SRS:
 
-    /api/resource/{id}/feature/{fid}?srs=990002
+/api/resource/{id}/feature/{fid}?srs=990002
 
-Custom SRS identifier (990002 in this example) can be known by editing a created SRS, for example:
+To find the custom SRS identifier (990002 in this example) open the edit page for the created SRS, for example:
 
-    /srs/990002/edit
+/srs/990002/edit
+
+.. _ngcom_srs_external_db:
+
+Fix SRS while working with external Data Bases
+------------------------------------------
+
+A common case for Web GIS users is adding an external PostGIS/PostgreSQL data base while creating a `PosGIS layer <https://docs.nextgis.com/docs_ngcom/source/data_connect.html#external-postgis-databases>`_. These layers often get incorrectly displayed 
+in the Web GIS. It happens when the spacial reference system has incorrect definition in the external 
+data base. To make the WebGIS-DB complex work efficiently, here's what you need:
+
+1. External data base must have a table of SRS descriptions spatial_ref_sys.
+2. In the geometry column (usually called "geom") a SRS must be assigned.
+3. The ID of the assigned SRS must be included in  spatial_ref_sys.
+4. Data in the external DB must actually be in that coordinate system, a.i. the SRS definition must correspond to the data.
+
+If all the above requirements are met, then whatever SRS you use in your data base, layers created in WebGIS will be reprojected "on the fly" and displayed correctly along any other data you have in your WebGIS.
+
+To check if everything works correctly use `PostGIS diagnostics <https://docs.nextgis.com/docs_ngweb/source/layers.html#postgis-diagnostics>`_.
