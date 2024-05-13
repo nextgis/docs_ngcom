@@ -99,7 +99,7 @@ To find the custom SRS identifier (990002 in this example) open the edit page fo
 Fix SRS while working with external Data Bases
 ------------------------------------------
 
-A common case for Web GIS users is adding an external PostGIS/PostgreSQL data base while creating a `PosGIS layer <https://docs.nextgis.com/docs_ngcom/source/data_connect.html#external-postgis-databases>`_. These layers often get incorrectly displayed 
+A common case for Web GIS users is adding an external PostGIS/PostgreSQL data base while `creating a PosGIS layer <https://docs.nextgis.com/docs_ngcom/source/data_connect.html#external-postgis-databases>`_. These layers often get incorrectly displayed 
 in the Web GIS. It happens when the spacial reference system has incorrect definition in the external 
 data base. To make the WebGIS-DB complex work efficiently, here's what you need:
 
