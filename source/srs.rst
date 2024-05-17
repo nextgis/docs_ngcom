@@ -25,7 +25,7 @@ To import SRS from the catalog open “Control panel” in the main menu and pre
 
    Search results in the catalog
    
-You will be redirected to the import page. Here you can modify the name of SRS to be displayed in your WebGIS.
+You will be redirected to the import page. Here you can modify the name of SRS to be displayed in your Web GIS.
 
 .. figure:: _static/new_srs_import_en.png
    :name: new_srs_import
@@ -48,7 +48,7 @@ On the next page, press **Save** to complete the import.
 Create SRS using definition
 --------------------------------------------
 
-To create a new SRS open “Control panel” in the main menu and press **“Create”** in “Spatial reference systems”: 
+To create a new SRS open “Control panel” in the main menu and press **“Create”** in “Spacial reference systems”: 
 
 .. figure:: _static/new_srs_eng_2.png
    :name: new_srs_pic
@@ -64,7 +64,7 @@ You can give an SRS display name and enter its definition in OGC WKT format.  Yo
 Additional coordinate systems
 -------------------------------------------------
 
-To view the list of all added SRS, go to the "Control panel" and select **"List"** in the "Spatial reference systems" section. In this list there are two default SRS: «WGS 84 / Lon-lat (EPSG:4326)» and «WGS 84 / Pseudo-Mercator (EPSG:3857)», which can’t be removed or edited (apart from their names):
+To view the list of all added SRS, go to the "Control panel" and select **"List"** in the "Spacial reference systems" section. In this list there are two default SRS: «WGS 84 / Lon-lat (EPSG:4326)» and «WGS 84 / Pseudo-Mercator (EPSG:3857)», which can’t be removed or edited (apart from their names):
 
 .. figure:: _static/list_srs_eng_2.png
    :name: list_srs_pic
@@ -101,13 +101,13 @@ Custom SRS support for external PostGIS Databases
 
 A common case for Web GIS users is adding an external PostGIS/PostgreSQL database while `creating a PosGIS layer <https://docs.nextgis.com/docs_ngcom/source/data_connect.html#external-postgis-databases>`_. These layers often get incorrectly displayed 
 in the Web GIS. It happens when the spacial reference system has incorrect definition in the external 
-database. To make the WebGIS-DB complex work efficiently, here's what you need:
+database. To make the Web GIS-DB complex work efficiently, here's what you need:
 
-1. External database must have a table of SRS descriptions spatial_ref_sys.
+1. External database must have a table of SRS descriptions spacial_ref_sys.
 2. In the geometry column (usually called "geom") a SRS must be assigned.
-3. The ID of the assigned SRS must be included in  spatial_ref_sys.
+3. The ID of the assigned SRS must be included in  spacial_ref_sys.
 4. Data in the external DB must actually be in that coordinate system, a.i. the SRS definition must correspond to the data.
 
-If all the above requirements are met, then whatever SRS you use in your database, layers created in WebGIS will be reprojected "on the fly" and displayed correctly along any other data you have in your WebGIS.
+If all the above requirements are met, then whatever SRS you use in your database, layers created in Web GIS will be reprojected "on the fly" and displayed correctly along any other data you have in your Web GIS.
 
 To check if everything works correctly use `PostGIS diagnostics <https://docs.nextgis.com/docs_ngweb/source/layers.html#postgis-diagnostics>`_.
