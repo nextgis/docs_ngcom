@@ -96,18 +96,18 @@ To find the custom SRS identifier (990002 in this example) open the edit page fo
 
 .. _ngcom_srs_external_db:
 
-Fix SRS while working with external Data Bases
-------------------------------------------
+Custom SRS support for external PostGIS Databases
+-------------------------------------------------
 
-A common case for Web GIS users is adding an external PostGIS/PostgreSQL data base while `creating a PosGIS layer <https://docs.nextgis.com/docs_ngcom/source/data_connect.html#external-postgis-databases>`_. These layers often get incorrectly displayed 
+A common case for Web GIS users is adding an external PostGIS/PostgreSQL database while `creating a PosGIS layer <https://docs.nextgis.com/docs_ngcom/source/data_connect.html#external-postgis-databases>`_. These layers often get incorrectly displayed 
 in the Web GIS. It happens when the spacial reference system has incorrect definition in the external 
-data base. To make the WebGIS-DB complex work efficiently, here's what you need:
+database. To make the WebGIS-DB complex work efficiently, here's what you need:
 
-1. External data base must have a table of SRS descriptions spatial_ref_sys.
+1. External database must have a table of SRS descriptions spatial_ref_sys.
 2. In the geometry column (usually called "geom") a SRS must be assigned.
 3. The ID of the assigned SRS must be included in  spatial_ref_sys.
 4. Data in the external DB must actually be in that coordinate system, a.i. the SRS definition must correspond to the data.
 
-If all the above requirements are met, then whatever SRS you use in your data base, layers created in WebGIS will be reprojected "on the fly" and displayed correctly along any other data you have in your WebGIS.
+If all the above requirements are met, then whatever SRS you use in your database, layers created in WebGIS will be reprojected "on the fly" and displayed correctly along any other data you have in your WebGIS.
 
 To check if everything works correctly use `PostGIS diagnostics <https://docs.nextgis.com/docs_ngweb/source/layers.html#postgis-diagnostics>`_.
