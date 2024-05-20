@@ -1,7 +1,7 @@
 .. sectionauthor:: Maxim Dubinin <maxim.dubinin@nextgis.com>
 
 How to change Web GIS domain
-==================
+============================
 
 .. note:: 
 	This functionality is available only to nextgis.com `Premium users <http://nextgis.com/nextgis-com/plans>`_.
