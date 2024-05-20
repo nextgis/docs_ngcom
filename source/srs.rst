@@ -18,7 +18,7 @@
 
 Для того, чтобы **добавить СК из каталога**, нужно перейти в "Панель управления" и в разделе "Системы координат" нажать  "Каталог". На странице каталога в строку поиска начните вводить название нужной системы координат. В появившемся списке результатов поиска нажмите на иконку со стрелкой. 
 
-.. figure:: _static/new_srs_catalog_ru.png
+.. figure:: _static/new_srs_catalog_ru_2.png
    :name: new_srs_catalog
    :align: center
    :width: 20cm    
@@ -27,14 +27,14 @@
    
 Откроется окно импорта, где можно задать название, под которым система координат будет отображаться в списке в вашей Веб ГИС.
 
-.. figure:: _static/new_srs_import_ru.png
+.. figure:: _static/new_srs_import_ru_2.png
    :name: new_srs_import
    :align: center
    :width: 20cm    
 
    Импорт системы координат из каталога
    
-.. figure:: _static/new_srs_import_save_ru.png
+.. figure:: _static/new_srs_import_save_ru_2.png
    :name: new_srs_import_save
    :align: center
    :width: 20cm    
@@ -66,7 +66,7 @@
 
 Список уже добавленных и доступных систем координат можно посмотреть, перейдя в "Панель управления" и в разделе "Системы координат" выбрав "Список". В данном списке всегда будут присутствовать 2 служебные системы координат: «WGS 84 / Lon-lat (EPSG:4326)» и «WGS 84 / Pseudo-Mercator (EPSG:3857)», которые нельзя ни отредактировать (только название), ни удалить:
 
-.. figure:: _static/list_srs_ru.png
+.. figure:: _static/list_srs_ru_2.png
    :name: list_srs_pic
    :align: center
    :width: 20cm    
@@ -77,7 +77,7 @@
 
 1. В окне идентификации веб карты для определения координат места клика. Раньше можно было смотреть координаты только в EPSG:4326 и EPSG:3857. Теперь в окне индентификации можно быстро получить координаты и в заданных пользователем СК:
 
-.. figure:: _static/use_of_custom_srs1_ru.png
+.. figure:: _static/use_of_custom_srs1_ru_2.png
    :name: use_of_custom_srs1_pic
    :align: center
    :width: 20cm    
