@@ -30,6 +30,7 @@
 * Значение масштаба;
 * Масштабная линейка.
 
+Размеры и положение легенды, заголовка и самой карты можно изменять.
 
 .. figure:: _static/webmap_client_print2_ru_3.png
    :name: ngweb_webmap_client_print2
