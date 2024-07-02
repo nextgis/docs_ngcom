@@ -7,12 +7,14 @@
 
 * :term:`GeoJSON`
 * :term:`CSV`
-* CSV для Microsoft Excel
+* CSV и CSV для Microsoft Excel
 * :term:`ESRI Shapefile`
 * AutoCAD DXF
 * Mapinfo TAB
 * MapInfo MIF/MID
 * :term:`GeoPackage`.
+* KML
+* KMZ
 
 При экспорте в определенные форматы создаются дополнительные полезные файлы, например CSVT (описание полей) и PRJ (описание проекции) для CSV, CPG (кодовая страница) для ESRI Shapefile.
 
