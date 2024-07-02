@@ -47,6 +47,8 @@ Below there are some more examples of data collection organizers and their tasks
 
 A *participant of data collection* is a person who collects data in the field. His task is to describe properties of a real object in the field. Before active spreading of mobile devices people collected data using a paper notebook. Nowadays mobile devices help to simplify this process and decrease the number of mistakes, so we assume that every participant of data collection has a mobile device.
 
+.. _collector_technology:
+
 Principles of work with NextGIS Collector
 -----------------------------------------
 
@@ -85,6 +87,7 @@ To sum up, to begin data collection:
 - Every data collection team participant should have a mobile device with Android OS.
 - Every data collection team participant should register in nextgis.com_ and know his registration email and password.
 
+.. _collector_add_members:
 
 Organizer of data collection: adding team participants in Web GIS
 ----------------------------------------------------------------------
@@ -151,6 +154,8 @@ To add team participants to the Web GIS you need to do the following:
    An example of a filled list of collectors
 
 Users with a registration in your Web GIS can access data collection projects from your Web GIS and begin data collection after they installed the `NextGIS Collector`_ mobile app and successfully sign in there. However you can control the access of different users to each individual project. It is described in details below.
+
+.. _collector_create_project:
 
 Organizer of data collection: creation of a data collection project
 -------------------------------------------------------------------
@@ -241,6 +246,7 @@ As a result a Collector project (data collection project) will be created.
 
 You can have unlimited number of projects in your Web GIS. In each of them you can restrain or allow access for a particular set of participants from the data collection team.
 
+.. _collector_start_data:
 
 Team participants: mobile app installation and start of data collection
 ------------------------------------------------------------------------
@@ -332,6 +338,7 @@ The process of editing and the editing tools are similar to those in NextGIS Mob
 .. important::
     We recommend collecting data with activated GPS. 
 
+.. _collector_checklist:
 
 Administrator's check-list
 --------------------------
