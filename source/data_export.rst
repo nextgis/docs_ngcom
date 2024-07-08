@@ -6,13 +6,14 @@ How to export data
 :ref:`Web GIS <ngcom_description>` allows to export data from :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layer <ngcom_postgis_layer>` in the following formats:
 
 * :term:`GeoJSON`
-* :term:`CSV`
-* CSV for Microsoft Excel
+* :term:`CSV` and CSV for Microsoft Excel
 * :term:`ESRI Shapefile`
 * AutoCAD DXF
 * Mapinfo TAB
 * MapInfo MIF/MID
-* :term:`GeoPackage`.
+* :term:`GeoPackage`
+* KML
+* KMZ
 
 Depending on the format, additional file components are exported making further use of the exported data more convenient. For example CSVT (field structure description) and PRJ (coordinate system description) are added to CSV and CPG (codepage) to ESRI Shapefile.
 
@@ -22,45 +23,67 @@ To export data:
 #. Select :menuselection:`Vector layer --> Save as` on the right side of Web GIS :ref:`admin console <ngw_admin_interface>`;
 #. Save file in chosen format to your device.
 
-In "Format" field select data format you need: CSV, DXF, ESRI Shapefile, GeoJSON or Mapinfo File:
+In the *Format* field select data format you need:
 
-.. figure:: _static/formats_en_2.png
+.. figure:: _static/formats_en_3.png
    :name: newformats_pic
    :align: center
    :width: 20cm    
 
    "Format" field
 
-In "SRS" field (Spatial reference system) in addition to standart coordinate systems Longitude-Latitude (EPSG: 4326) amd Mercator (EPSG: 3857) you can select custom coordinate systems created earlier (how to add custom SRS see `this page <https://docs.nextgis.com/docs_ngcom/source/srs.html>`_): 
+In the *SRS* field (Spatial reference system) in addition to standart coordinate systems Longitude-Latitude (EPSG: 4326) amd Mercator (EPSG: 3857) you can select custom coordinate systems created earlier (how to add custom SRS see `this page <https://docs.nextgis.com/docs_ngcom/source/srs.html>`_): 
 
-.. figure:: _static/coordinate_systems_en_2.png
+.. figure:: _static/coordinate_systems_en_3.png
    :name: coordinate_systems_pic
    :align: center
    :width: 20cm    
 
    "SRS" field
 
-In "Encoding" field you can choose among UTF-8, Windows-1251, Windows-1252 encoding for your data:
+In the *Encoding* field you can choose UTF-8, Windows-1251, or Windows-1252 encoding for your data:
 
-.. figure:: _static/encodings_en_2.png
+.. figure:: _static/encodings_en_3.png
    :name: encodings_pic
    :align: center
    :width: 20cm    
 
    "Encoding" field
 
-“FID field” is used for setting a field name to be added to a exported data where the object identifiers will be placed (the default is “ngw_id”).
+*FID field* is used for setting a field name to be added to a exported data where the object identifiers will be placed (the default is “ngw_id”).
 
-Next you can chose which of the fields of the data to keep in the file. By default, all are selected. To remove a field, click on the cross by its name or untick it in the drop-down menu. To add a field again, tick it in the drop-down menu.
+You can choose to *use field display names instead of keynames*. Keynames are technical and use only plain latin symbols. Display names can be in any language, usually they are seen as column headers or field labels in a form.
 
-.. figure:: _static/export_fields_en.png
+.. figure:: _static/key_field_name_en.png
+   :name: key_field_name_pic
+   :align: center
+   :width: 20cm    
+
+   Display name with superscript symbol and keyname of the field
+
+
+Next you can chose which of the *fields* of the data to keep in the file. By default, all are selected. To remove a field, click on the cross by its name or untick it in the drop-down menu. To add a field again, tick it in the drop-down menu.
+
+.. figure:: _static/export_fields_en_2.png
    :name: export_fields_pic
    :align: center
    :width: 20cm    
 
    Selcting fields
 
+
+If you need to export only the features within a particular area, you can *Limit by extent*. The extent is set in degrees.
+
+A *text filter* is also available. Search is performed in all fields that don't have text search disabled, just like in the feature table.
+
 Output in ESRI Shapefile or MapInfo TAB results in a Zip archive with necessary files. For single-file formats (like GeoJSON or CSV) creation of Zip archive is optional.
+
+.. figure:: _static/zip_option_en.png
+   :name: zip_option_pic
+   :align: center
+   :width: 20cm    
+
+   Creation of Zip archive selected for GeoJSON format
 
 All export options are available through HTTP API.
 
