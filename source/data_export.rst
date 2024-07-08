@@ -77,7 +77,7 @@
 При экспорте в такие форматы, как ESRI Shapefile или MapInfo TAB, в результате создаётся Zip-архив с нужными файлами. Для однофайловых форматов (например, GeoJSON) создание архива является опциональным. 
 
 .. figure:: _static/zip_option_ru_2.png
-   :name: zip_option_ru
+   :name: zip_option_pic
    :align: center
    :width: 20cm    
 
