@@ -6,8 +6,7 @@
 :ref:`Веб ГИС <ngcom_description>` позволяет выгружать данные из :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` в форматах:
 
 * :term:`GeoJSON`
-* :term:`CSV`
-* CSV и CSV для Microsoft Excel
+* :term:`CSV` и CSV для Microsoft Excel
 * :term:`ESRI Shapefile`
 * AutoCAD DXF
 * Mapinfo TAB
