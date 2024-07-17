@@ -74,7 +74,7 @@ Next you can chose which of the *fields* of the data to keep in the file. By def
 
 If you need to export only the features within a particular area, you can *Limit by extent*. The extent is set in degrees.
 
-A *text filter* is also available. Search is performed in all fields that don't have text search disabled, just like in the feature table.
+A *text filter* is also available. Search is performed in all fields that don't have `text search <https://docs.nextgis.com/docs_ngweb/source/admin_interface.html#ngweb-admin-layers-attr>`_ disabled, just like in the feature table.
 
 Output in ESRI Shapefile or MapInfo TAB results in a Zip archive with necessary files. For single-file formats (like GeoJSON or CSV) creation of Zip archive is optional.
 
