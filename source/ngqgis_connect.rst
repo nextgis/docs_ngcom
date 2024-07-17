@@ -441,7 +441,7 @@ After these operations, the NextGIS Connect module will remove the old style of 
 You can also add a style while keeping the old one in place. After the style is tailored in QGIS, do the following:
 
 * In NextGIS Connect panel select the **layer**.
-* In QGIS layer panel in the layer context menu select ``NextGIS Connect > Add new style to layer``.
+* In QGIS layer panel in the layer context menu select NextGIS Connect ‣ Add new style to layer.
 
 .. figure:: _static/connect_add_style_en.png
    :name: connect_add_style_pic
