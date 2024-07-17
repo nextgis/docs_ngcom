@@ -8,10 +8,10 @@ How to set up legend visibility for Web Map
 
 Map symbols may need additional explanation. Paper maps and atlases use a separate page or an insert explaining what each symbol means. 
 
-In NextGIS Web you have two options to display the information on symbols used in a vector layer:
+In NextGIS Web you have two options to display the information on symbols used in a layer:
 
 Display the map symbols in the layer tree. The markers of the layer styles will be used.
-In addition, you can add detailed description of the map symbols in the `Description panel <https://docs.nextgis.com/docs_ngcom/source/webmap_create.html#add-a-description-and-map-legend>`_  (i in a circle).
+In addition, you can add detailed description of the map symbols in the `Description panel <https://docs.nextgis.com/docs_ngcom/source/webmap_create.html#add-a-description-and-map-legend>`_  ("i" in a circle).
 
 In NextGIS Web settings the term "legend" refers specifically to the map symbols displayed in the layer tree of the Web Map under the layer name.
 
@@ -86,3 +86,12 @@ Options for legend visibility are:
    :width: 20cm
    
    Different legend visibility settings for layers of the same Web Map: 1 – disabled, 2 – collapsed, 3 – expanded
+
+NextGIS Web GIS supports legends for both vector and raster layers. Raster data in geographic information systems can represent vegetation cover and its density, changes in elevation, and other similar indicators. In this case the legend will show the gradient steps and corresponding values of the parameter.
+
+.. figure:: _static/ngw_legend_raster_en.png
+   :name: ngw_legend_raster_pic
+   :align: center
+   :width: 20cm
+
+   Legend for raster layers: hillshade and digital elevation model
