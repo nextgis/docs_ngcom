@@ -12,7 +12,7 @@ After successfull installation you'll see **NextGIS Connect** panel on the right
 .. _ngcom_ngqgis_connect_connection:
 
 Establishing Web GIS connection
----------------------
+--------------------------------
 
 After successful installation of the module, a panel will appear on the right side of the screen :guilabel:`NextGIS Connect`.
 
@@ -89,10 +89,10 @@ Uploading vector data
 .. warning:: 
    You can avoid :ref:`data format limitations <ngcom_vector_layer>` when uploading vector data to Web GIS through NextGIS Connect by switching on options "Rename forbidden fields" and "Fix incorrect geometries" in *Settings* dialog.
 
-* Create in QGIS from scratch or upload from :term:`ESRI Shape`, :term:`GeoJSON` or :term:`CSV` files vector layers. Tailor their styles;
-* Select in NextGIS Connect Resources panel :ref:`Resource group <ngcom_resources_group>` to which you want to upload your data;
-* Select in QGIS Layers panel a vector layer which you want to upload to Web GIS;
-* Press **Import selected layer** button on NextGIS Connect control panel or select **NextGIS Connect --> Import selected layer** in layer context menu;
+* In QGIS create from scratch or upload from :term:`ESRI Shape`, :term:`GeoJSON` or :term:`CSV` files vector layers. Tailor their styles;
+* In NextGIS Connect panel select :ref:`Resource group <ngcom_resources_group>` to which you want to upload your data;
+* In QGIS Layers panel select the vector layer which you want to upload to Web GIS;
+* Press **Add to Web GIS** button on NextGIS Connect control panel and click **Upload selected** or choose **NextGIS Connect --> Upload selected** in layer context menu;
 * If data is uploaded successfully you'll see in the relevant Resource group a new :ref:`Vector layer <ngcom_data_upload>` with :ref:`QGIS style <ngcom_styles>` tailored by you.
 
 If a layer has **multiple styles**, they will all be uploaded. Their names will be kept. If the style name is "default", the layer's name will be used instead.
@@ -103,9 +103,9 @@ Uploading raster data
 ~~~~~~~~~~~~~~~~~~~~~
 
 * Add raster layers to QGIS from :term:`GeoTIFF` files;
-* Select in NextGIS Connect Resources panel Resource group to which you want to upload your data;
-* Select in QGIS Layers panel a raster layer which you want to upload to Web GIS;
-* Press **Import selected layer** button on NextGIS Connect control panel or select **NextGIS Connect --> Import selected layer** in layer context menu;
+* In NextGIS Connect panel select Resource group to which you want to upload your data;
+* In QGIS Layers panel select a raster layer which you want to upload to Web GIS;
+* Press **Add to Web GIS** button on NextGIS Connect control panel and click **Upload selected** or choose **NextGIS Connect --> Upload selected** in layer context menu;
 * If data is uploaded successfully you'll see in the relevant Resource group a new :ref:`Raster layer <ngcom_data_upload>` with default :ref:`Raster style <ngcom_styles>`.
 
 
@@ -115,12 +115,12 @@ Uploading basemaps
 ~~~~~~~~~~~~~~~~~~
 
 * Add basemaps to QGIS via TMS;
-* Select in NextGIS Connect Resources panel Resource group to which you want to add your basemap;
-* Select in QGIS Layers panel a basemap which you want to upload to Web GIS;
-* Press **Import selected layer** button on NextGIS Connect control panel or select **NextGIS Connect --> Import selected layer** in layer context menu;
+* In NextGIS Connect panel select Resource group to which you want to add your basemap;
+* In QGIS Layers panel select a basemap which you want to upload to Web GIS;
+* Press **Add to Web GIS** button on NextGIS Connect control panel and click **Upload selected** or choose **NextGIS Connect --> Upload selected** in the basemap context menu;
 * If a basemap is uploaded successfully you'll see it the relevant Resource group.
 
-You need to be on **Mini** or **Premium** to work with basemaps.
+You need to be on `Mini or Premium <https://nextgis.com/pricing-base/>`_ to work with basemaps.
 
 
 .. _qgis_project:
@@ -129,36 +129,35 @@ Creating and uploading a whole QGIS project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Create a QGIS project with raster and vector layers. Tailor their styles, group them, set their hierarchy and visibility settings. Set the map extent;
-* Select in NextGIS Connect panel :ref:`Resource group <ngcom_resources_group>` to which you want to upload the project;
-* Press **Import current project** button on NextGIS Connect control panel or select **NextGIS Connect** --> **Import current project** in any layer context menu;
+* In NextGIS Connect panel select :ref:`Resource group <ngcom_resources_group>` to which you want to upload the project;
+* Press **Add to Web GIS** button on NextGIS Connect control panel and select **Upload all**;
 
-.. figure:: _static/NGConnect_import_menu_en.png
+.. figure:: _static/NGConnect_import_menu_en_2.png
    :name: NGConnect_import_menu_pic
    :align: center
-   :width: 20cm
+   :width: 24cm
    
-   Choosing "Import current project" in the NextGIS Connect panel. Target resource group is highligthed in blue
+   Adding project in the NextGIS Connect panel. Target resource group is highligthed in blue
 
-* In the opened dialog window fill in the name of the new Resource group to which the project will be imported;
+* In the opened dialog window enter the name of the new Resource group to which the project will be imported;
 
 
-.. figure:: _static/NGConnect_import_name_en.png
+.. figure:: _static/NGConnect_import_name_en_2.png
    :name: NGConnect_import_name_pic
    :align: center
-   :width: 20cm
+   :width: 24cm
    
    Entering the name of the imported project
 
-* If the project is uploaded successfully you'll see in a selected Resource group a newly created group with: 1) all Raster and Vector layers to which **Import selected layer** operation is applicable, and their Styles; 2) automatically created :ref:`Web map <ngcom_webmap_create>` with a set extent, to which all the imported layers are added with groups, hierarchy and visibility settings similar to QGIS.
+* If the project is uploaded successfully you'll see in a selected Resource group a newly created group with: 1) all Raster and Vector layers to which **Add to Web GIS** operation is applicable, and their Styles; 2) automatically created :ref:`Web map <ngcom_webmap_create>` with a set extent, to which all the imported layers are added with groups, hierarchy and visibility settings similar to QGIS.
 
-.. note:: 
-	The fastest way to go to the newly created Web map is by pressing **Open map in browser** button on NextGIS Connect control panel or select **Open map in browser** in map's context layer.
+To view the newly created Web map press **Open map in browser** button on NextGIS Connect control panel or select **Open map in browser** in the context menu.
 
 
-.. figure:: _static/NGConnect_import_view_en.png
+.. figure:: _static/NGConnect_import_view_en_2.png
    :name: NGConnect_import_view_pic
    :align: center
-   :width: 20cm
+   :width: 24cm
    
    Opening the newly created Web Map via context menu of the imported project
 
@@ -315,11 +314,35 @@ To do this the module provides a quick creation operation :ref:`WMS service <ngc
 .. _ngcom_ngqgis_connect_data_edit:
 
 Editing data
-------------
+---------------------
 
-NextGIS Connect plugin enables an easy editing of geometries and attributes of Vector layers features. 
+NextGIS Connect plugin allows to quickly edit geometries and attribute values of vector layers in Web GIS. This functionality is only available for vector data formats used in QGIS.
 
-It's possible due to the use of standard :term:`WFS` protocol (with feature edit support):
+.. warning::
+	Only one user at a time can edit the layer directly.
+
+#. Import the layer from Web GIS to QGIS by selecting it in NextGIS Connect and pressing **Add to QGIS**.
+#. Enter the edit mode from the layer’s context menu or from the toolbar.
+#. Make the changes.
+#. Exit edit mode. Confirm changes in the pop-up window.
+#. The layer will be automatically synchronized.
+
+If changes have been made to the layer in Web GIS since the last synchronization, further synchronization will not be possible. Press the sync symbol by the layer, "Layer status" window will open. In the dropdown menu select **Reset layer**. Keep in mind that if you reset the layer, all local changes that had not been synchronized will be lost.
+
+.. figure:: _static/ngc_check_sync_en.png
+   :align: center
+   :alt: Sync information
+   :width: 16cm
+
+   Layer synchronization symbol
+
+.. figure:: _static/ngc_layer_status_en.png
+   :align: center
+   :width: 10cm
+
+   Layer status dialog. To reset the layer, press the downward arrow by the "Synchronization" button and select "Reset layer"
+
+You can also edit a vector layer using the standard :term:`WFS` protocol (with feature edit support):
 
 * :ref:`Publish via WFS protocol <ngcom_ngqgis_connect_wfs_service>` Vector layer which features you're going to edit;
 * Select in NextGIS Connect Resources panel the relevant WFS service;
@@ -329,29 +352,30 @@ It's possible due to the use of standard :term:`WFS` protocol (with feature edit
    :name: NGConnect_edit_add_pic
    :align: center
    :width: 20cm
-   
+
    Adding layer to QGIS using WFS service
 
 * If operation is successful you'll see in QGIS Layers panel a new group of WFS layers published via selected WFS service;
-* Edit features' geometries and attributes in added WFS layers using standard QGIS tools;
+* Enter Edit mode and modify features' geometries and attributes in the added WFS layer using standard QGIS tools; 
 
 .. figure:: _static/NGConnect_edit_process_en.png
    :name: NGConnect_edit_process_pic
    :align: center
    :width: 20cm
-   
-   Added layer in the Layers panel
 
-* Press the "Toggle Edit" button to finish editing and press "Save" in the opened window.
+   Features editing
+
+* Press the "Edit" button to finish editing and press "Save" in the opened window. 
 
 .. figure:: _static/NGConnect_edit_save_en.png
    :name: NGConnect_edit_save_pic
    :align: center
    :width: 20cm
-   
+
    Saving changes
 
 * If editing went successful you'll be able to see the changes at once in the Web GIS :ref:`Feature table <ngw_feature_table>` and Web Map :ref:`web client <ngw_webmaps_client>`.
+
 
 
 .. _ngcom_ngqgis_connect_data_overwrite:
@@ -373,7 +397,7 @@ To update (overwrite) layer's data:
 Layer resource identifier will also be kept. Overwrite assumes that both layers have the same structure.
 
 
-.. figure:: _static/NGconnect_vector_overwrite_en.png
+.. figure:: _static/NGconnect_vector_overwrite_en_2.png
    :name: connect_vector_overwrite
    :align: center
    :width: 20cm
@@ -386,12 +410,45 @@ Layer resource identifier will also be kept. Overwrite assumes that both layers 
 Updating styles
 ---------------
 
-* Add layer to QGIS via Connect
-* Change the style of the layer (color, line width, etc.)
-* Next select **Import/Update style**, highlighting the **style** of the desired resource in the right pane
+You can add another style to a layer or replace its existing style with a new one.
+
+To replace a style:
+
+* Add layer to QGIS via Connect.
+* Change the style of the layer (color, line width, etc.).
+* Select the layer in QGIS layer panel and the **style** in NextGIS Connect panel.
+* In NextGIS Connect toolbar press **Add to Web GIS** and select **Update layer style**.
+
+
+.. figure:: _static/connect_replace_style_en.png
+   :name: connect_replace_style_pic
+   :align: center
+   :width: 20cm
+
+   Updating a style
+
+
+.. figure:: _static/connect_replace_style_context_en.png
+   :name: connect_replace_style_context_pic
+   :align: center
+   :width: 20cm
+
+   Updating a style from context menu
+
 
 After these operations, the NextGIS Connect module will remove the old style of the layer from the Web GIS and load the new one leaving all data and attachments intact.
 
+You can also add a style while keeping the old one in place. After the style is tailored in QGIS, do the following:
+
+* In NextGIS Connect panel select the **layer**.
+* In QGIS layer panel in the layer context menu select ``NextGIS Connect > Add new style to layer``.
+
+.. figure:: _static/connect_add_style_en.png
+   :name: connect_add_style_pic
+   :align: center
+   :width: 20cm
+
+   Adding style to a layer
 
 .. _ngcom_ngqgis_connect_data_export:
 
