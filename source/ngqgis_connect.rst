@@ -12,57 +12,65 @@ After successfull installation you'll see **NextGIS Connect** panel on the right
 .. _ngcom_ngqgis_connect_connection:
 
 Establishing Web GIS connection
--------------------------------
+---------------------
 
 After successful installation of the module, a panel will appear on the right side of the screen :guilabel:`NextGIS Connect`.
 
-First you need to establish a connection to your Web GIS:
+First you need to **establish a connection** to your Web GIS:
 
-* Open *Settings* dialog from NextGIS Connect control panel;
+* Open *Settings* dialog from NextGIS Connect control panel (gear button);
 
 .. figure:: _static/NGconnection_main_en.png
    :name: NGconnection_main_pic
    :align: center
    :width: 20cm
-   
+
    Selecting NextGIS Connect Settings
 
 * Press **New** button;
 
-.. figure:: _static/NGconnection_new_en.png
-   :name: NGconnection_new_pic
-   :align: center
-   :width: 20cm
-   
-   NextGIS Connect Settings widnow
+* In the opened dialog window fill in fields **URL** (for example, https://examples.nextgis.com) and **Name** (this name will be used in the list of available connections). 
 
-* In the opened dialog window fill in fields **URL** (for example, https://examples.nextgis.com) and **Name** (this name will be used in a list of available connections). Uncheck the checkbox *As guest* and enter the your NextGIS ID **username** (or the e-mail you used to register) and **password**;
-
-.. figure:: _static/NGconnection_create_en.png
+.. figure:: _static/create_connection_en.png
    :name: NGconnection_create_pic
    :align: center
-   :width: 20cm
-   
+   :width: 24cm
+
    Creating new connection
 
-.. note:: 
+.. note::
    Only the owner of the Web GIS and users added to the `team <https://docs.nextgis.com/docs_ngcom/source/create.html#team-management>`_ can create and delete resources in the Web GIS.
 
-* Press :guilabel:`Ок` button. The name of the new connection will appear in the Settings window. Press :guilabel:`Close`. If the connection is established successfully you'll see your Web GIS resources tree in the plugin window.
+* In order to be able to create and delete resources, in the *Authentication* section select from a dropdown menu an authentication configuration (the list contains connection name and username as well as authentication type) or create a new configuration.
 
-.. figure:: _static/NGconnection_complete_en.png
-   :name: NGconnection_complete_pic
+To add a new configuration, press the button with a green plus. The "Authentication" dialog will pop up.
+
+.. figure:: _static/auth_config_create_en.png
    :align: center
-   :width: 20cm
-   
-   Completing the creation of a new connection
-   
+   :width: 10cm
+   :name: auth_config_create_pic
+   :alt: Adding authentication configuration
+
+   Adding authentication configuration
+
+1. Enter a name for the new configuration in the corresponding field;
+2. Select the Basic authentication in the dropdown menu below;
+3. Enter *Username* and *Password* of your NextGIS ID;
+4. Press **Save**.
+
+Make sure that the correct configuration is selected. To check if the credentials are correct, press **Test Connection**.
+
+* Next press **Save** in the connection creating dialog.
+
+
+* Press :guilabel:`Ок` button and close the Settings window.  If the connection is established successfully you'll see your Web GIS resources tree in the plugin window.
+
 .. figure:: _static/NGconnection_result_en.png
-   :name: NGconnection_result_pic
+   :name: NGConnect_result_pic
    :align: center
    :width: 20cm
-   
-   Web GIS resources tree in the plugin window
+
+   Web GIS resource tree in the plugin window
 
 
 
