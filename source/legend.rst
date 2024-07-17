@@ -32,10 +32,10 @@
 
 Режим видимости легенды для веб-карты в целом задаётся во вкладке «Настройки»:
 
-.. figure:: _static/ngw_legend_map_settings_ru.png
+.. figure:: _static/ngw_legend_map_settings_ru_2.png
    :name: ngw_legend_map_settings_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
    
    Настройка видимости легенды для всей карты
 
