@@ -32,10 +32,10 @@ Legend visibility for a particular layer is set in the Layer tab of the Web Map 
 
 Legend visibility for a Web Map is set in its Settings tab.
 
-.. figure:: _static/ngw_legend_map_settings_en.png
+.. figure:: _static/ngw_legend_map_settings_en_2.png
    :name: ngw_legend_map_settings_pic
    :align: center
-   :width: 20cm
+   :width: 16cm
    
    Setting legend visibility for the Web Map
 
