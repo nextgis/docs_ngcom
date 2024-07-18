@@ -95,3 +95,10 @@ NextGIS Web GIS supports legends for both vector and raster layers. Raster data 
    :width: 20cm
 
    Legend for raster layers: hillshade and digital elevation model
+
+The way the legend is formed depends on the raster type:
+
+* Multiband color - as it is RGB raster, the legend consists of red, green and blue squares;
+* Paletted/unique values - each value is represented with the color it corresponds to;
+* Singleband gray - it is a gradient, but the legend shows a set number of symbols (5 by default) marked by value range;
+* Singledband pseudocolor - if the interpolation is linear it works like singleband gray.
