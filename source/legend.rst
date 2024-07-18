@@ -101,4 +101,4 @@ The way the legend is formed depends on the raster type:
 * Multiband color - as it is RGB raster, the legend consists of red, green and blue squares;
 * Paletted/unique values - each value is represented with the color it corresponds to;
 * Singleband gray - it is a gradient, but the legend shows a set number of symbols (5 by default) marked by value range;
-* Singledband pseudocolor - if the interpolation is linear it works like singleband gray.
+* Singledband pseudocolor - like singleband gray shows symbols marked by value range.
