@@ -10,8 +10,6 @@ How to connect data from external sources
 Basemaps
 ------------
 
-.. note:: 
-	Adding non-standard Basemaps is only available for nextgis.com `Mini and Premium users <https://nextgis.com/pricing-base>`_.
 
 Add a Basemap resource
 ~~~~~~~~~~~~~~~~~~~~~~
