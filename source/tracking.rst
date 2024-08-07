@@ -16,6 +16,7 @@ and is necessary to record the history of its movement on the ground.
 Tracking can be useful when you need to save a record of the route,
 track and further analyze the trajectories of objects moving in space.
 
+.. _tracking_principles:
 
 How tracking works
 -------------------
@@ -25,6 +26,7 @@ A track is a sequence of points in space over time to be displayed on a Web Map.
 Monitoring process looks like this - a person launches tracking in the mobile application, follows the route, stops tracking at the end.
 After that, the recorded tracks are sent to the Web GIS server and are displayed on the Web Map (if it's configured).
 
+.. _tracking_create:
 
 Creating tracker groups
 -----------------------
@@ -53,6 +55,7 @@ If you want see tracks on a Web Map, you need to set up your Web GIS - create sp
    
    Tracker settings
    
+.. _tracking_mobile_collector:
 
 Tracking in NextGIS Mobile, Collector and Tracker
 -------------------------------------------------
@@ -62,8 +65,10 @@ For now you can track in mobile apps such as
 `NextGIS Collector <https://play.google.com/store/apps/details?id=com.nextgis.collector>`_ and NextGIS Tracker.
 An Android smartphone is required for that.
 
+.. _tracking_ngmobile:
 
-**1. NextGIS Mobile**
+1. NextGIS Mobile
+^^^^^^^^^^^^^^^^^
 
 It’s the complete mobile `GIS <https://nextgis.com/nextgis-mobile/>`_ that allows you to create, edit and share geodata both online and offline.
 
@@ -92,7 +97,10 @@ Here you can also see the unique identifier (ID) of the device, which must be sp
 
 The process of recording a track is described in details in the `Tracks <https://docs.nextgis.com/docs_ngmobile/source/tracks.html/>`_ section of the documentation for NextGIS Mobile.
 
-**2. NextGIS Collector**
+.. _tracking_ngcollector:
+
+2. NextGIS Collector
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This application is intended for collective data collection. It allows the Web GIS’s owner to get people on a team and begin `data collection <https://docs.nextgis.com/docs_ngcom/source/collector.html#team-participants-mobile-app-installation-and-start-of-data-collection>`_ using mobile devices.
 
@@ -156,6 +164,7 @@ This is a simple app for track recording.
 
 *...Coming up...*
 
+.. _tracking_web_map:
 
 Tracking results on the Web Map
 --------------------------------
@@ -197,6 +206,19 @@ Operations that are available by right click on the track:
    
    Displaying track points, lines and current location on the Web Map
 
+Click on a point to show a popup with tracking information: date, time, speed (km/h), height (m), course (bearing i.e. the horizontal direction of travel of this device in the range between 0 and 360 counting clockwise from the North), number of satellites and HDOP.
+
+.. figure:: _static/track_point_popup_en.png
+   :name: track_point_popup_pic
+   :align: center
+   :width: 18cm
+
+   Track point popup
+
+Horizontal dilution of precision or HDOP is a parameter showing how precise the GPS readings are. The smaller the HDOP value, the higher the accuracy of horizontal coordinates. HDOP=1 is ideal, 3-4 is okay, if HDOP is over 6-8 it means that the position of satellites at the moment is unfortunate providing information with low accuracy. HDOP depends on the number of visible satellites, their position in the sky and relative to the receiver.
+
+
+.. _tracking_report:
 
 Reports
 -------
