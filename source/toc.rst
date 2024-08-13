@@ -30,6 +30,7 @@
    webmap_print
    data_services
    resources_group
+   favorites
    parent_change
    metadata_add
    data_edit
