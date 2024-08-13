@@ -83,3 +83,5 @@ Also from this page you can modify the name of the added Web Map fragments.
 
 
 To exit the editing mode, press **Done**.
+
+See how to use Favorites in our `video <https://youtu.be/Nk42wbopjBk>`_.
