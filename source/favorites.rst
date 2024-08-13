@@ -1,6 +1,6 @@
 .. sectionauthor:: Юлия Григоренко <grigorenko.j@gmail.com>
 
-.. _ngw_favorites:
+.. _ngcom_favorites:
 
 How to add Web GIS items to favorites
 ----------------------------------------------
@@ -27,7 +27,7 @@ To open the Favorites page, click on the Favorites item in the menu.
 
    Resource added to Favorites
 
-.. _ngw_favorites_wm_fragment:
+.. _ngcom_favorites_wm_fragment:
 
 How to add Web Map fragment to Favorites
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -52,7 +52,7 @@ You can set up a custom name for the fragment or keep the default ("Fragment").
 
 The fragment name can later be edited from the Favorites page (see below).
 
-.. _ngw_favorites_edit:
+.. _ngcom_favorites_edit:
 
 Favorites list editing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
