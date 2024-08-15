@@ -36,6 +36,7 @@
    data_edit
    attachments
    lookup
+   fonts
    data_export
    srs
    external_srs
