@@ -36,6 +36,7 @@ Get Started with your Web GIS
    data_edit
    attachments
    lookup
+   fonts
    data_export
    srs
    hide_data_export
