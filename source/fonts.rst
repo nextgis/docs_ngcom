@@ -36,7 +36,7 @@ Users can add custom fonts.
 
 Technical requirements:
 
-*  *.ttf or *.otf format;
+* TTF or OTF format;
 * File size up to 10MB;
 * Filename only has basic latin characters, numbers, underscore (_) and dash (-).
 
