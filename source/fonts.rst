@@ -34,6 +34,9 @@ How to add a font
 
 Users can add custom fonts.
 
+.. important::
+	The font must be used as labels in the appropriate QGIS style for the layer to which you want to apply this font. More about `labels <https://docs.qgis.org/3.34/en/docs/training_manual/vector_classification/label_tool.html>`_ in QGIS.
+
 Technical requirements:
 
 * TTF or OTF format;
