@@ -212,23 +212,28 @@ An item of Collector project could be an editable data layer, display-only data 
 .. note::
             You could add PostGIS layers in Collector project, but the NextGIS Collector mobile app does not support work with them for now
 
-Adding of items is like adding layers when creating a Web Map. Press the "Add item" button to add a layer or a data collection form. Select the vector layer in the resource list, not the form. Press "Add group" to create a group of items. Drag-and-drop of items is available within the item tree.
+Adding of items is like adding layers when creating a Web Map. Press the **+ Layer** button to add a layer or a data collection form. Select the vector layer in the resource list, not the form. Press **+ Group** to create a group of items. Drag-and-drop of items is available within the item tree. To delete an item, press **X** at the end of the row.
 
-.. figure:: _static/ngc-stages-010_eng_2.png
+Click on the item to see its attributes.
+
+.. figure:: _static/ngc_items_tab_en.png
    :name: ngc-stages-010
    :align: center
+   :width: 20cm
 
    "Items" tab
 
 Each item of Collector project has the following attributes:
 
 - «Display name» - a layer name which is displayed in the NextGIS Collector mobile app.
-- «Visible» - controls layer's visibility in the NextGIS Collector mobile app.
 - «Editable» - allow or deny editing of the layer in the NextGIS Collector mobile app.
+- «Visible» - controls layer's visibility in the NextGIS Collector mobile app.
 - «Syncable» - allow or deny synchronization of the layer with your Web GIS.
-- «Lifetime for tiles (in min)» - time of tiles cashing (is actual for tiling layers).
-- «Min zoom» - minimal zoom of the layer's visibility.
-- «Max zoom» - maximum zoom of the layer's visibility.
+- «Zoom level visibility» - defines for which zoom levels the layeer is visible. It has two parameters: Min zoom and Max zoom.
+- «Lifetime for tiles (in min)» - time of tiles cashing (for tile layers).
+
+
+To go back to the list of items, press **Hide details**.
 
 7. Add basemap if necessary.
 
