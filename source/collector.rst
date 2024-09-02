@@ -237,11 +237,12 @@ To go back to the list of items, press **Hide details**.
 
 7. Add basemap if necessary.
 
-8. Then on the "Collectors" tab ticking net give permissions to the users participating in the project:
+8. Then on the "Collectors" tab tick the users participating in the project to give them permissions:
 
-.. figure:: _static/ngc-stages-011_eng_2.png
+.. figure:: _static/ngc_list_collectors_en.png
    :name: ngc-stages-011
    :align: center
+   :width: 18cm
 
    «Collectors» tab
 
