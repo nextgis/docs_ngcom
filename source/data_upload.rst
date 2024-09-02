@@ -39,7 +39,7 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Откройте :ref:`Группу ресурсов <ngcom_resources_group>`, в которой вы хотите создать слой (на главной странице Веб ГИС по умолчанию открыта Основная группа ресурсов);
-#. Выберите :menuselection:`Создать ресурс --> Растровый слой` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
+#. Нажмите кнопку **Создать ресурс** и выберите во всплывающем окне тип ресурса "Растровый слой";
 #. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс` и выберите файл с растровыми геоданными на вкладке :guilabel:`Растровый слой`;
 #. Нажмите кнопку :guilabel:`Создать`. Если Растровый слой создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующей Группы ресурсов.
 
@@ -48,12 +48,28 @@
 .. important::
 	Если вы планируете просматривать Растровый слой с помощью :ref:`Веб-карты <ngcom_webmap_create>` или публиковать его по протоколу :term:`WMS`, необходимо создать для него `Стиль <https://docs.nextgis.ru/docs_ngcom/source/styles.html#ngcom-raster-style>`_.
 
-.. figure:: _static/raster_layer_ru.gif
-   :name: Raster_layer
+.. figure:: _static/create_raster_layer_select_ru.png
+   :name: create_raster_layer_select_pic
    :align: center
-   :width: 800px
-   
-   Создание растрового слоя
+   :width: 20cm
+
+   Выбор типа создаваемого ресурса "Растровый слой"
+
+.. figure:: _static/create_raster_layer_upload_ru.png
+   :name: create_raster_layer_upload_pic
+   :align: center
+   :width: 15cm
+
+   Окно загрузки растрового файла
+
+.. figure:: _static/create_raster_layer_resourse_name_save_ru.png
+   :name: create_raster_layer_resourse_name_pic
+   :align: center
+   :width: 15cm
+
+   Наименование растрового слоя и завершение создания ресурса
+
+
 
 Больше информации о загрузке растровых геоданных в Веб ГИС - :ref:`здесь <ngw_create_raster_layer>`. 
 
@@ -94,17 +110,17 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Откройте :ref:`Группу ресурсов <ngcom_resources_group>`, в которой вы хотите создать слой (на главной странице Веб ГИС по умолчанию открыта Основная группа ресурсов);
-#. Выберите :menuselection:`Создать ресурс --> Векторный слой` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
+#. Нажмите кнопку **Создать ресурс** и выберите во всплывающем окне тип ресурса "Векторный слой";
 #. В открывшемся окне выберите файл с векторными геоданными на вкладке :guilabel:`Векторный слой` или задайте тип геометрии, чтобы создать пустой векторный слой.
 #. Заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`;
 #. Нажмите кнопку :guilabel:`Создать`. Если Векторный слой создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующей Группы ресурсов.
 
-.. figure:: _static/create_vector_layer_select_ru.png
+.. figure:: _static/create_vector_layer_select_ru_2.png
    :name: create_vector_layer_select_pic
    :align: center
    :width: 20cm
 
-   Выбор действия "Векторный слой"
+   Выбор типа создаваемого ресурса "Векторный слой"
 
 .. figure:: _static/create_vector_layer_upload_ru.png
    :name: create_vector_layer_upload_pic
@@ -113,10 +129,10 @@
 
    Окно загрузки векторного файла
 
-.. figure:: _static/create_vector_layer_resourse_name_save_ru_2.png
+.. figure:: _static/create_vector_layer_resourse_name_save_ru_3.png
    :name: create_vector_layer_resourse_name_pic
    :align: center
-   :width: 20cm
+   :width: 15cm
 
    Наименование векторного слоя и завершение создания ресурса
 
