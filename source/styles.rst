@@ -29,32 +29,32 @@ QGIS style
 -----------------------
 
 #. Open the Properties page of the layer for which you want to create a style;
-#. Select :menuselection:`Create resource --> QGIS style` on the right side of the Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. Press **Create resource** and select **QGIS style**;
 #. In the opened dialog, Go to :guilabel:`QGIS style` tab and upload a file in :term:`QML` format created with :term:`QGIS` (learn how to :ref:`create QML file <ngq_save_style>` with QGIS);
 
 
-#. Press :guilabel:`Create` button.  If Style is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant layer.
+#. Press **Create** button.  If Style is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant layer.
 
-.. figure:: _static/QGIS_style_select_en.png
+.. figure:: _static/QGIS_style_select_en_2.png
    :name: QGIS_style_select
    :align: center
    :width: 20cm
    
    Selecting QGIS style
 
-.. figure:: _static/QGIS_style_upload_en.png
+.. figure:: _static/QGIS_style_upload_en_2.png
    :name: QGIS_style_upload
    :align: center
-   :width: 20cm
+   :width: 13cm
    
    Uploading QML file
 
 You can type a custom name for the new style in the field :guilabel:`Display name` of the :guilabel:`Resource` tab.
 
-.. figure:: _static/QGIS_style_name_en.png
+.. figure:: _static/QGIS_style_name_en_2.png
    :name: QGIS_style_name
    :align: center
-   :width: 20cm
+   :width: 13cm
    
    Display name field of a QGIS style
 
@@ -69,10 +69,10 @@ MapServer style
 ----------------------------
 
 #. Open the Properties page of a :ref:`Vector layer <ngcom_vector_layer>` or :ref:`PostGIS layer <ngcom_postgis_layer>` for which you want to create a style;
-#. Select :menuselection:`Create resource --> MapServer style` on the right side of the Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. Press :guilabel:`Create` button.  If Style is created successfully, you'll see its name in the :guilabel:`Child resources` pane of the relevant Vector layer or PostGIS layer.
+#. Press **Create resource** and select **MapServer style**;
+#. Press **Create** button.  If Style is created successfully, you'll see its name in the :guilabel:`Child resources` pane of the relevant Vector layer or PostGIS layer.
 
-.. figure:: _static/mapserver_style_select_en.png
+.. figure:: _static/mapserver_style_select_en_2.png
    :name: mapserver_style_select
    :align: center
    :width: 20cm
@@ -81,10 +81,10 @@ MapServer style
 
 You can type a custom display name for the new style in the :guilabel:`Resource` tab and edit style parameters in the :guilabel:`MapServer style` tab.
 
-.. figure:: _static/mapserver_style_name_en.png
+.. figure:: _static/mapserver_style_name_en_2.png
    :name: mapserver_style_name
    :align: center
-   :width: 15cm
+   :width: 13cm
    
    Display name field of a MapServer style
 
@@ -98,13 +98,13 @@ Raster style
 -----------------------------
 
 #. Open the Properties page of :ref:`Raster layer <ngcom_raster_layer>` for which you want to create a style;
-#. Select :menuselection:`Create resource --> Raster style` on the right side of the Web GIS :ref:`admin console <ngw_admin_interface>`;
-#. Press :guilabel:`Create` button.  If Style is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Raster layer.
+#. Press **Create resource** and select **Raster style**;
+#. Press **Create** button.  If Style is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Raster layer.
 
 .. note:: 
 	For Raster layers uploaded to Web GIS :ref:`with desktop app QGIS <ngcom_ngqgis_connect_data_upload>` a Raster style is created automatically. 
 
-.. figure:: _static/raster_style_select_en.png
+.. figure:: _static/raster_style_select_en_2.png
    :name: raster_style_select
    :align: center
    :width: 20cm
@@ -113,10 +113,10 @@ Raster style
 
 You can type a custom name for the new style in the field :guilabel:`Display name` of the :guilabel:`Resource` tab.
 
-.. figure:: _static/raster_style_create_en.png
+.. figure:: _static/raster_style_create_en_2.png
    :name: raster_style_create
    :align: center
-   :width: 20cm
+   :width: 13cm
    
    Creating Raster style with a custom name
 
