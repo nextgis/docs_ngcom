@@ -3,7 +3,7 @@
 How to upload data
 ================================
 
-Raster and vector geodata are uploaded to :ref:`Web GIS <ngcom_description>` by creation of :ref:`Raster layer <ngcom_raster_layer>` and :ref:`Vector layer <ngcom_vector_layer>` resources respectively.
+Raster and vector geodata are uploaded to :ref:`Web GIS <ngcom_description>` by creating :ref:`Raster layer <ngcom_raster_layer>` and :ref:`Vector layer <ngcom_vector_layer>` resources respectively.
 
 .. note:: 
 	The size limit for uploaded files depends on the selected plan. For **Premium** - 2.0 GB, for **Free** - 128 Mb and **Mini** - 256 Mb. For rasters, this limit corresponds to uncompressed files in EPSG: 3857.
@@ -38,7 +38,7 @@ Creating raster layer
 ^^^^^^^^^^^^^^^^^^^^^
 
 #. Open the :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default the main page of Web GIS has Main resource group displayed);
-#. Select :menuselection:`Create resource --> Raster layer` on the right side of the Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. Press **Create resource** and select **Raster layer**;
 #. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new layer in the field :guilabel:`Display name`. Then go to :guilabel:`Raster layer` tab and select a file with raster geodata;
 #. Press :guilabel:`Create` button. If Raster layer is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
@@ -49,12 +49,27 @@ If you plan to add this raster to QGIS directly from your Web GIS, turn on Uploa
 
 .. _ngcom_raster_requirements:
 
-.. figure:: _static/raster_layer_en.gif
-   :name: Raster_layer
+.. figure:: _static/create_raster_layer_select_en.png
+   :name: create_raster_layer_select_pic
    :align: center
-   :width: 800px
+   :width: 20cm
 
-   Raster upload process
+   Selection of "Raster layer" resource type
+
+.. figure:: _static/create_raster_layer_upload_en.png
+   :name: create_raster_layer_upload_pic
+   :align: center
+   :width: 15cm
+
+   Raster file upload tab
+
+.. figure:: _static/create_raster_layer_resourse_name_save_en.png
+   :name: create_raster_layer_resourse_name_pic
+   :align: center
+   :width: 15cm
+
+   Naming the raster layer and finishing the creation process
+
 
 Read more about upload of raster geodata to Web GIS :ref:`here <ngw_create_raster_layer>`. 
 
@@ -95,7 +110,7 @@ Creating vector layer
 ^^^^^^^^^^^^^^^^^^^^^
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default from the main page of Web GIS you can access Main resource group);
-#. Select :menuselection:`Create resource --> Vector layer` on the right side of the Web GIS :ref:`admin console <ngw_admin_interface>`;
+#. Press **Create resource** and select **Vector layer**;
 #. In the opened dialog, go to :guilabel:`Vector layer` tab and select a file with vector geodata or select geometry type for an empty vector layer;
 #. Then in :guilabel:`Resource` tab type a name for the new layer in the field :guilabel:`Display name`.
 #. Press :guilabel:`Create` button. If Vector layer is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
@@ -103,7 +118,7 @@ Creating vector layer
 .. important::
 	If you plan to display Vector layer on a :ref:`Web Map <ngcom_webmap_create>` or publish it using :term:`WMS` protocol you need to add a :ref:`Style <ngcom_styles>` for it first.
 
-.. figure:: _static/create_vector_layer_select_en.png
+.. figure:: _static/create_vector_layer_select_en_2.png
    :name: create_vector_layer_select_pic
    :align: center
    :width: 20cm
@@ -117,10 +132,10 @@ Creating vector layer
 
    Vector file upload tab
 
-.. figure:: _static/create_vector_layer_resourse_name_save_en_2.png
+.. figure:: _static/create_vector_layer_resourse_name_save_en_3.png
    :name: create_vector_layer_resourse_name_pic
    :align: center
-   :width: 20cm
+   :width: 15cm
 
    Naming the vector layer and finishing the creation process
 
