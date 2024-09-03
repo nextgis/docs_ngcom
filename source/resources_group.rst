@@ -6,9 +6,9 @@
 В :ref:`Веб ГИС <ngcom_description>` можно создавать Группы ресурсов для более удобной организации хранения геоданных. Например, можно создавать отдельные группы для хранения данных по разным проектам или объединять в группы слои данных по типам. Для создания группы:
 
 #. Откройте главную страницу Веб ГИС (на ней по умолчанию открыта Основная группа ресурсов);
-#. Выберите :menuselection:`Создать ресурс --> Группа ресурсов` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС;
+#. Нажмите кнопку **Создать ресурс** и выберите во всплывающем окне тип ресурса "Группа ресурсов";
 
-.. figure:: _static/admin_layers_create_resource_group_rus_2.png
+.. figure:: _static/admin_layers_create_resource_group_ru.png
    :name: create_resource_group_pic
    :align: center
    :width: 20cm
@@ -18,10 +18,10 @@
 #. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`;
 #. Нажмите кнопку :guilabel:`Создать`. 
 
-.. figure:: _static/admin_layers_create_group_rus_3.png
+.. figure:: _static/admin_layers_create_group_ru.png
    :name: create_group_pic
    :align: center
-   :width: 20cm
+   :width: 13cm
    
    Окно создания группы ресурсов
 
