@@ -123,7 +123,7 @@ Creating vector layer
    :align: center
    :width: 20cm
 
-   Selection of "Vector layer" action
+   Selection of "Vector layer" resource type
 
 .. figure:: _static/create_vector_layer_upload_en.png
    :name: create_vector_layer_upload_pic
