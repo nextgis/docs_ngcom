@@ -13,14 +13,14 @@ A Lookup table can be connected to an attribute field of a vector layer. While e
 .. figure:: _static/create_lookup_table_en.png
    :name: create_lookup_table
    :align: center
-   :width: 20cm
+   :width: 16cm
 
    Creating lookup table
 
 
 2. Open the Edit dialog for the vector layer. In the **Attributes** tab press the downwards arrow in the field of the *Lookup table* column corresponding to the attribute you want to connect it to.
 
-.. figure:: _static/lookup_table_field_en.png
+.. figure:: _static/lookup_table_field_en_2.png
    :name: lookup_table_field_pic
    :align: center
    :width: 20cm
@@ -29,10 +29,10 @@ A Lookup table can be connected to an attribute field of a vector layer. While e
 
 3. In the opened dialog select the lookup table. 
 
-.. figure:: _static/lookup_table_select_en.png
+.. figure:: _static/lookup_table_select_en_2.png
    :name: lookup_table_select_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Selecting lookup table
 
