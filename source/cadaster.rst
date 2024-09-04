@@ -7,7 +7,7 @@
 
 Для получения доступа к кадастровым сервисам необходим API ключ. 
 
-1. Зайдите на сайт `NextGIS Geoservices <https://geoservices.nextgis.com/settings/profile>`_, авторизуйтесь с помощью NextGIS ID.
+1. Зайдите на сайт `NextGIS GeoServices <https://geoservices.nextgis.com/settings/profile>`_, авторизуйтесь с помощью NextGIS ID.
 2. В разделе "Профиль" скопируйте содержимое поля "Ключ API".
 
 .. figure:: _static/geoservices_profile_api.png
@@ -65,7 +65,7 @@
 
 Для этого сначала нужно создать **соединение TMS**.
 
-В диалоге создания ресурса выберите в выпадающем меню "Геосервисы NextGIS" и введите свой ключ API (получить ключ API можно на сайте `NextGIS Geoservices <https://geoservices.nextgis.com/settings/profile>`_).
+В диалоге создания ресурса выберите в выпадающем меню "Геосервисы NextGIS" и введите свой ключ API (получить ключ API можно на сайте `NextGIS GeoServices <https://geoservices.nextgis.com/settings/profile>`_).
 
 .. figure:: _static/create_tms_connection_cadaster_ru.png
    :name: create_tms_connection_cadaster_pic
