@@ -98,7 +98,7 @@ Create a TMS connection
 
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a connection (by default, from the main page of Web GIS you access the Main resource group);
 #. Press **Create resource** and select **TMS connection**;
-#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new connection in the field :guilabel:`Display name`. Then in :guilabel:`TMS connection` tab select the mode for connection with TMS server (Custom or NextGIS geoservices) and enter URL template, API key parameters and tile scheme;
+#. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new connection in the field :guilabel:`Display name`. Then in :guilabel:`TMS connection` tab select the mode for connection with TMS server (Custom or NextGIS GeoServices) and enter URL template, API key parameters and tile scheme;
 #. Press **Create** button. If TMS connection is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. _ngcom_tms_layer:
