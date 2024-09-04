@@ -157,7 +157,7 @@ Users with a registration in your Web GIS can access data collection projects fr
 
 .. _collector_create_project:
 
-Organizer of data collection: creation of a data collection project
+Organizer of data collection: creating data collection project
 -------------------------------------------------------------------
 
 Data collection project is a resource in your Web GIS, it is a set of layers for editing.
@@ -179,9 +179,10 @@ To do it:
 
 3. In «Create resource» select «Collector project»:
 
-.. figure:: _static/ngc-stages-007_eng_2.png
+.. figure:: _static/select_create_collector_project_en.png
    :name: ngc-stages-007
    :align: center
+   :width: 20cm
 
    Select «Collector project»
 
