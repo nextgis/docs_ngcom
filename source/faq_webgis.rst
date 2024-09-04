@@ -187,6 +187,6 @@ Which account to use and where
 
 * Creating services - global account.
 
-**NextGIS Geoservices**
+**NextGIS GeoServices**
 
 * Getting tiles (OSM /vector, raster/), requests for information on the blocks and areas - global account.
