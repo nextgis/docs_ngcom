@@ -35,23 +35,26 @@ If you want see tracks on a Web Map, you need to set up your Web GIS - create sp
 
 1. Create a resource **Trackers group**. This is a folder which contains trackers (devices that send data to Web GIS).
 
-.. figure:: _static/group_trackers_en.png
+.. figure:: _static/group_trackers_en_2.png
    :name: Create a group of trackers
    :align: center
+   :width: 20cm
    
    Creating a group of trackers
 
 2. Create a resource **Tracker** in the trackers group. To sync a tracker with a mobile device, you need to enter the device's ID. It can be found in NextGIS Mobile/Collector app’s settings (Mobile: Settings -> My tracks -> under Send location to server).
 
-.. figure:: _static/create_tracker_en.png
+.. figure:: _static/create_tracker_en_2.png
    :name: Creating a tracker
    :align: center
+   :width: 20cm
    
    Creating a tracker
 
-.. figure:: _static/tracker_settings_id_en.png
+.. figure:: _static/tracker_settings_id_en_2.png
    :name: Tracker settings
    :align: center
+   :width: 15cm
    
    Tracker settings
    
