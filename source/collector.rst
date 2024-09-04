@@ -217,11 +217,12 @@ NextGIS Collector представляет собой технологическ
 
 3. Выбрать в панели «Создать ресурс» ссылку «Проект Collector»:
 
-.. figure:: _static/ngc-stages-007_ru.png
+.. figure:: _static/select_create_collector_project_ru.png
    :name: ngc-stages-007
    :align: center
+   :width: 20cm
 
-   Выбор пункта создания ресурса «Проект Collector»
+   Выбор типа создаваемого ресурса «Проект Collector»
 
 4. Ввести наименование проекта. Это наименование будет доступно в мобильном приложении `NextGIS Collector`_:
 
