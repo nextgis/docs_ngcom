@@ -10,17 +10,17 @@
 1. Создайте справочник с нужным набором пар ключ-значение (`подробнее о создании справочника <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-lookup-table>`_).
 
 
-.. figure:: _static/create_lookup_table_ru.png
+.. figure:: _static/create_lookup_table_ru_2.png
    :name: create_lookup_table
    :align: center
-   :width: 20cm
+   :width: 12cm
 
    Создание справочника
 
 
 2. Перейдите в редактирование векторного слоя. Во вкладке **Атрибуты** выберите нужную строку и нажмите на стрелку вниз в колонке *Справочник*.
 
-.. figure:: _static/lookup_table_field_ru.png
+.. figure:: _static/lookup_table_field_ru_2.png
    :name: lookup_table_field_pic
    :align: center
    :width: 20cm
@@ -29,10 +29,10 @@
 
 3. В появившемся окне выберите созданный справочник. 
 
-.. figure:: _static/lookup_table_select_ru.png
+.. figure:: _static/lookup_table_select_ru_2.png
    :name: lookup_table_select_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Выбор справочника
 
