@@ -193,6 +193,14 @@
 Сценарии настроек прав доступа
 ------------------------------
 
+В этом разделе рассматриваются в качестве примеров некоторые распространенные сценарии настроект прав доступа.
+
+* `Просмотр всей Веб ГИС (на примере Гостя) <https://docs.nextgis.ru/docs_ngcom/source/permissions.html#ngcom-permissions-guest-webgis>`_
+* `Просмотр только одной из веб-карт (на примере Гостя) <https://docs.nextgis.ru/docs_ngcom/source/permissions.html#ngcom-permissions-guest-webmap>`_
+* `Доступ к WMS сервису (для авторизованных пользователей) <https://docs.nextgis.ru/docs_ngcom/source/permissions.html#ngcom-permissions-auth-wms>`_
+* `Просмотр PostGIS слоя на веб-карте <https://docs.nextgis.ru/docs_ngcom/source/permissions.html#postgis>`_
+
+
 .. _ngcom_permissions_guest_webgis:
 
 Просмотр всей Веб ГИС (на примере Гостя)
