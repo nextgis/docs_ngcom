@@ -3,22 +3,19 @@
 .. _ngcom_permissions_intro:
 
 Managing access rights
-================================
+===============================
 
 This section will help you set up access to your Web GIS for various users. Below you'll find an overview of the permissions system and some common cases of setting up access.
 
 .. note::
     This functionality is only available for users having `Premium <http://nextgis.com/pricing/#premium/>`_ subscription.
 
+.. _ngcom_permissions_terms:
+
 Terms
 -------------
 
-.. figure:: _static/resource_permissions_tab_en.png
-   :name: resource_permissions_tab_pic
-   :align: center
-   :width: 20cm
 
-   Permissions tab
 
 There are two base rules:
 
@@ -58,15 +55,16 @@ Other than that, there are two main options to apply a permission:
    :align: center
    :width: 6cm
 
-   Menu to select what permission applies to
+   Selecting permission application
 
-2. By default users have NO permissions.
+2. **By default users have NO permissions.**
 
 .. important::
 	! Everything is forbidden unless explicitly allowed by the administrator.
 
 The only way a user gets access to data is by having access granted by a permission.
 
+.. _ngcom_permissions_usertypes:
 
 Types of principals (users)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -77,6 +75,7 @@ Types of principals (users)
 * Authenticated - Web GIS user who's logged in with any existing account (a.k.a. not a guest)
 * Everyone - this includes both guests and users logged in with existing account
 
+.. _ngcom_permissions_permtipes:
 
 Types of rules - what can be allowed or denied
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -97,42 +96,28 @@ Types of rules - what can be allowed or denied
      - Configure included (child) resource
    * - Resource: Configure permissions
      - Edit access permissions for the resources
-   * - Metadata: All permissions 
-     - Any actions on metadata
-   * - Metadata: Read
-     - Edit metadata
-   * - Metadata: Modify 
-     - Read metadata
-   * - Data structure: All permissions 
-     - Any actions with the data structure
-   * - Data structure: Read
-     - Read data structure
-   * - Data structure: Modify 
-     - Edit data structure
    * - Data: All permissions 
      - Any actions with the data
-   * - Data: Read
+   * - Data: Read data
      - Read data
-   * - Data: Modify 
+   * - Data: Modify data
      - Edit data
-   * - Connection: All permissions
+   * - External connections: All permissions
      - Any actions with the connections
-   * - Connection: Read
+   * - External connections: Read connection parameters
      - Read connection settings
-   * - Connection: Configure
+   * - External connections: Configure connection
      - Edit connections
-   * - Connection: Use
+   * - External connections: Use connection
      - Use connections (gives to the user access to the layers and data of the connection)
-   * - Service: All permissions
+   * - Web GIS services: All permissions
      - Any actions with the service
-   * - Service: Access
+   * - Web GIS services: Access service
      - Connect to the service
-   * - Service: Configure
+   * - Web GIS services: Configure service
      - Edit service settings
    * - Web Map: All permissions
      - Any actions with the Web Maps
-   * - Web Map: Open
-     - View Web Map
    * - Web Map: View annotations
      - View Web Map annotations
    * - Web Map: Draw annotations
@@ -142,14 +127,65 @@ Types of rules - what can be allowed or denied
    * - Collector: All permissions
      - Any actions with the Collector project 
    * - Collector: Read
-     - Read Collector data
+     - Any actions with the Collector project 
 
+.. _ngcom_permissions_tab:
+
+Permissions tab
+---------------------
+
+Permissions tab is available in Update resource page. Every row is a separate rule that inculdes:
+
+- **Action**: Allow or Deny; As everything that is not allowed by a rule is forbidden by default, we advise not to use "Deny".
+- **Principal**: username, name of a user group or a `type of users <https://docs.nextgis.com/docs_ngcom/source/permissions.html#ngcom-permissions-usertypes>`_ to whom the rule applies;
+- **Apply to**: This resource only or This and subresources;
+- **Permission**: determines actions that can be performed with a certain type of resource, see the full list in the `table <https://docs.nextgis.com/docs_ngcom/source/permissions.html#ngcom-permissions-permtypes>`_.
+
+
+.. figure:: _static/resource_permissions_tab_en_2.png
+   :name: resource_permissions_tab_pic
+   :align: center
+   :width: 20cm
+
+   Permissions tab
+
+.. _ngcom_permissions_new:
+
+How to add a new rule
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To add a new rule, press **Add** in the empty row at the end of the list and select **Allow**.
+
+.. figure:: _static/resource_permissions_new_en.png
+   :name: resource_permissions_tab_pic
+   :align: center
+   :width: 20cm
+
+   Adding new permission rule
+
+Then in each column select from a dropdown menu the value you need and press **Save**.
+
+.. figure:: _static/resource_permissions_new_details_en.png
+   :name: resource_permissions_tab_pic
+   :align: center
+   :width: 20cm
+
+   Selecting principal for the new rule
+
+To delete a rule, press X at the end of the row.
 
 .. _ngcom_permissions_cases:
 
-Common cases
+Common cases of assigning permissions
 ------------------------------
 
+This section contains examples of settings for some common cases of permission setups.
+
+* `Allow Guests to view the entire Web GIS <https://docs.nextgis.com/docs_ngcom/source/permissions.html#ngcom-permissions-guest-webgis>`_
+* `Allow Guests to view just one Web Map <https://docs.nextgis.com/docs_ngcom/source/permissions.html#ngcom-permissions-guest-webmap>`_
+* `Allow logged in users to use WMS service <https://docs.nextgis.com/docs_ngcom/source/permissions.html#ngcom-permissions-auth-wms>`_
+* `Allow to view PostGIS layer on a Web Map <https://docs.nextgis.com/docs_ngcom/source/permissions.html#postgis>`_
+* `Allow group of users to display trackers on Web Map <https://docs.nextgis.com/docs_ngcom/source/permissions.html#ngcom-permissions-track>`_
 
 .. _ngcom_permissions_guest_webgis:
 
@@ -161,9 +197,9 @@ Go to the Main resource group, select the Update action and set up the following
 * Action: **Allow**
 * Principal: **Guest**
 * Apply to **This and subresources**
-* Permission to **Read** for the **resource, metadata, data structure** and **data**.
+* Permission **Read** for **Resource** and **Data**.
 
-.. figure:: _static/allow_guest_webGIS_en.png
+.. figure:: _static/allow_guest_webGIS_en_2.png
    :name: allow_guest_webGIS_pic
    :align: center
    :width: 20cm
@@ -179,45 +215,34 @@ Allow Guests to view just one Web Map
 
 1. For the Main resource group **Resource: Read**;
 
-.. figure:: _static/allow_guest_main_en.png
+.. figure:: _static/allow_guest_main_en_2.png
    :name: allow_guest_main_pic
    :align: center
    :width: 20cm
 
-2. For the resource group containing data for the Web Map: **Resource: Read, Data: Read** and **Data structure: Read**;
+2. For the resource group containing data for the Web Map: **Resource: Read, Data: Read data**;
 
-.. figure:: _static/allow_guest_data_group_en.png
+.. figure:: _static/allow_guest_data_group_en_2.png
    :name: allow_guest_data_group_pic
    :align: center
    :width: 20cm
 
 3. For the resource group containing the Web Map, if it is not the same group that contains the data, also assign permission **Resource: Read**;
 
-.. figure:: _static/allow_guest_webmap_group_en.png
+.. figure:: _static/allow_guest_webmap_group_en_2.png
    :name: allow_guest_webmap_group_pic
    :align: center
    :width: 20cm
 
-4. For the Web Map: **Resource: Read** and **Web Map: Display**.
+4. For the Web Map set up permission **Resource: Read**.
 
-.. figure:: _static/allow_guest_webmap_en.png
+.. figure:: _static/allow_guest_webmap_en_2.png
    :name: allow_guest_webmap_pic
    :align: center
    :width: 20cm
 
 .. important::
 	We recommend keeping Web Map in a **separate group** from its layers, it will make setting up access rights more easy. If the Web Map is in the same group as the data, for the group only assign Resource: Read, then assing reading permission for every layer that has to be included. 
-
-If there are other Web Maps in the group that you wish to keep hidden from guests, make sure that the **Resource: Read** permission for the group is not propagated to the subresources and set to **This resource only**. 
-
-.. figure:: _static/guest_webmap_forbid_open_en.png
-   :name: guest_webmap_forbid_open_pic
-   :align: center
-   :width: 16cm
-
-   There are three Web Maps in the group. One is available to guests. The other is visible in the resource list, but cannot be opened. The third one is not visible in the list
-
-
 
 
 .. _ngcom_permissions_auth_wms:
@@ -230,14 +255,14 @@ Allow logged in users to use WMS service
 
 1. For the Main resource group: **Resource: Read**, apply to **This resource only**.
 
-.. figure:: _static/allow_auth_main_en.png
+.. figure:: _static/allow_auth_main_en_2.png
    :name: allow_auth_main_pic
    :align: center
    :width: 20cm
 
-2. For the group containing the data and the WMS service: **Resource: Read, Data: Read**, **Data structure: Read** and **Service: Access**, apply to **This and subresources**.
+2. For the group containing the data and the WMS service: **Resource: Read, Data: Read data** and **Web GIS services: Access service**, apply to **This and subresources**.
 
-.. figure:: _static/allow_authorized_WMS_en.png
+.. figure:: _static/allow_authorized_WMS_en_2.png
    :name: allow_authorized_WMS_pic
    :align: center
    :width: 20cm
@@ -252,32 +277,32 @@ Allow to view PostGIS layer on a Web Map
 
 * Action: **Allow**
 * Principal: **Guest** (if the map needs to be available unauthorized users), **Authenticated** (if it needs to be available only to users who have logged in) etc.
-* Apply to **This resource**
+* Apply to **This resource only**
 
 1. For the Main resource group **Resource: Read**;
 
-.. figure:: _static/allow_auth_main_en.png
+.. figure:: _static/allow_auth_main_en_2.png
    :name: allow_auth_main_pic
    :align: center
    :width: 20cm
 
-2. For the resource group containing data for the Web Map and the PostGIS layer: **Resource: Read, Data: Read, Data structure: Read** and **Connection: Use**;
+2. For the resource group containing data for the Web Map and the PostGIS layer: **Resource: Read, Data: Read data** and **External connections: Use connection**;
 
-.. figure:: _static/allow_auth_postgis_group_en.png
+.. figure:: _static/allow_auth_postgis_group_en_2.png
    :name: allow_auth_postgis_group_pic
    :align: center
    :width: 20cm
 
 3. For the resource group containing the Web Map, if it is not the same group that contains the data, also assign permission **Resource: Read**;
 
-.. figure:: _static/allow_auth_webmap_group_en.png
+.. figure:: _static/allow_auth_webmap_group_en_2.png
    :name: allow_auth_webmap_group_pic
    :align: center
    :width: 20cm
 
-4. For the Web Map: **Resource: Read** and **Web Map: Display**.
+4. For the Web Map set up permission **Resource: Read**.
 
-.. figure:: _static/allow_auth_webmap_en.png
+.. figure:: _static/allow_auth_webmap_en_2.png
    :name: allow_auth_webmap_pic
    :align: center
    :width: 20cm
@@ -285,7 +310,44 @@ Allow to view PostGIS layer on a Web Map
 .. important::
 	We recommend keeping Web Map in a **separate group** from its layers, it will make setting up access rights more easy. If the Web Map is in the same group as the data, for the group only assign Resource: Read, then assing reading permission for every layer that has to be included. 
 
-If there are other Web Maps in the group that you wish to keep hidden from guests, make sure that the **Resource: Read** permission for the group is not propagated to the subresources and set to **This resource only**.
+If there are other Web Maps in the group that you wish to keep hidden from guests, make sure that the **Resource: Read** permission for the group is not propagated to the subresources and set to **This resource only**. 
+
+.. _ngcom_permissions_track:
+
+Allow group of users to display trackers on Web Map
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Action: **Allow**
+* Principal: **User group** (e.g. "Research group")
+
+1. Permission **Resource: Read**. Apply to: **This resource only**.
+
+Set it for: 
+
+* Main resource group
+* Group that contains tracker group
+* Trackers group
+* Tracker
+* Group that contains Web Map
+* Web Map
+
+.. figure:: _static/allow_group_webmap_en.png
+   :name: allow_guest_webmap_pic
+   :align: center
+   :width: 20cm
+
+2. Permissions: **Resource: Read** for **This resource only** and **Data: Read data** for **This and subresources**
+
+Set it for:
+
+* Resource group containing data for the Web Map
+
+.. figure:: _static/allow_group_data_group_en.png
+   :name: allow_guest_data_group_pic
+   :align: center
+   :width: 20cm
+
+
 
 
 
