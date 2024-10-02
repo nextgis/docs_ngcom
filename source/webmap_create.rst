@@ -17,10 +17,9 @@ Create Web Map
 #. Open :ref:`Resource group <ngcom_resources_group>` where you want to create Web Map (by default, from the main page of Web GIS you access the Main resource group);
 #. Press **Create resource** and select **Web Map**;
 #. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new Web Map in the field :guilabel:`Display name`;
-#. Set Web Map :term:`extent` in the tab :guilabel:`Extent and Bookmarks` (optional);
 #. Go to :guilabel:`Layers` tab and using :guilabel:`Add layer` dialog window select the resources (:ref:`Basemaps <ngcom_basemap_layer>`, :ref:`Styles <ngcom_styles>` or :ref:`WMS layers <ngcom_wms_layer>`) which you want to display on your Web Map;
 #. Select layers one-by-one using a layer tree and set their properties in the right section of the dialog window. For :ref:`WMS layers <ngcom_wms_layer>` it is recommended to select :guilabel:`Image` as an adapter. If you select :guilabel:`Tiles` adapter, you will quickly use up all available connections and other layers on the map will not be shown until these connections are free again.
-#. The :guilabel:`Settings` tab is used to allow layer editing and enable annotations
+#. The :guilabel:`Settings` tab is used to allow layer editing and enable annotations, eet Web Map :term:`extent` and a title if it needs to be different than resource name.
 #. Press **Create** button. If Web Map is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
 
 .. note:: 
