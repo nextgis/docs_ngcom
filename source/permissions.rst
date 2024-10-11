@@ -129,10 +129,56 @@ Types of rules - what can be allowed or denied
    * - Collector: Read
      - Any actions with the Collector project 
 
+
+.. _ngcom_permissions_view:
+
+Viewing user permissions
+---------------------------
+
+To view which permissions particular users or groups of users have for a resource press **User permissions** in the "Extra" panel on the right side of the resource page.
+
+.. figure:: _static/view_permissions_select_en.png
+   :name: view_permissions_select_pic
+   :align: center
+   :width: 20cm
+
+   Opening user permissions page for the "Example" resource group viewed in browser
+
+This page only displays permissions that concern the resource itself. For example, if a folder has a "Read data" permission for its subresources, it will not be displayed, because the folder itself has no data. To check for this type of permission open one of the subresources and see user permissions for it.
+
+By default the page contains permissions for the user that is currently logged in. To view permissions for other users, press the arrow at the end of the field and select a user or a group in the dropdown menu.
+
+.. figure:: _static/view_permissions_principals_en.png
+   :name: view_permissions_principals_pic
+   :align: center
+   :width: 16cm
+
+   Selecting user to view permissions
+
+.. figure:: _static/view_permissions_otheruser_en.png
+   :name: view_permissions_otheruser_pic
+   :align: center
+   :width: 16cm
+
+   Viewing permissions for user Someone Else who only has a right to read the resource
+
+By default the Administrator and users added to the group Administrators have permission to view permissions for any user. Viewing user permissions is a global permission that is set up in the `Control panel <https://docs.nextgis.com/docs_ngweb/source/admin_tasks.html#ngw-group-rights>`_.
+
+If a user does not have a global permission to view users and groups, but has a permission to view the resource, the option to display permissions is available, but only for that one user. Guests can only view user permissions for guest.
+
+.. figure:: _static/view_permissions_blocked_en.png
+   :name: view_permissions_blocked_pic
+   :align: center
+   :width: 20cm
+
+   User selection unavailable
+
+
+
 .. _ngcom_permissions_tab:
 
-Permissions tab
----------------------
+Permissions tab in Settings
+---------------------------
 
 Permissions tab is available in Update resource page. Every row is a separate rule that inculdes:
 
