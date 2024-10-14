@@ -6,7 +6,7 @@ How to upload data
 Raster and vector geodata are uploaded to :ref:`Web GIS <ngcom_description>` by creating :ref:`Raster layer <ngcom_raster_layer>` and :ref:`Vector layer <ngcom_vector_layer>` resources respectively.
 
 .. note:: 
-	The size limit for uploaded files depends on the selected plan. For **Premium** - 2.0 GiB, for **Free** - 128 MB and **Mini** - 256 MB. For rasters, this limit corresponds to uncompressed files in EPSG: 3857.
+	The size limit for uploaded files depends on the selected plan. For **Premium** - 2.0 GB, for **Free** - 128 MB and **Mini** - 256 MB. For rasters, this limit corresponds to uncompressed files in EPSG: 3857.
 
 
 .. _ngcom_data_preview:
@@ -86,7 +86,7 @@ There are three important limitations for uploading large raster files:
 
 #. File size - maximum file size being uploaded is **2 Gb**. This limit can't be changed on Premium, but can be changed `on-premise <https://nextgis.com/pricing/>`_;
 #. Raster size on the server - afther the file is extracted to the cloud, it must not be larger than **4 Gb**. You can calculate the size of the extracted raster using the following formula: number of pixels * number of channels * bytes per pixel. 
-#. Total data volume - you can upload up to **50 Gb** of data on Premium (this limit can be `raised <https://nextgis.com/pricing-base/#volume-premium>`_);
+#. Total data volume - you can upload up to **50 GiB** of data on Premium (this limit can be `raised <https://nextgis.com/pricing-base/#volume-premium>`_);
 
 There is no limitation for processing time.
 
