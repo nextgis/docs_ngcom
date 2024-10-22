@@ -5,6 +5,8 @@ How to transfer resources within Web GIS
 
 :ref:`Web GIS <ngcom_description>` resourses (data layers, connections, services, groups) can be transferred from one :ref:`Resource group <ngcom_resources_group>` to another after their creation. There are two ways to do so.
 
+.. _ngcom_parent_change_update:
+
 Using resource update
 ----------------------
 
@@ -16,6 +18,8 @@ This is a good way if you only need to move one resource.
 #. Press :guilabel:`Save` button. If a resource is transferred successfully its name will appear in the new Resource group and disappear from the previous Resource group.
 
 In the same way you can transfer :ref:`Styles <ngcom_styles>` between parent resources (:ref:`Vector layers <ngcom_vector_layer>`, :ref:`Raster layers <ngcom_raster_layer>`, :ref:`PostGIS layers <ngcom_postgis_layer>`).
+
+.. _ngcom_parent_change_multi:
 
 Using multiple selection
 ------------------------
