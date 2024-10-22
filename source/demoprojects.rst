@@ -17,8 +17,10 @@ To access demo projects go to the main page of **your Web GIS** and log in as th
  
    Two ways to open demo projects
 
+.. ngcom_demopr_actions:
+
 What you can do with demo projects
------------------------------
+-----------------------------------
 
 Every project has two buttons (see :numref:`demo_project_main_pic`):
 
