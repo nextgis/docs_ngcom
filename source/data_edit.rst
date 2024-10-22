@@ -10,6 +10,8 @@ How to edit data
 	
 :ref:`Web GIS <ngcom_description>` allows to edit objects and their attributes and to add descriptions and attachments (including photos) of features in :ref:`Vector layers <ngcom_vector_layer>` and :ref:`PostGIS layers <ngcom_postgis_layer>`.
 
+.. _ngcom_data_edit_allow:
+
 How to set up editing permission
 -----------------------------------
 
