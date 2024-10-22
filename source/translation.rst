@@ -22,6 +22,8 @@ We invite users to contribute to the quality of our translations.
 If you are an expert in any of the listed or other languages, you can improve the current user interface by yourself.
 As soon as 80% of translated content appears, we add a new language to NGW.
 
+.. _ngcom_translation_join:
+
 Join the project
 -----------------
 
@@ -39,6 +41,7 @@ Then select languages and click **Join translation**.
 
 After that, this `page <https://poeditor.com/projects/>`_ will display a list of projects (in our case, NextGIS Web GUI) that have a set of selected languages.
 
+.. _ngcom_translation_how:
 
 How to translate
 ----------------
