@@ -8,6 +8,8 @@ How to change the look of your Web GIS
 
 You can customize the look of your Web GIS, including logos, backgrounds, header and buttons colors.
 
+.. _ngcom_CSS_logo:
+
 Upload a logo
 -------------
 You can change the upper-left logo (present on all pages), you can't change the Web map logo (lower right).
@@ -15,6 +17,7 @@ You can change the upper-left logo (present on all pages), you can't change the 
 To upload a logo choose :guilabel:`Custom logo` on control panel (see item 1 in :numref:`admin_index_pic`) and in opened window upload a file in PNG format with height up to 45 px, width up to 200 px. Then press "Save".
 
 
+.. _ngcom_CSS_settings:
 
 Customize design with CSS
 -------------------------------------------
@@ -26,8 +29,12 @@ From the main menu (see :numref:`admin_index_pic`) open the Control Panel (see :
 In the Control Panel (see :numref:`admin_control_panel`) select **Custom CSS** in the Settings section.
 Here you can enter your own :term:`CSS` rules. They will be used throughout your Web GIS on all its pages. 
 
+.. _ngcom_CSS_ex:
+
 Custom CSS examples
 -------------------------------------------
+
+.. _ngcom_CSS_colormain:
 
 Change main Web GIS color 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -40,6 +47,8 @@ Affects header, symbols in the header, buttons, field contours, links highlighte
   	--primary: red
 	}
 
+.. _ngcom_CSS_colorfont:
+
 Change main font color 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -50,6 +59,8 @@ Affects menu, name and parameters of displayed resource group etc.
 	:root {
   	--text-base: #ff6600
 	}
+
+.. _ngcom_CSS_colorfontadd:
 
 Change additional font color
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
