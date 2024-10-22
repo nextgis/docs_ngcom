@@ -52,6 +52,7 @@ To modify address search parameters open the main menu, go to the control panel,
    
    Selecting Web Map settings in the control panel
 
+.. ngcom_address_search_disable:
 
 Disabling address search
 ---------------------------
@@ -66,6 +67,7 @@ From the control panel go to `Web Map settings <https://docs.nextgis.com/docs_ng
    
    Address search disabled
 
+.. ngcom_address_search_provider:
 
 Selecting search provider
 ---------------------------
@@ -90,6 +92,7 @@ To use Yandex.Maps enter your API key in the field on the right. API keys can be
    
    Entering API key to use Yandex.Maps
 
+.. ngcom_address_search_area:
 
 Limit search area
 -----------------------
