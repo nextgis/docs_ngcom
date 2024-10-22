@@ -5,6 +5,8 @@ How to delete data
 
 :ref:`Web GIS <ngcom_description>` allows to delete uploaded and connected geodata by deleting the corresponding resources (:ref:`Vector layers <ngcom_vector_layer>`, :ref:`Raster layers <ngcom_raster_layer>`, :ref:`PostGIS layers <ngcom_postgis_layer>`, :ref:`WMS layers <ngcom_postgis_layer>`, :ref:`PostGIS and WMS connections <ngcom_data_connect>`, :ref:`WMS and WFS services <ngcom_data_services>`, :ref:`Styles <ngcom_styles>`, :ref:`Resource groups <ngcom_resources_group>`).  
 
+.. _ngcom_resource_delete_one:
+
 How to delete one resource
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -49,6 +51,8 @@ Press :guilabel:`Delete` button.
    “Delete resource” window
 
 If a resource is deleted successfully its name will disappear from the relevant :ref:`Resource group <ngcom_resources_group>`.
+
+.. _ngcom_resource_delete_multi:
 
 How to delete several resources at once
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
