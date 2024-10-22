@@ -29,6 +29,8 @@ Also you need to choose the group for the copy. By default it's the group contai
 If all the parameters are correct, press "Clone". A copy of the map will be created.
 After the cloning process is completed successfully you will be redirected to "Update resource" page where you can change the settings of the newly created copy.
 
+.. _ngcom_webmap_clone_select:
+
 How to select a target group
 ------------------------------
 
@@ -69,6 +71,7 @@ Another way is to open the group and press "Clone to this group". If no group is
 
 Use this way to copy a Web Map to the main resource group (marked by a house icon in the path panel).
 
+.. _ngcom_webmap_clone_new:
 
 How to clone to a new group
 --------------------------------------
