@@ -5,6 +5,8 @@
 
 :ref:`Веб ГИС <ngcom_description>` позволяет удалять загруженные и подключенные в нее данные путем удаления соответствующих ресурсов (:ref:`Векторных слоев <ngcom_vector_layer>`, :ref:`Растровых слоев <ngcom_raster_layer>`, :ref:`Слоев PostGIS <ngcom_postgis_layer>`, :ref:`Слоев WMS <ngcom_postgis_layer>`, а также :ref:`Соединений PostGIS <ngcom_postgis_connect>` и :ref:`Соединений WMS <ngcom_wms_connect>`, :ref:`Сервисов <ngcom_data_services>`, :ref:`Стилей <ngcom_styles>`, :ref:`Групп ресурсов <ngcom_resources_group>`). 
 
+.. _ngcom_resource_delete_one:
+
 Как удалить один ресурс
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -49,6 +51,8 @@
    Удаление ресурса
 
 Если ресурс успешно удален, то информация о нем исчезнет из соответствующей :ref:`Группы ресурсов <ngcom_resources_group>`.
+
+.. _ngcom_resource_delete_multi:
 
 Как удалить несколько ресурсов сразу
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
