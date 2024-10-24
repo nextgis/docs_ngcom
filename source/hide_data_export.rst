@@ -4,7 +4,7 @@ How to hide the ability to export data option
 =============================================
 
 .. note:: 
-   This option is available only to users with Administrator rights.
+   This option is available on `Premium <https://nextgis.com/pricing-base/>`_ subscribtion plan. Settings can by changed only by users with Administrator rights.
 
 To hide the ability to export data from Web GIS from certain categories of users, you need to:
 
