@@ -5,6 +5,9 @@
 Как работать с кадастровыми сервисами
 ======================================
 
+.. note::
+   Функционал доступен на плане `Premium <https://nextgis.ru/pricing-base/>`_.
+
 Для получения доступа к кадастровым сервисам необходим API ключ. 
 
 1. Зайдите на сайт `NextGIS GeoServices <https://geoservices.nextgis.com/settings/profile>`_, авторизуйтесь с помощью NextGIS ID.
