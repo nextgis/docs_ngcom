@@ -45,7 +45,7 @@
 3. Дождаться уведомления о переводе на Premium;
 4. Авторизоваться на geoservices.nextgis.com (облачный аккаунт NextGIS ID, пункт 1);
 5. Перейти на вкладку `Profile <https://geoservices.nextgis.com/settings/profile>`_ и скопировать `API ключ <https://docs.nextgis.ru/docs_geoservices/source/rosreestr_pkk.html#nggeos-pkk>`_;
-6. Вставить ключ в настройки на стороне NGW в `Панели управления <https://docs.nextgis.ru/docs_ngweb/source/admin_tasks.html#ngw-cadastre-services>`_.
+6. Вставить ключ в настройки на стороне NGW в `Панели управления <https://docs.nextgis.ru/docs_ngweb/source/cadaster.html#ngw-cadaster>`_.
 
 
 .. _ngcom_cadaster_basemap:
