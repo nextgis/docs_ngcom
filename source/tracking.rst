@@ -162,12 +162,25 @@
    
    Список записанных треков
 
+.. _tracking_ngtracker:
 
-**3. NextGIS Tracker**
+3. NextGIS Tracker
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Это простое приложение, предназначенное только для записи треков.
 
-*...Coming up...*
+В главном окне приложения внизу справа нажмите зеленую кнопку старта, см. :numref:`ngtr_track_start_pic`.
+
+.. figure:: _static/track_start_ru.png
+   :name: ngtr_track_start_pic
+   :align: center
+   :width: 8cm
+
+   Старт записи трека
+
+В панели уведомлений мобильного устройства появился значок человека, который говорит о том, что идет запись трека. Открыв эту панель, можно остановить запись трека, посредством кнопки **Стоп**.
+
+Записываемые треки можно `автоматически отправлять в Веб ГИС <https://docs.nextgis.ru/docs_ngtracker/source/setting_up.html#ngtr-set-send>`_ или `экспортировать <https://docs.nextgis.ru/docs_ngtracker/source/export.html>`_ в виде GPX-файла.
 
 .. _tracking_web_map:
 
