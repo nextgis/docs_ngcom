@@ -162,7 +162,7 @@ By default the page contains permissions for the user that is currently logged i
 
    Viewing permissions for user Someone Else who only has a right to read the resource
 
-By default the Administrator and users added to the group Administrators have permission to view permissions for any user. Viewing user permissions is a global permission that is set up in the `Control panel <https://docs.nextgis.com/docs_ngweb/source/admin_tasks.html#ngw-group-rights>`_.
+By default the Administrator and users added to the group Administrators have permission to view permissions for any user. Viewing user permissions is a global permission that is set up in the `Control panel <https://docs.nextgis.com/docs_ngweb/source/users.html#global-permissions>`_.
 
 If a user does not have a global permission to view users and groups, but has a permission to view the resource, the option to display permissions is available, but only for that one user. Guests can only view user permissions for guest.
 
