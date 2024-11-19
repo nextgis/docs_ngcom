@@ -184,10 +184,10 @@
 
 4. В открывшейся форме отредактируйте значения атрибутов объекта на вкладке :guilabel:`Атрибуты`, добавьте описание и вложения на вкладках :guilabel:`Описание` и :guilabel:`Вложения` соответственно;
 
-.. figure:: _static/webgis_change_attr_tab_ru.png
+.. figure:: _static/webgis_change_attr_value_ru.png
    :name: webgis_change_attr_tab
    :align: center
-   :width: 20cm
+   :width: 16cm
    
    Редактирование атрибутов объекта
 
