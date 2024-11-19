@@ -176,10 +176,10 @@ Edit attributes using Web Map
    
 4. In the opened form edit the values of feature attributes in :guilabel:`Attributes` tab, add description and attachments in :guilabel:`Description` and :guilabel:`Attachments` tabs;
 
-.. figure:: _static/webgis_change_attr_tab_en.png
+.. figure:: _static/webgis_change_attr_value_en.png
    :name: webgis_change_attr_tab
    :align: center
-   :width: 20cm
+   :width: 13cm
    
    Editing attributes
    
