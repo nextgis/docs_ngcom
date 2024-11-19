@@ -3,6 +3,8 @@
 How to enable caching
 =====================
 
+.. note:: Caching is available for Web GIS on `Premium <https://nextgis.com/pricing-base/>`_ subscription plan.
+
 Caching is used to speed up data rendering and `optimize <https://docs.nextgis.com/docs_ngcom/source/webmap_optimize.html>`_ the performance of web maps.
 It can be applied to `vector <https://docs.nextgis.com/docs_ngweb/source/mapstyles.html>`_ and `raster <https://docs.nextgis.com/docs_ngweb/source/layers.html#raster-style-qgis>`_ layer styles, as well as `WMS <https://docs.nextgis.com/docs_ngweb/source/layers.html#wms-layer>`_ and `TMS <https://docs.nextgis.com/docs_ngweb/source/layers.html#tms-layer>`_ layers.
 
