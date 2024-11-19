@@ -7,7 +7,7 @@ How to begin data collection in your Web GIS
 ==============================================
 
 .. note:: 
-	You can use described functionality in Web GIS created in nextgis.com_ service on `Premium plan <http://nextgis.com/pricing/#premium/>`_
+	You can use described functionality in Web GIS created in nextgis.com_ service on `Premium plan <https://nextgis.com/pricing-base/>`_
   
 Introduction
 ------------
@@ -66,7 +66,7 @@ NextGIS Collector is a technological stack allowing users to create a dataflow b
 
 There are several stages of data collection process in NextGIS Collector:
 
-1. The organizer of data collection registers in nextgis.com_ and creates a Web GIS on `Premium plan <http://nextgis.com/pricing/#premium/>`_.
+1. The organizer of data collection registers in nextgis.com_ and creates a Web GIS on `Premium plan <https://nextgis.com/pricing-base/>`_.
 2. The organizer installs `NextGIS Formbuilder <http://nextgis.com/nextgis-formbuilder>`_, creates data collection forms and uploads them to the Web GIS (`see documentation <https://docs.nextgis.com/docs_formbuilder/source/toc.html>`_). 
 3. A team of data collection participants registers in nextgis.com_.
 4. The organizer of data collection adds a team of data collection participants to his Web GIS and creates a project of data collection.
