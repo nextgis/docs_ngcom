@@ -51,7 +51,7 @@
    Создание трекера
 
 .. figure:: _static/tracker_settings_id_ru.png
-   :name: Настройки трекера
+   :name: tracker_settings_pic
    :align: center
    :width: 20cm
    
