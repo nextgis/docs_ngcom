@@ -6,7 +6,9 @@ How to change Web GIS domain
 .. note:: 
 	This functionality is available only to nextgis.com `Premium users <http://nextgis.com/nextgis-com/plans>`_.
 
-After you created a Web GIS you get a domain at nextgis.com, for example *mywebgis.nextgis.com*. Afterwards, you can change it to a subdomain  under the domain of your organization, for example *gis.example.com* where example.com is the domain of your organization. We will use these two addresses in the examples below.
+After you created a Web GIS you get a domain at nextgis.com, for example *mywebgis.nextgis.com*. You can rename it to something else, i.e. *mywebgis2.nextgis.com* by contacting support.
+
+You can also change it to a subdomain  under the domain of your organization, for example *gis.example.com* where example.com is the domain of your organization. We will use these two addresses in the examples below.
 
 .. note::
 	You can't use your organization domain itself (mycompany.com) as Web GIS domain.  It is impossible to add CNAME record in the DNS zone root with most of the providers.
