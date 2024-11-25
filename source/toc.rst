@@ -45,7 +45,6 @@
    ngapi
    domain
    yandexmetrika
-   backup
    translation
    help
    faq_webgis
