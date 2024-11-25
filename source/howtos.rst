@@ -1,15 +1,17 @@
 Пошаговые инструкции
 =====================
 
-1.33. Как работать с кадастровыми сервисами
-1.22. Как добавить элементы Веб ГИС в избранное
-1.28. Как настроить шрифты на веб-карте
-1.30. Как работать с системами координат
-1.31. Как скрыть возможность скачать данные
-1.35. Как настроить адресный поиск на веб-картах
-1.40. Как включить режим CORS в своей Веб ГИС
-1.41.1. Загрузка логотипа
-1.41. Как настроить внешний вид Веб ГИС
-1.42. Как настроить стартовую страницу
-1.44. Как подключить свою Веб ГИС к Яндекс.Метрике
-1.45. Политика резервного копирования
+* `Как добавить элементы Веб ГИС в избранное <https://docs.nextgis.ru/docs_ngweb/source/favorites.html>`_
+* `Как настроить шрифты на веб-карте <https://docs.nextgis.ru/docs_ngweb/source/look.html#ngw-fonts>`_
+* `Как работать с системами координат <https://docs.nextgis.ru/docs_ngweb/source/ngw_srs.html>`_
+* `Как скрыть возможность скачать данные <https://docs.nextgis.ru/docs_ngweb/source/look.html#ngw-res-export>`_
+* `Как настроить адресный поиск на веб-картах <https://docs.nextgis.ru/docs_ngweb/source/webmap_set.html#ngw-contr-panel-webmap-search>`_
+* `Как включить режим CORS в своей Веб ГИС <https://docs.nextgis.ru/docs_ngweb/source/cors.html>`_
+* `Как настроить внешний вид Веб ГИС <https://docs.nextgis.ru/docs_ngweb/source/look.html>`_
+* `Как настроить стартовую страницу <https://docs.nextgis.ru/docs_ngweb/source/look.html#ngw-homepage>`_
+* `Как восстановить данные из резервной копии Веб ГИС <https://docs.nextgis.ru/docs_ngweb/source/infowebgis.html#ngw-backups-policy>`_
+* `Как работать с кадастровыми сервисами <https://docs.nextgis.ru/docs_ngweb/source/cadaster.html>`_
+
+* `Как подключить свою Веб ГИС к Яндекс.Метрике <https://docs.nextgis.ru/docs_ngcom/source/yandexmetrika.html>`_
+
+
