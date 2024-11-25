@@ -11,6 +11,8 @@
 * `Как настроить стартовую страницу <https://docs.nextgis.ru/docs_ngweb/source/look.html#ngw-homepage>`_
 * `Как восстановить данные из резервной копии Веб ГИС <https://docs.nextgis.ru/docs_ngweb/source/infowebgis.html#ngw-backups-policy>`_
 * `Как работать с кадастровыми сервисами <https://docs.nextgis.ru/docs_ngweb/source/cadaster.html>`_
+* `Как упорядочить хранение данных <https://docs.nextgis.ru/docs_ngweb/source/create_resource.html#ngw-resourses-group>`_
+* `Как использовать любой слой вашей Веб ГИС как подложку <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html#ngw-layer-as-basemap>`_
 
 * `Как подключить свою Веб ГИС к Яндекс.Метрике <https://docs.nextgis.ru/docs_ngcom/source/yandexmetrika.html>`_
 
