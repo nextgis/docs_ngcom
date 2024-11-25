@@ -30,31 +30,23 @@
    webmap_print
    data_services
    resources_group
-   favorites
    parent_change
    metadata_add
    data_edit
    attachments
    lookup
-   fonts
    data_export
-   srs
    external_srs
-   hide_data_export
    resource_delete
-   cadaster
    ngqgis_connect
-   address_search
    tracking
    permissions
    collector
    ngapi
-   CORS
-   CSS
-   homepage
    domain
    yandexmetrika
    backup
    translation
    help
    faq_webgis
+   howtos
