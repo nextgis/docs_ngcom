@@ -29,7 +29,6 @@
    embed_webmap
    webmap_print
    data_services
-   resources_group
    parent_change
    metadata_add
    data_edit
