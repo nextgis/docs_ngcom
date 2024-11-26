@@ -19,17 +19,13 @@
    data_connect
    styles
    webmap_create
-   legend
    webmap_clone
    svgmarkers
-   tile_cache
    webmap_optimize
-   annotation
    embed_webmap
    webmap_print
    data_services
    parent_change
-   metadata_add
    data_edit
    attachments
    lookup
