@@ -20,9 +20,7 @@
    styles
    webmap_create
    svgmarkers
-   webmap_optimize
    embed_webmap
-   webmap_print
    data_services
    lookup
    external_srs
