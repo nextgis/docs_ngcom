@@ -24,7 +24,6 @@
    embed_webmap
    webmap_print
    data_services
-   data_edit
    lookup
    data_export
    external_srs
