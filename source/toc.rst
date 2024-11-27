@@ -25,7 +25,6 @@
    webmap_print
    data_services
    lookup
-   data_export
    external_srs
    ngqgis_connect
    tracking
