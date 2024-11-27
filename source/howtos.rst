@@ -13,6 +13,17 @@
 * `Как работать с кадастровыми сервисами <https://docs.nextgis.ru/docs_ngweb/source/cadaster.html>`_
 * `Как упорядочить хранение данных <https://docs.nextgis.ru/docs_ngweb/source/create_resource.html#ngw-resourses-group>`_
 * `Как использовать любой слой вашей Веб ГИС как подложку <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html#ngw-layer-as-basemap>`_
+* `Как настроить легенду <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html#ngw-legend>`_
+* `Как клонировать (копировать) веб-карту <https://docs.nextgis.ru/docs_ngweb/source/webmap_clone.html>`_
+* `Как включить кэширование <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#ngw-create-tile-cache>`_
+* `Как включить аннотации для веб-карты <https://docs.nextgis.ru/docs_ngweb/source/annotation.html>`_
+* `Как перемещать ресурсы внутри Веб ГИС <https://docs.nextgis.ru/docs_ngweb/source/edit_resource.html#ngw-move-resource>`_
+* `Как удалять данные <https://docs.nextgis.ru/docs_ngweb/source/edit_resource.html#ngw-delete-resource>`_
+* `Как добавлять описания и метаданные для ресурсов <https://docs.nextgis.ru/docs_ngweb/source/edit_resource.html#ngw-update-info-metada>`_
+* `Как редактировать данные <https://docs.nextgis.ru/docs_ngweb/source/layers_settings.html#ngw-edit-objects>`_
+* `Как управлять вложениями <https://docs.nextgis.ru/docs_ngweb/source/layers_settings.html#ngw-add-photos>`_
+* `Как экспортировать данные <https://docs.nextgis.ru/docs_ngweb/source/admin_interface.html#ngw-vector-export>`_
+
 
 .. to do:: на отдельных страницах
 
