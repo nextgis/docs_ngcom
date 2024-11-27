@@ -19,19 +19,15 @@
    data_connect
    styles
    webmap_create
-   webmap_clone
    svgmarkers
    webmap_optimize
    embed_webmap
    webmap_print
    data_services
-   parent_change
    data_edit
-   attachments
    lookup
    data_export
    external_srs
-   resource_delete
    ngqgis_connect
    tracking
    permissions
