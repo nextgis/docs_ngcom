@@ -23,7 +23,8 @@
 * `Как редактировать данные <https://docs.nextgis.ru/docs_ngweb/source/layers_settings.html#ngw-edit-objects>`_
 * `Как управлять вложениями <https://docs.nextgis.ru/docs_ngweb/source/layers_settings.html#ngw-add-photos>`_
 * `Как экспортировать данные <https://docs.nextgis.ru/docs_ngweb/source/admin_interface.html#ngw-vector-export>`_
-
+* `Как оптимизировать работу Веб-карты <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html#ngw-webmap-optimize>`_
+* `Как распечатать веб-карту <https://docs.nextgis.ru/docs_ngweb/source/print.html>`_
 
 .. to do:: на отдельных страницах
 
