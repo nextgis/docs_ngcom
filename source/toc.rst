@@ -16,22 +16,24 @@
    resources
    demoprojects
    data_upload
-   data_connect
-   styles
-   webmap_create
-   svgmarkers
-   embed_webmap
-   data_services
-   lookup
-   external_srs
-   ngqgis_connect
-   tracking
-   permissions
-   collector
-   ngapi
-   domain
-   yandexmetrika
-   translation
-   help
    faq_webgis
    howtos
+   help
+   permissions
+   tracking
+   collector
+   ngqgis_connect
+   ngapi
+   yandexmetrika
+   translation
+   data_connect
+   embed_webmap
+   svgmarkers
+   styles
+   webmap_create
+   data_services
+   lookup
+   domain
+
+
+
