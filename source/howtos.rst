@@ -25,6 +25,7 @@
 * `Как экспортировать данные <https://docs.nextgis.ru/docs_ngweb/source/admin_interface.html#ngw-vector-export>`_
 * `Как оптимизировать работу Веб-карты <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html#ngw-webmap-optimize>`_
 * `Как распечатать веб-карту <https://docs.nextgis.ru/docs_ngweb/source/print.html>`_
+* `Как изменить домен Веб ГИС <https://docs.nextgis.ru/docs_ngweb/source/domain.html>`_
 
 .. to do:: на отдельных страницах
 
