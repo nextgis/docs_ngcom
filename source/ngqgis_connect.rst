@@ -223,7 +223,7 @@ It's possible due to the quick creation of :ref:`WFS service <ngcom_wfs_service>
 .. _create_ogc_api_feat_service:
 
 Creating OGC API - Features services
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 NextGIS Connect plugin enables a fast publication of Vector layers from your Web GIS using standard OGC API - Features protocol. 
 
@@ -319,7 +319,7 @@ Editing data
 NextGIS Connect plugin allows to quickly edit geometries and attribute values of vector layers in Web GIS. This functionality is only available for vector data formats used in QGIS.
 
 .. warning::
-	Only one user at a time can edit the layer directly.
+	By default only one user at a time can edit the layer *directly*.
 
 #. Import the layer from Web GIS to QGIS by selecting it in NextGIS Connect and pressing **Add to QGIS**.
 #. Enter the edit mode from the layer’s context menu or from the toolbar.
@@ -341,6 +341,19 @@ If changes have been made to the layer in Web GIS since the last synchronization
    :width: 10cm
 
    Layer status dialog. To reset the layer, press the downward arrow by the "Synchronization" button and select "Reset layer"
+
+If the layer needs to be edited using multiple devices/platforms at once, the options are:
+
+1. Use OGC API — Features or `WFS <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#ngcom-connect-data-edit-wfs>`_ services. You can create them in the web interface (`WFS <https://docs.nextgis.com/docs_ngweb/source/layers.html#wfs-service>`_, `OGC API — Features <https://docs.nextgis.com/docs_ngweb/source/layers.html#ogc-api-features-service>`_) or directly `from Connect panel <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#creating-wfs-wfs-and-ogc-api-features-services>`_, and edit the layer via a servce.
+
+2. Edit directly in QGIS with enabled `feature versioning <https://docs.nextgis.com/docs_ngweb/source/layers.html#create-vector-layer-vers-pic>`_. Turn it on in the vector layer settings. When versioning is enabled, changes of the layer are logged. It allows Connect to detect changes made on other devices and process them without resetting the layer. 
+
+Synchronization and versioning only apply to the data. Changing the structure of the layer makes synching it impossible. You'd need to load the layer again to continue working. 
+
+.. _ngcom_connect_data_edit_wfs:
+
+Editing data via WFS
+~~~~~~~~~~~~~~~~~~~~~
 
 You can also edit a vector layer using the standard :term:`WFS` protocol (with feature edit support):
 
