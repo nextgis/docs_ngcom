@@ -3,7 +3,7 @@
 Как управлять данными с помощью настольного приложения QGIS
 ===================================================================
 
-Загружать, редактировать и совершать другие операции с геоданными в :ref:`Веб ГИС <ngcom_description>` можно не только через административный :ref:`веб-интерфейс <ngw_admin_interface>`, но и с помощью настольного приложения QGIS. (Также вы можете использовать `NextGIS QGIS <http://nextgis.ru/nextgis-qgis/>`_.)
+Загружать, редактировать и совершать другие операции с геоданными в :ref:`Веб ГИС <ngcom_description>` можно не только через административный :ref:`веб-интерфейс <ngw_admin_interface>`, но и с помощью настольного приложения QGIS (также вы можете использовать `NextGIS QGIS <http://nextgis.ru/nextgis-qgis/>`_).
 
 Модуль NextGIS Connect позволяет обмениваться данными с множеством Веб ГИС из настольного приложения. Для этого необходимо создать к ним соответствующие `подключения <https://docs.nextgis.ru/docs_ngconnect/source/ngc_install.html#ng-connect-new-connection>`_.
 
@@ -15,4 +15,4 @@
 * `Редактировать <https://docs.nextgis.ru/docs_ngconnect/source/edit.html>`_ данные в Веб ГИС при помощи приложения QGIS.
 * `Экспортировать <https://docs.nextgis.ru/docs_ngconnect/source/export.html>`_ данные и стили слоёв в файл.
 
-Модуль NextGIS Connect доступен в стандартном репозитории QGIS. 
+Модуль NextGIS Connect доступен в стандартном репозитории QGIS. Полная документация модуля NextGIS Connect представлена в `данном разделе <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>`_. 
