@@ -5,10 +5,10 @@
 
 Веб ГИС - это система, предназначенная для хранения пространственных данных и управления ими через веб-интерфейс или :term:`API`. 
 
-.. figure:: _static/webgis.png
+.. figure:: _static/webgis_flood_ru.png
    :name: webgis
    :align: center
-   :width: 16cm
+   :width: 20cm
 
 С помощью Веб ГИС вы сможете:
 
