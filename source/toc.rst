@@ -18,7 +18,6 @@
    data_upload
    faq_webgis
    howtos
-   help
    permissions
    tracking
    collector
@@ -33,6 +32,7 @@
    webmap_create
    data_services
    lookup
+   help
 
 
 
