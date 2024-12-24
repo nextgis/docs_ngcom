@@ -17,6 +17,7 @@
    demoprojects
    data_upload
    faq_webgis
+   help
    howtos
    permissions
    tracking
@@ -32,7 +33,7 @@
    webmap_create
    data_services
    lookup
-   help
+
 
 
 
