@@ -8,11 +8,11 @@ How to...
 * `How to set up Address Search <https://docs.nextgis.com/docs_ngweb/source/webmap_set.html#ngw-contr-panel-webmap-search>`_
 * `How to enable CORS for your Web GIS <https://docs.nextgis.com/docs_ngweb/source/cors.html>`_
 * `How to change the look of your Web GIS <https://docs.nextgis.com/docs_ngweb/source/look.html>`_
-* `Как настроить стартовую страницу <https://docs.nextgis.com/docs_ngweb/source/look.html#ngw-homepage>`_
-* `Как восстановить данные из резервной копии Веб ГИС <https://docs.nextgis.com/docs_ngweb/source/infowebgis.html#ngw-backups-policy>`_
+* `How to change the homepage address <https://docs.nextgis.com/docs_ngweb/source/look.html#ngw-homepage>`_
+* `How to restore your Web GIS from backup <https://docs.nextgis.com/docs_ngweb/source/infowebgis.html#backup-policy>`_
 * `Как работать с кадастровыми сервисами <https://docs.nextgis.com/docs_ngweb/source/cadaster.html>`_
 * `How to manage data storage <https://docs.nextgis.com/docs_ngweb/source/create_resource.html#ngw-resourses-group>`_
-* `How to use any layer in your Web GIS as a basemap <https://docs.nextgis.com/docs_ngweb/source/webmaps_admin.html#ngw-layer-as-basemap>`_
+* `How to use any layer in your Web GIS as a basemap <https://docs.nextgis.com/docs_ngweb/source/webmaps_admin.html#how-to-use-any-layer-in-your-web-gis-as-a-basemap>`_
 * `Как настроить легенду <https://docs.nextgis.com/docs_ngweb/source/webmaps_admin.html#ngw-legend>`_
 * `How to copy a Web Map <https://docs.nextgis.com/docs_ngweb/source/webmap_clone.html>`_
 * `How to enable caching <https://docs.nextgis.com/docs_ngweb/source/mapstyles.html#ngw-create-tile-cache>`_
