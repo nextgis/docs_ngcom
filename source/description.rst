@@ -14,3 +14,10 @@ Web GIS allows you to:
 * Edit attributes, add descriptions and photos of your geodata;
 * Manage geodata with mobile app `NextGIS Mobile <http://nextgis.com/nextgis-mobile/>`_ and desktop app `NextGIS QGIS <http://nextgis.com/nextgis-qgis/>`_;
 * Create end-user applications using :ref:`NextGIS API <ngw_api_description>`.
+
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/dsx-xo3McIo?si=_KFU0eLsNLv4MdMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Watch on `youtube <https://youtu.be/dsx-xo3McIo?si=Oo7lX8_FXiCdM2Nz>`_.
