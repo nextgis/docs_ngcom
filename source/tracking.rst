@@ -165,7 +165,7 @@ The track list is in the second line of the context menu for the track icons. He
 
 This is a simple app for track recording.
 
-*...Coming up...*
+`Learn more <https://docs.nextgis.com/docs_ngtracker/source/intro.html>`_.
 
 .. _tracking_web_map:
 
