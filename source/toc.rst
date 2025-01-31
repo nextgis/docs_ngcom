@@ -12,6 +12,7 @@
    intro
    description
    create
+   team
    create_webgis
    data_types
    resources
