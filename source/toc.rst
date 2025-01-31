@@ -12,7 +12,7 @@
    intro
    description
    create
-   team
+   teams
    create_webgis
    data_types
    resources
