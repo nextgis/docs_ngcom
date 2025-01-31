@@ -12,6 +12,7 @@
    intro
    description
    create
+   create_webgis
    data_types
    resources
    demoprojects
