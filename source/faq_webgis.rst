@@ -20,7 +20,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1) Пользователь заводит аккаунт на `my.nextgis.com <https://my.nextgis.com/>`_. 
-2) Владелец Веб ГИС переходит в раздел `Команда <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-team-management>`_ и добавляет участника по его имени пользователя.
+2) Владелец Веб ГИС переходит в раздел `Команда <https://docs.nextgis.ru/docs_ngcom/source/teams.html#ngcom-team-management>`_ и добавляет участника по его имени пользователя.
 3) Пользователь осуществляет первый вход через NextGIS ID.
 
 
