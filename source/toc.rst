@@ -12,6 +12,8 @@ Get Started with your Web GIS
    intro
    description
    create
+   teams
+   create_webgis
    data_types
    resources
    demoprojects
