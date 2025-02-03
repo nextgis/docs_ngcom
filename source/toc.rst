@@ -2,7 +2,7 @@
 
 .. NextGIS Services TOC
 
-Get Started with your Web GIS
+Get Started with NextGIS
 ===============================
 
     
