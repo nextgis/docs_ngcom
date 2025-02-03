@@ -3,10 +3,6 @@
 Teams
 ======
 
-.. _ngcom_team_view:
-
-Team info
-----------
 
 .. _ngcom_team_view:
 
