@@ -59,6 +59,8 @@
 
    Уведомление о необходимости подтверждения e-mail.
 
+.. _ngcom_ngid_login:
+
 Вход по NextGIS ID
 -------------------
 
@@ -72,6 +74,8 @@
    Страница входа через NextGIS ID
 
 Введите адрес электронной почты, который вы использовали при создании аккаунта, и пароль и нажмите **Войти**. 
+
+.. _ngcom_ngid_profile:
 
 Профиль
 -------------
@@ -102,6 +106,45 @@
    :width: 16cm    
 
    Изменения пароля NextGIS ID
+
+
+.. _ngcom_ngid_use:
+
+Где используется NextGIS ID
+------------------------------
+
+Облачные сервисы (При разворачивании на собственном сервере используется `NextGIS ID on-premise <https://docs.nextgis.ru/docs_ngid/source/toc.html>`_)
+
+* Веб ГИС на платформе NextGIS Web
+
+Собственную Веб ГИС вы можете `создать <https://docs.nextgis.ru/docs_ngcom/source/create_webgis.html>`_ из профиля.
+
+С помощью NextGID ID вы можете `войти <https://docs.nextgis.ru/docs_ngweb/source/admin_interface.html#ngw-admin-login>`_ в свою Веб ГИС или Веб ГИС владельца `команды <https://docs.nextgis.ru/docs_ngcom/source/teams.html>`_, в которую вы добавлены.
+
+* `Toolbox <https://docs.nextgis.ru/docs_toolbox_prem/source/auth.html#>`_
+* `GeoServices <https://docs.nextgis.ru/docs_geoservices/source/auth.html#>`_
+* `QuckMapServices <https://qms.nextgis.com/about>`_
+
+* Получение заказов, сделанных на data.nextgis.com
+
+Мобильные приложения
+
+* `NextGIS Collector <https://docs.nextgis.ru/docs_collector/source/auth.html#>`_
+* `NextGIS Mobile <https://docs.nextgis.ru/docs_ngmobile/source/auth.html#>`_
+* `NextGIS Tracker <https://docs.nextgis.ru/docs_ngtracker/source/setting_up.html#ngtr-set-send>`_
+
+
+Настольные приложения
+
+* `NextGIS QGIS <https://docs.nextgis.ru/docs_ngqgis/source/auth.html#>`_
+* `Formbuilder <https://docs.nextgis.ru/docs_formbuilder/source/gui.html#ngfb-auth>`_
+
+Модули расширения QGIS
+
+* `NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/ngc_install.html#ng-connect-new-connection>`_
+* `Rosreestr Tools <https://docs.nextgis.ru/docs_rosreestr_tools/source/rosreestrintro.html#ngq-rr-auth>`_
+
+
 
 
 
