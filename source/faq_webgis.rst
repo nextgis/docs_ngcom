@@ -19,7 +19,7 @@ If you forgot your password or login, see instructions `below <https://docs.next
 I want to let another user access my Web GIS. How can I do it?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 1. The user creates an account on `my.nextgis.com <https://my.nextgis.com/>`_. 
-2. The owner of the Web GIS goes to the `Team <https://docs.nextgis.com/docs_ngcom/source/create.html#team-management>`_ page and adds a new team member by username.
+2. The owner of the Web GIS goes to the `Team <https://docs.nextgis.com/docs_ngcom/source/teams.html#team-management>`_ page and adds a new team member by username.
 3. The user logs in with NextGIS ID.
 
 .. _ngcom_change_passwords_webgis:
