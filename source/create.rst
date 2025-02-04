@@ -21,7 +21,7 @@ In order to create an account click `here <https://my.nextgis.com/signup/?next=/
 
 A sign-up form will open, where you need to fill in E-mail and Password fields, agree to `Terms of Service <http://nextgis.com/terms>`_ and `Privacy Policy <http://nextgis.com/privacy>`_, аnd click **"Create account"** button (see :numref:`signup_form_pic`):
 
-.. figure:: _static/Signup_form.png
+.. figure:: _static/signup_form_en.png
    :name: signup_form_pic
    :align: center
    :width: 16cm    
@@ -55,6 +55,40 @@ In case you don't receive this letter in 10-15 minutes, click **"Create Web GIS"
    :width: 16cm    
 
    "Please confirm your E-mail" window
+
+.. _ngcom_ngid_login:
+
+Sign-in via NextGIS ID
+-----------------------
+
+After selecting sign-in with NextGIS ID, you'll be redirected to the following page:
+
+.. figure:: _static/ngid_login_en.png
+   :name: ngid_login_pic
+   :align: center
+   :width: 16cm  
+
+   Signing in with NextGIS
+
+Enter the email address you used for creating your account and your password, then press **Sign in**. 
+
+.. _ngcom_ngid_profile:
+
+Profile
+-------------
+
+You'll find your profile on https://my.nextgis.com/profile.
+
+Here you can:
+
+* Modify your personal information;
+* Manage your subscription;
+* `Create a Web GIS <https://docs.nextgis.com/docs_ngcom/source/create_webgis.html>`_ (after confirming your email address);
+* Download NextGIS software installers;
+* View `the list of teams <https://docs.nextgis.com/docs_ngcom/source/teams.html#ngcom-team-view>`_ that you are a member of; * `Manage your team <https://docs.nextgis.com/docs_ngcom/source/teams.html#ngcom-team-management>`_ (available on `Premium <https://nextgis.com/pricing-base/>`_);
+* Bind NGID on-premise identifier.
+
+
 
 
 .. _ngcom_ngid_change_password:
