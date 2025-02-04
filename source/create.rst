@@ -11,7 +11,7 @@
 До работы с любыми сервисами и ПО NextGIS, включая :ref:`Веб ГИС <ngcom_description>`, необходимо создать аккаунт (NextGIS ID).
 
 Для создания аккаунта необходимо пройти по `ссылке <https://my.nextgis.com/signup/?next=/webgis/>`_ или нажать на 
-кнопку **"Создать Веб ГИС"** на главной странице сайта nextgis.ru (см. :numref:`NextGIS_main_page_pic`): 
+кнопку **Войти** на главной странице сайта nextgis.ru (см. :numref:`NextGIS_main_page_pic`): 
 
 .. figure:: _static/NextGIS_main_page.png
    :name: NextGIS_main_page_pic
@@ -20,14 +20,14 @@
 
    Главная страница сайта nextgis.ru.
 
-Откроется форма регистрации аккаунта, в которой необходимо заполнить поля E-mail и Пароль, подтвердить согласие с `Пользовательским соглашением <http://nextgis.ru/terms>`_ и `Политикой конфиденциальности NextGIS <http://nextgis.ru/privacy>`_, а затем нажать на кнопку **"Создать аккаунт"** (см. :numref:`signup_form_pic`)
+Откроется форма регистрации аккаунта, в которой необходимо заполнить поля E-mail и Пароль, подтвердить согласие с `Пользовательским соглашением <http://nextgis.ru/terms>`_ и `Политикой конфиденциальности NextGIS <http://nextgis.ru/privacy>`_, а затем нажать на кнопку **Создать аккаунт** (см. :numref:`signup_form_pic`)
 
-.. figure:: _static/Signup_form.png
+.. figure:: _static/signup_form_ru.png
    :name: signup_form_pic
    :align: center
    :width: 16cm    
 
-   Форма регистрации аккаунта.
+   Форма регистрации аккаунта
 
 .. note::
 
@@ -86,9 +86,9 @@
 
 * Изменить личные данные;
 * Управлять подпиской;
-* Создать Веб ГИС (доступно только после подтверждения электронной почты);
+* `Создать Веб ГИС <https://docs.nextgis.ru/docs_ngcom/source/create_webgis.html>`_ (доступно только после подтверждения электронной почты);
 * Скачать программы NextGIS;
-* Управлять командой (доступно на плане Premium);
+* Просматривать `список команд <https://docs.nextgis.ru/docs_ngcom/source/teams.html#ngcom-team-view>`_, в которых участвуете и `Управлять командой <https://docs.nextgis.ru/docs_ngcom/source/teams.html#ngcom-team-management>`_ (доступно на плане `Premium <https://nextgis.ru/pricing-base/>`_);
 * Привязать идентификатор NGID on-premise (для пользователей, использующих собственный сервер).
 
 
