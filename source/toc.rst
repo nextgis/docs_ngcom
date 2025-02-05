@@ -14,6 +14,7 @@
    create
    teams
    create_webgis
+   subscription
    data_types
    resources
    demoprojects
