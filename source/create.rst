@@ -1,6 +1,6 @@
 .. _ngcom_create:
 
-Создание аккаунта
+Аккаунт
 ===========================
 
 .. _ngcom_create_account:
@@ -94,7 +94,7 @@
 .. _ngcom_ngid_profile:
 
 Профиль
---------
+~~~~~~~~
 
 Ваш профиль располагается по адресу https://my.nextgis.com/profile.
 В профиле можно:
@@ -106,6 +106,8 @@
 * Привязать аккаунт Telegram для получения уведомлений.
 * Экспортировать данные аккаунта в виде файлов CSV.
 * Удалить аккаунт NextGIS ID и связанные с ним персональные данные.
+
+
 
 .. _ngcom_ngid_profile_del:
 
@@ -128,9 +130,9 @@
 .. _ngcom_ngid_change_password:
 
 Изменение пароля NextGIS ID
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Чтобы изменить пароль учетной записи NextGIS ID, нужно перейти в настройки профиля https://my.nextgis.com/profile и установить новый пароль (см. :numref:`ngid_change_pass`).
+Чтобы изменить пароль учетной записи NextGIS ID, нужно перейти в настройки `профиля <https://my.nextgis.com/profile>`_ и установить новый пароль (см. :numref:`ngid_change_pass`).
 
 .. figure:: _static/ngid_change_pass_ru.png
    :name: ngid_change_pass
@@ -138,6 +140,23 @@
    :width: 16cm    
 
    Изменения пароля NextGIS ID
+
+.. _ngcom_ngid_telegram:
+
+Подключение уведомлений в Telegram
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Если связать свой Личный кабинет NextGIS с аккаунтом Telegram, уведомления о новых заказах на NextGIS Data будут приходить не только на почту (где могут попасть в спам), но и в Telegram. Скачивать данные вы также сможете прямо из мессенджера.
+
+В `профиле <https://my.nextgis.com/profile>`_ в разделе "Социальные аккаунты" нажмите **Связать** рядом со значком Telegram. Вы будете перенаправлны в телеграм-бот. Нажмите **Запустить**, чтобы завершить привязку аккаунта.
+
+Посмотрите, как это работает, в видео:
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://rutube.ru/play/embed/1eecbd9eea8f2005af959fac49442e0d/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+Посмотреть видео на `youtube <>`_, `rutube <https://rutube.ru/video/1eecbd9eea8f2005af959fac49442e0d/?r=wd>`_.
 
 
 .. _ngcom_ngid_use:
