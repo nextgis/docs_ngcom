@@ -75,23 +75,55 @@
 
 Введите адрес электронной почты, который вы использовали при создании аккаунта, и пароль и нажмите **Войти**. 
 
-.. _ngcom_ngid_profile:
+В разных сервисах и ПО есть свои нюансы перехода к авторизации, см. `Где используется NextGIS ID <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-use>`_.
 
-Профиль
--------------
+.. _ngcom_ngid_my:
 
-Ваш профиль располагается по адресу https://my.nextgis.com/profile.
+Личный кабинет
+--------------
 
-В профиле вы можете:
+Авторизовавшись в `личном кабинете <https://my.nextgis.com/profile>`_ вы можете:
 
-* Изменить личные данные;
+* Изменить личные данные, в том числе `пароль <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-change-password>`_ ;
 * Управлять подпиской;
 * `Создать Веб ГИС <https://docs.nextgis.ru/docs_ngcom/source/create_webgis.html>`_ (доступно только после подтверждения электронной почты);
 * Скачать программы NextGIS;
 * Просматривать `список команд <https://docs.nextgis.ru/docs_ngcom/source/teams.html#ngcom-team-view>`_, в которых участвуете и `Управлять командой <https://docs.nextgis.ru/docs_ngcom/source/teams.html#ngcom-team-management>`_ (доступно на плане `Premium <https://nextgis.ru/pricing-base/>`_);
 * Привязать идентификатор NGID on-premise (для пользователей, использующих собственный сервер).
 
+.. _ngcom_ngid_profile:
 
+Профиль
+--------
+
+Ваш профиль располагается по адресу https://my.nextgis.com/profile.
+В профиле можно:
+
+* `Сменить пароль <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-change-password>`_ NextGIS ID.
+* Изменить имя пользователя или задать имя и фамилию, которые будут отображаться вместо него.
+* Добавить информацию о компании и сфере деятельности, контактный номер телефона.
+* Выбрать язык интерфейса личного кабинета. Если вы хотите сменить язык отображения Веб ГИС, это нужно сделать в `меню пользователя <https://docs.nextgis.ru/docs_ngweb/source/admin_interface.html#ngw-change-lang>`_ Веб ГИС.
+* Привязать аккаунт Telegram для получения уведомлений.
+* Экспортировать данные аккаунта в виде файлов CSV.
+* Удалить аккаунт NextGIS ID и связанные с ним персональные данные.
+
+.. _ngcom_ngid_profile_del:
+
+Удалить аккаунт
+~~~~~~~~~~~~~~~~
+
+Чтобы удалить аккаунт, на странице профиля в разделе "Управление профилем" нажмите **Удалить профиль**.
+
+Ваш профиль и персональные данные будут удалены. 
+
+.. important:: Это действие нельзя отменить.
+
+.. figure:: _static/ngid_delete_ru.png
+   :name: ngid_delete_pic
+   :align: center
+   :width: 20cm 
+
+   Удаление профиля
 
 .. _ngcom_ngid_change_password:
 
