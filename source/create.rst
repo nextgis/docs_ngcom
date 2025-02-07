@@ -10,7 +10,7 @@
 
 До работы с любыми сервисами и ПО NextGIS, включая :ref:`Веб ГИС <ngcom_description>`, необходимо создать аккаунт (NextGIS ID).
 
-Для создания аккаунта необходимо пройти по `ссылке <https://my.nextgis.com/signup/?next=/webgis/>`_ или нажать на 
+Для создания аккаунта необходимо пройти по `ссылке <https://my.nextgis.com/signup/>`_ или нажать на 
 кнопку **Войти** на главной странице сайта nextgis.ru (см. :numref:`NextGIS_main_page_pic`): 
 
 .. figure:: _static/NextGIS_main_page.png
