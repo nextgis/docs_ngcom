@@ -45,12 +45,12 @@
 
 В соответствии с тарифными планами nextgis.com владелец Premium аккаунта имеет возможность дать доступ к Premium-функциям еще 4 пользователям, у которых есть NextGIS ID, добавив их в свою команду.
 
-Механизм управления командой позволяет добавить в свою команду любого пользователя NextGIS по его имени. Управление командой доступно через личный кабинет на https://my.nextgis.com/teammanage в разделе “Команда” (см. :numref:`Team_on_panel`).
+Механизм управления командой позволяет добавить в свою команду любого, у кого есть аккаунт NextGIS по его уникальному имени пользователя. Управление командой доступно через личный кабинет на https://my.nextgis.com/teammanage в разделе “Команда” (см. :numref:`Team_on_panel`).
 
 .. figure:: _static/Team_on_panel_ru.png
    :name: Team_on_panel
    :align: center
-   :width: 7cm    
+   :width: 6cm    
 
    Раздел “Команда” в левой панели Личного кабинета
    
@@ -58,15 +58,15 @@
 
 Если пользователь забыл своё имя и не может войти в профиль, он может восстановить `доступ <https://docs.nextgis.ru/docs_ngcom/source/faq_webgis.html#nextgis-id>`_.
 
-.. figure:: _static/First_administrator_ru.png
+.. figure:: _static/my_teams_owner_empty_ru.png
    :name: First_administrator
    :align: center
-   :width: 16cm    
+   :width: 20cm    
 
    Состав команды по умолчанию (только администратор)
    
    
-.. figure:: _static/list_users.png
+.. figure:: _static/search_user_ru.png
    :name: list_users
    :align: center
    :width: 14cm    
@@ -76,7 +76,7 @@
    
 Каждый добавленный пользователь появится в списке (см. :numref:`all_users`). В любой момент пользователя можно удалить и/или заменить на другого, если достигнут доступный по тарифу лимит на размер команды (см. :numref:`limit_users`)
 
-.. figure:: _static/all_users_ru.png
+.. figure:: _static/my_team_users_ru.png
    :name: all_users
    :align: center
    :width: 16cm    
@@ -89,7 +89,7 @@
    :align: center
    :width: 12cm    
 
-   Сообщение о превышении лимита пользователей в команде
+   Сообщение о превышении лимита пользователей в команде, возникающее при попытке добавить пользователя
 
 
 .. _ngcom_auth_id_webgis:
