@@ -176,7 +176,7 @@
 * `GeoServices <https://docs.nextgis.ru/docs_geoservices/source/auth.html#>`_
 * `QuckMapServices <https://qms.nextgis.com/about>`_
 
-* Получение заказов, сделанных на data.nextgis.com
+* Получение заказов, сделанных на `data.nextgis.com <https://data.nextgis.com/ru/>`_
 
 Мобильные приложения
 
