@@ -88,7 +88,7 @@
 * Управлять подпиской;
 * `Создать Веб ГИС <https://docs.nextgis.ru/docs_ngcom/source/create_webgis.html>`_ (доступно только после подтверждения электронной почты);
 * Скачать программы NextGIS;
-* Просматривать `список команд <https://docs.nextgis.ru/docs_ngcom/source/teams.html#ngcom-team-view>`_, в которых участвуете и `Управлять командой <https://docs.nextgis.ru/docs_ngcom/source/teams.html#ngcom-team-management>`_ (доступно на плане `Premium <https://nextgis.ru/pricing-base/>`_);
+* Просматривать `список команд <https://docs.nextgis.ru/docs_ngcom/source/teams.html#ngcom-team-view>`_, в которых участвуете и `Управлять своей командой <https://docs.nextgis.ru/docs_ngcom/source/teams.html#ngcom-team-management>`_ (доступно на плане `Premium <https://nextgis.ru/pricing-base/>`_);
 * Привязать идентификатор NGID on-premise (для пользователей, использующих собственный сервер).
 
 .. _ngcom_ngid_profile:
@@ -146,7 +146,7 @@
 Подключение уведомлений в Telegram
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Если связать свой Личный кабинет NextGIS с аккаунтом Telegram, уведомления о новых заказах на NextGIS Data будут приходить не только на почту (где могут попасть в спам), но и в Telegram. Скачивать данные вы также сможете прямо из мессенджера.
+Если связать свой Личный кабинет NextGIS с аккаунтом Telegram, уведомления о новых заказах на `NextGIS Data <https://data.nextgis.com/ru/>`_ будут приходить не только на почту (где могут попасть в спам), но и в Telegram. Скачивать данные вы также сможете прямо из мессенджера.
 
 В `профиле <https://my.nextgis.com/profile>`_ в разделе "Социальные аккаунты" нажмите **Связать** рядом со значком Telegram. Вы будете перенаправлны в телеграм-бот. Нажмите **Запустить**, чтобы завершить привязку аккаунта.
 
@@ -156,7 +156,7 @@
 
    <iframe width="560" height="315" src="https://rutube.ru/play/embed/1eecbd9eea8f2005af959fac49442e0d/" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-Посмотреть видео на `youtube <>`_, `rutube <https://rutube.ru/video/1eecbd9eea8f2005af959fac49442e0d/?r=wd>`_.
+Посмотреть видео на `rutube <https://rutube.ru/video/1eecbd9eea8f2005af959fac49442e0d/?r=wd>`_.
 
 
 .. _ngcom_ngid_use:
@@ -176,7 +176,7 @@
 * `GeoServices <https://docs.nextgis.ru/docs_geoservices/source/auth.html#>`_
 * `QuckMapServices <https://qms.nextgis.com/about>`_
 
-* Получение заказов, сделанных на `data.nextgis.com <https://data.nextgis.com/ru/>`_
+* Получение заказов, сделанных на `NextGIS Data <https://data.nextgis.com/ru/>`_
 
 Мобильные приложения
 
