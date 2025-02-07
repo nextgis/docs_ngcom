@@ -266,12 +266,12 @@ Allow Guests to view just one Web Map
    :align: center
    :width: 20cm
 
-2. For the resource group containing data for the Web Map: **Resource: Read, Data: Read data**;
+2. For the resource group containing data for the Web Map: **Resource: Read, Data: Read data**, apply to **This and subresources**;
 
-.. figure:: _static/allow_guest_data_group_en_2.png
+.. figure:: _static/allow_guest_data_group_en_3.png
    :name: allow_guest_data_group_pic
    :align: center
-   :width: 20cm
+   :width: 18cm
 
 3. For the resource group containing the Web Map, if it is not the same group that contains the data, also assign permission **Resource: Read**;
 
@@ -388,10 +388,10 @@ Set it for:
 
 * Resource group containing data for the Web Map
 
-.. figure:: _static/allow_group_data_group_en.png
+.. figure:: _static/allow_group_data_group_en_2.png
    :name: allow_guest_data_group_pic
    :align: center
-   :width: 20cm
+   :width: 18cm
 
 
 
