@@ -88,7 +88,8 @@ After logging in to your `account <https://my.nextgis.com/profile>`_ you can:
 * Manage your subscription;
 * `Create a Web GIS <https://docs.nextgis.com/docs_ngcom/source/create_webgis.html>`_ (after confirming your email address);
 * Download NextGIS software installers;
-* View `the list of teams <https://docs.nextgis.com/docs_ngcom/source/teams.html#ngcom-team-view>`_ that you are a member of; * `Manage your team <https://docs.nextgis.com/docs_ngcom/source/teams.html#ngcom-team-management>`_ (available on `Premium <https://nextgis.com/pricing-base/>`_);
+* View `the list of teams <https://docs.nextgis.com/docs_ngcom/source/teams.html#ngcom-team-view>`_ that you are a member of; 
+* `Manage your team <https://docs.nextgis.com/docs_ngcom/source/teams.html#ngcom-team-management>`_ (available on `Premium <https://nextgis.com/pricing-base/>`_);
 * Bind NGID on-premise identifier.
 
 .. _ngcom_ngid_profile:
@@ -169,7 +170,7 @@ You can use NGID to `log in <https://docs.nextgis.com/docs_ngweb/source/admin_in
 * `GeoServices <https://docs.nextgis.com/docs_geoservices/source/auth.html#>`_
 * `QuckMapServices <https://qms.nextgis.com/about>`_
 
-* Download data ordered on ``NextGIS Data <https://data.nextgis.com/en/>`_
+* Download data ordered on `NextGIS Data <https://data.nextgis.com/en/>`_
 
 Mobile apps
 
