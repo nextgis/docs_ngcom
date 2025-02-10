@@ -8,7 +8,7 @@ Managing access rights
 This section will help you set up access to your Web GIS for various users. Below you'll find an overview of the permissions system and some common cases of setting up access.
 
 .. note::
-    This functionality is only available for users having `Premium <http://nextgis.com/pricing/#premium/>`_ subscription.
+    This functionality is only available for users having `Premium <https://nextgis.com/pricing-base/#team>`_ subscription.
 
 .. _ngcom_permissions_terms:
 
