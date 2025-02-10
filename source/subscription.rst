@@ -54,7 +54,7 @@ On the next page you can read the conditions of the cancellation. After a subscr
 .. figure:: _static/my_sub_cancel_en.png
    :name: my_sub_cancel_pic
    :align: center
-   :width: 14cm
+   :width: 13cm
 
    Cancel subscription
 
