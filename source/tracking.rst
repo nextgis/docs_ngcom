@@ -172,84 +172,10 @@ This is a simple app for track recording.
 Tracking results on the Web Map
 --------------------------------
 
-Tracking results can be displayed on any Web Map of your Web GIS. For that create a ‘Web Map’ resource and open it. If procedures described in `Section 3 <https://docs.nextgis.com/docs_ngcom/source/tracking.html#creating-tracker-groups>`_, are done - you will see the corresponding icon (trackers) in the left panel of the Web Map.
+If the tracker is added to the Web GIS, you can:
 
-.. figure:: _static/Tracking_en.png
-   :name: Tracking interface on Web map
-   :align: center
-   
-   Tracking interface on Web Map
-
-The interface of trackers consists of 2 parts - a calendar and a tree of trackers (‘tracker groups’ folders and sets of trackers inside). A calendar allows you to filter recorded tracks by the date and time. Tracker's tree contains the content of those resources that were created in Web GIS or were uploaded from the mobile application.
-
-.. figure:: _static/Tracking_tools_en.png
-   :name: Tracker tree and track operations on Web map
-   :align: center
-   
-   Tracker tree and track operations on Web map
-
-A track consists of 4 parts:
-
-- lines
-- points
-- current location
-- and long stopovers
-
-Operations that are available by right click on the track:
-
-- Zoom to layer (display layer extent)
-- Zoom to the last point (center last track point)
-- Set up a filter for the last day (display a track for the last day)
-- Show the last activity (see hourly activity)
+* `View tracking results <https://docs.nextgis.com/docs_ngweb/source/trackers.html#viewing-tracks-on-a-web-map>`_ on any Web Map of your Web GIS;
+* `Generate reports <https://docs.nextgis.com/docs_ngweb/source/trackers.html#reports>`_ on mileage, top speed, average speed, spent fuel, stops;
+* `Export tracks <https://docs.nextgis.com/docs_ngweb/source/trackers.html#track-export>`_ as GPX files.
 
 
-.. figure:: _static/track_and_location_en.png
-   :name: Displaying track points, lines and current location on the Web map
-   :align: center
-   
-   Displaying track points, lines and current location on the Web Map
-
-Click on a point to show a popup with tracking information: date, time, speed (km/h), height (m), course (bearing i.e. the horizontal direction of travel of this device in the range between 0 and 360 counting clockwise from the North), number of satellites and HDOP.
-
-.. figure:: _static/track_point_popup_en.png
-   :name: track_point_popup_pic
-   :align: center
-   :width: 18cm
-
-   Track point popup
-
-Horizontal dilution of precision or HDOP is a parameter showing how precise the GPS readings are. The smaller the HDOP value, the higher the accuracy of horizontal coordinates. HDOP=1 is ideal, 3-4 is okay, if HDOP is over 6-8 it means that the position of satellites at the moment is unfortunate providing information with low accuracy. HDOP depends on the number of visible satellites, their position in the sky and relative to the receiver.
-
-
-.. _tracking_report:
-
-Reports
--------
-
-By clicking the ‘Reports’ button you can create various types of reports depending on selected tracker and parameters.
-
-.. figure:: _static/Report_icon_en.png
-   :name: Report tool icon
-   :align: center
-   
-   Report tool icon
-
-A separate page for receiving tracking reports opens.
-In the first block, you need to select the trackers for which you want to get an information summary.
-
-The second block is for configuring the following parameters:
-
-- report type
-- time range
-- grouping by days/hours
-
-.. figure:: _static/Tracking_report_en.png
-   :name: Tracker report
-   :align: center
-   
-   Tracker report
-   
-.. note::
-    For getting the spent fuel report you need to set up `fuel consumption <https://docs.nextgis.com/docs_ngcom/source/tracking.html#tracker-settings>`_ parameter in NextGIS Web settings (l/100 km)
-    
-Also you can export reports in GPX format. 
