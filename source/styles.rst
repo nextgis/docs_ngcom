@@ -15,7 +15,7 @@
 Для того, чтобы создать стиль QGIS с настройками по умолчанию для нового слоя, достаточно нажать на кнопку на странице ресурса.
 
 .. figure:: _static/default_style_select_ru.png
-   :name: mapserver_style_select
+   :name: default_style_select_pic
    :align: center
    :width: 20cm
    
@@ -72,7 +72,7 @@
 #. Нажмите кнопку **Создать**. Если Стиль создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующего Векторного слоя или Слоя PostGIS.
 
 .. figure:: _static/mapserver_style_select_ru_2.png
-   :name: mapserver_style_select
+   :name: mapserver_style_select_pic
    :align: center
    :width: 17cm
    
