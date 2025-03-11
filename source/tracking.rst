@@ -185,7 +185,7 @@
 * `автоматически отправлять в Веб ГИС <https://docs.nextgis.ru/docs_ngtracker/source/setting_up.html#ngtr-set-send>`_ 
 * `экспортировать <https://docs.nextgis.ru/docs_ngtracker/source/export.html>`_ в виде GPX-файла.
 
-.. _tracking_web_map:
+.. _tr_web_map:
 
 Результаты трекинга в Веб ГИС
 --------------------------------
