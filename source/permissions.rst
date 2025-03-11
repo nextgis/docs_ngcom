@@ -200,7 +200,7 @@
 Для того, чтобы создать новое правило, нажмите **Добавить** в свободной строке в конце списка и выберите **Разрешить**.
 
 .. figure:: _static/resource_permissions_new_ru.png
-   :name: resource_permissions_tab_pic
+   :name: resource_permissions_new_pic
    :align: center
    :width: 20cm
 
@@ -251,7 +251,7 @@
 .. _ngcom_permissions_guest_webmap:
 
 Просмотр только одной из веб-карт (на примере Гостя)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Действие: **Разрешить**
 * Субъект: **Гость**
@@ -291,7 +291,7 @@
 .. _ngcom_permissions_auth_wms:
 
 Доступ к WMS сервису (для авторизованных пользователей)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Действие: **Разрешить**
 * Субъект: **Прошедший проверку**
@@ -299,7 +299,7 @@
 1. Для Основной группы **Ресурс: Чтение** применить **только для этого ресурса**.
 
 .. figure:: _static/allow_auth_main_ru_2.png
-   :name: allow_auth_main_pic
+   :name: allow_auth_main_wms_pic
    :align: center
    :width: 20cm
 
@@ -325,7 +325,7 @@
 1. Для Основной группы **Ресурс: Чтение**. Применить **Только для этого ресурса**:
 
 .. figure:: _static/allow_auth_main_ru_2.png
-   :name: allow_auth_main_pic
+   :name: allow_auth_main_postgis_pic
    :align: center
    :width: 20cm
 
@@ -386,7 +386,7 @@
 * Группы ресурсов, где лежат данные для веб-карты
 
 .. figure:: _static/allow_group_data_group_ru_2.png
-   :name: allow_guest_data_group_pic
+   :name: allow_guest_data_group_track_pic
    :align: center
    :width: 18cm
 
