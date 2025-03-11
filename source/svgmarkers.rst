@@ -36,5 +36,5 @@
 7. На вкладке **Библиотека маркеров SVG** добавить файлы иконок. Нажать **Создать**.
 8. Создать ресурс `Векторный слой <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-vector-layer>`_, загрузите геоданные.
 9. Создать `Стиль QGIS <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#qgis>`_ внутри этого слоя.
-10. На вкладке `Стиль QGIS <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#upload-svg-qgis-style>`_ выбрать созданную ранее библиотеку маркеров. Нажать **Создать**.
+10. На вкладке `Стиль QGIS <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#upload-svg-qgis-style>`__ выбрать созданную ранее библиотеку маркеров. Нажать **Создать**.
 11. Добавить стиль на `веб-карту <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#ngw-add-map-style>`_.
