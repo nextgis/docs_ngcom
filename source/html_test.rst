@@ -34,7 +34,7 @@
 
 .. raw:: html
 
-   <table align=center>
+   <table align=center style="border: 4px rgb(255, 255, 255);">
      <tbody>
        <tr>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_ngweb/source/toc.html"><img src="http://nextgis.com/wp-content/uploads/2015/02/NGCloud_logo.png" alt="" width="45" height="45"><br>NextGIS Web</a></div></td>
@@ -80,7 +80,7 @@
 
 .. raw:: html
 
-   <table style="border: 4px none rgb(255, 255, 255);" align=center>
+   <table style="border: 4px rgb(255, 255, 255);" align=center>
      <tbody>
        <tr>
          <td style="border: 4px outset rgb(255, 255, 255);"><div align = center><a href="https://docs.nextgis.ru/docs_ngweb_dev/doc/toc.html"><img src="http://nextgis.com/wp-content/uploads/2015/02/NGCloud_logo.png" alt="" width="45" height="45"><br>NextGIS&nbsp;Web</a></div></td>
