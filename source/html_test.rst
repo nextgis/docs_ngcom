@@ -96,6 +96,95 @@
      </tbody>
    </table>
 
+Популярные вопросы
+-------------------
+
+Популярные вопросы
+
+Аккаунт
+
+* `Как зарегистрироваться? <https://docs.nextgis.ru/docs_ngcom/source/create.html#nextgis-id>`_
+* Как узнать свой ID?
+* `Как оформить подписку? <https://docs.nextgis.ru/docs_ngcom/source/subscription.html#my-sub-upgrade>`_
+* Какие документы об оплате/договор я могу получить?
+* `Как восстановить пароль? <https://docs.nextgis.ru/docs_ngcom/source/faq_webgis.html#ngcom-change-passwords-webgis>`_
+
+Веб ГИС
+
+* `Как поменять адрес Веб ГИС? <https://docs.nextgis.ru/docs_ngweb/source/domain.html>`_
+* Моя Веб ГИС заблокирована, что делать?
+* Не удаётся подключиться к Веб ГИС из мобильного приложения
+* `Как создать веб-карту? <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html>`_
+* `Как изменить подписи полей? <https://docs.nextgis.ru/docs_ngweb/source/layers_settings.html#ngweb-admin-layers-attr>`_
+* `Как узнать ID ресурса? <https://docs.nextgis.ru/docs_ngconnect/source/filter.html#ngc-find-id>`_
+
+Пользователи и команда
+
+* `Как добавить пользователей в команду? <https://docs.nextgis.ru/docs_ngcom/source/teams.html#ngcom-team-management>`_
+* Как добавить пользователей в Веб ГИС?
+* Как увеличить количество пользователей?
+* `Как настроить права доступа? <https://docs.nextgis.ru/docs_ngcom/source/permissions.html>`_
+
+QGIS
+
+* Как привязать растр?
+* `Как настроить подписи? <https://docs.nextgis.ru/docs_ngqgis/source/labeling.html>`_
+* `Как создать макет для печати? <https://docs.nextgis.ru/docs_ngqgis/source/map_composer.html>`_
+* `Как узнать длину/площадь объекта? <https://docs.nextgis.ru/docs_ngqgis/source/area.html>`_
+* `Как работать с ЦМР? <https://docs.nextgis.ru/docs_ngqgis/source/raster_op.html#ngqgis-terrain>`_
+
+Загрузка в Веб ГИС из QGIS
+
+* `Как создать подключение в NextGIS Connect? <https://docs.nextgis.ru/docs_ngconnect/source/ngc_install.html#ng-connect-new-connection>`_
+* `Могут ли несколько пользоватей редатировать один слой? <https://docs.nextgis.ru/docs_ngconnect/source/edit.html>`_
+* Не загружаются данные, что делать?
+
+Системы координат
+
+* `Как изменить систему координат? <https://docs.nextgis.ru/docs_ngqgis/source/srs.html#ngq-projections-menu>`_
+* Данные отображаются не там, как исправить?
+* `Как добавить систему координат? <https://docs.nextgis.ru/docs_ngqgis/source/srs.html#ngq-custom-projections>`_
+
+Сбор данных
+
+* `В каких приложениях можно записывать треки? <https://docs.nextgis.ru/docs_ngcom/source/tracking.html#nextgis-mobile-nextgis-collector>`_
+* `Как зайти в приложение NextGIS Collector? <https://docs.nextgis.ru/docs_collector/source/auth.html>`_
+* `Как подключиться к проекту? <https://docs.nextgis.ru/docs_collector/source/operations.html>`_
+* Как отправить данные на сервер? 
+   * `Отправка треков <https://docs.nextgis.ru/docs_ngtracker/source/setting_up.html#ngtr-set-send>`_ в Веб ГИС
+   * Синхронизация с Веб ГИС в`Mobile <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-synchronization-layer-webgis>`_
+   * Синхронизация в `Collector <https://docs.nextgis.ru/docs_collector/source/operations.html#ngcol-offline>`_
+* `Как показать трек на веб-карте? <https://docs.nextgis.ru/docs_ngweb/source/trackers.html>`_
+
+API
+
+* Как получить ключ API?
+* Не работает ключ API, что делать?
+
+Кадастр
+
+* Как подключить подложку Росреестра?
+* Как добавить данные о кадастровых кварталах на карту?
+* Какие выписки ЕГРН можно конвертировать в геоданные?
+* Как изменить внешний вид Веб ГИС?
+* Как сделать интерфейс, которого нет в стандартном варианте? 
+
+Что такое…
+
+* WMS, TMS, WFS, OGC API Features
+* соединение и сервис
+* версионирование
+* LDAP
+* API
+* on-premise
+* GeoPackage и другие форматы векторных геоданных
+
+Настройка доступа
+
+* Как закрыть Веб ГИС от посторонних?
+* Как убрать кнопку экспорта?
+* Как настроить права пользователей?
+
 
 
 
