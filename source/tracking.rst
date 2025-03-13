@@ -64,7 +64,7 @@
 
 На данный момент запись треков можно вести в мобильных приложениях
 `NextGIS Mobile <https://play.google.com/store/apps/details?id=com.nextgis.mobile>`_,
-`NextGIS Collector <https://play.google.com/store/apps/details?id=com.nextgis.collector>`_ и NextGIS Tracker.
+`NextGIS Collector <https://play.google.com/store/apps/details?id=com.nextgis.collector>`_ и `NextGIS Tracker <https://play.google.com/store/apps/details?id=com.nextgis.tracker>`_.
 Для этого необходим смартфон на базе ОС Android.
 
 
