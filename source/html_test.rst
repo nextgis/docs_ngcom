@@ -117,12 +117,14 @@
 * `Как создать веб-карту? <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html>`_
 * `Как изменить подписи полей? <https://docs.nextgis.ru/docs_ngweb/source/layers_settings.html#ngweb-admin-layers-attr>`_
 * `Как узнать ID ресурса? <https://docs.nextgis.ru/docs_ngconnect/source/filter.html#ngc-find-id>`_
+* `Как изменить внешний вид Веб ГИС? <https://docs.nextgis.ru/docs_ngweb/source/look.html>
+* `Как сделать интерфейс, которого нет в стандартном варианте? <https://code.nextgis.com/readme>`_
 
 Пользователи и команда
 
 * `Как добавить пользователей в команду? <https://docs.nextgis.ru/docs_ngcom/source/teams.html#ngcom-team-management>`_
 * Как добавить пользователей в Веб ГИС?
-* Как увеличить количество пользователей?
+* `Как увеличить количество пользователей? <https://nextgis.ru/pricing-base/#users>`_
 * `Как настроить права доступа? <https://docs.nextgis.ru/docs_ngcom/source/permissions.html>`_
 
 QGIS
@@ -159,21 +161,22 @@ QGIS
 API
 
 * Как получить ключ API?
-* Не работает ключ API, что делать?
+* `Не работает ключ API, что делать? <https://docs.nextgis.ru/docs_geoservices/source/reissue_api_key.html>`_
 
 Кадастр
 
-* Как подключить подложку Росреестра?
+* `Как подключить подложку Росреестра? <https://docs.nextgis.ru/docs_geoservices/source/rosreestr_pkk.html>`_
 * Как добавить данные о кадастровых кварталах на карту?
-* Какие выписки ЕГРН можно конвертировать в геоданные?
-* Как изменить внешний вид Веб ГИС?
-* Как сделать интерфейс, которого нет в стандартном варианте? 
+   * `Как подложку <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html#ngw-map-basemaps>`_
+   * `Как слой TMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#tms>`_
+* `Какие выписки ЕГРН можно конвертировать в геоданные? <https://docs.nextgis.ru/docs_rosreestr_tools/source/rr-import.html#ngq-rr-import-supported>`_
+
 
 Что такое…
 
 * WMS, TMS, WFS, OGC API Features
 * соединение и сервис
-* версионирование
+* `версионирование <https://docs.nextgis.ru/docs_ngweb/source/version.html>`_
 * LDAP
 * API
 * on-premise
@@ -181,9 +184,10 @@ API
 
 Настройка доступа
 
-* Как закрыть Веб ГИС от посторонних?
-* Как убрать кнопку экспорта?
-* Как настроить права пользователей?
+* `Как закрыть Веб ГИС от посторонних? <https://docs.nextgis.ru/docs_ngcom/source/permissions.html>`_
+* `Как открыть доступ к карте? <https://docs.nextgis.ru/docs_ngcom/source/permissions.html#ngcom-permissions-guest-webmap>`_
+* `Как убрать кнопку экспорта? <https://docs.nextgis.ru/docs_ngweb/source/look.html#ngw-res-export>`_
+* `Как настроить права пользователей? <https://docs.nextgis.ru/docs_ngcom/source/permissions.html#ngcom-permissions-tab>`_
 
 
 
