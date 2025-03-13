@@ -8,7 +8,8 @@ Managing access rights
 This section will help you set up access to your Web GIS for various users. Below you'll find an overview of the permissions system and some common cases of setting up access.
 
 .. note::
-    This functionality is only available for users having `Premium <https://nextgis.com/pricing-base/#team>`_ subscription.
+    This functionality is only available for users having `Premium <https://nextgis.com/pricing-base/#team>`_ subscription or for on-premise Web GIS.
+    Web GIS on Free plan is open to be viewed by any guest. Web GIS on Premium plan on on-premise by default is closed off from anyone but the Administrator, see rule 2 below.
 
 .. _ngcom_permissions_terms:
 
