@@ -5,7 +5,7 @@
 
 .. raw:: html
 
-   <table>
+   <table style="border: 4px outset rgb(255, 255, 255);>
      <tbody>
        <tr>
          <td><div><a href="https://docs.nextgis.ru/docs_ngcom/source/toc.html"><b>Знакомство с платформой</b><br>Регистрация, первые шаги<br></a></div></td>
