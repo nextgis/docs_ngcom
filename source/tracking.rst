@@ -65,7 +65,7 @@ Tracking in NextGIS Mobile, Collector and Tracker
 
 For now you can track in mobile apps such as
 `NextGIS Mobile <https://play.google.com/store/apps/details?id=com.nextgis.mobile>`_,
-`NextGIS Collector <https://play.google.com/store/apps/details?id=com.nextgis.collector>`_ and NextGIS Tracker.
+`NextGIS Collector <https://play.google.com/store/apps/details?id=com.nextgis.collector>`_ and `NextGIS Tracker <https://play.google.com/store/apps/details?id=com.nextgis.tracker>`_.
 An Android smartphone is required for that.
 
 .. _tracking_ngmobile:
