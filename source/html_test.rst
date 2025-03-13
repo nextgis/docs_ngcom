@@ -43,13 +43,13 @@
      <tbody>
        <tr>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_ngweb/source/toc.html"><img src="http://nextgis.com/wp-content/uploads/2015/02/NGCloud_logo.png" alt="" width="45" height="45"><br>NextGIS Web</a></div></td>
-         <td></td>
+         <td><font color=#ffffff>...</font></td>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_data/source/toc.html"><img src="https://nextgis.ru/wp-content/uploads/2015/02/NGToolbox_logo_45.png" alt="" width="45" height="45"><br>Data</a></div></td>
-         <td></td>
+         <td><font color=#ffffff>...</font></td>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_toolbox/source/toc.html"><img src="https://nextgis.ru/wp-content/uploads/2015/02/NGData_logo_45.png" width="45" height="45"><br>Toolbox</a></div></td>
-         <td></td>
+         <td><font color=#ffffff>...</font></td>
          <td><div align = center><a href="https://qms.nextgis.com/about"><img src="https://nextgis.ru/wp-content/uploads/2015/02/QMS_logo.png" alt="" width="45" height="45"><br>QMS</a></div></td>
-         <td></td>
+         <td><font color=#ffffff>...</font></td>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_geoservices/source/toc.html"><img src="https://nextgis.ru/wp-content/uploads/2024/04/nggeoservices_logo.png" alt="" width="45" height="45"><br>GeoServices</a></div></td>
        </tr>
      </tbody>
@@ -69,12 +69,16 @@
    </table>
    <br>
    <div align = center>На своём сервере</div>
+   <br>
    <table align=center style="border: 4px rgb(255, 255, 255);">
      <tbody>
        <tr>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_ngid/source/toc.html"><img loading="lazy" decoding="async" class="wp-image-9187 size-full alignnone" src="http://nextgis.com/wp-content/uploads/2015/02/NGWeb_logo.png" alt="" width="45" height="45"><br>NextGIS ID</a></div></td>
+         <td><font color=#ffffff>...</font></td>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_ngweb/source/toc.html"><img src="http://nextgis.com/wp-content/uploads/2015/02/NGCloud_logo.png" alt="" width="45" height="45"><br>NextGIS Web</a></div></td>
+         <td><font color=#ffffff>...</font></td>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_toolbox_prem/source/toc.html"><img src="https://nextgis.ru/wp-content/uploads/2015/02/NGData_logo_45.png" width="45" height="45"><br>Toolbox</a></div></td>
+         <td><font color=#ffffff>...</font></td>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_geoserv_prem/source/toc.html"><img src="https://nextgis.ru/wp-content/uploads/2024/04/nggeoservices_logo.png" alt="" width="45" height="45"><br>GeoServices</a></div></td>
        </tr>
      </tbody>
@@ -89,12 +93,16 @@
      <tbody>
        <tr>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_ngweb_dev/doc/toc.html"><img src="http://nextgis.com/wp-content/uploads/2015/02/NGCloud_logo.png" alt="" width="45" height="45"><br>NextGIS&nbsp;Web</a></div></td>
+         <td><font color=#ffffff>...</font></td>
          <td><div align = center><a href="https://docs.nextgis.ru/qms_srv_dev/doc/api.html"><img src="https://nextgis.ru/wp-content/uploads/2015/02/QMS_logo.png" alt="" width="45" height="45"><br>NextGIS QMS&nbsp;Service&nbsp;API</a></div></td>
+         <td><font color=#ffffff>...</font></td>
          <td><div align = center><a href="https://docs.nextgis.ru/ngmobile_dev/source/toc.html"><img src="https://nextgis.ru/wp-content/uploads/2015/02/ngm_45.png" alt="" width="45" height="45"><br>NextGIS Mobile</a></div></td>
        </tr>
        <tr>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_formbuilder_dev/doc/toc.html"><img width="45" height="45" src="https://nextgis.ru/wp-content/uploads/2015/02/NGFormbuilder_logo_45.png" alt="NGFormbuilder"><br>NextGIS Formbuilder</a></div></td>
+         <td><font color=#ffffff>...</font></td>
          <td><div align = center><a href="https://docs.nextgis.ru/tracker_hub_dev/source/main.html"><img src="https://nextgis.ru/wp-content/uploads/2025/01/ngtracker_logo.png" alt="NGTracker_logo" width="45" height="45"><br>NextGIS Tracker&nbsp;Hub</a></div></td>
+         <td><font color=#ffffff>...</font></td>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_ngwdocker/doc/index.html"><img src="http://nextgis.com/wp-content/uploads/2015/02/NGWeb_logo.png" alt="" width="45" height="45"><br>NextGIS&nbsp;Docker</a></div></td>
        </tr>
        </tr>
