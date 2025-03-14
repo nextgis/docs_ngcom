@@ -3,14 +3,14 @@
 Как создавать стили для визуализации данных
 ============================================
 
-Стиль является особым видом ресурса, необходимым для визуализации геоданных на :ref:`Веб-карте <ngcom_webmap_create>` или с помощью :ref:`Сервиса WMS <ngcom_wms_service>`. При добавлении слоя на Веб-карту или его публикации по протоколу :term:`WMS` используется именно его стиль, описывающий способ визуального представления геоданных. 
+Стиль является особым видом ресурса, необходимым для визуализации геоданных на `Веб-карте <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html>`_ или с помощью `Сервиса WMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-wms-service>`_. При добавлении слоя на Веб-карту или его публикации по протоколу :term:`WMS` используется именно его стиль, описывающий способ визуального представления геоданных. 
 
-Исключением являются :ref:`Слои WMS <ngcom_wms_layer>` и :ref:`Слои TMS <ngcom_tms_layer>`, для которых создание Стилей не требуется, так как необходимая для их отображения на карте информация передается в :ref:`Веб ГИС <ngcom_description>` с внешнего сервера.
+Исключением являются `Слои WMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-layer-wms>`_ и `Слои TMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-tms-layer>`_, для которых создание Стилей не требуется, так как необходимая для их отображения на карте информация передается в :ref:`Веб ГИС <ngcom_description>` с внешнего сервера.
 
 ВебГИС поддерживает возможность создания разных видов стилей.
 
-* Для :ref:`Векторных слоев <ngcom_vector_layer>` и :ref:`Слоев PostGIS <ngcom_postgis_layer>` можно создать :ref:`Стиль MapServer <ngcom_mapserver_style>` или :ref:`Векторный стиль QGIS <ngcom_qgis_style>`;
-* Для :ref:`Растровых слоев <ngcom_raster_layer>` можно создать :ref:`Растровый стиль <ngcom_raster_style>` или :ref:`Растровый стиль QGIS <ngcom_qgis_style>`.
+* Для `Векторных слоев <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-vector-layer>`_ и `Слоев PostGIS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-postgis-layer>`_ можно создать `Стиль MapServer <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#mapserver>`_ или `Векторный стиль QGIS <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html>`_;
+* Для `Растровых слоев <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-raster-layer>`_ можно создать `Растровый стиль <https://docs.nextgis.ru/docs_ngweb/source/layers.html#qgis>`_ или `Растровый стиль QGIS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#qgis>`_.
 
 Для того, чтобы создать стиль QGIS с настройками по умолчанию для нового слоя, достаточно нажать на кнопку на странице ресурса.
 
@@ -31,7 +31,7 @@
 
 #. Откройте окно свойств слоя, для которого вы хотите создать Стиль;
 #. Нажмите кнопку **Создать ресурс** и выберите во всплывающем окне тип ресурса "Стиль QGIS";
-#. В открывшемся окне на вкладке :guilabel:`Стиль QGIS` загрузите файл в формате :term:`QML` или SLD, созданный с помощью :term:`QGIS` (о том, как создать файл QML с помощью NextGIS QGIS - :ref:`здесь <ngq_save_style>`). Для векторных слоев также можно создать простой пользовательский стиль (подробнее см `здесь <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html>`_);
+#. В открывшемся окне на вкладке :guilabel:`Стиль QGIS` загрузите файл в формате :term:`QML` или SLD, созданный с помощью :term:`QGIS` (о том, как создать файл QML с помощью NextGIS QGIS - `здесь <ngq_save_style>`). Для векторных слоев также можно создать простой пользовательский стиль (подробнее см `здесь <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html>`_);
 #. Нажмите кнопку **Создать**. Если Стиль создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующего слоя.
 
 .. figure:: _static/QGIS_style_select_ru_2.png
@@ -60,14 +60,14 @@
 Простые векторные стили можно редактировать непосредственно в облаке (`подробнее <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#ngw-qgis-style-custom-edit>`_.
 
 .. note:: 
-	Для Векторных слоев, загружаемых в Веб ГИС :ref:`с помощью настольного приложения QGIS <ngcom_ngqgis_connect_data_upload>`, Стиль QGIS создается автоматически.
+	Для Векторных слоев, загружаемых в Веб ГИС `с помощью настольного приложения QGIS <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>`_, Стиль QGIS создается автоматически.
 
 .. _ngcom_mapserver_style:
 
 Стиль MapServer 
 ----------------------------
 
-#. Откройте окно свойств :ref:`Векторного слоя <ngcom_vector_layer>` или :ref:`Слоя PostGIS <ngcom_postgis_layer>`, для которого вы хотите создать Стиль;
+#. Откройте окно свойств `Векторного слоя <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-vector-layer>`_ или `Слоя PostGIS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-postgis-layer>`_, для которого вы хотите создать Стиль;
 #. Нажмите кнопку **Создать ресурс** и выберите во всплывающем окне тип ресурса "Стиль MapServer";
 #. Нажмите кнопку **Создать**. Если Стиль создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующего Векторного слоя или Слоя PostGIS.
 
@@ -87,19 +87,19 @@
    
    Пользовательское имя стиля 
 
-Примеры стилей :term:`MapServer` вы можете найти :ref:`здесь <https://docs.nextgis.ru/docs_ngweb/source/mapservertemplates.html>`.
+Примеры стилей :term:`MapServer` вы можете найти `здесь <https://docs.nextgis.ru/docs_ngweb/source/mapservertemplates.html>`_.
 
 .. _ngcom_raster_style:
 
 Растровый стиль
 -----------------------------
 
-#. Откройте окно свойств :ref:`Растрового слоя <ngcom_raster_layer>`, для которого вы хотите создать Стиль;
+#. Откройте окно свойств `Растрового слоя <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-raster-layer>`_, для которого вы хотите создать Стиль;
 #. Нажмите кнопку **Создать ресурс** и выберите во всплывающем окне тип ресурса "Растровый стиль";
 #. Нажмите кнопку **Создать**. Если Стиль создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующего Растрового слоя.
 
 .. note:: 
-	Для Растровых слоев, загружаемых в Веб ГИС :ref:`с помощью настольного приложения QGIS <ngcom_ngqgis_connect_data_upload>`, Растровый стиль создается автоматически.
+	Для Растровых слоев, загружаемых в Веб ГИС `с помощью настольного приложения QGIS <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>`_., Растровый стиль создается автоматически.
 
 .. figure:: _static/raster_style_select_ru_2.png
    :name: raster_style_select
@@ -117,4 +117,4 @@
    
    Создание растрового стиля с пользовательским именем
 
-Больше информации о создании и редактировании Стилей - :ref:`здесь <ngw_style_create>`.
+Больше информации о создании и редактировании Стилей - `здесь <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#>`_.
