@@ -1,3 +1,4 @@
+.. _ngcom_start:
 
 Мне нужно...
 -------------
@@ -31,8 +32,12 @@
 
 |transparent|
 
+.. _ngcom_guides:
+
 Подробные руководства ПО
 -------------------------
+
+.. _ngcom_userguides:
 
 Пользователям
 ~~~~~~~~~~~~~~~~
@@ -43,13 +48,13 @@
      <tbody>
        <tr>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_ngweb/source/toc.html"><img src="http://nextgis.com/wp-content/uploads/2015/02/NGCloud_logo.png" alt="" width="45" height="45"><br>NextGIS Web</a></div></td>
-         <td><font color=#ffffff>...</font></td>
+         <td><img src="https://docs.nextgis.ru/_images/transparent.png"</td>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_data/source/toc.html"><img src="https://nextgis.ru/wp-content/uploads/2015/02/NGToolbox_logo_45.png" alt="" width="45" height="45"><br>Data</a></div></td>
-         <td><font color=#ffffff>...</font></td>
+         <td><img src="https://docs.nextgis.ru/_images/transparent.png"></td>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_toolbox/source/toc.html"><img src="https://nextgis.ru/wp-content/uploads/2015/02/NGData_logo_45.png" width="45" height="45"><br>Toolbox</a></div></td>
-         <td><font color=#ffffff>...</font></td>
+         <td><img src="https://docs.nextgis.ru/_images/transparent.png"></td>
          <td><div align = center><a href="https://qms.nextgis.com/about"><img src="https://nextgis.ru/wp-content/uploads/2015/02/QMS_logo.png" alt="" width="45" height="45"><br>QMS</a></div></td>
-         <td><font color=#ffffff>...</font></td>
+         <td><img src="https://docs.nextgis.ru/_images/transparent.png"</td>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_geoservices/source/toc.html"><img src="https://nextgis.ru/wp-content/uploads/2024/04/nggeoservices_logo.png" alt="" width="45" height="45"><br>GeoServices</a></div></td>
        </tr>
      </tbody>
@@ -84,6 +89,8 @@
      </tbody>
    </table>
 
+.. _ngcom_dev:
+
 Разработчикам
 ~~~~~~~~~~~~~~~
 
@@ -109,10 +116,11 @@
      </tbody>
    </table>
 
+_ngcom_faq:
+
 Популярные вопросы
 -------------------
 
-Популярные вопросы
 
 Аккаунт
 
