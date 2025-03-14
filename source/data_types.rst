@@ -8,7 +8,7 @@
 * Растровые - :term:`GeoTIFF` (стандартный растровый стиль поддерживает RGB или RGBA, для остальных вариантов можно использовать стиль QGIS);
 * Векторные - :term:`ESRI Shapefile`, :term:`GeoJSON`, :term:`GeoPackage`, :term:`GML`, :term:`KML`, :term:`CSV` или XLSX. Для CSV и XLSX поддерживаются только точки, координаты должны быть в колонках lat и lon.
 
-Если нужно загрузить данные в другом формате, вы можете использовать :ref:`NextGIS Connect <ngcom_ngqgis_connect_data_upload>`.
+Если нужно загрузить данные в другом формате, вы можете использовать `NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>`_.
 
 Также вы можете :ref:`подключать <ngcom_data_connect>` в Веб ГИС геоданные из следующих внешних источников: 
 
@@ -20,4 +20,4 @@
 
 Хранящиеся и подключенные в Веб ГИС геоданные можно публиковать по протоколам :term:`WFS` (в том числе с возможностью редактирования) и :term:`WMS`. Подробнее - :ref:`здесь <ngcom_data_services>`.
 
-Векторные данные из локальных и внешних источников можно экспортировать в форматы :term:`GeoJSON` и :term:`CSV`. Подробнее - :ref:`здесь <ngcom_data_export>`.
+Векторные данные из локальных и внешних источников можно экспортировать в форматы :term:`GeoJSON` и :term:`CSV`. Подробнее - `здесь <https://docs.nextgis.ru/docs_ngweb/source/admin_interface.html#ngw-vector-export>`_.
