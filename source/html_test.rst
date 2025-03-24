@@ -140,6 +140,7 @@
 * `Как узнать ID ресурса? <https://docs.nextgis.ru/docs_ngconnect/source/filter.html#ngc-find-id>`_
 * `Как изменить внешний вид Веб ГИС? <https://docs.nextgis.ru/docs_ngweb/source/look.html>`_
 * `Как сделать интерфейс, которого нет в стандартном варианте? <https://code.nextgis.com/readme>`_
+* `Как встроить карту на сайт? <https://docs.nextgis.ru/docs_ngcom/source/embed_webmap.html>`_
 
 Пользователи и команда
 
