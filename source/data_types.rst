@@ -6,7 +6,7 @@
 :ref:`Веб ГИС <ngcom_description>` позволяет :ref:`загружать <ngcom_data_upload>` и хранить геоданные из локальных источников в следующих форматах:
 
 * Растровые - :term:`GeoTIFF` (стандартный растровый стиль поддерживает RGB или RGBA, для остальных вариантов можно использовать стиль QGIS);
-* Векторные - :term:`ESRI Shapefile`, :term:`GeoJSON`, :term:`GeoPackage`, :term:`GML`, :term:`KML`, :term:`CSV` или XLSX. Для CSV и XLSX поддерживаются только точки, координаты должны быть в колонках lat и lon.
+* Векторные - :term:`ESRI Shapefile`, :term:`GeoJSON`, :term:`GeoPackage`, :term:`GML`, :term:`KML`, :term:`CSV` или :term:`XLSX`. Для CSV и XLSX поддерживаются только точки, координаты должны быть в колонках lat и lon.
 
 Если нужно загрузить данные в другом формате, вы можете использовать `NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>`_.
 
