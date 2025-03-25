@@ -25,7 +25,7 @@
        <tr><td colspan=2><font color=#ffffff>...</font></td></tr>
        <tr>
          <td style="border: 4px outset rgb(255, 255, 255);"><div><a href="https://data.nextgis.com/ru/howto/order/"><b>Данные</b><br>Закажите геоданные для ваших проектов</a></div></td>
-         <td style="border: 4px outset rgb(255, 255, 255);"><div><a href=""><b>Мигрировать с других платформ</b><br>Поможем перейти с ArcGIS, MapInfo и другого ПО<br></a></div></td>
+         <td style="border: 4px outset rgb(255, 255, 255);"><div><b>Мигрировать с других платформ</b><br>Поможем перейти с <a href="https://nextgis.ru/services/arcgis-to-nextgis/">ArcGIS</a>, <a href="https://nextgis.ru/services/mapinfo-to-nextgis/">MapInfo</a>, <a href="https://nextgis.ru/services/geomixer-to-nextgis/">GeoMixer</a><br></div></td>
        </tr>
      </tbody>
    </table>
