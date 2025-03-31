@@ -3,7 +3,7 @@
 .. _tracking:
 
 How to enable the monitoring of moving objects (tracking)
-========================================================
+=========================================================
 
 .. note::
     The number of available trackers depends on the current `plan <https://nextgis.com/pricing-base/>`_. For **Mini** - 1 tracker, for **Premium** - 5 trackers
