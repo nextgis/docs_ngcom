@@ -1,7 +1,7 @@
 .. _ngcom_styles:
 
 How to create map styles for data visualization
-============================================
+================================================
 
 Style is a special type of resource necessary to visualize geodata on :ref:`Web Map <ngcom_webmap_create>` or with :ref:`WMS service <ngcom_wms_service>` When displaying a data layer on a Web Map or publishing it using :term:`WMS` protocol, you actually use its style which describes how geodata is visually presented on a map.  
 
