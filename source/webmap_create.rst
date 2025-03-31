@@ -64,4 +64,4 @@ Add a description
    
    Description and legend for a Web Map
 
-Legend is also viewed in the layer tree, see `more on how to set it up <https://docs.nextgis.com/docs_ngcom/source/legend.html>.
+Legend is also viewed in the layer tree, see `more on how to set it up <https://docs.nextgis.com/docs_ngcom/source/legend.html>`_.
