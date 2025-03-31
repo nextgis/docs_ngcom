@@ -64,7 +64,7 @@ Edit a feature on a Web Map
    Editing toolbar
    
 Create a new feature (point, line, polygon)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. On the editing toolbar activate "Create features" button (see :numref:`webmap_create_objects`):
 
@@ -141,7 +141,7 @@ Modify a feature
 	
 	
 Edit feature's attributes
-----------------------
+--------------------------
 
 There are 2 ways to edit feature's attributes: 
 1) using edit form in :ref:`Feature table <ngw_feature_table>` or
