@@ -204,7 +204,7 @@ How to add a new rule
 To add a new rule, press **Add** in the empty row at the end of the list and select **Allow**.
 
 .. figure:: _static/resource_permissions_new_en.png
-   :name: resource_permissions_tab_pic
+   :name: resource_permissions_new_pic
    :align: center
    :width: 20cm
 
@@ -213,7 +213,7 @@ To add a new rule, press **Add** in the empty row at the end of the list and sel
 Then in each column select from a dropdown menu the value you need and press **Save**.
 
 .. figure:: _static/resource_permissions_new_details_en.png
-   :name: resource_permissions_tab_pic
+   :name: resource_permissions_new_details_pic
    :align: center
    :width: 20cm
 
@@ -224,7 +224,7 @@ To delete a rule, press X at the end of the row.
 .. _ngcom_permissions_cases:
 
 Common cases of assigning permissions
-------------------------------
+--------------------------------------
 
 This section contains examples of settings for some common cases of permission setups.
 
@@ -303,7 +303,7 @@ Allow logged in users to use WMS service
 1. For the Main resource group: **Resource: Read**, apply to **This resource only**.
 
 .. figure:: _static/allow_auth_main_en_2.png
-   :name: allow_auth_main_pic
+   :name: allow_auth_main_wms_pic
    :align: center
    :width: 20cm
 
@@ -379,7 +379,7 @@ Set it for:
 * Web Map
 
 .. figure:: _static/allow_group_webmap_en.png
-   :name: allow_guest_webmap_pic
+   :name: allow_group_webmap_pic
    :align: center
    :width: 20cm
 
@@ -390,7 +390,7 @@ Set it for:
 * Resource group containing data for the Web Map
 
 .. figure:: _static/allow_group_data_group_en_2.png
-   :name: allow_guest_data_group_pic
+   :name: allow_guest_data_group_track_pic
    :align: center
    :width: 18cm
 
