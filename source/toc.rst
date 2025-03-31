@@ -28,7 +28,6 @@ Get Started with NextGIS
    attachments
    lookup
    ngqgis_connect
-   address_search
    tracking
    permissions
    collector
