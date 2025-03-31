@@ -13,11 +13,13 @@ How to sign in to Web GIS
 
 I have a Web GIS. How do sign in?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 In the upper right corner press "Sign in", then select "Sign in with NextGIS ID". Enter the credentials of your global NextGIS account (username or email used for registration and password).
 If you forgot your password or login, see instructions `below <https://docs.nextgis.com/docs_ngcom/source/faq_webgis.html#ngcom_change_passwords_webgis>`_.
 
 I want to let another user access my Web GIS. How can I do it?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1. The user creates an account on `my.nextgis.com <https://my.nextgis.com/>`_. 
 2. The owner of the Web GIS goes to the `Team <https://docs.nextgis.com/docs_ngcom/source/teams.html#team-management>`_ page and adds a new team member by username.
 3. The user logs in with NextGIS ID.
@@ -31,7 +33,7 @@ I forgot my account password (NextGIS ID). What to do?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To recover a password from *NextGIS ID*, follow these steps:
 
-1. Go to `my.nextgis.com <https://my.nextgis.com//>`_
+1. Go to `my.nextgis.com <https://my.nextgis.com//>`__
 2. Select "Forgot password?"
 
 .. figure:: _static/forgot_pass_ngid_en.png
@@ -42,7 +44,7 @@ To recover a password from *NextGIS ID*, follow these steps:
    Password recovery NextGIS ID
 
 I forgot both username and password of my account. What to do?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 If you lost both username (email) and password from your account and can't recover access to your Web GIS, follow these steps:
 
 1. Write us at support@nextgis.com with the address of your Web GIS. Add information that will help us identify you as the owner of this Web GIS. Agreement number or paid invoice or any other information.
