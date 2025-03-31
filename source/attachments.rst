@@ -31,7 +31,7 @@ To add an attachment to a feature, go to the edit window. There are several ways
 In the edit window navigate to the "Attachments" tab.
 
 .. figure:: _static/add_attachment_en.png
-   :name: manage_att_select_pic
+   :name: add_attachment_pic
    :align: center
    :width: 16cm
 
@@ -46,7 +46,7 @@ If you've made an error during editing, press **Reset**, all modifications will 
 .. _ngcom_attach_import_export:
 
 How to import and export attachments
--------------------------
+-------------------------------------
 
 To copy feature attachments between different layers as a package or to create a backup you can save them to your device as an archive (Standard layer saving does not include attachments).
 
