@@ -167,7 +167,7 @@ If you select a resource group containing layers with **multiple styles**, all t
 .. _ngcom_ngqgis_connect_services:
 
 Creating WFS, WFS and OGC API - Features services
----------------------------
+--------------------------------------------------
 
 NextGIS Connect module allows you to quickly publish Vector layers to Web GIS using standard protocols :term:`WFS`, :term:` WMS` and OGC API - Features.
 
@@ -278,7 +278,7 @@ To do this the module provides a quick creation operation :ref:`WMS service <ngc
 * In the desktop application (QGIS) in the resource Web GIS tree of module NextGIS Connect select **Vector layer** that you want to publish via the WMS protocol;
 
 .. figure:: _static/NGConnect_wfs_select_en.png
-   :name: NGConnect_wfs_select_pic
+   :name: NGConnect_wms_select_pic
    :align: center
    :width: 20cm
    
@@ -487,7 +487,7 @@ It's possible due to the option of fast creation of GeoJSON vector layers in QGI
 1. If you select a **layer with multiple styles** in the Connect window, all the styles will be added, but you need to chose current style in a dialog window.
 
 .. figure:: _static/NGConnect_export_select_style_en.png
-   :name: NGConnect_export_select_pic
+   :name: NGConnect_export_select_style_pic
    :align: center
    :width: 20cm
    
