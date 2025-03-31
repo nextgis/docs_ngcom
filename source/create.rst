@@ -6,7 +6,7 @@ Account
 .. _ngcom_create_account:
 
 How to create account (NextGIS ID)
-------------------------------
+-----------------------------------
 
 Before you can start working with your :ref:`Web GIS <ngcom_description>` you need to create an account (NextGIS ID). NextGIS ID is required to access all NextGIS Services, including Web GIS service.
 
@@ -62,7 +62,7 @@ In case you don't receive this letter in 10-15 minutes, click **Create Web GIS**
 .. _ngcom_ngid_login:
 
 Sign-in via NextGIS ID
--------------------
+-----------------------
 
 After selecting sign-in with NextGIS ID, you'll be redirected to the following page:
 
@@ -145,7 +145,7 @@ To change the password for the NextGIS ID account, go to the `profile settings <
 .. _ngcom_ngid_telegram:
 
 Get notifications in Telegram messenger
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Add Telegram account to get notifications about orders you made on `NextGIS Data <https://data.nextgis.com/en/>`_ not just by email (where they may get into spam folder), but also in Telegram. You can also download the data directly from the messenger.
 
