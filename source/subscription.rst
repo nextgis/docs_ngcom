@@ -1,5 +1,5 @@
 Subscription
-=========
+=============
 
 To view information on your subscription plan go to your `account <https://my.nextgis.com/subscription/>`_.
 
@@ -12,7 +12,7 @@ In this section you can:
 .. _my_sub_upgrade:
 
 Upgrade subscription plan
----------------
+--------------------------
 
 New accounts are created on Free subscription plan. To access full functionality of the platform and get technical support you need to subscribe.
 
