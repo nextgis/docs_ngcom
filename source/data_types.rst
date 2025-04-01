@@ -20,4 +20,4 @@
 
 Хранящиеся и подключенные в Веб ГИС геоданные можно публиковать по протоколам :term:`WFS` (в том числе с возможностью редактирования) и :term:`WMS`. Подробнее - :ref:`здесь <ngcom_data_services>`.
 
-Векторные данные из локальных и внешних источников можно экспортировать в форматы :term:`GeoJSON` и :term:`CSV`. Подробнее - `здесь <https://docs.nextgis.ru/docs_ngweb/source/admin_interface.html#ngw-vector-export>`_.
+Векторные данные из локальных и внешних источников можно экспортировать в форматы :term:`GeoJSON` и :term:`CSV`. Подробнее - `здесь <https://docs.nextgis.ru/docs_ngweb/source/admin_interface.html#ngw-vector-export>`__.
