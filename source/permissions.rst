@@ -210,7 +210,7 @@
 Далее в каждом столбце выберите из выпадающего списка нужное значение и нажмите **Сохранить**.
 
 .. figure:: _static/resource_permissions_new_details_ru.png
-   :name: resource_permissions_new_pic
+   :name: resource_permissions_new_details_pic
    :align: center
    :width: 20cm
 
