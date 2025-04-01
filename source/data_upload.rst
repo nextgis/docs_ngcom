@@ -37,7 +37,7 @@ Input data requirements
 Creating raster layer
 ^^^^^^^^^^^^^^^^^^^^^
 
-#. Open the :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default the main page of Web GIS has Main resource group displayed);
+#. Open the `Resource group <https://docs.nextgis.com/docs_ngweb/source/create_resource.html#create-resource-group-to-manage-data>`_ where you want to create a data layer (by default the main page of Web GIS has Main resource group displayed);
 #. Press **Create resource** and select **Raster layer**;
 #. In the opened dialog, go to :guilabel:`Resource` tab and type a name for the new layer in the field :guilabel:`Display name`. Then go to :guilabel:`Raster layer` tab and select a file with raster geodata;
 #. Press :guilabel:`Create` button. If Raster layer is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant Resource group.
@@ -109,7 +109,7 @@ Use :ref:`NextGIS Connect <ngcom_ngqgis_connect_data_upload>` if you need to upl
 Creating vector layer
 ^^^^^^^^^^^^^^^^^^^^^
 
-#. Open :ref:`Resource group <ngcom_resources_group>` where you want to create a data layer (by default from the main page of Web GIS you can access Main resource group);
+#. Open `Resource group <https://docs.nextgis.com/docs_ngweb/source/create_resource.html#create-resource-group-to-manage-data>`__ where you want to create a data layer (by default from the main page of Web GIS you can access Main resource group);
 #. Press **Create resource** and select **Vector layer**;
 #. In the opened dialog, go to :guilabel:`Vector layer` tab and select a file with vector geodata or select geometry type for an empty vector layer;
 #. Then in :guilabel:`Resource` tab type a name for the new layer in the field :guilabel:`Display name`.
