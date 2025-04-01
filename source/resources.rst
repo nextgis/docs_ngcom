@@ -30,4 +30,4 @@ Geodata in :ref:`Web GIS <ngcom_description>` is managed with resource system. A
 
 **Resources for geodata storage management**:
 
-* :ref:`Resource group <ngcom_resources_group>` (created to provide folderlike data structure)
+* `Resource group <https://docs.nextgis.com/docs_ngweb/source/create_resource.html#create-resource-group-to-manage-data>`_ (created to provide folderlike data structure)
