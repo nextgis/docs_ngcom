@@ -344,7 +344,7 @@ If changes have been made to the layer in Web GIS since the last synchronization
 
 If the layer needs to be edited using multiple devices/platforms at once, the options are:
 
-1. Use OGC API — Features or `WFS <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#ngcom-connect-data-edit-wfs>`_ services. You can create them in the web interface (`WFS <https://docs.nextgis.com/docs_ngweb/source/layers.html#wfs-service>`_, `OGC API — Features <https://docs.nextgis.com/docs_ngweb/source/layers.html#ogc-api-features-service>`_) or directly `from Connect panel <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#creating-wfs-wfs-and-ogc-api-features-services>`_, and edit the layer via a servce.
+1. Use OGC API — Features or `WFS <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#ngcom-connect-data-edit-wfs>`_ services. You can create them in the web interface (`WFS <https://docs.nextgis.com/docs_ngweb/source/layers.html#wfs-service>`__, `OGC API — Features <https://docs.nextgis.com/docs_ngweb/source/layers.html#ogc-api-features-service>`_) or directly `from Connect panel <https://docs.nextgis.com/docs_ngcom/source/ngqgis_connect.html#creating-wfs-wfs-and-ogc-api-features-services>`_, and edit the layer via a servce.
 
 2. Edit directly in QGIS with enabled `feature versioning <https://docs.nextgis.com/docs_ngweb/source/layers.html#create-vector-layer-vers-pic>`_. Turn it on in the vector layer settings. When versioning is enabled, changes of the layer are logged. It allows Connect to detect changes made on other devices and process them without resetting the layer. 
 
