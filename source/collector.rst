@@ -83,7 +83,7 @@ These stages of work with NextGIS Collector could be described schematically as 
 
 To sum up, to begin data collection:
 
-- The data collection organizer should have a Web GIS on `Premium plan <https://youtu.be/xsMcjVUUEQQ>`_.
+- The data collection organizer should have a Web GIS on `Premium plan <https://youtu.be/xsMcjVUUEQQ>`__.
 - Every data collection team participant should have a mobile device with Android OS.
 - Every data collection team participant should register in nextgis.com_ and know his registration email and password.
 
@@ -333,7 +333,7 @@ You can also switch the mode to a map.
    Editable layers of the project
 
 .. figure:: _static/ngc-user-09.png
-   :name: ngc-user-09
+   :name: ngc-user-09_pic
    :align: center
    :width: 10cm
 
