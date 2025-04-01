@@ -58,7 +58,7 @@ How to sign in to your Web GIS
 To start working in your Web GIS, first sign in using a **"Sign in"** button in the upper right corner.
 
 .. figure:: _static/ngweb_before_signin_en.png
-   :name: ngweb_before_signin_pic
+   :name: webgis_before_signin_pic
    :align: center
    :width: 16cm
    
@@ -67,7 +67,7 @@ To start working in your Web GIS, first sign in using a **"Sign in"** button in 
 In the opened dialog press the green button that reads "Sign in with NextGIS ID".
 
 .. figure:: _static/ngweb_signin_nextgisid_en.png
-   :name: ngweb_signin_nextgisid_pic
+   :name: webgis_signin_nextgisid_pic
    :align: center
    :width: 16cm
    
@@ -76,7 +76,7 @@ In the opened dialog press the green button that reads "Sign in with NextGIS ID"
 You will be redirected to my.nextgis.com authorization page. Enter your username or email you used for registration and your password. 
 
 .. figure:: _static/ngweb_nextgisid_en.png
-   :name: ngweb_nextgisid_pic
+   :name: signin_nextgisid_pic
    :align: center
    :width: 12cm
    
