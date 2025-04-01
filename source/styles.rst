@@ -31,7 +31,7 @@
 
 #. Откройте окно свойств слоя, для которого вы хотите создать Стиль;
 #. Нажмите кнопку **Создать ресурс** и выберите во всплывающем окне тип ресурса "Стиль QGIS";
-#. В открывшемся окне на вкладке :guilabel:`Стиль QGIS` загрузите файл в формате :term:`QML` или SLD, созданный с помощью :term:`QGIS` (о том, как создать файл QML с помощью NextGIS QGIS - `здесь <ngq_save_style>`). Для векторных слоев также можно создать простой пользовательский стиль (подробнее см `здесь <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html>`_);
+#. В открывшемся окне на вкладке :guilabel:`Стиль QGIS` загрузите файл в формате :term:`QML` или SLD, созданный с помощью :term:`QGIS` (о том, как создать файл QML с помощью NextGIS QGIS - `здесь <ngq_save_style>`). Для векторных слоев также можно создать простой пользовательский стиль (подробнее см `здесь <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html>`__);
 #. Нажмите кнопку **Создать**. Если Стиль создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующего слоя.
 
 .. figure:: _static/QGIS_style_select_ru_2.png
@@ -87,7 +87,7 @@
    
    Пользовательское имя стиля 
 
-Примеры стилей :term:`MapServer` вы можете найти `здесь <https://docs.nextgis.ru/docs_ngweb/source/mapservertemplates.html>`_.
+Примеры стилей :term:`MapServer` вы можете найти `здесь <https://docs.nextgis.ru/docs_ngweb/source/mapservertemplates.html>`__.
 
 .. _ngcom_raster_style:
 
@@ -117,4 +117,4 @@
    
    Создание растрового стиля с пользовательским именем
 
-Больше информации о создании и редактировании Стилей - `здесь <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#>`_.
+Больше информации о создании и редактировании Стилей - `здесь <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#>`__.
