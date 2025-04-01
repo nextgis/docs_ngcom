@@ -40,7 +40,7 @@
 #. Перейдите в окно свойств созданной Веб-карты из соответствующей `Группы ресурсов <https://docs.nextgis.ru/docs_ngweb/source/create_resource.html#ngw-resourses-group>`_;
 #. Выберите :menuselection:`Веб-карта --> Открыть` на правой панели :ref:`веб-интерфейса <ngw_admin_interface>` Веб ГИС. Откроется веб-клиент, через который можно просматривать и редактировать геоданные на веб-карте.
 
-Больше информации о веб-клиенте для просмотра карт - `здесь <https://docs.nextgis.ru/docs_ngweb/source/webmaps_client.html>`_.
+Больше информации о веб-клиенте для просмотра карт - `здесь <https://docs.nextgis.ru/docs_ngweb/source/webmaps_client.html>`__.
 
 .. warning::
     Не рекомендуется одновременно включать (делать видимыми) более 1 `слоя WMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-layer-wms>`_ на планах Free/Mini и более 3 на плане Premium, поскольку в этом случае медленные соединения с внешними :term:`WMS`-серверами займут все доступные одновременные соединения, и остальные слои карты будет нечем отрисовывать (доступ к `веб-интерфейсу <ngw_admin_interface>` в этом случае также будет невозможен).
