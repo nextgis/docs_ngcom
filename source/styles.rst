@@ -15,7 +15,7 @@ Web GIS supports several types of Styles.
 To create a default QGIS style, just press the blue button on the resource page of the layer.
 
 .. figure:: _static/default_style_select_en.png
-   :name: mapserver_style_select
+   :name: default_style_select_pic
    :align: center
    :width: 20cm
    
