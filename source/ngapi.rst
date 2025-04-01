@@ -7,4 +7,4 @@ How to use Web GIS for creation of end-user apps
 
 Read more about NextGIS Web API :ref:`here <ngwdev_description>`. 
 
-Using API you can turn your Web GIS into a geodata storage for other maps and systems. This is made possible through CORS Settings. Read how to switch on CORS for your Web GIS :ref:`here <ngcom_CORS>`.
+Using API you can turn your Web GIS into a geodata storage for other maps and systems. This is made possible through CORS Settings. Read how to switch on CORS for your Web GIS `here <https://docs.nextgis.com/docs_ngweb/source/cors.html>`_.
