@@ -30,7 +30,7 @@ QGIS style
 
 #. Open the Properties page of the layer for which you want to create a style;
 #. Press **Create resource** and select **QGIS style**;
-#. In the opened dialog, Go to :guilabel:`QGIS style` tab and upload a file in :term:`QML` format created with :term:`QGIS` (learn how to :ref:`create QML file <ngq_save_style>` with QGIS);
+#. In the opened dialog, Go to :guilabel:`QGIS style` tab and upload a file in :term:`QML` format created with :term:`QGIS`;
 
 
 #. Press **Create** button.  If Style is created successfully, you'll see its name in :guilabel:`Child resources` pane of the relevant layer.
@@ -88,7 +88,7 @@ You can type a custom display name for the new style in the :guilabel:`Resource`
    
    Display name field of a MapServer style
 
-Examples of :term:`MapServer` style can be found :ref:`here <https://docs.nextgis.com/docs_ngweb/source/mapservertemplates.html>`.
+Examples of :term:`MapServer` style can be found `here <https://docs.nextgis.com/docs_ngweb/source/mapservertemplates.html>`_.
 
 
 
