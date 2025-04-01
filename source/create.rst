@@ -162,7 +162,7 @@ Cloud services (For on-premise services use `NextGIS ID on-premise <https://docs
 
 * Web GIS created on NextGIS Web
 
-To create a Web GIS, go to your `account <https://docs.nextgis.ru/docs_ngcom/source/create_webgis.html>`_.
+To create a Web GIS, go to your `account <https://docs.nextgis.ru/docs_ngcom/source/create_webgis.html>`__.
 
 You can use NGID to `log in <https://docs.nextgis.com/docs_ngweb/source/admin_interface.html#ngw-admin-login>`_ to your own Web GIS or the Web GIS of the `team owner <https://docs.nextgis.com/docs_ngcom/source/teams.html>`_, if you are added to the team.
 
