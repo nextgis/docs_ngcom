@@ -24,7 +24,6 @@ Get Started with NextGIS
    webmap_create
    embed_webmap
    data_services
-   data_edit
    attachments
    lookup
    ngqgis_connect
