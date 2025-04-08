@@ -67,7 +67,7 @@ NextGIS Collector is a technological stack allowing users to create a dataflow b
 There are several stages of data collection process in NextGIS Collector:
 
 1. The organizer of data collection registers in nextgis.com_ and creates a Web GIS on `Premium plan <https://nextgis.com/pricing-base/>`__.
-2. The organizer installs `NextGIS Formbuilder <http://nextgis.com/nextgis-formbuilder>`_, creates data collection forms and uploads them to the Web GIS (`see documentation <https://docs.nextgis.com/docs_formbuilder/source/toc.html>`_). 
+2. The organizer installs `NextGIS Formbuilder <http://nextgis.com/nextgis-formbuilder>`_, creates data collection forms and uploads them to the Web GIS (`see documentation <https://docs.nextgis.com/docs_formbuilder/source/index.html>`_). 
 3. A team of data collection participants registers in nextgis.com_.
 4. The organizer of data collection adds a team of data collection participants to his Web GIS and creates a project of data collection.
 5. Data collection participants install the `NextGIS Collector`_ app and join the project.
