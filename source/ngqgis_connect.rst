@@ -15,4 +15,4 @@
 * `Редактировать <https://docs.nextgis.ru/docs_ngconnect/source/edit.html>`_ данные в Веб ГИС при помощи приложения QGIS.
 * `Экспортировать <https://docs.nextgis.ru/docs_ngconnect/source/export.html>`_ данные и стили слоёв в файл.
 
-Модуль NextGIS Connect доступен в стандартном репозитории QGIS. Полная документация модуля NextGIS Connect представлена в `данном разделе <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>`_. 
+Модуль NextGIS Connect доступен в стандартном репозитории QGIS. Полная документация модуля NextGIS Connect представлена в `данном разделе <https://docs.nextgis.ru/docs_ngconnect/source/index.html>`_. 
