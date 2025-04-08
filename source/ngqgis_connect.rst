@@ -15,7 +15,7 @@ With NextGIS Connect plugin you can:
 * `Edit <https://docs.nextgis.com/docs_ngconnect/source/edit.html>`_ data in Web GIS using QGIS desktop app.
 * `Export <https://docs.nextgis.com/docs_ngconnect/source/export.html>`_ data and layer styles to local files.
 
-NextGIS Connect plugin is available in the standard QGIS plugin repository. See also the detailed `user guide <https://docs.nextgis.com/docs_ngconnect/source/toc.html>`_ for NextGIS Connect.
+NextGIS Connect plugin is available in the standard QGIS plugin repository. See also the detailed `user guide <https://docs.nextgis.com/docs_ngconnect/source/index.html>`_ for NextGIS Connect.
 
 
 
