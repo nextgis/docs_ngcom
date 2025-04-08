@@ -18,7 +18,7 @@ To check what version of QGIS is currently used for rendering in the Web GIS, se
 How to get help or send a bug report
 ---------------------------------------
 
-If you haven't found an answer to your question in this tutorial try `full documentation <http://docs.nextgis.com/docs_ngweb/source/toc.html>`_.
+If you haven't found an answer to your question in this tutorial try `full documentation <http://docs.nextgis.com/docs_ngweb/source/index.html>`_.
 
 You can send bug-reports to info@nextgis.com. 
 
