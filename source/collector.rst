@@ -83,7 +83,7 @@ NextGIS Collector представляет собой технологическ
 
 1. Организатор сбора регистрируется на nextgis.com_ и создает Веб ГИС на тарифном
    плане `Премиум <https://nextgis.ru/pricing-base/>`_.
-2. Организатор сбора устанавливает `NextGIS Formbuilder <http://nextgis.ru/nextgis-formbuilder>`_, создает формы для сбора данных, загружает их в свою Веб ГИС (`документация <https://docs.nextgis.ru/docs_formbuilder/source/toc.html>`_).
+2. Организатор сбора устанавливает `NextGIS Formbuilder <http://nextgis.ru/nextgis-formbuilder>`_, создает формы для сбора данных, загружает их в свою Веб ГИС (`документация <https://docs.nextgis.ru/docs_formbuilder/source/index.html>`_).
 3. Участники команды сбора данных регистрируются на nextgis.com_.
 4. Организатор сбора данных добавляет участников команды сбора данных в свою Веб ГИС и создает проект сбора данных.
 5. Участники команды устанавливают приложение `NextGIS Collector`_ и подключается к проекту.
