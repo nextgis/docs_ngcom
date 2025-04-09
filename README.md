@@ -1,8 +1,8 @@
 # Get Started with your Web GIS
 
 Read online:
-* English - http://docs.nextgis.com/docs_ngcom/source/toc.html
-* Russian - http://docs.nextgis.ru/docs_ngcom/source/toc.html
+* English - http://docs.nextgis.com/docs_ngcom/source/index.html
+* Russian - http://docs.nextgis.ru/docs_ngcom/source/index.html
 
 Create your Web GIS - https://my.nextgis.com/signup/?next=/webgis/
 
