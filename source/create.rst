@@ -158,7 +158,7 @@ In your `Profile <https://my.nextgis.com/profile>`_ go to the "Social Accounts" 
 Where can I use NextGIS ID
 ------------------------------
 
-Cloud services (For on-premise services use `NextGIS ID on-premise <https://docs.nextgis.com/docs_ngid/source/toc.html>`_)
+Cloud services (For on-premise services use `NextGIS ID on-premise <https://docs.nextgis.com/docs_ngid/source/index.html>`_)
 
 * Web GIS created on NextGIS Web
 
