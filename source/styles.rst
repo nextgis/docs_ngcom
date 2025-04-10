@@ -60,7 +60,7 @@
 Простые векторные стили можно редактировать непосредственно в облаке (`подробнее <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#ngw-qgis-style-custom-edit>`_.
 
 .. note:: 
-	Для Векторных слоев, загружаемых в Веб ГИС `с помощью настольного приложения QGIS <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>`_, Стиль QGIS создается автоматически.
+	Для Векторных слоев, загружаемых в Веб ГИС `с помощью настольного приложения QGIS <https://docs.nextgis.ru/docs_ngconnect/source/index.html>`_, Стиль QGIS создается автоматически.
 
 .. _ngcom_mapserver_style:
 
@@ -99,7 +99,7 @@
 #. Нажмите кнопку **Создать**. Если Стиль создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующего Растрового слоя.
 
 .. note:: 
-	Для Растровых слоев, загружаемых в Веб ГИС `с помощью настольного приложения QGIS <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>`_., Растровый стиль создается автоматически.
+	Для Растровых слоев, загружаемых в Веб ГИС `с помощью настольного приложения QGIS <https://docs.nextgis.ru/docs_ngconnect/source/index.html>`_., Растровый стиль создается автоматически.
 
 .. figure:: _static/raster_style_select_ru_2.png
    :name: raster_style_select

@@ -87,7 +87,7 @@
 
 После успешной авторизации вы будете возвращены на страницу Веб ГИС.
 
-Подробное описание функционала Веб ГИС вы найдёте `здесь <https://docs.nextgis.ru/docs_ngweb/source/toc.html>`_.
+Подробное описание функционала Веб ГИС вы найдёте `здесь <https://docs.nextgis.ru/docs_ngweb/source/index.html>`_.
 
 .. _ngcom_main_menu:
 

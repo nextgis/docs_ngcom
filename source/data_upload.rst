@@ -101,9 +101,9 @@
 
 Поддерживаемые форматы: :term:`ESRI Shapefile` (zip-архив без вложенных папок и других архивов, один слой - один архив), :term:`GeoPackage`, :term:`GeoJSON`, :term:`GML`, :term:`KML`, :term:`CSV` или  :term:`XLSX`. Для CSV и XLSX поддерживаются только точки, координаты должны быть в колонках lat и lon.
 
-Если нужно загрузить данные в другом формате, вы можете использовать `NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>`_.
+Если нужно загрузить данные в другом формате, вы можете использовать `NextGIS Connect <https://docs.nextgis.ru/docs_ngconnect/source/index.html>`_.
 
-Также вы можете `подключать <https://docs.nextgis.ru/docs_ngconnect/source/toc.html>`_.
+Также вы можете `подключать <https://docs.nextgis.ru/docs_ngconnect/source/index.html>`_.
 
 Также вы можете :ref:`подключать <ngcom_data_connect>` в Веб ГИС геоданные из следующих внешних источников:  в Веб ГИС геоданные из следующих внешних источников: 
 

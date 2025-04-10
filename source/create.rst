@@ -164,7 +164,7 @@
 Где используется NextGIS ID
 ------------------------------
 
-Облачные сервисы (При разворачивании на собственном сервере используется `NextGIS ID on-premise <https://docs.nextgis.ru/docs_ngid/source/toc.html>`_)
+Облачные сервисы (При разворачивании на собственном сервере используется `NextGIS ID on-premise <https://docs.nextgis.ru/docs_ngid/source/index.html>`_)
 
 * Веб ГИС на платформе NextGIS Web
 
