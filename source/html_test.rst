@@ -49,7 +49,7 @@
        <tr>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_ngweb/source/index.html"><img src="http://nextgis.com/wp-content/uploads/2015/02/NGCloud_logo.png" alt="" width="45" height="45"><br>NextGIS Web</a></div></td>
          <td><img src="https://docs.nextgis.ru/_images/transparent.png"</td>
-         <td><div align = center><a href="https://docs.nextgis.ru/docs_data/source/toc.html"><img src="https://nextgis.ru/wp-content/uploads/2015/02/NGToolbox_logo_45.png" alt="" width="45" height="45"><br>Data</a></div></td>
+         <td><div align = center><a href="https://docs.nextgis.ru/docs_data/source/index.html"><img src="https://nextgis.ru/wp-content/uploads/2015/02/NGToolbox_logo_45.png" alt="" width="45" height="45"><br>Data</a></div></td>
          <td><img src="https://docs.nextgis.ru/_images/transparent.png"></td>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_toolbox/source/index.html"><img src="https://nextgis.ru/wp-content/uploads/2015/02/NGData_logo_45.png" width="45" height="45"><br>Toolbox</a></div></td>
          <td><img src="https://docs.nextgis.ru/_images/transparent.png"></td>
@@ -65,9 +65,9 @@
        <tr>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_ngqgis/source/index.html"><img src="https://nextgis.ru/wp-content/uploads/2022/08/ngqgis_logo_45.png" alt="" width="45" height="45"><br>NextGIS QGIS</a></div></td>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_ngqgis/source/plugins.html"><img src="https://nextgis.ru/wp-content/uploads/2022/08/ngconnect_logo-45.png" alt="" width="45" height="45"><br>Модули расширения</a></div></td>
-         <td><div align = center><a href="https://docs.nextgis.ru/docs_formbuilder/source/toc.html"><img width="45" height="45" src="https://nextgis.ru/wp-content/uploads/2015/02/NGFormbuilder_logo_45.png" alt="NGFormbuilder"><br>Formbuilder</a></div></td>
+         <td><div align = center><a href="https://docs.nextgis.ru/docs_formbuilder/source/index.html"><img width="45" height="45" src="https://nextgis.ru/wp-content/uploads/2015/02/NGFormbuilder_logo_45.png" alt="NGFormbuilder"><br>Formbuilder</a></div></td>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_ngtracker/source/index.html"><img src="https://nextgis.ru/wp-content/uploads/2025/01/ngtracker_logo.png" alt="NGTracker_logo" width="45" height="45"><br>NG Tracker</a></div></td>
-         <td><div align = center><a href="https://docs.nextgis.ru/docs_collector/source/toc.html"><img src="https://nextgis.ru/wp-content/uploads/2020/11/ngcollector_logo_45.png" alt="" width="45" height="45"><br>NG Collector</a></div></td>
+         <td><div align = center><a href="https://docs.nextgis.ru/docs_collector/source/index.html"><img src="https://nextgis.ru/wp-content/uploads/2020/11/ngcollector_logo_45.png" alt="" width="45" height="45"><br>NG Collector</a></div></td>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_ngmobile/source/index.html"><img src="https://nextgis.ru/wp-content/uploads/2015/02/ngm_45.png" alt="" width="45" height="45"><br>NG Mobile</a></div></td>
        </tr>
      </tbody>
