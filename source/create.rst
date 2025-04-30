@@ -20,55 +20,86 @@ To sign up, use `this link <https://my.nextgis.com/signup/>`_ or press
 
    Nextgis.com main page
 
-A sign-up form will open, where you need to fill in E-mail and Password fields, agree to `Terms of Service <https://nextgis.com/terms/>`_ and `Privacy Policy <https://nextgis.com/privacy/>`_, аnd click **Create account** button (see :numref:`signup_form_pic`):
+A sign-up form will open. 
 
-.. figure:: _static/signup_form_en.png
-   :name: signup_form_pic
+.. figure:: _static/ngid_create_email_en.png
+   :name: ngid_create_email_pic
    :align: center
-   :width: 20cm    
+   :width: 16cm    
 
-   Sign-up form
+   Account creation: entering email
 
-.. note::
+Enter an email address, it will be your login for NextGIS services. Click **Continue**. An email verification code will be sent to the address you entered. 
 
-   You can also create an account by authorising with your existing social media account.
+.. figure:: _static/ngid_create_confirm_en.png
+   :name: ngid_create_confirm_pic
+   :align: center
+   :width: 16cm    
 
-After you click the **Create account** button, your Profile page will open where you can fill in your personal information, select language of the interface and change your password.  
-In case you made an error during sign-up, you can also change your email address in the profile.
-To apply changes press **Save** button (see :numref:`profile_pic`): 
+   Account creation: confirming email
 
+Enter the verification code and click **Verify**. You can request a new code after two minues. If you realise you've made a typo in the email address, click **Sign up with another email**.
+
+After verifying your email enter the name that will be indicated in your profile and select a country from the dropdown list to see the correct information on available payment methods.
+
+.. figure:: _static/ngid_userinfo_en.png
+   :name: ngid_userinfo_pic
+   :align: center
+   :width: 16cm    
+
+   Account creation: user info
+
+On the next step enter a password, confirm that you agree to `Terms of Service <https://nextgis.com/terms/>`_ and `Privacy Policy <https://nextgis.com/privacy/>`_ and then click **Create account** to complete the process.
+
+Password must be at least 8 characters long and include one lowercase letter, one uppercase letter, one number, and one of special characters: ``! " # $ % & ' ( ) * + , - . / : ; < = > ? @ [ ] ^ ` { | } ~ _``. 
+
+.. figure:: _static/ngid_set_password_en.png
+   :name: ngid_set_password_pic
+   :align: center
+   :width: 16cm 
+
+   Account creation: password
+
+.. note:: Also you can create a NextGIS ID by signing in with your Google account.
+
+After clicking the **Create account** button you'll be redirected to the page where you can `create a Web GIS <https://docs.nextgis.com/docs_ngcom/source/create_webgis.html>`_.
 
    
-Check your email, you should receive a letter with an account confirmation link.  When you receive the letter, click on the link to confirm your email address. 
-
 .. warning::
 
    You will not be able to create Web GIS and access other NextGIS services until you confirm your email address.
 
-In case you don't receive this letter in 10-15 minutes, click **Create Web GIS** button, then click **Send the email again** link in the "Please confirm your E-mail" window (see :numref:`confirm_email_pic`).
+To verify your email account click **Create Web GIS** button, then click **Send the email again** link in the "Please confirm your E-mail" window (see :numref:`confirm_email_pic`).  Check your email, you should receive a letter with an account confirmation link.  When you receive the letter, click on the link to confirm your email address. 
 
 .. figure:: _static/Confirm_email_en.png
    :name: confirm_email_pic
    :align: center
-   :width: 20cm    
+   :width: 16cm    
 
-   E-mail confimation request
+   “Please confirm your E-mail” window
 
 .. _ngcom_ngid_login:
 
 Sign-in via NextGIS ID
------------------------
+-------------------
 
 After selecting sign-in with NextGIS ID, you'll be redirected to the following page:
 
-.. figure:: _static/ngid_login_en.png
+.. figure:: _static/ngid_signup_signin_en.png
    :name: ngid_login_pic
    :align: center
    :width: 16cm  
 
    Signing in with NextGIS
 
-Enter the email address you used for creating your account and your password, then press **Sign in**. 
+Enter the email address you used for creating your account and press **Continue**. On the next page enter the password and press **Sign in**.
+
+.. figure:: _static/ngid_enter_password_en.png
+   :name: ngid_enter_password_pic
+   :align: center
+   :width: 16cm  
+
+   Entering password
 
 The process of logging in varies depending on particular software and services, see `Where can I use NextGIS ID <https://docs.nextgis.com/docs_ngcom/source/create.html#ngcom-ngid-use>`_.
 
