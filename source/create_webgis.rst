@@ -76,12 +76,12 @@
    
    Выбор входа по NextGIS ID
 
-Вы будете перенаправлены на страницу авторизации my.nextgis.com. Введите имя пользователя или емейл, использованный при регистрации аккаунта, и пароль. 
+Вы будете перенаправлены на страницу авторизации my.nextgis.com. Введите имя пользователя или емейл, использованный при регистрации аккаунта, и в следующем окне пароль. 
 
-.. figure:: _static/ngweb_nextgisid_ru.png
+.. figure:: _static/ngid_signup_signin_ru.png
    :name: ngweb_nextgisid_pic
    :align: center
-   :width: 12cm
+   :width: 16cm
    
    Страница входа NextGIS ID
 
