@@ -36,7 +36,7 @@ To recover a password from *NextGIS ID*, follow these steps:
 1. Go to `my.nextgis.com <https://my.nextgis.com//>`__
 2. Select "Forgot password?"
 
-.. figure:: _static/forgot_pass_ngid_en.png
+.. figure:: _static/forgot_pass_ngid_en_2.png
    :name: forgot_pass_ngid_en
    :align: center
    :width: 16cm    
@@ -66,14 +66,14 @@ If you have forgotten the password for any user who is not a Web GIS administrat
 .. figure:: _static/control_list_users_en.png
    :name: control_list_users_pic
    :align: center
-   :width: 20cm    
+   :width: 16cm    
    
    List of Web GIS users
 
 .. figure:: _static/admin_change_user_password_eng.png
    :name: admin_change_user_password_pic
    :align: center
-   :width: 20cm 
+   :width: 16cm 
 
    Changing Web GIS User Password
 
