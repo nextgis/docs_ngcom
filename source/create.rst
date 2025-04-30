@@ -37,12 +37,7 @@ After you click the **Create account** button, your Profile page will open where
 In case you made an error during sign-up, you can also change your email address in the profile.
 To apply changes press **Save** button (see :numref:`profile_pic`): 
 
-.. figure:: _static/Profile_en.png
-   :name: profile_pic
-   :align: center
-   :width: 20cm    
-  
-   Profile page at nextgis.com.
+
    
 Check your email, you should receive a letter with an account confirmation link.  When you receive the letter, click on the link to confirm your email address. 
 
@@ -98,6 +93,14 @@ Profile
 ~~~~~~~~
 
 You'll find your profile on https://my.nextgis.com/profile.
+
+.. figure:: _static/Profile_en.png
+   :name: profile_pic
+   :align: center
+   :width: 20cm    
+  
+   Profile page at nextgis.com
+
 On the Profile page you can:
 
 * `Change your NextGIS ID password <https://docs.nextgis.com/docs_ngcom/source/create.html#ngcom-ngid-change-password>`_.
