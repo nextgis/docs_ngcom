@@ -41,7 +41,7 @@
 
 На этот e-mail придет информация для восстановления пароля.
 
-.. figure:: _static/forgot_pass_ngid.png
+.. figure:: _static/forgot_pass_ngid_ru.png
    :name: forgot_pass_ngid
    :align: center
    :width: 16cm    
