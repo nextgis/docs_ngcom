@@ -10,19 +10,16 @@
      <tbody>
        <tr>
          <td style="border: 4px outset rgb(255, 255, 255);"><div><a href="https://docs.nextgis.ru/docs_ngcom/source/index.html"><b>Знакомство с платформой</b><br>Регистрация, первые шаги<br></a></div></td>
-         <td style="border: 4px outset rgb(255, 255, 255);"><div><a href="https://docs.nextgis.ru/docs_ngcom/source/tracking.html"><b>Треки</b><br>Отслеживать местоположение, записывать перемещения<br> </a></div></td>
+         <td style="border: 4px outset rgb(255, 255, 255);"><div><a href="https://docs.nextgis.ru/docs_ngcom/source/tracking.html"><b>Треки</b><br>Отслеживать местоположение, записывать перемещения<br><font color=#ffffff>...</font><br> </a></div></td>
        </tr>
-       <tr><td colspan=2><font color=#ffffff>...</font></td></tr>
        <tr>
-         <td style="border: 4px outset rgb(255, 255, 255);"><div><a href="https://docs.nextgis.ru/docs_ngweb/source/general.html"><b>Веб ГИС</b><br>Хранить, организовывать и публиковать геоданные через веб-карты и сервисы<br> </a></div></td>
+         <td style="border: 4px outset rgb(255, 255, 255);"><div><a href="https://docs.nextgis.ru/docs_ngweb/source/general.html"><b>Веб ГИС</b><br>Хранить, организовывать и публиковать геоданные через веб-карты и сервисы<br><font color=#ffffff>...</font><br> </a></div></td>
          <td style="border: 4px outset rgb(255, 255, 255);"><div><a href="https://docs.nextgis.ru/docs_ngcom/source/collector.html"><b>Сбор данных</b><br>формы сбора данных, работа оффлайн<br> </a></div></td>
        </tr>
-       <tr><td colspan=2><font color=#ffffff>...</font></td></tr>
        <tr>
          <td style="border: 4px outset rgb(255, 255, 255);"><div><a href="https://docs.nextgis.ru/docs_ngcom/source/ngqgis_connect.html"><b>QGIS</b><br>Редактирование, загрузка в Веб ГИС, подключение сервисов<br> </a></div></td>
-         <td style="border: 4px outset rgb(255, 255, 255);"><div><a href="https://docs.nextgis.ru/docs_geoservices/source/basemap_tiles.html"><b>Кастомные подложки</b><br>Создавайте, настраивайте, подключайте на веб-карты и в приложения<br> </a></div></td>
+         <td style="border: 4px outset rgb(255, 255, 255);"><div><a href="https://docs.nextgis.ru/docs_geoservices/source/basemap_tiles.html"><b>Кастомные подложки</b><br>Создавайте, настраивайте, подключайте на веб-карты и в приложения<br><font color=#ffffff>...</font><br> </a></div></td>
        </tr>
-       <tr><td colspan=2><font color=#ffffff>...</font></td></tr>
        <tr>
          <td style="border: 4px outset rgb(255, 255, 255);"><div><a href="https://data.nextgis.com/ru/howto/order/"><b>Данные</b><br>Закажите геоданные для ваших проектов</a></div></td>
          <td style="border: 4px outset rgb(255, 255, 255);"><div><b>Мигрировать с других платформ</b><br>Поможем перейти с <a href="https://nextgis.ru/services/arcgis-to-nextgis/">ArcGIS</a>, <a href="https://nextgis.ru/services/mapinfo-to-nextgis/">MapInfo</a>, <a href="https://nextgis.ru/services/geomixer-to-nextgis/">GeoMixer</a><br></div></td>
@@ -196,13 +193,13 @@ API
 
 Что такое…
 
-* WMS, TMS, WFS, OGC API Features
+* :term:`WMS`, :term:`TMS`, :term:`WFS`, :term:`OGC API Features`
 * соединение и сервис
 * `версионирование <https://docs.nextgis.ru/docs_ngweb/source/version.html>`_
 * LDAP
-* API
+* :term:`API`
 * on-premise
-* GeoPackage и другие форматы векторных геоданных
+* :term:`GeoPackage` и другие форматы векторных геоданных
 
 Настройка доступа
 
