@@ -41,11 +41,13 @@
 
 .. raw:: html
 
-   <table align=center style="border: 4px rgb(255, 255, 255);">
+   <table align=center style="border: rgb(255, 255, 255);">
 	  <tr>
 		<th colspan="3">Онлайн-сервисы</th>
-		<th></th>
+		<th><font color=#ffffff>.........</font></th>
 		<th colspan="3">Настольные приложения</th>
+	  </tr>
+	  <tr><td colspan="7"><font color=#ffffff>.........</font></td></tr>
 	  <tr>
 		<td rowspan="2"><div align = center><a href="https://docs.nextgis.ru/docs_ngweb/source/index.html"><img src="http://nextgis.com/wp-content/uploads/2015/02/NGCloud_logo.png" alt="" width="90" height="90"><br>NextGIS Web</a></div></td>
 		<td><div align = center><a href="https://docs.nextgis.ru/docs_data/source/index.html"><img src="https://nextgis.ru/wp-content/uploads/2015/02/NGData_logo_45.png" alt="" width="45" height="45"><br>Data</a></div></td>
@@ -56,22 +58,25 @@
 		<td><div align = center><a href="https://docs.nextgis.ru/docs_ngconnect/source/ngconnect.html"><img src="https://nextgis.ru/wp-content/uploads/2022/08/ngconnect_logo-45.png" alt="" width="45" height="45"><br>NextGIS Connect</a></div></td>
 	  </tr>
 	  <tr>
-		<td><div align = center><a href="https://qms.nextgis.com/about"><img src="https://nextgis.ru/wp-content/uploads/2015/02/QMS_logo.png" alt="" width="45" height="45"><br>QMS</a></div></td>
 		<td><div align = center><a href="https://docs.nextgis.ru/docs_geoservices/source/index.html"><img src="https://nextgis.ru/wp-content/uploads/2024/04/nggeoservices_logo.png" alt="" width="45" height="45"><br>GeoServices</a></div></td>
+		<td><div align = center><a href="https://qms.nextgis.com/about"><img src="https://nextgis.ru/wp-content/uploads/2015/02/QMS_logo.png" alt="" width="45" height="45"><br>QMS</a></div></td>
 		<td><div align = center><a href="https://docs.nextgis.ru/docs_formbuilder/source/index.html"><img width="45" height="45" src="https://nextgis.ru/wp-content/uploads/2015/02/NGFormbuilder_logo_45.png" alt="NGFormbuilder"><br>Formbuilder</a></div></td>
 		<td><div align = center><a href="https://docs.nextgis.ru/docs_rosreestr_tools/source/rosreestrintro.html"><img width="45" height="45" src="https://nextgis.ru/wp-content/uploads/2021/10/rosreestr_icon-e1633448951462.png" alt="NGFormbuilder"><br>Rosreestr Tools</a></div></td>
 	  </tr>
 	</table>
-
-
+	<br>
+	<br>
 	<table align=center style="border: 4px rgb(255, 255, 255);">
 	  <tr>
 		<th colspan="2">На своём сервере</th>
-		<th rowspan="3"></th>
+		<th><font color=#ffffff>.........</font></th>
 		<th colspan="3">Мобильные приложения</th>
+          </tr>
+	  <tr><td colspan="7"><font color=#ffffff>.........</font></td></tr>
 	  <tr>
 		<td rowspan="2"><div align = center><a href="https://docs.nextgis.ru/docs_ngweb/source/index.html"><img src="http://nextgis.com/wp-content/uploads/2015/02/NGWeb_logo.png" alt="" width="90" height="90"><br>NextGIS Web</a></div></td>
 		<td rowspan="2"><div align = center><a href="https://docs.nextgis.ru/docs_ngid/source/index.html">NextGIS ID</a></div><br><div align = center><a href="https://docs.nextgis.ru/docs_toolbox_prem/source/index.html">Toolbox</a></div><br><div align = center><a href="https://docs.nextgis.ru/docs_geoserv_prem/source/index.html">GeoServices</a></div></td>
+                <td rowspan="2"></td>
 		<td rowspan="2"><div align = center><a href="https://docs.nextgis.ru/docs_ngmobile/source/index.html"><img src="https://nextgis.ru/wp-content/uploads/2015/02/ngm_45.png" alt="" width="90" height="90"><br>NG Mobile</a></div></td>
 		<td><div align = center><a href="https://docs.nextgis.ru/docs_collector/source/index.html"><img src="https://nextgis.ru/wp-content/uploads/2020/11/ngcollector_logo_45.png" alt="" width="45" height="45"><br>NG Collector</a></div></td>
 	  </tr>
@@ -80,7 +85,7 @@
 	  </tr>
 	</table>
 
-
+|transparent|
 
 .. _ngcom_dev:
 
@@ -98,6 +103,7 @@
          <td><font color=#ffffff>...</font></td>
          <td><div align = center><a href="https://docs.nextgis.ru/ngmobile_dev/source/toc.html"><img src="https://nextgis.ru/wp-content/uploads/2015/02/ngm_45.png" alt="" width="45" height="45"><br>NextGIS Mobile</a></div></td>
        </tr>
+       <tr><td colspan="5"><font color=#ffffff>...</font></td></tr>
        <tr>
          <td><div align = center><a href="https://docs.nextgis.ru/docs_formbuilder_dev/doc/toc.html"><img width="45" height="45" src="https://nextgis.ru/wp-content/uploads/2015/02/NGFormbuilder_logo_45.png" alt="NGFormbuilder"><br>NextGIS Formbuilder</a></div></td>
          <td><font color=#ffffff>...</font></td>
@@ -108,6 +114,8 @@
        </tr>
      </tbody>
    </table>
+
+|transparent|
 
 .. _ngcom_test_faq:
 
