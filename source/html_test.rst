@@ -202,7 +202,7 @@ API
 Что такое…
 
 * :term:`WMS`, :term:`TMS`, :term:`WFS`, :term:`OGC API Features`
-* соединение и сервис
+* :term:`соединение` и :term:`сервис`
 * `версионирование <https://docs.nextgis.ru/docs_ngweb/source/version.html>`_
 * LDAP
 * :term:`API`
