@@ -309,7 +309,7 @@ NextGIS Collector представляет собой технологическ
 мобильное приложение NextGIS Collector. Его можно установить из Google Play Store по ссылке - `NextGIS Collector`_
 или найти по названию в Google Play Store.
 
- .. figure:: _static/ngc-user-01.png
+.. figure:: _static/ngc-user-01.png
    :name: ngc-user-01
    :align: center
    :width: 10cm
@@ -320,7 +320,7 @@ NextGIS Collector представляет собой технологическ
 После установки запустить приложение, пропустить информационные окна и дать необходимые разрешения:
 
 
- .. figure:: _static/ngc-user-021_ru.png
+.. figure:: _static/ngc-user-021_ru.png
    :name: ngc-user-02
    :align: center
    :width: 10cm
@@ -328,7 +328,7 @@ NextGIS Collector представляет собой технологическ
    Экран 1
 
 
- .. figure:: _static/ngc-user-031_ru.png
+.. figure:: _static/ngc-user-031_ru.png
    :name: ngc-user-03
    :align: center
    :width: 10cm
@@ -336,14 +336,14 @@ NextGIS Collector представляет собой технологическ
    Экран 2
 
 
- .. figure:: _static/ngc-user-041_ru.png
+.. figure:: _static/ngc-user-041_ru.png
    :name: ngc-user-04
    :align: center
    :width: 10cm
    
    Экран запроса доступа
 
- .. figure:: _static/ngc-user-05_ru.png
+.. figure:: _static/ngc_login_ru_2.jpg
    :name: ngc-user-05
    :align: center
    :width: 10cm
@@ -353,41 +353,44 @@ NextGIS Collector представляет собой технологическ
 По умолчанию предлагается войти через сервер nextgis.com, при необходимости можно `использовать собственный сервер <https://docs.nextgis.ru/docs_collector/source/auth.html#ngidop>`_.
 При авторизации по NextGIS ID введите полностью email-адрес.
 
- .. figure:: _static/ngc-user-06_ru.png
-   :name: ngc-user-06
-   :align: center
-   :width: 10cm
-   
-   Авторизация в облачном сервисе
-
 После успешного входа участник команды по сбору данных увидит список проектов.
-Предположим, что в Веб ГИС был создан проект по сбору данных с настройкой стартовой страницы в виде списка.
-При выборе этого тестового проекта мобильное приложение NextGIS Collector отобразит список слоев.
-Также можно переключить в режим карты.
 
- .. figure:: _static/ngc-user-07_ru.png
+.. figure:: _static/ngc-user-07_ru.png
    :name: ngc-user-07
    :align: center
    :width: 10cm
 
    Выберите проект для сбора
 
- .. figure:: _static/ngc-user-08_ru.png
+Чтобы присоединиться к проекту, нажмите на него и затем подтвердите это действие во всплывающем окне.
+
+Начальной страницей проекта может быть карта или список слоёв.
+
+Чтобы переключиться в режим карты, нажмите иконку |button_map| в правом нижнем углу.
+
+.. |button_map| image:: _static/button_map.png
+   :width: 8mm
+
+
+На карте чтобы увидеть список слоёв нажмите на три полоски в левом верхнем углу.
+
+
+.. figure:: _static/ngc_layer_list_ru.png
    :name: ngc-user-08
    :align: center
    :width: 10cm
 
    Редактируемые слои проекта
 
- .. figure:: _static/ngc-user-09.png
+.. figure:: _static/ngc_map_layers_ru.png
    :name: ngc-user-09
    :align: center
    :width: 10cm
 
-   Список слоев проекта в режиме просмотра "Карта"
+   Список слоев проекта в режиме просмотра карты
 
 Участник команды сбора данных может начинать редактирование слоев. Инструменты редактирования
-и подхода к редактированию аналогичны используемым в NextGIS Mobile.
+и подхода к редактированию аналогичны используемым в NextGIS Mobile. `Подробнее о добавлении и редактировании объектов и записи треков <https://docs.nextgis.ru/docs_collector/source/map_tools.html>`_.
 
 .. important::
     Лучше собирать данные при работающем gps. 
