@@ -194,17 +194,21 @@ To do it:
    
    Adding name for Collector project
 
-5. In the "Project" tab select "Starting screen" and fill in "NextGIS Collector user credentials".
+5. In the "Project" tab fill in username and password of a user with necessary permissions to access data used in the project. This user is not related from the accounts of actual data collectors. We recommend `creating a local user for that purpose <https://docs.nextgis.com/docs_ngweb/source/users.html#ngw-create-user>`_.
 
-The starting screen in the `NextGIS Collector`_ mobile app could be a list of forms or a map.
-
-«NextGIS Collector user credentials» - user name and password of a Web GIS user with necessary permissions to access data used in the project. This user is not related to accounts of actual data collectors.
-
-.. figure:: _static/ngc-stages-009_eng_2.png
+.. figure:: _static/ngc_project_tab_en.png
    :name: ngc-stages-009
    :align: center
 
    "Project" tab
+
+In this tab you can also configure:
+
+* The **starting screen** that collector see in the `NextGIS Collector`_ mobile app when they join the project. It can be a list of forms or a map;
+* **Initial extent** defines what area is displayed on the screen when the project is open. By default it's the entire world. You can enter project boundaries in degrees or select a layer to set it. If the project extent is set, collectors will get a warning when they try to add a point outside this extent (which can happen if there are geolocation issues).
+* **Mobile project setup configuration**, for advanced users, allows to automate working with a big number of device.
+
+
 
 6. The next stage is adding necessary items to the project on the "Items" tab.
 
@@ -295,8 +299,8 @@ After the instalation is completed, start the app, skip information screens and 
    Access screen
    
 
-.. figure:: _static/ngc-user-05_eng.png
-   :name: ngc-user-05
+.. figure:: _static/ngc_login_en.png
+   :name: ngc_login_pic
    :align: center
    :width: 10cm
    
@@ -305,42 +309,42 @@ After the instalation is completed, start the app, skip information screens and 
 By default the server used is my.nextgis.com, you can also choose to :ref:`use on-premise server <ngcollector_auth>`.
 If you're using NextGIS ID, make sure to enter the full email address.
 
-.. figure:: _static/ngc-user-06.png
-   :name: ngc-user-06
-   :align: center
-   :width: 10cm
-   
-   Signing in with NextGIS ID
-
 After successful signing in you will see a list of projects.
 
-Let's suppose that there is a data collection project with a list of forms as a starting screen.
-When you choose this test project, the NextGIS Collector mobile app will display a list of layers.
-You can also switch the mode to a map.
-
-.. figure:: _static/ngc-user-07.png
+.. figure:: _static/ngc_project_list_en.png
    :name: ngc-user-07
    :align: center
    :width: 10cm
 
    Choose data collection project
 
-.. figure:: _static/ngc-user-08.png
+To join a project tap on it and confirm the action in the pop-up.
+
+There are two possible starting screens for a project: a map or a list of layers.
+
+To switch to the map view press the |button_map| icon in the bottom right corner.
+
+.. |button_map| image:: _static/button_map.png
+   :width: 8mm
+
+If you are in the map mode, press the three lines in the top left corner to view the layer tree.
+
+.. figure:: _static/ngc_layer_list_en.png
    :name: ngc-user-08
    :align: center
    :width: 10cm
 
    Editable layers of the project
 
-.. figure:: _static/ngc-user-09.png
+.. figure:: _static/ngc_map_layers_en.png
    :name: ngc-user-09_pic
    :align: center
    :width: 10cm
 
-   List of layers in the "Map" mode
+   List of layers in the map viewing mode
 
 After completing these steps a data collection team participant can begin editing layers.
-The process of editing and the editing tools are similar to those in NextGIS Mobile.
+The process of editing and the editing tools are similar to those in NextGIS Mobile. `More on adding and editing features and track recording <https://docs.nextgis.ru/docs_collector/source/map_tools.html>`_.
 
 .. important::
     We recommend collecting data with activated GPS. 
