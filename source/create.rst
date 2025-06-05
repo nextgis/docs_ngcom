@@ -83,6 +83,8 @@
 Вход по NextGIS ID
 -------------------
 
+NextGIS ID используется для входа в `личный кабинет <https://my.nextgis.com>`_, а также для авторизации в Веб ГИС, `Toolbox <https://toolbox.nextgis.com/>`_ и другие сервисы NextGIS.
+
 При выборе авторизации через NextGIS ID откроется следующая страница:
 
 .. figure:: _static/ngid_signup_signin_ru.png
