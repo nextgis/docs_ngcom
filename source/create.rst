@@ -11,16 +11,23 @@ How to create account (NextGIS ID)
 Before you can start working with your :ref:`Web GIS <ngcom_description>` you need to create an account (NextGIS ID). NextGIS ID is required to access all NextGIS Services, including Web GIS service.
 
 To sign up, use `this link <https://my.nextgis.com/signup/>`_ or press 
-**Log in** on the main page of the `nextgis.com <https://nextgis.com/>`_ Web site (see :numref:`NextGIS_main_page_pic`): 
+**Sign in** on the main page of the `nextgis.com <https://nextgis.com/>`_ Web site (see :numref:`NextGIS_main_page_pic`): 
 
-.. figure:: _static/NextGIS_main_page.png
+.. figure:: _static/NextGIS_main_page_en.png
    :name: NextGIS_main_page_pic
    :align: center
    :width: 20cm
 
    Nextgis.com main page
 
-A sign-up form will open. 
+.. figure:: _static/ngid_signup_signin_en.png
+   :name: ngid_signup_signin_pic
+   :align: center
+   :width: 16cm  
+
+   Sign in page
+
+Press **Create account** and enter your email, it will be your login for NextGIS services.
 
 .. figure:: _static/ngid_create_email_en.png
    :name: ngid_create_email_pic
@@ -29,7 +36,7 @@ A sign-up form will open.
 
    Account creation: entering email
 
-Enter an email address, it will be your login for NextGIS services. Click **Continue**. An email verification code will be sent to the address you entered. 
+Click **Continue**. An email verification code will be sent to the address you entered. 
 
 .. figure:: _static/ngid_create_confirm_en.png
    :name: ngid_create_confirm_pic
