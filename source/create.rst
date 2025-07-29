@@ -90,6 +90,9 @@ To verify your email account click **Create Web GIS** button, then click **Send 
 Sign-in via NextGIS ID
 -------------------
 
+NextGIS ID is used to log in to your `account profile <https://my.nextgis.com>`_, your Web GIS, `Toolbox <https://toolbox.nextgis.com/>`_ and other NextGIS services.
+
+
 After selecting sign-in with NextGIS ID, you'll be redirected to the following page:
 
 .. figure:: _static/ngid_signup_signin_en.png
