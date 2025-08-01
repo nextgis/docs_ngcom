@@ -86,7 +86,51 @@ You'll see the interface for resource creation with several tabs.
 
 .. figure::
 
-In the default tab **Vector layer** press **Select a dataset** and select the file called *bicycle_roads.gpkg* from the tutorial dataset (or drag the file to the field).
+In the default tab called **Vector layer** press **Select a dataset** and select the file called *bicycle_roads.gpkg* from the tutorial dataset (or drag the file to the field).
+
+.. figure::
+
+When the file has finished uploading its size is displayed. 
+
+Switch to the **Resource tab** and enter the Dislpay name for the new layer, for example, “Bicycle roads”. Then press **Create** button.
+
+.. figure::
+
+The vector layer was created and you were redirected to its page. The numbers at the end are the ID of the layer.
+
+This page has the information about the layer:
+
+* Its place in the resource tree (Main resource group / Wroclaw);
+* Basic metadata (geometry type, feature count etc.);
+* List of fields a.k.a. attribute structure;
+* URL to access the layer via MVT vector tiles. Right away you can connect this data to external resources using this link.
+
+To view the features select **Table** in menu on the right.
+
+Select any feature and press **Open** to view it.
+
+In the opened window you see all properties of selected features, including its attributes, geometry and map representation on top of the default basemap.
+
+.. figure:: 
+
+The feature table allows you to inspect and manage vector layer features as independent database records, without using maps or other applications. (`More on how to do it <https://docs.nextgis.ru/docs_ngweb/source/feature_table.html#ngw-feature-table-blank>`_)
+
+If you want to **add the layer to a Web Map**, you need a definition of its appearance a.k.a. a **style**. You can click **Create default QGIS style**, but for this layer we have a special file defining colors and structures of the lines, so let's upload it.
+
+On the layer page press **Create resource** button. You'll see a different set of available resources, because a vector layer could be a parent only for styles and forms. We use QGIS styles as the primary way to define data appearance. Select **QGIS vector style**.
+
+.. figure::
+
+Now you need to upload the file called *bicycle_roads.qml* from the tutorial dataset. Then press the **Create** button.
+
+.. figure::
+
+The vector style was created and you were redirected to its page. Press **Preview** in the menu on the right to see how the style looks.
+
+
+
+
+
 
 
 
