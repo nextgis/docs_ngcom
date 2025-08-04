@@ -26,8 +26,8 @@ Advanced
 12. Behind the scenes
 
 
-1 Create free account and Web GIS
-----------------------------------
+Step 1/6 Create free account and Web GIS
+-----------------------------------------
 
 Go to `my.nextgis.com`, click the **Create Account** button and sign up using your email address. 
 
@@ -39,8 +39,8 @@ When the creation process is complete, the contents of the page will change. Dir
 
 .. figure:: _static/tutorial_my_wg_en.png
 
-2 Access your Web GIS and create resource group
-------------------------------------------------
+Step 2/6 Access your Web GIS and create resource group
+-------------------------------------------------------
 
 Click on the Web GIS link or type it into your browser.
 
@@ -74,7 +74,7 @@ The URL in your browser is the path to the resource, and the numbers at the end 
 
 Now you can upload data to this folder.
 
-3 Upload and publish vector layer
+Step 3/6 Upload and publish vector layer
 -------------------------------------------
 
 `Download the tutorial data <https://nextgis.com/tutorials/store_manage_publish_geospatial_data.zip>`_ and unzip the archive.
@@ -127,8 +127,8 @@ The feature table allows you to inspect, edit and manage vector layer features a
 
 
 
-4 Upload a style
------------------
+Step 4/6 Upload a style
+------------------------
 
 If you want to generate **TMS tiles** or **add the layer to a Web Map**, you need to define its appearance a.k.a. a **style**. You can click **Create default QGIS style**, but for this layer we have a special file that determins colors and structures of the lines depending on the attribute values.
 
@@ -146,8 +146,8 @@ In the **External access** section you'll find an auto-generated URL you can use
 
 Now you can upload another type of layer or skip to the Web Map creation.
 
-Upload and publish raster layer
---------------------------------
+Step 5/6 Upload and publish raster layer
+-----------------------------------------
 
 Return to the *Wroclaw* resource group by clicking its name at the current path.
 
@@ -206,8 +206,8 @@ You could also click **Preview** in the right menu and explore the uploaded rast
 
 Now let's create a Web Map with the data we've just uploaded.
 
-Publish Web Map
------------------
+Step 6/6 Publish Web Map
+-------------------------
 
 Now that we have a couple of styled layers we are ready to publish our first Web Map. Return to the *Wroclaw* resource group and create a new resource — **Web Map**.
 
