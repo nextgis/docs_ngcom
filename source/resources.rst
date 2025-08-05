@@ -19,14 +19,14 @@
 * `Слой WMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-layer-wms>`_ (создается для подключения к конкретным растровым слоям через существующее Соединение WMS)
 * `Соединение TMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-tms-connection>`_ (создается для подключения к внешнему серверу :term:`TMS`)
 * `Слой TMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-tms-layer>`_ (создается для подключения к конкретным слоям через существующее Соединение TMS)
-* `Сервис OGC API Features <https://docs.nextgis.ru/docs_ngweb/source/layers.html#c-ogc-api-features>`_ (Используя эти сервисы, сторонние программы могут изменять векторные данные на сервере).
+* `Сервис OGC API Features <https://docs.nextgis.ru/docs_ngweb/source/services.html#ngw-OGC-API-Features>`_ (Используя эти сервисы, сторонние программы могут изменять векторные данные на сервере).
 
 **Ресурсы, необходимые для просмотра и публикации геоданных**:
 
 * `Стиль <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html>`_ (особый “служебный” вид ресурса, создается внутри Растровых слоев, Векторных слоев и Слоев PostGIS для их добавления на Веб-карту и публикации по протоколу WMS) 
 * `Веб-карта <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html>`_ (создается для просмотра существующих Растровых слоев, Векторных слоев, Слоев PostGIS и Слоев WMS на карте через встроенный веб-клиент) 
-* `Сервис WFS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#c-wfs>`_ (создается для публикации существующих Векторных слоев и Слоев PostGIS по протоколу :term:`WFS`) 
-* `Сервис WMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-wms-service>`_ (создается для публикации существующих Растровых слоев, Векторных слоев, Слоев PostGIS и Слоев WMS по протоколу WMS)
+* `Сервис WFS <https://docs.nextgis.ru/docs_ngweb/source/services.html#ngw-wfs-service>`_ (создается для публикации существующих Векторных слоев и Слоев PostGIS по протоколу :term:`WFS`) 
+* `Сервис WMS <https://docs.nextgis.ru/docs_ngweb/source/services.html#ngw-wms-service>`_ (создается для публикации существующих Растровых слоев, Векторных слоев, Слоев PostGIS и Слоев WMS по протоколу WMS)
 
 **Ресурсы, необходимые для организации хранения геоданных**:
 

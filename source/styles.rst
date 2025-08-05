@@ -3,7 +3,7 @@
 Как создавать стили для визуализации данных
 ============================================
 
-Стиль является особым видом ресурса, необходимым для визуализации геоданных на `Веб-карте <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html>`_ или с помощью `Сервиса WMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-wms-service>`_. При добавлении слоя на Веб-карту или его публикации по протоколу :term:`WMS` используется именно его стиль, описывающий способ визуального представления геоданных. 
+Стиль является особым видом ресурса, необходимым для визуализации геоданных на `Веб-карте <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html>`_ или с помощью `Сервиса WMS <https://docs.nextgis.ru/docs_ngweb/source/services.html#ngw-wms-service>`_. При добавлении слоя на Веб-карту или его публикации по протоколу :term:`WMS` используется именно его стиль, описывающий способ визуального представления геоданных. 
 
 Исключением являются `Слои WMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-layer-wms>`_ и `Слои TMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-tms-layer>`_, для которых создание Стилей не требуется, так как необходимая для их отображения на карте информация передается в :ref:`Веб ГИС <ngcom_description>` с внешнего сервера.
 
