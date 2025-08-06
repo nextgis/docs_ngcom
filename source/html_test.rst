@@ -152,7 +152,7 @@
 
 QGIS
 
-* Как привязать растр?
+* `Как привязать растр? <https://docs.nextgis.ru/docs_ngqgis/source/raster_ref.html>`_
 * `Как настроить подписи? <https://docs.nextgis.ru/docs_ngqgis/source/labeling.html>`_
 * `Как создать макет для печати? <https://docs.nextgis.ru/docs_ngqgis/source/map_composer.html>`_
 * `Как узнать длину/площадь объекта? <https://docs.nextgis.ru/docs_ngqgis/source/area.html>`_
