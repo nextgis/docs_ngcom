@@ -224,6 +224,8 @@ API
 .. |transparent| image:: _static/transparent.png
    :width: 6mm
 
+.. hint::
+   Это совет
 
 
 
