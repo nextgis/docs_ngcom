@@ -199,6 +199,11 @@ API
 * `Какие выписки ЕГРН можно конвертировать в геоданные? <https://docs.nextgis.ru/docs_rosreestr_tools/source/rr-import.html#ngq-rr-import-supported>`_
 
 
+.. hint::
+   :collapsible: closed
+
+   This hint is collapsible, but initially closed.
+
 Что такое…
 
 * :term:`WMS`, :term:`TMS`, :term:`WFS`, :term:`OGC API Features`
