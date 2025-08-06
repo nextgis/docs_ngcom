@@ -10,6 +10,9 @@
 * `Растровый слой <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-raster-layer>`_ (создается для загрузки и хранения растровых геоданных)
 * `Векторный слой <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-vector-layer>`_  (создается для загрузки и хранения векторных геоданных)
 
+.. hint::
+   Загруженные данные сразу можно `подключать во внешние приложения <https://docs.nextgis.ru/docs_ngweb/source/services.html>`_.
+
 **Ресурсы, необходимые для управления геоданными из внешних источников**:
 
 * `Подложка веб-карты <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html#ngw-create-basemap>`_ (создается для подключения дополнительных базовых карт на `Веб-карту <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html>`_)
@@ -31,3 +34,5 @@
 **Ресурсы, необходимые для организации хранения геоданных**:
 
 * `Группа ресурсов <https://docs.nextgis.ru/docs_ngweb/source/create_resource.html#ngw-resourses-group>`_ (аналог группировки “по папкам”)
+
+
