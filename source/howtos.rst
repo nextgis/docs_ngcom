@@ -20,8 +20,8 @@
 * `Как перемещать ресурсы внутри Веб ГИС <https://docs.nextgis.ru/docs_ngweb/source/edit_resource.html#ngw-move-resource>`_
 * `Как удалять данные <https://docs.nextgis.ru/docs_ngweb/source/edit_resource.html#ngw-delete-resource>`_
 * `Как добавлять описания и метаданные для ресурсов <https://docs.nextgis.ru/docs_ngweb/source/edit_resource.html#ngw-update-info-metada>`_
-* `Как редактировать данные <https://docs.nextgis.ru/docs_ngweb/source/layers_settings.html#ngw-edit-objects>`_
-* `Как управлять вложениями <https://docs.nextgis.ru/docs_ngweb/source/layers_settings.html#ngw-add-photos>`_
+* `Как редактировать данные <https://docs.nextgis.ru/docs_ngweb/source/feature_edit.html>`_
+* `Как управлять вложениями <https://docs.nextgis.ru/docs_ngweb/source/feature_edit.html#ngw-attachments>`_
 * `Как экспортировать данные <https://docs.nextgis.ru/docs_ngweb/source/admin_interface.html#ngw-vector-export>`_
 * `Как оптимизировать работу Веб-карты <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html#ngw-webmap-optimize>`_
 * `Как распечатать веб-карту <https://docs.nextgis.ru/docs_ngweb/source/print.html>`_

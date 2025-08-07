@@ -5,12 +5,13 @@
 
 Стиль является особым видом ресурса, необходимым для визуализации геоданных на `Веб-карте <https://docs.nextgis.ru/docs_ngweb/source/webmaps_admin.html>`_ или с помощью `Сервиса WMS <https://docs.nextgis.ru/docs_ngweb/source/services.html#ngw-wms-service>`_. При добавлении слоя на Веб-карту или его публикации по протоколу :term:`WMS` используется именно его стиль, описывающий способ визуального представления геоданных. 
 
-Исключением являются `Слои WMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-layer-wms>`_ и `Слои TMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-tms-layer>`_, для которых создание Стилей не требуется, так как необходимая для их отображения на карте информация передается в :ref:`Веб ГИС <ngcom_description>` с внешнего сервера.
+Исключением являются `Слои WMS <https://docs.nextgis.ru/docs_ngweb/source/connections.html#ngw-create-layer-wms
+>`_ и `Слои TMS <https://docs.nextgis.ru/docs_ngweb/source/connections.html#ngw-tms-layer>`_, для которых создание Стилей не требуется, так как необходимая для их отображения на карте информация передается в :ref:`Веб ГИС <ngcom_description>` с внешнего сервера.
 
 ВебГИС поддерживает возможность создания разных видов стилей.
 
-* Для `Векторных слоев <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-vector-layer>`_ и `Слоев PostGIS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-postgis-layer>`_ можно создать `Стиль MapServer <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#mapserver>`_ или `Векторный стиль QGIS <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html>`_;
-* Для `Растровых слоев <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-raster-layer>`_ можно создать `Растровый стиль <https://docs.nextgis.ru/docs_ngweb/source/layers.html#qgis>`_ или `Растровый стиль QGIS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#qgis>`_.
+* Для `Векторных слоев <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-vector-layer>`_ и `Слоев PostGIS <https://docs.nextgis.ru/docs_ngweb/source/postgis_details.html#ngw-create-postgis-layer>`_ можно создать `Стиль MapServer <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#mapserver>`_ или `Векторный стиль QGIS <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html>`_;
+* Для `Растровых слоев <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-raster-layer>`_ можно создать `Растровый стиль или Растровый стиль QGIS <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html#ngw-process-create-raster-style>`_.
 
 Для того, чтобы создать стиль QGIS с настройками по умолчанию для нового слоя, достаточно нажать на кнопку на странице ресурса.
 
@@ -67,7 +68,7 @@
 Стиль MapServer 
 ----------------------------
 
-#. Откройте окно свойств `Векторного слоя <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-vector-layer>`_ или `Слоя PostGIS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-postgis-layer>`_, для которого вы хотите создать Стиль;
+#. Откройте окно свойств `Векторного слоя <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-vector-layer>`_ или `Слоя PostGIS <https://docs.nextgis.ru/docs_ngweb/source/postgis_details.html#ngw-create-postgis-layer>`_, для которого вы хотите создать Стиль;
 #. Нажмите кнопку **Создать ресурс** и выберите во всплывающем окне тип ресурса "Стиль MapServer";
 #. Нажмите кнопку **Создать**. Если Стиль создался успешно, то информация о нем появится в блоке :guilabel:`Дочерние ресурсы` соответствующего Векторного слоя или Слоя PostGIS.
 

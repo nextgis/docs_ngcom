@@ -11,7 +11,7 @@
 -----------------
 
 .. warning:: 
-	Убедитесь, что у всех `Векторных слоев <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-vector-layer>`_, `Растровых слоев <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-raster-layer>`_ и `Слоев PostGIS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-postgis-layer>`_, которые вы хотите добавить на Веб-карту, созданы `Стили <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html>`_.
+	Убедитесь, что у всех `Векторных слоев <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-vector-layer>`_, `Растровых слоев <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-raster-layer>`_ и `Слоев PostGIS <https://docs.nextgis.ru/docs_ngweb/source/postgis_details.html#ngw-create-postgis-layer>`_, которые вы хотите добавить на Веб-карту, созданы `Стили <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html>`_.
 
 .. note:: 
 	По умолчанию в вашей Веб ГИС уже создана одна Веб-карта. Вы можете использовать её для отображения и просмотра геоданных, а также создавать неограниченное количество новых Веб-карт. По умолчанию на этой Веб-карте подключена подложка OpenStreetMap Standard. При добавлении на Веб-карту хотя бы одной дополнительной подложки OpenStreetMap Standard отключается.
@@ -19,8 +19,8 @@
 #. Откройте `Группу ресурсов <https://docs.nextgis.ru/docs_ngweb/source/create_resource.html#ngw-resourses-group>`_, в которой вы хотите создать Веб-карту (на главной странице Веб ГИС по умолчанию открыта Основная группа ресурсов);
 #. Нажмите кнопку **Создать ресурс** и выберите во всплывающем окне тип ресурса "Веб-карта";
 #. В открывшемся окне заполните поле :guilabel:`Наименование` на вкладке :guilabel:`Ресурс`;
-#. Перейдите на вкладку :guilabel:`Слои` и через диалог :guilabel:`+ Слой` выберите те ресурсы (`Подложки <ngcom_basemap_layer>`, `Стили <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html>`_ или `Слои WMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-layer-wms>`_) и `TMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-tms-layer>`_, которые вы хотите отобразить на своей Веб-карте;
-#. Последовательно выбирая слои в дереве слева, настройте их свойства в панели справа. Для `WMS-слоёв <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-layer-wms>`_ рекомендуется в качестве адаптера выбрать :guilabel:`Изображение`. В противном случае (если будет выбран адаптер :guilabel:`Тайлы`) вы быстро исчерпаете лимит на одновременные соединения и остальные слои на карте перестанут отрисовываться до тех пор, пока они не освободятся.
+#. Перейдите на вкладку :guilabel:`Слои` и через диалог :guilabel:`+ Слой` выберите те ресурсы (`Подложки <ngcom_basemap_layer>`, `Стили <https://docs.nextgis.ru/docs_ngweb/source/mapstyles.html>`_ или `Слои WMS <https://docs.nextgis.ru/docs_ngweb/source/connections.html#ngw-create-layer-wms>`_) и `TMS <https://docs.nextgis.ru/docs_ngweb/source/connections.html#ngw-tms-layer>`_, которые вы хотите отобразить на своей Веб-карте;
+#. Последовательно выбирая слои в дереве слева, настройте их свойства в панели справа. Для `WMS-слоёв <https://docs.nextgis.ru/docs_ngweb/source/connections.html#ngw-create-layer-wms>`_ рекомендуется в качестве адаптера выбрать :guilabel:`Изображение`. В противном случае (если будет выбран адаптер :guilabel:`Тайлы`) вы быстро исчерпаете лимит на одновременные соединения и остальные слои на карте перестанут отрисовываться до тех пор, пока они не освободятся.
 #. На вкладке :guilabel:`Настройки` можно разрешить редактирование слоев и включить аннотации, задать начальный :term:`охват <Охват>` веб-карты и её заголовок, если он должен отличаться от наименования ресурса.
 #. Нажмите кнопку **Создать**. Если Веб-карта создалась успешно, то информация о ней появится в блоке :guilabel:`Дочерние ресурсы` соответствующей Группы ресурсов.
 
@@ -43,7 +43,7 @@
 Больше информации о веб-клиенте для просмотра карт - `здесь <https://docs.nextgis.ru/docs_ngweb/source/webmaps_client.html>`__.
 
 .. warning::
-    Не рекомендуется одновременно включать (делать видимыми) более 1 `слоя WMS <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-layer-wms>`_ на планах Free/Mini и более 3 на плане Premium, поскольку в этом случае медленные соединения с внешними :term:`WMS`-серверами займут все доступные одновременные соединения, и остальные слои карты будет нечем отрисовывать (доступ к `веб-интерфейсу <ngw_admin_interface>` в этом случае также будет невозможен).
+    Не рекомендуется одновременно включать (делать видимыми) более 1 `слоя WMS <https://docs.nextgis.ru/docs_ngweb/source/connections.html#ngw-create-layer-wms>`_ на планах Free/Mini и более 3 на плане Premium, поскольку в этом случае медленные соединения с внешними :term:`WMS`-серверами займут все доступные одновременные соединения, и остальные слои карты будет нечем отрисовывать (доступ к `веб-интерфейсу <ngw_admin_interface>` в этом случае также будет невозможен).
 
 .. _ngcom_webmap_create_info:
 

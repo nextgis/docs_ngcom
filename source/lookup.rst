@@ -7,7 +7,7 @@
 
 К полю векторного слоя можно подключить справочник, это позволит при редактировании значений атрибутов выбирать значение из списка. 
 
-1. Создайте справочник с нужным набором пар ключ-значение (`подробнее о создании справочника <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-lookup-table>`_).
+1. Создайте справочник с нужным набором пар ключ-значение (`подробнее о создании справочника <https://docs.nextgis.ru/docs_ngweb/source/create_other.html#ngw-create-lookup-table>`_).
 
 
 .. figure:: _static/create_lookup_table_ru_2.png
