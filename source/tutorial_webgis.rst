@@ -105,7 +105,7 @@ This page has the information about the layer:
 
 .. figure:: _static/tutorial_vlayer_result_en.png
 
-In the **External access** section you'll find an automatically generated URL that allows to access the layer via MVT vector tiles. Right away you can connect this data to a Web app or add it to QGIS using this link. `More on MVT tiles <https://docs.nextgis.ru/docs_ngweb/source/external.html>`_.
+In the **External access** section you'll find an automatically generated URL that allows to access the layer via MVT vector tiles. Right away you can connect this data to a Web app or add it to QGIS using this link. `More on MVT tiles <https://docs.nextgis.com/docs_ngweb/source/external.html>`_.
 
 
 
@@ -123,7 +123,7 @@ In the opened window you see all the properties of the selected feature, includi
 
 .. figure:: _static/tutorial_feature_preview_en.png 
 
-The feature table allows you to inspect, edit and manage vector layer features as independent database records, without using maps or other applications. (`More on how to do it <https://docs.nextgis.ru/docs_ngweb/source/feature_table.html#ngw-feature-table-blank>`_)
+The feature table allows you to inspect, edit and manage vector layer features as independent database records, without using maps or other applications. (`More on how to do it <https://docs.nextgis.com/docs_ngweb/source/feature_table.html#ngw-feature-table-blank>`_)
 
 
 
@@ -142,7 +142,7 @@ Upload the file called ``bicycle_roads.qml`` from the tutorial dataset. Then cli
 
 The vector style is created and you are redirected to its page. Click **Preview** in the menu on the right to see how the style looks.
 
-In the **External access** section you'll find an auto-generated URL you can use to connect this styled data as a Tiled Map Service, for example, add it to QGIS. `More on TMS <https://docs.nextgis.ru/docs_ngweb/source/external.html#tms>`_
+In the **External access** section you'll find an auto-generated URL you can use to connect this styled data as a Tiled Map Service, for example, add it to QGIS. `More on TMS <https://docs.nextgis.com/docs_ngweb/source/external.html#tms>`_
 
 Now you can upload another type of layer or skip to the Web Map creation.
 
