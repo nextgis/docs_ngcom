@@ -67,7 +67,7 @@ NextGIS Collector is a technological stack allowing users to create a dataflow b
 There are several stages of data collection process in NextGIS Collector:
 
 1. The organizer of data collection registers in nextgis.com_ and creates a Web GIS on `Premium plan <https://nextgis.com/pricing-base/>`__.
-2. The organizer installs `NextGIS Formbuilder <http://nextgis.com/nextgis-formbuilder>`_, creates data collection forms and uploads them to the Web GIS (`see documentation <https://docs.nextgis.com/docs_formbuilder/source/index.html>`_). 
+2. The organizer `creates data collection forms <https://docs.nextgis.com/docs_ngweb/source/collector.html#collector-create-form>`_ in the Web GIS. 
 3. A team of data collection participants registers in nextgis.com_.
 4. The organizer of data collection adds a team of data collection participants to his Web GIS and creates a project of data collection.
 5. Data collection participants install the `NextGIS Collector`_ app and join the project.
@@ -167,10 +167,9 @@ Web GIS owner can restrain access to the project for separate participants.
 
 You can create a Collector project via NextGIS Formbuilder (the simplest way, described `here <https://docs.nextgis.com/docs_formbuilder/source/workflow.html#nextgis-web>`_) or in your WebGIS.
 
-If you want to use your WebGIS to create a Collector project, first you need to create necessary data layers in NextGIS Formbuilder or upload them from a file.
+If you want to use your WebGIS to create a Collector project, first you need to `create necessary data layers <https://docs.nextgis.com/docs_ngweb/source/layers.html#ngw-create-empty-vector-layer>`_ or `upload them from a file <https://docs.nextgis.com/docs_ngweb/source/layers.html#ngw-process-create-vector-layer>`_.
 
-Let's suppose that layers with data are already uploaded to your Web GIS, and you want to create a project
-and allow data collection team participants to collect or edit data in your Web GIS. 
+Let's suppose that layers with data are already uploaded to your Web GIS, and you want to create a project and allow data collection team participants to collect or edit data in your Web GIS. 
 To do it:
 
 1. Open the Web GIS.
@@ -344,7 +343,7 @@ If you are in the map mode, press the three lines in the top left corner to view
    List of layers in the map viewing mode
 
 After completing these steps a data collection team participant can begin editing layers.
-The process of editing and the editing tools are similar to those in NextGIS Mobile. `More on adding and editing features and track recording <https://docs.nextgis.ru/docs_collector/source/map_tools.html>`_.
+The process of editing and the editing tools are similar to those in NextGIS Mobile. `More on adding and editing features and track recording <https://docs.nextgis.com/docs_collector/source/map_tools.html>`_.
 
 .. important::
     We recommend collecting data with activated GPS. 
@@ -362,7 +361,7 @@ This a short version of a Web GIS administrator check-list. Follow the steps to 
 4. Add yourself as a user. ☰ - Control panel - Collector projects. Enter your e-mail, registered at nextgis.com
 5. Create an account to send data from NextGIS Collector app and give it the necessary permissions. For example:
    Full name: Collector. Login: Collector. Password. Description: NextGIS Collector Account. Groups: Administrator.
-6. Run NextGIS Formbuilder, unlock Pro. Create a form, set field aliases for readability. Set default values for lists.
-7. Using Formbuilder, upload the form to your Web GIS. This will create a vector layer with style. While uploading the form, create Collector project (a basemap and data collection project will be created) and a Web Map for data visualisation.
+6. Create a form, set field aliases for readability. Set default values for lists.
+7. Create Collector project and a Web Map for data visualisation.
 8. Check the form on your device.
 9. Continue adding other users. For simplicity, ask users to register using gmail account. Gmail client is already on every android, and already signed in. Add names for the data collectors.
