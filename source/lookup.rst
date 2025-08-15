@@ -7,7 +7,7 @@ How to connect a Lookup table to a vector layer
 
 A Lookup table can be connected to an attribute field of a vector layer. While editing the layer you will be able to select the value for the attribute from a dropdown menu. 
 
-1. Create a lookup table using key-value format (`how to do it <https://docs.nextgis.com/docs_ngweb/source/layers.html#ngw-create-lookup-table>`_).
+1. Create a lookup table using key-value format (`how to do it <https://docs.nextgis.com/docs_ngweb/source/create_other.html#ngw-create-lookup-table>`_).
 
 
 .. figure:: _static/create_lookup_table_en.png
