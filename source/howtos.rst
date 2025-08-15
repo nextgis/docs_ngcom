@@ -20,7 +20,7 @@ How to...
 * `How to delete data <https://docs.nextgis.com/docs_ngweb/source/edit_resource.html#ngw-delete-resource>`_
 * `How to add descriptions and metadata for resources <https://docs.nextgis.com/docs_ngweb/source/edit_resource.html#ngw-update-info-metada>`_
 * `How to edit data <https://docs.nextgis.com/docs_ngweb/source/feature_edit.html>`_
-* `How to add photos, panoramas and manage attachments <https://docs.nextgis.com/docs_ngweb/source/layers_settings.html#ngw-add-photos>`_
+* `How to add photos, panoramas and manage attachments <https://docs.nextgis.com/docs_ngweb/source/feature_edit.html#ngw-add-photos>`_
 * `How to export data on a Web Map <https://docs.nextgis.com/docs_ngweb/source/admin_interface.html#ngw-vector-export>`_
 * `How to optimize Web Map performance <https://docs.nextgis.com/docs_ngweb/source/webmaps_admin.html#ngw-webmap-optimize>`_
 * `How to print a Web Map <https://docs.nextgis.com/docs_ngweb/source/print.html>`_
