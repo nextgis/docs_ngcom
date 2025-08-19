@@ -52,7 +52,7 @@ In NextGIS Web everything is a resource — layers, Web Maps, folders (groups), 
 
 Let’s create our first resource, a folder or *resource group* named Wroclaw. To do that, click the blue **Create resource** button on the top of the page. 
 
-.. tip:: If you don’t see the “Create resource” button, you should log in first. Click the “Sign in” button in the top right corner and then select “Sign in with NextGIS ID".
+.. tip:: If you don’t see the **Create resource** button, you should log in first. Click the **Sign in** button in the top right corner and then select **Sign in with NextGIS ID**.
 
 .. figure:: _static/tutorial_log_in_en.png
 
@@ -144,7 +144,7 @@ The vector style is created and you are redirected to its page. Click **Preview*
 
 In the **External access** section you'll find an auto-generated URL you can use to connect this styled data as a Tiled Map Service, for example, add it to QGIS. `More on TMS <https://docs.nextgis.com/docs_ngweb/source/external.html#tms>`_
 
-Now you can upload another type of layer or skip to the Web Map creation.
+Now you can upload another type of layer or skip to the `Web Map creation <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#step-6-6-publish-web-map>`_.
 
 Step 5/6 Upload and publish raster layer
 -----------------------------------------
@@ -284,11 +284,11 @@ You can create as many Web Maps as you need, combining available layers and thei
 
 Let's explore what else you can do:
 
-* Add data published on external servers;
-* Change basemap;
-* Create a vector layer from skratch;
-* Edit vector features on a Web Map and attach files;
-* Publish OGC API — Features service.
+* `Add data published on external servers <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#add-external-wms-layer-to-web-map>`_;
+* `Change basemap <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#add-basemaps-to-web-map>`_;
+* `Create a vector layer from skratch <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#create-vector-layer-inside-web-gis>`_;
+* `Edit vector features on a Web Map and attach files <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#edit-vector-layer-on-a-web-map-add-file-attachments>`_;
+* `Publish OGC API — Features service <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#publish-ogc-api-features-service>`_.
 
 Add external WMS layer to Web Map
 ---------------------------------
@@ -532,7 +532,7 @@ Simple style constructor is available here. We recommend using QGIS to create st
 
 A new vector layer is created inside Web GIS. 
 
-You can now add it to Web Maps and publish it via OGC services.
+You can now add it to Web Maps and `publish it via OGC services <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#publish-ogc-api-features-service>`_.
 
 But first we'll add some features to the newly created layer using Web interface.
 
