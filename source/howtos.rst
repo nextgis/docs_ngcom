@@ -10,7 +10,7 @@ How to...
 * `How to change the look of your Web GIS <https://docs.nextgis.com/docs_ngweb/source/look.html>`_
 * `How to change the homepage address <https://docs.nextgis.com/docs_ngweb/source/look.html#ngw-homepage>`_
 * `How to restore your Web GIS from backup <https://docs.nextgis.com/docs_ngweb/source/infowebgis.html#backup-policy>`_
-* `How to manage data storage <https://docs.nextgis.com/docs_ngweb/source/create_resource.html#ngw-resourses-group>`_
+* `How to manage data storage <https://docs.nextgis.com/docs_ngweb/source/create_resource.html#ngw-resource-group>`_
 * `How to use any layer in your Web GIS as a basemap <https://docs.nextgis.com/docs_ngweb/source/webmaps_admin.html#how-to-use-any-layer-in-your-web-gis-as-a-basemap>`_
 * `How to set up legend visibility <https://docs.nextgis.com/docs_ngweb/source/webmaps_admin.html#ngw-legend>`_
 * `How to copy a Web Map <https://docs.nextgis.com/docs_ngweb/source/webmap_clone.html>`_
