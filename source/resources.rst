@@ -35,6 +35,6 @@
 
 **Ресурсы, необходимые для организации хранения геоданных**:
 
-* `Группа ресурсов <https://docs.nextgis.ru/docs_ngweb/source/create_resource.html#ngw-resourses-group>`_ (аналог группировки “по папкам”)
+* `Группа ресурсов <https://docs.nextgis.ru/docs_ngweb/source/create_resource.html#ngw-resource-group>`_ (аналог группировки “по папкам”)
 
 
