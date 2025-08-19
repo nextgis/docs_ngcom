@@ -9,22 +9,23 @@ NextGIS Web is a data-centric server GIS, allowing you to store, manage and publ
 
 Basic
 
-1. Create Account and Web GIS
-2. Create Resource group
-3. Upload vector layer 
-4. Upload style
-5. Upload raster layer
-6. Publish Web Map
+1. `Create Account and Web GIS <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#step-1-6-create-free-account-and-web-gis>`_
+2. `Create Resource group <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#step-2-6-access-your-web-gis-and-create-resource-group>`_
+3. `Upload vector layer <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#step-3-6-upload-and-publish-vector-layer>`_
+4. `Upload style <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#step-4-6-upload-a-style>`_
+5. `Upload raster layer <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#step-5-6-upload-and-publish-raster-layer>`_
+6. `Publish Web Map <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#step-6-6-publish-web-map>`_
 
 Advanced
 
-7. Add external WMS layer to Web Map
-8. Add basemaps
-9. Create vector layer inside Web GIS
-10. Edit vector layer on Web Map, add file attachments
-11. Publish OGC API — Features service
-12. Behind the scenes
+7. `Add external WMS layer to Web Map <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#add-external-wms-layer-to-web-map>`_
+8. `Add basemaps <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#add-basemaps-to-web-map>`_
+9. `Create vector layer inside Web GIS <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#create-vector-layer-inside-web-gis>`_
+10. `Edit vector layer on Web Map, add file attachments <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#edit-vector-layer-on-a-web-map-add-file-attachments>`_
+11. `Publish OGC API — Features service <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#ogc-api>`_
+12. `What next <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#what-next>`_
 
+.. _account:
 
 Step 1/6 Create free account and Web GIS
 -----------------------------------------
@@ -38,6 +39,8 @@ After registration your account page would appear. Select the **Web GIS** menu o
 When the creation process is complete, the contents of the page will change. Direct link to your new Web GIS will appear.
 
 .. figure:: _static/tutorial_my_wg_en.png
+
+.. _webgis:
 
 Step 2/6 Access your Web GIS and create resource group
 -------------------------------------------------------
@@ -74,12 +77,14 @@ The URL in your browser is the path to the resource, and the numbers at the end 
 
 Now you can upload data to this folder.
 
+.. _vector:
+
 Step 3/6 Upload and publish vector layer
 -------------------------------------------
 
 `Download the tutorial data <https://nextgis.com/tutorials/store_manage_publish_geospatial_data.zip>`_ and unzip the archive.
 
-**Inside the Wroclaw folder, click Create resource** and select the **Vector layer** type of resource.
+Inside the *Wroclaw* folder, click **Create resource** and select the **Vector layer** type of resource.
 
 .. figure:: _static/tutorial_select_vlayer_en.png
 
@@ -125,7 +130,7 @@ In the opened window you see all the properties of the selected feature, includi
 
 The feature table allows you to inspect, edit and manage vector layer features as independent database records, without using maps or other applications. (`More on how to do it <https://docs.nextgis.com/docs_ngweb/source/feature_table.html#ngw-feature-table-blank>`_)
 
-
+.. _style:
 
 Step 4/6 Upload a style
 ------------------------
@@ -145,6 +150,8 @@ The vector style is created and you are redirected to its page. Click **Preview*
 In the **External access** section you'll find an auto-generated URL you can use to connect this styled data as a Tiled Map Service, for example, add it to QGIS. `More on TMS <https://docs.nextgis.com/docs_ngweb/source/external.html#tms>`_
 
 Now you can upload another type of layer or skip to the `Web Map creation <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#step-6-6-publish-web-map>`_.
+
+.. _raster:
 
 Step 5/6 Upload and publish raster layer
 -----------------------------------------
@@ -205,6 +212,8 @@ You could also click **Preview** in the right menu and explore the uploaded rast
    :width: 20cm
 
 Now let's create a Web Map with the data we've just uploaded.
+
+.. _webmap:
 
 Step 6/6 Publish Web Map
 -------------------------
@@ -289,6 +298,8 @@ Let's explore what else you can do:
 * `Create a vector layer from skratch <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#create-vector-layer-inside-web-gis>`_;
 * `Edit vector features on a Web Map and attach files <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#edit-vector-layer-on-a-web-map-add-file-attachments>`_;
 * `Publish OGC API — Features service <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#publish-ogc-api-features-service>`_.
+
+.. _wms:
 
 Add external WMS layer to Web Map
 ---------------------------------
@@ -390,6 +401,8 @@ Save the map and open it in display mode. You’ll see that a detailed orthophot
    :width: 20cm
 
 
+.. _basemap:
+
 Add basemaps to Web Map
 ---------------------------
 
@@ -453,6 +466,8 @@ Open the Web Map in |button_open_web_map| display mode. Now the new basemap is u
    :name: 
    :align: center
    :width: 20cm
+
+.. _empty_layer:
 
 Create vector layer inside Web GIS
 ------------------------------------
@@ -535,6 +550,8 @@ A new vector layer is created inside Web GIS.
 You can now add it to Web Maps and `publish it via OGC services <https://docs.nextgis.com/docs_ngcom/source/tutorial_webgis.html#publish-ogc-api-features-service>`_.
 
 But first we'll add some features to the newly created layer using Web interface.
+
+.. _edit:
 
 Edit vector layer on a Web Map, add file attachments
 -----------------------------------------------------
@@ -634,6 +651,8 @@ Click on the attached photos and panoramas to view them.
 
 Now that we have data in this layer, let's publish it via OGC API Features.
 
+.. _ogc_api:
+
 Publish OGC API — Features service 
 --------------------------------------
 
@@ -668,6 +687,8 @@ The service is created and you are redirected to its page. In the **External acc
    :name: 
    :align: center
    :width: 20cm
+
+.. _next:
 
 What next
 -----------
