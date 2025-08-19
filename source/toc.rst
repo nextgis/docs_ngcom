@@ -1,38 +1,5 @@
-.. sectionauthor:: Р”РјРёС‚СЂРёР№ Р‘Р°СЂС‹С€РЅРёРєРѕРІ <dmitry.baryshnikov@nextgis.ru>
+.. important::
 
-.. NextGIS Services TOC
+   Table of contents is moved here:
 
-Get Started with NextGIS
-===============================
-
-    
-.. toctree::
-   :maxdepth: 2
-
-   intro
-   description
-   create
-   teams
-   create_webgis
-   subscription
-   data_types
-   resources
-   demoprojects
-   data_upload
-   data_connect
-   styles
-   webmap_create
-   embed_webmap
-   data_services
-   attachments
-   lookup
-   ngqgis_connect
-   tracking
-   permissions
-   collector
-   ngapi
-   CSS
-   translation
-   help
-   faq_webgis
-   howtos
+   `Get Started with NextGIS <https://docs.nextgis.com/docs_ngcom/source/index.html>`_
