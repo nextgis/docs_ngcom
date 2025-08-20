@@ -1,7 +1,9 @@
 Store, manage and publish your spatial data
 ============================================
 
-.. note:: Availability: Cloud SaaS (all editions), On premise (all editions), Open Source
+.. admonition:: Availability
+
+   Cloud SaaS (all editions), On premise (all editions), Open Source
 
 NextGIS Web is a data-centric server GIS, allowing you to store, manage and publish spatial data in a flexible and effective way. In this step-by-step tutorial you will learn how to convert your GIS files into shareable Web Maps, tile and OGC services, as well as to create and manage data directly on the server. Register a free cloud account and try it right away!
 
