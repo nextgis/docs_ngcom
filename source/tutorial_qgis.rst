@@ -68,7 +68,7 @@ Use QGIS to edit data stored in Web GIS
 
 .. _account:
 
-Step 1/6 Create free account and Web GIS
+Step 1/5 Create free account and Web GIS
 -----------------------------------------
 
 Go to `my.nextgis.com`, click the **Create Account** button and sign up using your email address. 
@@ -204,7 +204,7 @@ Using this panel you could upload local data to Web GIS, connect remote layers a
 
 .. _publish:
 
-Step 5 Publish QGIS project to NextGIS Web
+Step 5/5 Publish QGIS project to NextGIS Web
 --------------------------------------------
 
 In NextGIS Connect panel select the *Main resource group* folder, then open dropdown menu with |button_to_wg| icon and select **Upload all**.
@@ -274,7 +274,7 @@ What if you'd like to edit the uploaded layers in QGIS? Let's see how to do it.
 
 .. _download:
 
-Step 6 Connect to Web Map from QGIS
+Connect to Web Map from QGIS
 -----------------------------------
 
 In QGIS close the project (Project - Close). Imagine that you work from another computer, another QGIS instance. Keep NextGIS Connect panel open (reopen it if it's closed).
