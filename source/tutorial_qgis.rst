@@ -100,7 +100,7 @@ Click on the file called ``Sursee.qgz`` to open it in QGIS.
 
 .. note:: If you don't have QGIS yet, `download <https://qgis.org/download/>`_ and install it.
 
-This is a typical QGIS project with raster and vector layers, a couple of basemaps and rich scale-dependent styles set up with expressions. Points of interest are styled with advanced “Point Cluster” renderer using dynamic cluster symbol size. There are also embeded SVG icons in the “Road network” layer.
+This is a typical QGIS project with raster and vector layers, a couple of basemaps and rich scale-dependent styles set up with exclickions. Points of interest are styled with advanced “Point Cluster” renderer using dynamic cluster symbol size. There are also embeded SVG icons in the “Road network” layer.
 
 .. figure:: _static/tut_sursee_project_en.png
    :name: tut_sursee_project_pic
@@ -128,7 +128,7 @@ Go to the “Plugins” — “Manage and Install Plugins” menu
    :width: 12cm
 
 
-Go to the “All” tab and find a plugin named NextGIS Connect. Use a search bar at the top of the interface for faster access. Press the **Install Plugin** button.
+Go to the “All” tab and find a plugin named NextGIS Connect. Use a search bar at the top of the interface for faster access. Click the **Install Plugin** button.
 
 .. figure:: _static/tut_install_ngconnect_en.png
    :name: tut_install_ngconnect_pic
@@ -163,21 +163,21 @@ In QGIS open the NG Connect settings and click on the **New** button in the “C
    :width: 20cm
 
 
-Enter the Web GIS address to the URL field, then press |symbologyAdd| to create a new Authentication configuration.
+Enter the Web GIS address to the URL field, then click |symbologyAdd| to create a new Authentication configuration.
 
 .. figure:: _static/tut_ngcn_create_connection_en.png
    :name: tut_ngcn_create_connection_pic
    :align: center
    :width: 12cm
 
-In the new dialog enter the email and password you used to register at my.nextgis.com at step 1, and press the **Save** button.
+In the new dialog enter the email and password you used to register at my.nextgis.com at step 1, and click the **Save** button.
 
 .. figure:: _static/tut_ngcn_authentication_en.png
    :name: tut_ngcn_authentication_pic
    :align: center
    :width: 10cm
 
-Press the **Test connection** button to ensure that you entered all the data correctly. Then press the **Save** button.
+Click the **Test connection** button to ensure that you entered all the data correctly. Then click the **Save** button.
 
 .. figure:: _static/tut_ngcn_test_connection_en.png
    :name: tut_ngcn_test_connection_pic
@@ -191,7 +191,7 @@ Press the **Test connection** button to ensure that you entered all the data cor
    :align: center
    :width: 16cm
 
-Exit settings by pressing the **OK** button in the bottom of the page. 
+Exit settings by clicking the **OK** button in the bottom of the page. 
 
 Now in the NextGIS Connect panel you can see the resource tree of your Web GIS.
 
@@ -254,7 +254,7 @@ A Web Map has been created from the project. It looks exactly the same as the or
 
 You can enable and disable layers and categories within layers. Web Map has its own URL, so you can easily share it. Play with the Web Map interface. Learn more about it: https://docs.nextgis.com/docs_ngweb/source/webmaps_client.html
 
-Press the |NextGISLogo| icon at the top left corner to view the main interface with the resource list.
+Click the |NextGISLogo| icon at the top left corner to view the main interface with the resource list.
 
 .. figure:: _static/tut_goto_main_en.png
    :name: tut_goto_main_pic
@@ -327,7 +327,7 @@ Then find and select the *Railroad network* layer in the NextGIS Connect panel.
    :align: center
    :width: 12cm
 
-Go back to the Layers panel, open the context menu of the “Railroad network” layer and press **NextGIS Connect --> Update layer style**.
+Go back to the Layers panel, open the context menu of the “Railroad network” layer and click **NextGIS Connect --> Update layer style**.
 
 .. figure:: _static/tut_update_v_style_en.png
    :name: tut_update_v_style_pic
@@ -363,7 +363,7 @@ Open its context menu and go to the “Properties”.
    :align: center
    :width: 14cm
 
-In the Properties, go to the Symbology tab, and change ``Band 3`` to ``Band 4`` in the *Red band* selector. The press **OK**.
+In the Properties, go to the Symbology tab, and change ``Band 3`` to ``Band 4`` in the *Red band* selector. The click **OK**.
 
 .. figure:: _static/tut_raster_bands_en.png
    :name: tut_raster_bands_pic
@@ -426,7 +426,7 @@ Enable Digitizing toolbar and activate the |button_add_point| **Add point featur
    :align: center
    :width: 16cm
 
-Let’s place another bbq spot in the forest. Left-click on a suitable place on the map, then enter one attribute value, AMENITY = ``bbq``. Then press **OK**.
+Let’s place another bbq spot in the forest. Left-click on a suitable place on the map, then enter one attribute value, AMENITY = ``bbq``. Then click **OK**.
 
 .. figure:: _static/tut_new_point_en.png
    :name: tut_new_point_pic
