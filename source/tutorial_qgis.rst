@@ -1,5 +1,5 @@
-Seamless QGIS Integration
-===========================
+Tutorial: Seamless QGIS Integration
+====================================
 
 .. |ngconnect_icon| image:: _static/ngconnect_logo-45.png
    :width: 6mm

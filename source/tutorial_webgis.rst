@@ -1,5 +1,5 @@
-Store, manage and publish your spatial data
-============================================
+Tutorial: Store, manage and publish your spatial data
+=====================================================
 
 .. admonition:: Availability
 
