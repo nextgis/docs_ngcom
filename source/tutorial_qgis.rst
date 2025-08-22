@@ -53,18 +53,19 @@ In this step-by-step tutorial you will learn how to publish your QGIS project to
 Publish your QGIS project online
 
 1. `Create free account and Web GIS <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#account>`_
-2. `Open and explore QGIS project <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#>`_
-3. `Install NextGIS Connect plugin <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#>`_
-4. `Create a connection <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#>`_
-5. `Publish QGIS project to NextGIS Web <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#>`_
+2. `Open and explore QGIS project <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#project>`_
+3. `Install NextGIS Connect plugin <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#install>`_
+4. `Create a connection <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#connection>`_
+5. `Publish QGIS project to NextGIS Web <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#publish>`_
 
-Result: `Explore the Web Map and resources <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#>`_
+Result: `Explore the Web Map and resources <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#webmap>`_
 
 Use QGIS to edit data stored in Web GIS 
 
-6. `Connect to Web Map from QGIS <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#>`_
-7. `Update layer styles at the Web Map from QGIS <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#>`_
-8. `Edit data from QGIS and explore results at the Web Map <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#>`_
+6. `Connect to Web Map from QGIS <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#download>`_
+7. `Update layer styles at the Web Map from QGIS <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#vector_style>`_ 
+8. `Update raster layer style on a Web Map <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#raster_style>`_
+9. `Edit data from QGIS and explore results at the Web Map <https://docs.nextgis.com/docs_ngcom/source/tutorial_qgis.html#edit_data>`_
 
 .. _account:
 
