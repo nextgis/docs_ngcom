@@ -14,6 +14,8 @@ Get Started with NextGIS
    data_types
    resources
    demoprojects
+   tutorial_webgis
+   tutorial_qgis
    data_upload
    data_connect
    styles
