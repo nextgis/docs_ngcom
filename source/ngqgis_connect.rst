@@ -10,8 +10,8 @@
 С помощью модуля вы можете:
 
 * Быстро `загружать в Веб ГИС <https://docs.nextgis.ru/docs_ngconnect/source/ngc_data_transfer.html>`_ растровые и векторные данные, а также целиком проекты QGIS. 
-* Создавать `веб-карты <https://docs.nextgis.ru/docs_ngconnect/source/resources.html#web-map>`_.
-* Публиковать данные по стандартным `протоколам WFS, WMS, OGC API - Features <https://docs.nextgis.ru/docs_ngconnect/source/resources.html#wfs-wms-ogc-api-features>`_.
+* Создавать `веб-карты <https://docs.nextgis.ru/docs_ngconnect/source/manage.html#web-map>`_.
+* Публиковать данные по стандартным `протоколам WFS, WMS, OGC API - Features <https://docs.nextgis.ru/docs_ngconnect/source/manage.html#wfs-wms-ogc-api-features>`_.
 * `Редактировать <https://docs.nextgis.ru/docs_ngconnect/source/edit.html>`_ данные в Веб ГИС при помощи приложения QGIS.
 * `Экспортировать <https://docs.nextgis.ru/docs_ngconnect/source/export.html>`_ данные и стили слоёв в файл.
 
