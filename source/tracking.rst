@@ -1,4 +1,4 @@
-.. sectionauthor:: Roman Gaunullov <roman.gainullov@nextgis.com>
+
 
 .. _tracking:
 
