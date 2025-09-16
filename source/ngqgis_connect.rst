@@ -10,8 +10,8 @@ NextGIS Connect allows to share data with multiple Web GIS from your desktop app
 With NextGIS Connect plugin you can:
 
 * Quickly upload `to your Web GIS <https://docs.nextgis.com/docs_ngconnect/source/ngc_data_transfer.html>`_ raster and vector data or entire QGIS projects. 
-* Create `Web Maps  <https://docs.nextgis.com/docs_ngconnect/source/resources.html#web-map>`_.
-* Publish data via standard protocols `WFS, WMS, OGC API - Features <https://docs.nextgis.com/docs_ngconnect/source/resources.html#wfs-wms-ogc-api-features>`_.
+* Create `Web Maps  <https://docs.nextgis.com/docs_ngconnect/source/manage.html#web-map>`_.
+* Publish data via standard protocols `WFS, WMS, OGC API - Features <https://docs.nextgis.com/docs_ngconnect/source/manage.html#wfs-wms-ogc-api-features>`_.
 * `Edit <https://docs.nextgis.com/docs_ngconnect/source/edit.html>`_ data in Web GIS using QGIS desktop app.
 * `Export <https://docs.nextgis.com/docs_ngconnect/source/export.html>`_ data and layer styles to local files.
 
