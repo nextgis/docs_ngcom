@@ -195,7 +195,19 @@ Add Telegram account to get notifications about orders you made on `NextGIS Data
 
 In your `Profile <https://my.nextgis.com/profile>`_ go to the "Social Accounts" section and click **Link** by the Telegram logo. You'll be redirected to the chat bot. Press **Start** to complete linking.
 
+.. _ngcom_ngid_download:
 
+Software
+~~~~~~~~~~
+
+On the Software page of your account you can download online and offline installers for NextGIS mobile apps  `NextGIS Collector <https://docs.nextgis.com/docs_collector/source/auth.html#>`_, `NextGIS Mobile <https://docs.nextgis.com/docs_ngmobile/source/auth.html#>`_, `NextGIS Tracker <https://docs.nextgis.com/docs_ngtracker/source/setting_up.html#ngtr-set-send>`_.
+
+.. figure:: _static/ngid_downloads_en.png
+   :name: ngid_downloads_pic
+   :align: center
+   :width: 20cm  
+
+   Software download page
 
 .. _ngcom_ngid_use:
 
