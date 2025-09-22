@@ -195,6 +195,20 @@ NextGIS ID используется для входа в `личный каби�
 Посмотреть видео на `youtube <https://youtu.be/zyJVOHpuqyI>`_, `rutube <https://rutube.ru/video/1eecbd9eea8f2005af959fac49442e0d/?r=wd>`_.
 
 
+.. _ngcom_ngid_download:
+
+Программы
+~~~~~~~~~~
+
+В разделе "Программы" личного кабинета вы можете скачать установочные файлы настолького приложения NextGIS QGIS и мобильных приложений: `NextGIS Collector <https://docs.nextgis.ru/docs_collector/source/auth.html#>`_, `NextGIS Mobile <https://docs.nextgis.ru/docs_ngmobile/source/auth.html#>`_, `NextGIS Tracker <https://docs.nextgis.ru/docs_ngtracker/source/setting_up.html#ngtr-set-send>`_.
+
+.. figure:: _static/ngid_downloads_ru.png
+   :name: ngid_downloads_pic
+   :align: center
+   :width: 20cm  
+
+   Раздел личного кабинета "Программы"
+
 .. _ngcom_ngid_use:
 
 Где используется NextGIS ID
