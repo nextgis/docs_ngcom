@@ -84,7 +84,5 @@ Example 2:
 * en. - *Field ‘%s(?)’ encoding is broken*.
 * bg. - *Кодировката на полето ‘%s(?)’ е счупена.*.
 
-
-Parameters are often enclosed in single quotes ', double quotes " or brackets ().
-Such diversity does not make much sense and is explained by the lack of agreement among developers on formatting.
-Leave it in the translation as in the original raw.
+Please ignore the fact that the quotation marks and brackets are always different (single ', double " or () ).
+Don't change and leave them the same when translating - this is important for the code to work correctly.
