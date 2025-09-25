@@ -243,6 +243,6 @@ Desktop apps
 QGIS plugins
 
 * `NextGIS Connect <https://docs.nextgis.com/docs_ngconnect/source/ngc_install.html#ng-connect-new-connection>`_
-* `Rosreestr Tools <https://docs.nextgis.com/docs_rosreestr_tools/source/rosreestrintro.html#ngq-rr-auth>`_
+
 
 
