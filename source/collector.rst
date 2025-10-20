@@ -7,7 +7,7 @@ How to begin data collection in your Web GIS
 ==============================================
 
 .. note:: 
-	You can use described functionality in Web GIS created in nextgis.com_ service on `Premium plan <https://nextgis.com/pricing-base/>`_
+	You can use described functionality on all pricing plans. However, you can only add new users on the `Premium plan <https://nextgis.com/pricing-base/>`_. Other plans only have one Collector user available. 
   
 Introduction
 ------------
