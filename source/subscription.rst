@@ -26,10 +26,10 @@ In the `Subscription <https://my.nextgis.com/subscription/>`_ section of your ac
 
    "Subscription" section of a Free plan user
 
-On the next page choose how you wish to pay: monthly or annually. Pick the desired subscription plan and click "Select". On the next step check your account information and selected subscription, then press **Pay** to enter card details.
+On the next page choose how you wish to pay: monthly or annually. Pick the desired subscription plan and click "Select". On the next step check your account information and selected subscription, enter a discount code if you have one, then press **Pay** to enter card details.
 
 
-.. figure:: _static/my_subscribe_en.png
+.. figure:: _static/my_subscribe_en_2.png
    :name: my_subscribe_pic
    :align: center
    :width: 20cm
