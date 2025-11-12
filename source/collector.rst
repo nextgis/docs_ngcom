@@ -7,7 +7,7 @@ How to begin data collection in your Web GIS
 ==============================================
 
 .. note:: 
-	You can use described functionality in Web GIS created in nextgis.com_ service on `Premium plan <https://nextgis.com/pricing-base/>`_
+	You can use described functionality on all pricing plans. However, you can only add new users on the `Premium plan <https://nextgis.com/pricing-base/>`_. Other plans only have one Collector user available. 
   
 Introduction
 ------------
@@ -66,7 +66,7 @@ NextGIS Collector is a technological stack allowing users to create a dataflow b
 
 There are several stages of data collection process in NextGIS Collector:
 
-1. The organizer of data collection registers in nextgis.com_ and creates a Web GIS on `Premium plan <https://nextgis.com/pricing-base/>`__.
+1. The organizer of data collection registers in nextgis.com_ and creates a Web GIS.
 2. The organizer `creates data collection forms <https://docs.nextgis.com/docs_ngweb/source/collector.html#collector-create-form>`_ in the Web GIS. 
 3. A team of data collection participants registers in nextgis.com_.
 4. The organizer of data collection adds a team of data collection participants to his Web GIS and creates a project of data collection.
@@ -83,7 +83,7 @@ These stages of work with NextGIS Collector could be described schematically as 
 
 To sum up, to begin data collection:
 
-- The data collection organizer should have a Web GIS on `Premium plan <https://youtu.be/xsMcjVUUEQQ>`__.
+- The data collection organizer should have a Web GIS.
 - Every data collection team participant should have a mobile device with Android OS.
 - Every data collection team participant should register in nextgis.com_ and know his registration email and password.
 
@@ -357,7 +357,7 @@ This a short version of a Web GIS administrator check-list. Follow the steps to 
 
 1. Formulate a list of feature attributes that you're going to collect and describe in the field.
 2. Install NextGIS Software on your desktop.
-3. Create a Web GIS at nextgis.com, make sure you're on Premium.
+3. Create a Web GIS at nextgis.com.
 4. Add yourself as a user. ☰ - Control panel - Collector projects. Enter your e-mail, registered at nextgis.com
 5. Create an account to send data from NextGIS Collector app and give it the necessary permissions. For example:
    Full name: Collector. Login: Collector. Password. Description: NextGIS Collector Account. Groups: Administrator.
