@@ -3,7 +3,7 @@
 How to publish data using standard protocols
 =========================================================
 
-:ref:`Web GIS <ngcom_description>` allows to publish uploaded and connected geodata using standard :term:`WFS` и :term:`WMS` protocols. In this case Web GIS acts like WFS(WFS-T)/WMS server.
+:ref:`Web GIS <ngcom_description>` allows to publish uploaded and connected geodata using standard :term:`WFS` and :term:`WMS` protocols. In this case Web GIS acts like WFS(WFS-T)/WMS server.
 
 .. _ngcom_wms_service:
 

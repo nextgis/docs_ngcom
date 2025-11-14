@@ -9,6 +9,6 @@ Welcome! In this quickstart tutorial we'll describe main features of your :ref:`
 .. only:: latex
 
    This documentation is distributed under Creative Commons license
-   **"Attribution-NoDerivs" СC BY-ND**
+   **"Attribution-NoDerivs" CC BY-ND**
    
    .. image:: _static/cc_by.png 
