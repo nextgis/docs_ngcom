@@ -204,9 +204,7 @@ NextGIS Collector представляет собой технологическ
 содержащиеся в нем. Владелец Веб ГИС имеет возможность ограничивать доступ к проекту
 отдельным участникам команды по сбору данных.
 
-Вы можете создать проект сбора данных в NextGIS Formbuilder (наиболее простой вариант, описан `здесь <https://docs.nextgis.ru/docs_formbuilder/source/workflow.html#nextgis-web>`_) или в Веб ГИС.
-
-Если вы хотите создать проект сбора данных в Веб ГИС, сначала нужно `создать необходимые слои данных <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-empty-vector-layer>`_ или `загрузить имеющиеся <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-process-create-vector-layer>`_.
+Cначала нужно `создать необходимые слои данных <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-create-empty-vector-layer>`_ или `загрузить имеющиеся <https://docs.nextgis.ru/docs_ngweb/source/layers.html#ngw-process-create-vector-layer>`_.
 
 Предположим, что в нашей Веб ГИС уже загружены слои данных и мы хотим создать проект
 и предоставить возможность участникам команды по сбору данных собирать или редактировать

@@ -238,7 +238,6 @@ NextGIS ID используется для входа в `личный каби�
 Настольные приложения
 
 * `NextGIS QGIS <https://docs.nextgis.ru/docs_ngqgis/source/auth.html#>`_
-* `Formbuilder <https://docs.nextgis.ru/docs_formbuilder/source/gui.html#ngfb-auth>`_
 
 Модули расширения QGIS
 
