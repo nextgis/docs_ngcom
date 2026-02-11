@@ -112,7 +112,7 @@ NextGIS ID используется для входа в `личный каби�
 
 Авторизовавшись в `личном кабинете <https://my.nextgis.com/profile>`_ вы можете:
 
-* Изменить личные данные, в том числе `пароль <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-change-password>`_ ;
+* Изменить личные данные, в том числе `пароль <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-change-password>`_;
 * Управлять подпиской;
 * `Создать Веб ГИС <https://docs.nextgis.ru/docs_ngcom/source/create_webgis.html>`_ (доступно только после подтверждения электронной почты);
 * Скачать программы NextGIS;
@@ -122,7 +122,7 @@ NextGIS ID используется для входа в `личный каби�
 .. _ngcom_ngid_profile:
 
 Профиль
-~~~~~~~~
+~~~~~~~
 
 Ваш профиль располагается по адресу https://my.nextgis.com/profile.
 
@@ -148,7 +148,7 @@ NextGIS ID используется для входа в `личный каби�
 .. _ngcom_ngid_profile_del:
 
 Удалить аккаунт
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
 
 Чтобы удалить аккаунт, на странице профиля в разделе "Управление профилем" нажмите **Удалить профиль**.
 
@@ -166,7 +166,7 @@ NextGIS ID используется для входа в `личный каби�
 .. _ngcom_ngid_change_password:
 
 Изменение пароля NextGIS ID
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Чтобы изменить пароль учетной записи NextGIS ID, нужно перейти в настройки `профиля <https://my.nextgis.com/profile>`_ и установить новый пароль (см. :numref:`ngid_change_pass`).
 
@@ -180,7 +180,7 @@ NextGIS ID используется для входа в `личный каби�
 .. _ngcom_ngid_telegram:
 
 Подключение уведомлений в Telegram
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Если связать свой Личный кабинет NextGIS с аккаунтом Telegram, уведомления о новых заказах на `NextGIS Data <https://data.nextgis.com/ru/>`_ будут приходить не только на почту (где могут попасть в спам), но и в Telegram. Скачивать данные вы также сможете прямо из мессенджера.
 
@@ -198,7 +198,7 @@ NextGIS ID используется для входа в `личный каби�
 .. _ngcom_ngid_download:
 
 Программы
-~~~~~~~~~~
+~~~~~~~~~
 
 В разделе "Программы" личного кабинета вы можете скачать установочные файлы настолького приложения NextGIS QGIS и мобильных приложений: `NextGIS Collector <https://docs.nextgis.ru/docs_collector/source/auth.html#>`_, `NextGIS Mobile <https://docs.nextgis.ru/docs_ngmobile/source/auth.html#>`_, `NextGIS Tracker <https://docs.nextgis.ru/docs_ngtracker/source/setting_up.html#ngtr-set-send>`_.
 
@@ -212,7 +212,7 @@ NextGIS ID используется для входа в `личный каби�
 .. _ngcom_ngid_use:
 
 Где используется NextGIS ID
-------------------------------
+---------------------------
 
 Облачные сервисы (При разворачивании на собственном сервере используется `NextGIS ID on-premise <https://docs.nextgis.ru/docs_ngid/source/index.html>`_)
 
