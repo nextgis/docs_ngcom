@@ -6,7 +6,7 @@ How to enable the monitoring of moving objects (tracking)
 =========================================================
 
 .. note::
-    The number of available trackers depends on the current `plan <https://nextgis.com/pricing-base/>`_. For **Mini** - 1 tracker, for **Premium** - 5 trackers.
+    The number of available trackers depends on the current `plan <https://nextgis.com/pricing-base/>`_. For **Free** and **Mini** - 1 tracker, for **Premium** - 5 trackers.
 
     For on-premise solutions, Tracking Hub is available for NextGIS Web `Extended <https://nextgis.com/pricing/#ngwextended>`_ and `Enterprise <https://nextgis.com/pricing/#ngwenterprise>`_.
 
