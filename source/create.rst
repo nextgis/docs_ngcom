@@ -88,7 +88,7 @@ To verify your email account click **Create Web GIS** button, then click **Send 
 .. _ngcom_ngid_login:
 
 Sign-in via NextGIS ID
--------------------
+----------------------
 
 NextGIS ID is used to log in to your `account profile <https://my.nextgis.com>`_, your Web GIS, `Toolbox <https://toolbox.nextgis.com/>`_ and other NextGIS services (see `full list below <https://docs.nextgis.com/docs_ngcom/source/create.html#ngcom-ngid-use>`_).
 
@@ -113,6 +113,29 @@ Enter the email address you used for creating your account and press **Continue*
 
 The process of logging in varies depending on particular software and services, see `Where can I use NextGIS ID <https://docs.nextgis.com/docs_ngcom/source/create.html#ngcom-ngid-use>`_.
 
+.. _ngcom_ngid_change_password:
+
+Change or recover NextGIS ID password
+-------------------------------------
+
+If you:
+
+* forgot your password;
+* want to set a different password;
+* have signed up with Google, but now want to use NextGIS Connect plugin
+
+go to `Password Recovery page <https://my.nextgis.com/password/reset/?email=>`_.
+
+
+.. figure:: _static/ngid_reset_en.png
+   :name: ngid_change_pass
+   :align: center
+   :width: 16cm    
+
+   Changing NextGIS ID password
+
+Enter the email address you used to create NextGIS ID. You'll receive an email with further instructions.
+
 .. _ngcom_ngid_my:
 
 My account
@@ -120,7 +143,7 @@ My account
 
 After logging in to your `account <https://my.nextgis.com/profile>`_ you can:
 
-* Modify your personal information, including `password <https://docs.nextgis.com/docs_ngcom/source/create.html#ngcom-ngid-change-password>`_ ;
+* Modify your personal information;
 * Manage your subscription;
 * `Create a Web GIS <https://docs.nextgis.com/docs_ngcom/source/create_webgis.html>`_ (after confirming your email address);
 * Download NextGIS software installers;
@@ -135,7 +158,7 @@ Profile
 
 You'll find your profile on https://my.nextgis.com/profile.
 
-.. figure:: _static/Profile_en.png
+.. figure:: _static/ngid_profile_en.png
    :name: profile_pic
    :align: center
    :width: 20cm    
@@ -144,13 +167,12 @@ You'll find your profile on https://my.nextgis.com/profile.
 
 On the Profile page you can:
 
-* `Change your NextGIS ID password <https://docs.nextgis.com/docs_ngcom/source/create.html#ngcom-ngid-change-password>`_.
 * Change your username or enter name and surname to be displayed instead of it.
 * Add company and industry info and phone number.
 * Select language of the account interface. This setting affects only my.nextgis.com. If you want to choose the language of your Web GIS, go to the `user menu <https://docs.nextgis.com/docs_ngweb/source/admin_interface.html#ngw-change-lang>`_ of the Web GIS.
-* Add Telegram account to get notifications.
+* `Add Telegram account <https://docs.nextgis.com/docs_ngcom/source/create.html#ngcom-ngid-telegram>`_ to get notifications.
 * Export your account data as CSV files.
-* Delete NextGIS ID account and personal data associated with it.
+* `Delete NextGIS ID account <https://docs.nextgis.com/docs_ngcom/source/create.html#ngcom-ngid-profile-del>`_ and personal data associated with it.
 
 
 
@@ -165,26 +187,14 @@ Your account and personal data will be deleted.
 
 .. important:: This action cannot be undone.
 
-.. figure:: _static/ngid_delete_en.png
+.. figure:: _static/ngid_delete_en_2.png
    :name: ngid_delete_pic
    :align: center
-   :width: 20cm 
+   :width: 12cm 
 
    Deleting account
 
-.. _ngcom_ngid_change_password:
 
-Change NextGIS ID password
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-To change the password for the NextGIS ID account, go to the `profile settings <https://my.nextgis.com/profile>`_ and set a new password (see :numref:`ngid_change_pass`).
-
-.. figure:: _static/ngid_change_pass_en_2.png
-   :name: ngid_change_pass
-   :align: center
-   :width: 20cm    
-
-   Changing NextGIS ID password
 
 .. _ngcom_ngid_telegram:
 
@@ -202,7 +212,7 @@ Software
 
 On the Software page of your account you can download online and offline installers for NextGIS mobile apps  `NextGIS Collector <https://docs.nextgis.com/docs_collector/source/auth.html#>`_, `NextGIS Mobile <https://docs.nextgis.com/docs_ngmobile/source/auth.html#>`_, `NextGIS Tracker <https://docs.nextgis.com/docs_ngtracker/source/setting_up.html#ngtr-set-send>`_.
 
-.. figure:: _static/ngid_downloads_en.png
+.. figure:: _static/ngid_downloads_en_2.png
    :name: ngid_downloads_pic
    :align: center
    :width: 20cm  
