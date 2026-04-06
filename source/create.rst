@@ -13,14 +13,23 @@
 Для создания аккаунта необходимо пройти по `ссылке <https://my.nextgis.com/signup/>`_ или нажать на 
 кнопку **Войти** на главной странице сайта nextgis.ru (см. :numref:`NextGIS_main_page_pic`): 
 
-.. figure:: _static/NextGIS_main_page.png
+.. figure:: _static/NextGIS_main_page_ru.png
    :name: NextGIS_main_page_pic
    :align: center
-   :width: 16cm
+   :width: 20cm
 
    Главная страница сайта nextgis.ru
 
-Откроется форма регистрации аккаунта. 
+Откроется форма входа и регистрации аккаунта.
+
+.. figure:: _static/ngid_signup_signin_ru.png
+   :name: ngid_signin_signup_pic
+   :align: center
+   :width: 16cm  
+
+   Страница входа / регистрации
+
+Нажмите **Создать аккаунт**.
 
 .. figure:: _static/ngid_create_email_ru.png
    :name: ngid_create_email_pic
@@ -105,6 +114,28 @@ NextGIS ID используется для входа в `личный каби�
 
 В разных сервисах и ПО есть свои нюансы перехода к авторизации, см. `Где используется NextGIS ID <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-use>`_.
 
+.. _ngcom_ngid_change_password:
+
+Изменение или восстановление пароля NextGIS ID
+----------------------------------------------
+
+Если вы:
+
+* забыли пароль 
+* хотите изменить текущий пароль NextGIS ID на новый
+* изначально создавали учётную запись путём входа через Google, но теперь вам нужен пароль для модуля NextGIS Connect
+
+Перейдите по ссылке `сброса пароля <https://my.nextgis.com/password/reset/?email=>`_. Введите адрес электронной почты, на который вы зарегистрированы, на него будут высланы инструкции по установке нового пароля.
+
+.. figure:: _static/ngid_reset_ru.png
+   :name: ngid_reset_pic
+   :align: center
+   :width: 16cm 
+
+   Сброс пароля
+
+Если вы входили при помощи учётной записи Google, вы сможете использовать для входа в веб-сервисы оба способа.
+
 .. _ngcom_ngid_my:
 
 Личный кабинет
@@ -112,12 +143,14 @@ NextGIS ID используется для входа в `личный каби�
 
 Авторизовавшись в `личном кабинете <https://my.nextgis.com/profile>`_ вы можете:
 
-* Изменить личные данные, в том числе `пароль <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-change-password>`_;
+* Изменить личные данные;
 * Управлять подпиской;
 * `Создать Веб ГИС <https://docs.nextgis.ru/docs_ngcom/source/create_webgis.html>`_ (доступно только после подтверждения электронной почты);
 * Скачать программы NextGIS;
 * Просматривать `список команд <https://docs.nextgis.ru/docs_ngcom/source/teams.html#ngcom-team-view>`_, в которых участвуете и `Управлять своей командой <https://docs.nextgis.ru/docs_ngcom/source/teams.html#ngcom-team-management>`_ (доступно на плане `Premium <https://nextgis.ru/pricing-base/>`_);
 * Привязать идентификатор NGID on-premise (для пользователей, использующих собственный сервер).
+
+.. note:: Если вы хотите сменить пароль, перейдите `по ссылке "Забыли пароль?" <https://my.nextgis.com/password/reset/?email=>`_
 
 .. _ngcom_ngid_profile:
 
@@ -126,22 +159,21 @@ NextGIS ID используется для входа в `личный каби�
 
 Ваш профиль располагается по адресу https://my.nextgis.com/profile.
 
-.. figure:: _static/Profile_ru.png
+.. figure:: _static/ngid_profile_ru.png
    :name: profile_pic
    :align: center
-   :width: 16cm    
+   :width: 20cm    
   
    Страница профиля в личном кабинете NextGIS
 
 В профиле можно:
 
-* `Сменить пароль <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-change-password>`_ NextGIS ID.
 * Изменить имя пользователя или задать имя и фамилию, которые будут отображаться вместо него.
 * Добавить информацию о компании и сфере деятельности, контактный номер телефона.
 * Выбрать язык интерфейса личного кабинета. Если вы хотите сменить язык отображения Веб ГИС, это нужно сделать в `меню пользователя <https://docs.nextgis.ru/docs_ngweb/source/admin_interface.html#ngw-change-lang>`_ Веб ГИС.
-* Привязать аккаунт Telegram для получения уведомлений.
+* `Привязать аккаунт Telegram <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-telegram>`_ для получения уведомлений.
 * Экспортировать данные аккаунта в виде файлов CSV.
-* Удалить аккаунт NextGIS ID и связанные с ним персональные данные.
+* `Удалить аккаунт NextGIS ID <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-profile-del>`_ и связанные с ним персональные данные.
 
 
 
@@ -156,26 +188,14 @@ NextGIS ID используется для входа в `личный каби�
 
 .. important:: Это действие нельзя отменить.
 
-.. figure:: _static/ngid_delete_ru.png
+.. figure:: _static/ngid_delete_ru_2.png
    :name: ngid_delete_pic
    :align: center
-   :width: 20cm 
+   :width: 12cm 
 
    Удаление профиля
 
-.. _ngcom_ngid_change_password:
 
-Изменение пароля NextGIS ID
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Чтобы изменить пароль учетной записи NextGIS ID, нужно перейти в настройки `профиля <https://my.nextgis.com/profile>`_ и установить новый пароль (см. :numref:`ngid_change_pass`).
-
-.. figure:: _static/ngid_change_pass_ru.png
-   :name: ngid_change_pass
-   :align: center
-   :width: 16cm    
-
-   Изменения пароля NextGIS ID
 
 .. _ngcom_ngid_telegram:
 
