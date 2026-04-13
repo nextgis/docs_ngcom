@@ -3,6 +3,10 @@
 How to upload data
 ================================
 
+.. admonition:: Where to get the data?
+
+   Buy geodata for any place on Earth on `NextGIS Data <https://data.nextgis.com/en/>`_
+
 Raster and vector geodata are uploaded to :ref:`Web GIS <ngcom_description>` by creating :ref:`Raster layer <ngcom_raster_layer>` and :ref:`Vector layer <ngcom_vector_layer>` resources respectively.
 
 .. note:: 
