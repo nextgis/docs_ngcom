@@ -6,7 +6,7 @@ How to upload data
 Raster and vector geodata are uploaded to :ref:`Web GIS <ngcom_description>` by creating :ref:`Raster layer <ngcom_raster_layer>` and :ref:`Vector layer <ngcom_vector_layer>` resources respectively.
 
 .. note:: 
-	The size limit for uploaded files depends on the selected plan. For **Premium** - 2 GiB, for **Free** - 128 MiB and **Mini** - 256 MiB. 
+	The size limit for uploaded files depends on the selected plan. For **Premium** - 50 GiB, for **Free** - 5 GiB and **Mini** - 10 GiB. 
 
 
 .. _ngcom_data_preview:
@@ -73,22 +73,7 @@ If you plan to add this raster to QGIS directly from your Web GIS, turn on Uploa
 
 Read more about upload of raster geodata to Web GIS :ref:`here <ngw_create_raster_layer>`. 
 
-.. _ngcom_raster_volume:
-
-Uploading large rasters
-^^^^^^^^^^^^^^^^^^^^^^^
-
-UAV, remote sensing data and other rasters are often huge.
-The file size is not very informative as the real data size might be much larger because of compression.
-To ensure fast rendering on Web Maps and serving, rasters with TMS and WMS used to create raster layers should be properly processed before upload.
-
-There are three important limitations for uploading large raster files:
-
-#. File size - maximum file size being uploaded is **2 GiB**. This limit can't be changed on Premium, but can be changed `on-premise <https://nextgis.com/pricing/>`_;
-#. Raster size on the server - afther the file is extracted to the cloud, it must not be larger than **4 GiB**. You can calculate the size of the extracted raster using the following formula: number of pixels * number of channels * bytes per pixel. 
-#. Total data volume - you can upload up to **50 GiB** of data on Premium (this limit can be `raised <https://nextgis.com/pricing-base/#volume-premium>`_);
-
-There is no limitation for processing time.
+.. seealso:: If you need to upload large rasters, here's `how to calculate if you have enough storage <https://docs.nextgis.com/docs_ngweb/source/layers.html#ngw-raster-volume>`_
 
 
 .. _ngcom_vector_layer:
