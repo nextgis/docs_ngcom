@@ -196,19 +196,20 @@ To do it:
    
    Adding name for Collector project
 
-5. In the "Project" tab fill in username and password of a user with necessary permissions to access data used in the project. This user is not related from the accounts of actual data collectors. We recommend `creating a local user for that purpose <https://docs.nextgis.com/docs_ngweb/source/users.html#ngw-create-user>`_.
-
-.. figure:: _static/ngc_project_tab_en.png
-   :name: ngc-stages-009
-   :align: center
-
-   "Project" tab
-
-In this tab you can also configure:
+5. In the "Project" tab configure:
 
 * The **starting screen** that collector see in the `NextGIS Collector`_ mobile app when they join the project. It can be a list of forms or a map;
 * **Initial extent** defines what area is displayed on the screen when the project is open. By default it's the entire world. You can enter project boundaries in degrees or select a layer to set it. If the project extent is set, collectors will get a warning when they try to add a point outside this extent (which can happen if there are geolocation issues).
 * **Mobile project setup configuration**, for advanced users, allows to automate working with a big number of device.
+
+
+.. figure:: _static/ngc_proj_tab_en_2.png
+   :name: ngc-stages-009
+   :align: center
+   :width: 18cm
+
+   "Project" tab
+
 
 
 
