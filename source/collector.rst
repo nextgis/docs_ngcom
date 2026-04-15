@@ -234,9 +234,9 @@ NextGIS Collector представляет собой технологическ
    Окно создания проекта Collector
 
 
-Далее необходимо открыть вкладку «Проект» и заполнить данные для входа NextGIS Collector - **имя и пароль пользователя** Веб ГИС с соответствующими правами доступа. Не имеет отношения к аккаунтам участников, пользователей мобильных приложений. Рекомендуется для этой цели `создать отдельного локального пользователя <https://docs.nextgis.ru/docs_ngweb/source/users.html#ngw-create-user>`_.
 
-.. figure:: _static/ngc_project_tab_ru.png
+
+.. figure:: _static/ngc_proj_tab_ru_3.png
    :name: ngc-stages-009
    :align: center
    :width: 20cm
