@@ -19,8 +19,7 @@
 * `Соединение PostGIS <https://docs.nextgis.ru/docs_ngweb/source/postgis_details.html#ngw-create-postgis-connection>`_ (создается для подключения к внешней базе данных :term:`PostGIS`)
 * `Слой PostGIS <https://docs.nextgis.ru/docs_ngweb/source/postgis_details.html#ngw-create-postgis-layer>`_ (создается для подключения к конкретной таблице с геоданными через существующее Соединение PostGIS)
 * `Соединение WMS <https://docs.nextgis.ru/docs_ngweb/source/connections.html#ngw-create-wms-connection>`_ (создается для подключения к внешнему серверу :term:`WMS`)
-* `Слой WMS <https://docs.nextgis.ru/docs_ngweb/source/connections.html#ngw-create-layer-wms
->`_ (создается для подключения к конкретным растровым слоям через существующее Соединение WMS)
+* `Слой WMS <https://docs.nextgis.ru/docs_ngweb/source/connections.html#ngw-create-layer-wms>`_ (создается для подключения к конкретным растровым слоям через существующее Соединение WMS)
 * `Соединение TMS <https://docs.nextgis.ru/docs_ngweb/source/connections.html#ngw-create-tms-connection>`_ (создается для подключения к внешнему серверу :term:`TMS`)
 * `Слой TMS <https://docs.nextgis.ru/docs_ngweb/source/connections.html#ngw-tms-layer>`_ (создается для подключения к конкретным слоям через существующее Соединение TMS)
 
