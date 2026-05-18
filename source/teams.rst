@@ -99,9 +99,9 @@ Each added team member will appear in the list (see :numref:`all_users`). At any
 Allow team members to access Web GIS
 ---------------------------------------
 
-Users added to the `team <https://docs.nextgis.com/docs_ngcom/source/teams.html#ngcom-team-management>`_ do not automatically become users of the Web GIS. To get access to the Web GIS, the user must log in to it first. By default a new Web GIS user has no permissions. `Set up permissions <https://docs.nextgis.com/docs_ngcom/source/permissions.html>`_ for your team members before their first login.  
+By default a new Web GIS user has no permissions and cannot view any resources. `Set up permissions <https://docs.nextgis.com/docs_ngcom/source/permissions.html>`_ for your team members before their first login.  
 
 It can be done in one of two ways:
 
-* The best way is to set up permissions for a `user group <https://docs.nextgis.com/docs_ngweb/source/users.html#create-new-user-group>`_ with the option "New users" enabled. Users will be included in this group upon their first login to the Web GIS.
-* An alternative way is to set up permissions for the principal "Authenticated".
+* The best way is to set up permissions for a `user group <https://docs.nextgis.com/docs_ngweb/source/users.html#create-new-user-group>`_ with the option **"New users"** enabled. Users will be included in this group upon their first login to the Web GIS.
+* An alternative way is to set up permissions for the principal `"Authenticated" <https://docs.nextgis.com/docs_ngcom/source/permissions.html#ngcom-permissions-usertypes>`_.
