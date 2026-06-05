@@ -1,7 +1,7 @@
 # Get Started with your Web GIS
 
 Read online:
-* English - http://docs.nextgis.com/docs_ngcom/source/index.html
+* English - https://docs.nextgis.com/docs_ngcom/source/index.html
 
 
 Create your Web GIS - https://my.nextgis.com/signup/?next=/webgis/
