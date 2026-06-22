@@ -335,7 +335,7 @@ Allow to view PostGIS layer on a Web Map
 
 2. For the resource group containing data for the Web Map and the PostGIS layer: **Resource: Read, Data: Read data** and **External connections: Use connection**;
 
-.. figure:: _static/allow_auth_postgis_group_en_2.png
+.. figure:: _static/allow_auth_postgis_group_en_3.png
    :name: allow_auth_postgis_group_pic
    :align: center
    :width: 20cm
