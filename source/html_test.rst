@@ -178,7 +178,7 @@ QGIS
 * Как отправить данные на сервер? 
 
    * `Отправка треков <https://docs.nextgis.ru/docs_ngtracker/source/setting_up.html#ngtr-set-send>`_ в Веб ГИС
-   * Синхронизация с Веб ГИС в `Mobile <https://docs.nextgis.ru/docs_ngmobile/source/ngw_integration.html#ngmobile-synchronization-layer-webgis>`_
+   * Синхронизация с Веб ГИС в `Mobile <https://docs.nextgis.ru/docs_ngmobile/source/ngw_load.html#ngmobile-synchronization-layer-webgis>`_
    * Синхронизация в `Collector <https://docs.nextgis.ru/docs_collector/source/operations.html#ngcol-offline>`_
 
 * `Как показать трек на веб-карте? <https://docs.nextgis.ru/docs_ngweb/source/trackers.html>`_
