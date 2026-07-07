@@ -53,15 +53,16 @@ If you lost both username (email) and password from your account and can't recov
 
 
    
-I forgot the password for Web GIS user created by the administrator
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-If you have forgotten the password for any user who is not a Web GIS administrator, follow these steps: 
+I forgot the password for a local Web GIS user created by the administrator
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. Log in to your Web GIS https://username.nextgis.com/ as user **administrator**
-2. Open the main menu in the upper right corner of the interface
-3. Go to Control Panel
-4. Open the user list
-5. Change the password in the user settings
+If you have forgotten the password for a local user, an administrator can reset it: 
+
+1. Log in to your Web GIS https://username.nextgis.com/ as a user with **administrator** access.
+2. Open the main menu in the upper right corner of the interface.
+3. Go to Control Panel.
+4. Open the user list.
+5. Change the password in the user settings.
 
 .. figure:: _static/control_list_users_en.png
    :name: control_list_users_pic
@@ -113,6 +114,7 @@ As a rule, a typical NextGIS platform user needs 2 accounts: a global and a loca
 
 Global account
 ~~~~~~~~~~~~~~
+
 Most services require a **global** account NextGIS ID. This is the typical account that acts uniformly almost everywhere. It gives access to all services.
 
 This account is created by registration at http://my.nextgis.com. Email or login and password provided during registration can be used to sign in with services.
@@ -122,9 +124,10 @@ This account is created by registration at http://my.nextgis.com. Email or login
 
 Local account (your Web GIS account)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Historically, NextGIS' main service is Web GIS. Unlike other services that use centralized database of users, each Web GIS has its own account system that operates locally within that Web GIS.
 
-These accounts are created in the Web GIS control panel by a user with appropriate authority (usually administrator). They are not tied to any E-mails. Local accounts are used for specific purposes, for example, creating `data collection projects <https://docs.nextgis.com/docs_ngcom/source/collector.html#collector-create-project>`_.
+For each Web GIS it's possible to enable its own account system that operates locally within that Web GIS.
+
+These accounts are created in the Web GIS control panel by a user with appropriate authority (usually administrator). They are not tied to any E-mails and don't have access to other functions of NextGIS platform, just to the Web GIS.
 
 
 

@@ -9,7 +9,7 @@ This section will help you set up access to your Web GIS for various users. Belo
 
 .. note::
     This functionality is only available for users having `Premium <https://nextgis.com/pricing-base/#team>`_ subscription or for on-premise Web GIS.
-    Web GIS on Free plan is open to be viewed by any guest. Web GIS on Premium plan on on-premise by default is closed off from anyone but the Administrator, see rule 2 below.
+    Web GIS on Free plan is open to be viewed by any guest. Web GIS on Premium plan or on-premise is by default closed off from anyone but the Administrator, see rule 2 below.
 
 .. _ngcom_permissions_terms:
 
@@ -163,7 +163,7 @@ By default the page contains permissions for the user that is currently logged i
 
    Viewing permissions for user Someone Else who only has a right to read the resource
 
-By default the Administrator and users added to the group Administrators have permission to view permissions for any user. Viewing user permissions is a global permission that is set up in the `Control panel <https://docs.nextgis.com/docs_ngweb/source/users.html#global-permissions>`_.
+By default the Web GIS owner and users added to the group Administrators have permission to view permissions for any user. Viewing user permissions is a global permission that is set up in the `Control panel <https://docs.nextgis.com/docs_ngweb/source/users.html#global-permissions>`_.
 
 If a user does not have a global permission to view users and groups, but has a permission to view the resource, the option to display permissions is available, but only for that one user. Guests can only view user permissions for guest.
 

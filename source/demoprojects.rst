@@ -5,7 +5,7 @@ Demo projects
 
 These projects showcase the capabilities of NextGIS Web, allowing you to get acquainted with its features. If you've set up a Web GIS and wish to test the platform but don't know where to begin, try out the demo projects.
 
-To access demo projects go to the main page of **your Web GIS** and log in as the **administrator**. You can open the demo projects page in one of two ways:
+To access demo projects go to the main page of **your Web GIS** and log in as a user with **administrator** access. You can open the demo projects page in one of two ways:
 
 * From the actions pane on the right
 * Using the button below the list of Web GIS resources
