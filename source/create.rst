@@ -22,7 +22,7 @@
 
 Откроется форма входа и регистрации аккаунта.
 
-.. figure:: _static/ngid_signup_signin_ru.png
+.. figure:: _static/ngid_signup_signin_ru_2.png
    :name: ngid_signin_signup_pic
    :align: center
    :width: 16cm  
@@ -31,7 +31,7 @@
 
 Нажмите **Создать аккаунт**.
 
-.. figure:: _static/ngid_create_email_ru.png
+.. figure:: _static/ngid_create_email_ru_2.png
    :name: ngid_create_email_pic
    :align: center
    :width: 16cm    
