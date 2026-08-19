@@ -96,7 +96,7 @@ NextGIS ID используется для входа в `личный каби�
 
 При выборе авторизации через NextGIS ID откроется следующая страница:
 
-.. figure:: _static/ngid_signup_signin_ru.png
+.. figure:: _static/ngid_signup_signin_ru_2.png
    :name: ngid_login_pic
    :align: center
    :width: 16cm  
