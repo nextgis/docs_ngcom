@@ -207,17 +207,30 @@ In your `Profile <https://my.nextgis.com/profile>`_ go to the "Social Accounts" 
 
 .. _ngcom_ngid_download:
 
-Software
-~~~~~~~~~~
+Software and services
+~~~~~~~~~~~~~~~~~~~~~
 
-On the Software page of your account you can download online and offline installers for NextGIS mobile apps  `NextGIS Collector <https://docs.nextgis.com/docs_collector/source/auth.html#>`_, `NextGIS Mobile <https://docs.nextgis.com/docs_ngmobile/source/auth.html#>`_, `NextGIS Tracker <https://docs.nextgis.com/docs_ngtracker/source/setting_up.html#ngtr-set-send>`_.
+On the Software tab you can download online and offline installers for NextGIS mobile apps  `NextGIS Collector <https://docs.nextgis.com/docs_collector/source/auth.html#>`_, `NextGIS Mobile <https://docs.nextgis.com/docs_ngmobile/source/auth.html#>`_, `NextGIS Tracker <https://docs.nextgis.com/docs_ngtracker/source/setting_up.html#ngtr-set-send>`_.
 
-.. figure:: _static/ngid_downloads_en_2.png
+.. figure:: _static/ngid_downloads_en_3.png
    :name: ngid_downloads_pic
    :align: center
    :width: 20cm  
 
    Software download page
+
+On the Services tab you can get API key for additional NextGIS services:
+
+*  NextGIS Overpass API endpoint for querying OpenStreetMap database in `OSMInfo plugin <https://docs.nextgis.com/docs_ngqgis/source/osminfo.html>`_
+
+.. note:: `How to get API key for Toolbox plugin <https://docs.nextgis.com/docs_ngqgis/source/toolbox.html#api-key>`_
+
+.. figure:: _static/ngid_api_keys_en.png
+   :name: ngid_api_keys_pic
+   :align: center
+   :width: 20cm
+
+   Getting API for NextGIS Overpass
 
 .. _ngcom_ngid_use:
 
