@@ -217,17 +217,31 @@ NextGIS ID используется для входа в `личный каби�
 
 .. _ngcom_ngid_download:
 
-Программы
-~~~~~~~~~
+Программы и сервисы
+~~~~~~~~~~~~~~~~~~~~
 
-В разделе "Программы" личного кабинета вы можете скачать установочные файлы настолького приложения NextGIS QGIS и мобильных приложений: `NextGIS Collector <https://docs.nextgis.ru/docs_collector/source/auth.html#>`_, `NextGIS Mobile <https://docs.nextgis.ru/docs_ngmobile/source/auth.html#>`_, `NextGIS Tracker <https://docs.nextgis.ru/docs_ngtracker/source/setting_up.html#ngtr-set-send>`_.
+На вкладке "Программы" этого раздела личного кабинета вы можете скачать установочные файлы настолького приложения NextGIS QGIS и мобильных приложений: `NextGIS Collector <https://docs.nextgis.ru/docs_collector/source/auth.html#>`_, `NextGIS Mobile <https://docs.nextgis.ru/docs_ngmobile/source/auth.html#>`_, `NextGIS Tracker <https://docs.nextgis.ru/docs_ngtracker/source/setting_up.html#ngtr-set-send>`_.
 
-.. figure:: _static/ngid_downloads_ru.png
+.. figure:: _static/ngid_downloads_ru_2.png
    :name: ngid_downloads_pic
    :align: center
    :width: 20cm  
 
    Раздел личного кабинета "Программы"
+
+На вкладке "Сервисы" вы можете получить API-ключи к дополнительным сервисам NextGIS:
+
+* NextGIS Overpass API для запросов к OpenStreetMap в `модуле OSMInfo <https://docs.nextgis.ru/docs_ngqgis/source/osminfo.html>`_;
+* Зеркало плагинов QGIS, на случай, если основной репозиторий плагинов QGIS недоступен.
+
+.. note:: `Как получить API-ключ для модуля Toolbox <https://docs.nextgis.ru/docs_ngqgis/source/toolbox.html#api>`_.
+
+.. figure:: _static/ngid_api_keys_ru.png
+   :name: ngid_api_keys_pic
+   :align: center
+   :width: 20cm 
+
+   Раздел личного кабинета "Сервисы"
 
 .. _ngcom_ngid_use:
 
