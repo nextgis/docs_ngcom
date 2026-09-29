@@ -24,6 +24,7 @@
    collector
    ngqgis_connect
    ngapi
+   services
    yandexmetrika
    translation
    data_connect

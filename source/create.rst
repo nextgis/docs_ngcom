@@ -243,6 +243,8 @@ NextGIS ID используется для входа в `личный каби�
 
    Раздел личного кабинета "Сервисы"
 
+`Подробнее о вспомогательных сервисах <https://docs.nextgis.ru/docs_ngcom/source/services.html>`_.
+
 .. _ngcom_ngid_use:
 
 Где используется NextGIS ID

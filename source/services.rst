@@ -1,7 +1,7 @@
 Вспомогательные сервисы
 ========================
 
-В личном кабинете вы можете получить API-ключи для доступа ко вспомогательным сервисам NextGIS.
+В `личном кабинете <https://docs.nextgis.ru/docs_ngcom/source/create.html#ngcom-ngid-my>` вы можете получить API-ключи для доступа ко вспомогательным сервисам NextGIS.
 
 .. _services_overpass:
 
@@ -21,7 +21,7 @@ Overpass API — это специальный инструмент для бы�
 
    Раздел личного кабинета "Сервисы"
 
-.. seealso:: `Настройка сервера Overpass в модуле OSMInfo <https://docs.nextgis.ru/docs_ngqgis/source/osminfo.html#osminfo-overpass>`_
+После этого станет доступен отдельно API-ключ и ссылка на сервер Overpass NextGIS. Вы можете использовать её, например, в модуле OSMInfo <https://docs.nextgis.ru/docs_ngqgis/source/osminfo.html#osminfo-overpass>`_.
 
 .. _services_plugins:
 
