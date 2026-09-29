@@ -84,7 +84,7 @@ NextGIS Connect allows you to use lookup tables while editing layers in QGIS.
 4. Click on the field of the attribute that has a lookup table connected to it. Then click again on the arrow at the end of the field to open the dropdown menu.
 
 .. figure:: _static/attr_table_qgis_lookup_en.png
-   :name: attr_table_qgis_lookup_ru
+   :name: attr_table_qgis_lookup_pic
    :align: center
    :width: 24cm
 

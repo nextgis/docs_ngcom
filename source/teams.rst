@@ -72,7 +72,7 @@ Enter an email address and click **Send invitation**.
 
    Sending an invitation
 
-The user receives the invitation to this email address. If the email is not yet associated with a NextGIS ID, the user needs to `sign up <https://docs.nextgis.com/docs_ngcom/source/create.html>`_. If a NextGIS ID is already created, the user can just go to their account and accept the invitation in `Teams - Member <https://docs.nextgis.ru/docs_ngcom/source/teams.html#team-memberships>`_.
+The user receives the invitation to this email address. If the email is not yet associated with a NextGIS ID, the user needs to `sign up <https://docs.nextgis.com/docs_ngcom/source/create.html>`_. If a NextGIS ID is already created, the user can just go to their account and accept the invitation in `Teams - Member <https://docs.nextgis.com/docs_ngcom/source/teams.html#team-memberships>`_.
 
 Team owner can check the status of the invitations in the account. Pending invitations can be cancelled.
 

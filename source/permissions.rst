@@ -233,6 +233,7 @@ This section contains examples of settings for some common cases of permission s
 * `Allow logged in users to use WMS service <https://docs.nextgis.com/docs_ngcom/source/permissions.html#ngcom-permissions-auth-wms>`_
 * `Allow to view PostGIS layer on a Web Map <https://docs.nextgis.com/docs_ngcom/source/permissions.html#postgis>`_
 * `Allow group of users to display trackers on Web Map <https://docs.nextgis.com/docs_ngcom/source/permissions.html#ngcom-permissions-track>`_
+* `Allow user to create resources in a group <https://docs.nextgis.com/docs_ngcom/source/permissions.html#ngcom-permissions-create>`_
 
 .. _ngcom_permissions_guest_webgis:
 
@@ -395,6 +396,36 @@ Set it for:
    :width: 18cm
 
 
+.. _ngcom_permissions_create:
 
+Allow user to create resources in a group
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To create resources in a group, user must have all the permissions for the group, so it's advisable to only grant such permissions to Administrators. For other users, it is better to create a separate group, for example called "Data", and grant permissions for that group.
+
+* Action: **Allow**
+* Principal: **User** (e.g. "Jacques Paganel")
+
+1. For the Main resource group: This resource only - **Resource: Read**.
+
+.. figure:: _static/allow_user_main_en.png
+   :name: allow_user_main_pic
+   :align: center
+   :width: 16cm
+
+2. For the "Data" resource group:
+
+* This resource only - **Resource: All permissions**
+* This and subresources
+
+  * **Resource: Read**
+  * **Resource: Crate**
+  * **Resource: Modify**
+  * **Data: All permissions**
+
+.. figure:: _static/allow_user_group_en.png
+   :name: allow_user_group_pic
+   :align: center
+   :width: 20cm
 
 
