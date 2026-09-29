@@ -230,6 +230,8 @@
 * `Доступ к WMS сервису (для авторизованных пользователей) <https://docs.nextgis.ru/docs_ngcom/source/permissions.html#ngcom-permissions-auth-wms>`_
 * `Просмотр PostGIS слоя на веб-карте <https://docs.nextgis.ru/docs_ngcom/source/permissions.html#postgis>`_
 * `Отображение трекеров на веб-карте для группы пользователей <https://docs.nextgis.ru/docs_ngcom/source/permissions.html#ngcom-permissions-track>`_
+* `Право на создание ресурсов в группе для конкретного пользователя <https://docs.nextgis.ru/docs_ngcom/source/permissions.html#ngcom-permissions-create>`_
+
 
 .. _ngcom_permissions_guest_webgis:
 
@@ -390,6 +392,40 @@
    :name: allow_guest_data_group_track_pic
    :align: center
    :width: 18cm
+
+
+.. _ngcom_permissions_create:
+
+Право на создание ресурсов в группе для конкретного пользователя
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Для создания новых ресурсов необходимо выдать все права на папку, в которой они создаются. В связи с этим не рекомендуется давать кому-то, кроме администраторов, право создавать ресурсы в Основной группе ресурсов. Вместо этого вы можете создать внутри неё специальную группу для конкретного пользователя или группу "Данные" и выдать необходимые права на неё.
+
+Действие: **Разрешить**
+Субъект: **Имя пользователя**
+
+1. Для Основной группы ресурсов: Только для этого ресурса - **Ресурс: Чтение**;
+
+.. figure:: _static/allow_user_main_ru.png
+   :name: allow_user_main_pic
+   :align: center
+   :width: 20cm
+
+2. Для группы ресурсов "Данные": 
+
+* Только для этого ресурса - **Ресурс: Все права**
+* Для этого и вложенных ресурсов
+
+  - **Ресурс: Чтение**
+  - **Ресурс: Создание**
+  - **Ресурс: Изменение**
+  - **Данные: Все права**
+
+.. figure:: _static/allow_user_group_ru.png
+   :name: allow_user_group_pic
+   :align: center
+   :width: 20cm
+
 
 
 
