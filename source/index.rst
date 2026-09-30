@@ -14,27 +14,27 @@ Get Started with NextGIS
    data_types
    resources
    demoprojects
-   tutorial_webgis
-   tutorial_qgis
    data_upload
    data_connect
+   permissions
+   tracking
+   collector
+   ngqgis_connect
+   ngapi
+   services
+   translation
+   embed_webmap
    styles
    webmap_create
-   embed_webmap
    data_services
-   attachments
    lookup
-   ngqgis_connect
-   tracking
-   permissions
-   collector
-   ngapi
    CSS
-   translation
-   help
-   faq_webgis
+   attachments
    howtos
+   faq_webgis
+   help
 
-* :ref:`genindex`
+
+
 * :ref:`glossary`
 
