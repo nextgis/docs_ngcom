@@ -1,5 +1,5 @@
 Additional services
-========================
+===================
 
 Additional services are a number of small services that can help you with you daily GIS tasks. 
 
@@ -8,11 +8,9 @@ To use a service you need to get a personal API key in your `account <https://do
 .. _services_overpass:
 
 Overpass
----------
+--------
 
-Overpass API is a data extraction tool and database access gateway for OpenStreetMap (OSM) that lets you query specific map features by location, tags, or attributes.
-
-Individual Overpass servers may be unavailable or slow at times. In this case you can use NextGIS Overpass server.
+Overpass API is data extraction tool and database access gateway for OpenStreetMap (OSM) that lets you query specific map features by location, tags, or attributes.
 
 To get your API key, go to the `Software and services  <https://my.nextgis.com/software?tab=api-keys>`_ section of your account. On the Overpass API click **Create API key**.
 
@@ -23,5 +21,5 @@ To get your API key, go to the `Software and services  <https://my.nextgis.com/s
 
    Services in NextGIS ID account
 
-The card changes, showing the API key separately and the NextGIS Overpass link. You can use this link, for example, in the `OSMInfo plugin <https://docs.nextgis.com/docs_ngqgis/source/osminfo.html#osminfo-overpass>`_.
+Overpass API block will show the API key and the full link. The key is active once created. You can use this link, for example, in the `OSMInfo plugin <https://docs.nextgis.com/docs_ngqgis/source/osminfo.html#osminfo-overpass>`_.
 
