@@ -45,9 +45,9 @@ Cancel subscription
 
 To cancel subscription, go to the `Subscription <https://my.nextgis.com/subscription/>`_ section of your account and press **Cancel**.
 
-On the next page you can read the conditions of the cancellation. After a subscription is cancelled, it continues to be active until the end of already payed period. During that time you can renew it. After the payed period ends, you'll be switched to Free plan.
+On the next page you can read the conditions of the cancellation. After a subscription is cancelled, it continues to be active until the end of already paid period. During that time you can renew it. After the paid period ends, you'll be switched to Free plan.
 
-.. important:: To keep access to your Web GIS after canceling the subscription, make sure that it fits the `Free plan <https://nextgis.com/pricing-base/#end-of-subscription>`_ conditions. If by the time the payed period ends your Web GIS exceeds some limits, e.g. for the number of enabled users or storage space, or user permissions are set up, it will be blocked.
+.. important:: To keep access to your Web GIS after canceling the subscription, make sure that it fits the `Free plan <https://nextgis.com/pricing-base/#end-of-subscription>`_ conditions. If by the time the paid period ends your Web GIS exceeds some limits, e.g. for the number of enabled users or storage space, or user permissions are set up, it will be blocked.
 
 
 
